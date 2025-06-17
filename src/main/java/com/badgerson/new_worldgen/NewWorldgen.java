@@ -1,4 +1,4 @@
-package com.badgerson;
+package com.badgerson.new_worldgen;
 
 import net.fabricmc.api.ModInitializer;
 

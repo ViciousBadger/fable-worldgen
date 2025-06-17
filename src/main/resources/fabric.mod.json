@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.badgerson.NewWorldgen"
+			"com.badgerson.new_worldgen.NewWorldgen"
 		]
 	},
 	"mixins": [
