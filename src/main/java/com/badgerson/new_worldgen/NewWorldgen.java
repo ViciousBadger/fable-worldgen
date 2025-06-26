@@ -28,5 +28,9 @@ public class NewWorldgen implements ModInitializer {
             Registries.DENSITY_FUNCTION_TYPE,
             Identifier.of("extra", "tri"), Tri.CODEC.codec()
         );
+        Registry.register(
+            Registries.DENSITY_FUNCTION_TYPE,
+            Identifier.of("extra", "blend_steps"), BlendSteps.CODEC.codec()
+        );
 	}
 }
