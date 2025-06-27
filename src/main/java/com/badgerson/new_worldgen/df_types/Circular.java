@@ -6,15 +6,16 @@ import net.minecraft.util.dynamic.CodecHolder;
 import net.minecraft.world.gen.densityfunction.DensityFunction;
 import net.minecraft.world.gen.densityfunction.DensityFunctionTypes;
 
-public record Quart(DensityFunction df) implements DensityFunctionTypes.Unary {
+/** Circular easing function. Input is clamped to [0,inf] to prevent imaginary numbers. */
+public record Circular(DensityFunction df) implements DensityFunctionTypes.Unary {
 
-  private static final MapCodec<Quart> MAP_CODEC =
+  private static final MapCodec<Circular> MAP_CODEC =
       RecordCodecBuilder.mapCodec(
           (instance) ->
               instance
-                  .group(DensityFunction.FUNCTION_CODEC.fieldOf("argument").forGetter(Quart::df))
-                  .apply(instance, (Quart::new)));
-  public static final CodecHolder<Quart> CODEC = DensityFunctionTypes.holderOf(MAP_CODEC);
+                  .group(DensityFunction.FUNCTION_CODEC.fieldOf("argument").forGetter(Circular::df))
+                  .apply(instance, (Circular::new)));
+  public static final CodecHolder<Circular> CODEC = DensityFunctionTypes.holderOf(MAP_CODEC);
 
   @Override
   public DensityFunction input() {
@@ -29,7 +30,7 @@ public record Quart(DensityFunction df) implements DensityFunctionTypes.Unary {
 
   @Override
   public DensityFunction apply(DensityFunctionVisitor visitor) {
-    return new Quart(this.df.apply(visitor));
+    return new Circular(this.df.apply(visitor));
   }
 
   @Override

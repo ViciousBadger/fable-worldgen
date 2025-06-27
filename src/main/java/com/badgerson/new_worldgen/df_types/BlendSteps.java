@@ -6,6 +6,7 @@ import net.minecraft.util.dynamic.CodecHolder;
 import net.minecraft.world.gen.densityfunction.DensityFunction;
 import net.minecraft.world.gen.densityfunction.DensityFunctionTypes;
 
+/** Blend between raw input and input snapped to a step interval. */
 public record BlendSteps(DensityFunction input, DensityFunction blend, DensityFunction stepSize)
     implements DensityFunction {
 

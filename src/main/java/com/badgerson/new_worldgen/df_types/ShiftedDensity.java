@@ -6,6 +6,7 @@ import net.minecraft.util.dynamic.CodecHolder;
 import net.minecraft.world.gen.densityfunction.DensityFunction;
 import net.minecraft.world.gen.densityfunction.DensityFunctionTypes;
 
+/** Like shifted_noise, but samples another density function instead of raw noise. */
 public record ShiftedDensity(DensityFunction input, DensityFunction shiftX, DensityFunction shiftZ)
     implements DensityFunction {
 

@@ -21,7 +21,9 @@ public class NewWorldgen implements ModInitializer {
     Registry.register(
         Registries.DENSITY_FUNCTION_TYPE, Identifier.of("fable", "tri"), Tri.CODEC.codec());
     Registry.register(
-        Registries.DENSITY_FUNCTION_TYPE, Identifier.of("fable", "quart"), Quart.CODEC.codec());
+        Registries.DENSITY_FUNCTION_TYPE,
+        Identifier.of("fable", "circular"),
+        Circular.CODEC.codec());
     Registry.register(
         Registries.DENSITY_FUNCTION_TYPE,
         Identifier.of("fable", "blend_steps"),
