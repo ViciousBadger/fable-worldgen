@@ -1,0 +1,201 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "minecraft:ocean",
+          "parameters": {
+            "continentalness": [
+              -1.0,
+              -0.0
+            ],
+            "depth": 1.0,
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              1.0
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              -1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "biome": "minecraft:beach",
+          "parameters": {
+            "continentalness": [
+              0.0,
+              0.05
+            ],
+            "depth": 1.0,
+            "erosion": [
+              -1.0,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              1.0
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              -1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "biome": "minecraft:windswept_hills",
+          "parameters": {
+            "continentalness": [
+              0.05,
+              1.0
+            ],
+            "depth": 1.0,
+            "erosion": [
+              0.5,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              1.0
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              -1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "biome": "minecraft:plains",
+          "parameters": {
+            "continentalness": [
+              0.05,
+              1.0
+            ],
+            "depth": 1.0,
+            "erosion": [
+              -0.05,
+              0.5
+            ],
+            "humidity": [
+              -1.0,
+              1.0
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              -1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "biome": "minecraft:meadow",
+          "parameters": {
+            "continentalness": [
+              0.05,
+              1.0
+            ],
+            "depth": 1.0,
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "humidity": [
+              -1.0,
+              1.0
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              -1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "biome": "minecraft:stony_peaks",
+          "parameters": {
+            "continentalness": [
+              0.05,
+              1.0
+            ],
+            "depth": 1.0,
+            "erosion": [
+              -0.75,
+              -0.55
+            ],
+            "humidity": [
+              -1.0,
+              1.0
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              -1.0,
+              1.0
+            ]
+          }
+        },
+        {
+          "biome": "minecraft:jagged_peaks",
+          "parameters": {
+            "continentalness": [
+              0.05,
+              1.0
+            ],
+            "depth": 1.0,
+            "erosion": [
+              -1.0,
+              -0.75
+            ],
+            "humidity": [
+              -1.0,
+              1.0
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              -1.0,
+              1.0
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
