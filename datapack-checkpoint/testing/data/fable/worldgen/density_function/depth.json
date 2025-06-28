@@ -23,7 +23,7 @@
         "argument1": 0.2,
         "argument2": {
           "type": "minecraft:mul",
-          "argument1": 0.05,
+          "argument1": 0.12,
           "argument2": {
             "type": "minecraft:noise",
             "noise": "fable:step_size",

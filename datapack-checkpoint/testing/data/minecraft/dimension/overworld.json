@@ -7,7 +7,7 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "minecraft:ocean",
+          "biome": "fable:temperate_ocean",
           "parameters": {
             "continentalness": [
               -1.0,
@@ -37,13 +37,13 @@
           "biome": "minecraft:beach",
           "parameters": {
             "continentalness": [
-              0.0,
-              0.05
+              -0.02,
+              0.07
             ],
             "depth": 1.0,
             "erosion": [
-              -1.0,
-              1.0
+              0.0,
+              0.5
             ],
             "humidity": [
               -1.0,
@@ -61,7 +61,34 @@
           }
         },
         {
-          "biome": "minecraft:windswept_hills",
+          "biome": "fable:lake",
+          "parameters": {
+            "continentalness": [
+              0.05,
+              1.0
+            ],
+            "depth": 1.0,
+            "erosion": [
+              -0.05,
+              1.0
+            ],
+            "humidity": [
+              -1.0,
+              1.0
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              -1.0,
+              -0.6
+            ]
+          }
+        },
+        {
+          "biome": "fable:temperate_marsh",
           "parameters": {
             "continentalness": [
               0.05,
@@ -82,13 +109,40 @@
               1.0
             ],
             "weirdness": [
+              -0.6,
+              0.6
+            ]
+          }
+        },
+        {
+          "biome": "fable:temperate_grasslands",
+          "parameters": {
+            "continentalness": [
+              0.05,
+              1.0
+            ],
+            "depth": 1.0,
+            "erosion": [
+              0.5,
+              1.0
+            ],
+            "humidity": [
               -1.0,
+              1.0
+            ],
+            "offset": 0.0,
+            "temperature": [
+              -1.0,
+              1.0
+            ],
+            "weirdness": [
+              0.6,
               1.0
             ]
           }
         },
         {
-          "biome": "minecraft:plains",
+          "biome": "fable:temperate_grasslands",
           "parameters": {
             "continentalness": [
               0.05,
@@ -109,13 +163,13 @@
               1.0
             ],
             "weirdness": [
-              -1.0,
+              -0.6,
               1.0
             ]
           }
         },
         {
-          "biome": "minecraft:meadow",
+          "biome": "fable:temperate_highlands",
           "parameters": {
             "continentalness": [
               0.05,

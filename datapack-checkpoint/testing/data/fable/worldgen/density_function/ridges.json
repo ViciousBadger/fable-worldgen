@@ -1,9 +1,48 @@
 {
   "type": "minecraft:flat_cache",
   "argument": {
-    "type": "minecraft:noise",
-    "noise": "fable:ridge",
-    "xz_scale": 0.25,
-    "y_scale": 0.0
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:mul",
+      "argument1": 1.33,
+      "argument2": {
+        "type": "minecraft:square",
+        "argument": {
+          "type": "minecraft:noise",
+          "noise": "fable:ridge_hill",
+          "xz_scale": 0.25,
+          "y_scale": 0.0
+        }
+      }
+    },
+    "argument2": {
+      "type": "minecraft:min",
+      "argument1": {
+        "type": "minecraft:mul",
+        "argument1": -1.33,
+        "argument2": {
+          "type": "minecraft:square",
+          "argument": {
+            "type": "minecraft:noise",
+            "noise": "fable:ridge_valley",
+            "xz_scale": 0.25,
+            "y_scale": 0.0
+          }
+        }
+      },
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": -1.5,
+        "argument2": {
+          "type": "minecraft:square",
+          "argument": {
+            "type": "minecraft:noise",
+            "noise": "fable:ridge_valley_large",
+            "xz_scale": 0.10,
+            "y_scale": 0.0
+          }
+        }
+      }
+    }
   }
 }

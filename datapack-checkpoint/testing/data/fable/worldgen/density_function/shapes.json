@@ -22,7 +22,7 @@
                   },
                   {
                     "derivative": 0.0,
-                    "location": 0.2,
+                    "location": 0.3,
                     "value": {
                       "coordinate": "fable:erosion",
                       "points": [
@@ -73,7 +73,7 @@
                   "argument": {
                     "type": "minecraft:noise",
                     "noise": "fable:shape/jagged_c",
-                    "xz_scale": 3.0,
+                    "xz_scale": 4.0,
                     "y_scale": 0.0
                   }
                 }
@@ -94,7 +94,7 @@
                   },
                   {
                     "derivative": 0.0,
-                    "location": 0.1,
+                    "location": 0.3,
                     "value": {
                       "coordinate": "fable:erosion",
                       "points": [
@@ -106,16 +106,44 @@
                         {
                           "derivative": 0.0,
                           "location": -0.4,
-                          "value": 1.0
+                          "value": {
+                            "coordinate": "fable:ridges",
+                            "points": [
+                              {
+                                "derivative": 0.0,
+                                "location": -1.0,
+                                "value": 0.0
+                              },
+                              {
+                                "derivative": 0.0,
+                                "location": 0.0,
+                                "value": 1.0
+                              }
+                            ]
+                          }
                         },
                         {
                           "derivative": 0.0,
-                          "location": -0.02,
-                          "value": 0.5
+                          "location": -0.05,
+                          "value": {
+                            "coordinate": "fable:ridges",
+                            "points": [
+                              {
+                                "derivative": 0.0,
+                                "location": -1.0,
+                                "value": 0.0
+                              },
+                              {
+                                "derivative": 0.0,
+                                "location": 0.0,
+                                "value": 0.5
+                              }
+                            ]
+                          }
                         },
                         {
                           "derivative": 0.0,
-                          "location": 0.02,
+                          "location": 0.0,
                           "value": 0.0
                         }
                       ]
@@ -155,7 +183,7 @@
                   "argument": {
                     "type": "minecraft:noise",
                     "noise": "fable:shape/highland_c",
-                    "xz_scale": 3.0,
+                    "xz_scale": 4.0,
                     "y_scale": 0.0
                   }
                 }
@@ -177,24 +205,52 @@
                 },
                 {
                   "derivative": 0.0,
-                  "location": 0.1,
+                  "location": 0.3,
                   "value": {
                     "coordinate": "fable:erosion",
                     "points": [
                       {
                         "derivative": 0.0,
-                        "location": -0.02,
+                        "location": -0.05,
                         "value": 0.0
                       },
                       {
                         "derivative": 0.0,
-                        "location": 0.02,
-                        "value": 1.0
+                        "location": 0.0,
+                        "value": {
+                          "coordinate": "fable:ridges",
+                          "points": [
+                            {
+                              "derivative": 0.0,
+                              "location": -1.0,
+                              "value": 0.0
+                            },
+                            {
+                              "derivative": 0.0,
+                              "location": 0.0,
+                              "value": 1.0
+                            }
+                          ]
+                        }
                       },
                       {
                         "derivative": 0.0,
                         "location": 0.4,
-                        "value": 1.0
+                        "value": {
+                          "coordinate": "fable:ridges",
+                          "points": [
+                            {
+                              "derivative": 0.0,
+                              "location": -1.0,
+                              "value": 0.0
+                            },
+                            {
+                              "derivative": 0.0,
+                              "location": 0.0,
+                              "value": 1.0
+                            }
+                          ]
+                        }
                       },
                       {
                         "derivative": 0.0,
@@ -238,7 +294,7 @@
                 "argument": {
                   "type": "minecraft:noise",
                   "noise": "fable:shape/hill_c",
-                  "xz_scale": 3.0,
+                  "xz_scale": 4.0,
                   "y_scale": 0.0
                 }
               }
@@ -260,7 +316,7 @@
               },
               {
                 "derivative": 0.0,
-                "location": 0.1,
+                "location": 0.3,
                 "value": {
                   "coordinate": "fable:erosion",
                   "points": [
@@ -272,7 +328,21 @@
                     {
                       "derivative": 0.0,
                       "location": 0.6,
-                      "value": 1.0
+                      "value": {
+                        "coordinate": "fable:ridges",
+                        "points": [
+                          {
+                            "derivative": 0.0,
+                            "location": -1.0,
+                            "value": 0.0
+                          },
+                          {
+                            "derivative": 0.0,
+                            "location": 0.0,
+                            "value": 1.0
+                          }
+                        ]
+                      }
                     }
                   ]
                 }
@@ -284,13 +354,10 @@
           "type": "minecraft:mul",
           "argument1": 0.05,
           "argument2": {
-            "type": "minecraft:half_negative",
-            "argument": {
-              "type": "minecraft:noise",
-              "noise": "fable:shape/wetland",
-              "xz_scale": 2.0,
-              "y_scale": 0.0
-            }
+            "type": "minecraft:noise",
+            "noise": "fable:shape/wetland",
+            "xz_scale": 2.0,
+            "y_scale": 0.0
           }
         }
       }
