@@ -12,22 +12,22 @@
     },
     "shift_x": {
       "type": "minecraft:mul",
-      "argument1": 28,
+      "argument1": 16,
       "argument2": {
         "type": "minecraft:noise",
         "noise": "fable:cheese_shift_x",
-        "xz_scale": 0.58,
-        "y_scale": 0.27
+        "xz_scale": 0.75,
+        "y_scale": 0.15
       }
     },
     "shift_z": {
       "type": "minecraft:mul",
-      "argument1": 28,
+      "argument1": 16,
       "argument2": {
         "type": "minecraft:noise",
         "noise": "fable:cheese_shift_z",
-        "xz_scale": 0.58,
-        "y_scale": 0.27
+        "xz_scale": 0.75,
+        "y_scale": 0.15
       }
     }
   }

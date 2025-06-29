@@ -18,30 +18,82 @@
             {
               "derivative": 0.0,
               "location": 0.0,
-              "value": 0.48
-            },
-            {
-              "derivative": 0.0,
-              "location": 0.07,
               "value": {
-                "coordinate": "fable:ridges",
+                "coordinate": "fable:erosion",
                 "points": [
                   {
                     "derivative": 0.0,
-                    "location": -1.0,
-                    "value": 0.40
+                    "location": -0.1,
+                    "value": 0.25
                   },
                   {
                     "derivative": 0.0,
-                    "location": 0.0,
-                    "value": 0.52
+                    "location": 0.1,
+                    "value": 0.48
                   }
                 ]
               }
             },
             {
               "derivative": 0.0,
-              "location": 0.15,
+              "location": 0.1,
+              "value": {
+                "coordinate": "fable:erosion",
+                "points": [
+                  {
+                    "derivative": 0.0,
+                    "location": -0.1,
+                    "value": 0.40
+                  },
+                  {
+                    "derivative": 0.0,
+                    "location": 0.1,
+                    "value": {
+                      "coordinate": "fable:ridges",
+                      "points": [
+                        {
+                          "derivative": 0.0,
+                          "location": -1.0,
+                          "value": 0.40
+                        },
+                        {
+                          "derivative": 0.0,
+                          "location": 0.0,
+                          "value": 0.53
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "derivative": 0.0,
+                    "location": 0.4,
+                    "value": {
+                      "coordinate": "fable:ridges",
+                      "points": [
+                        {
+                          "derivative": 0.0,
+                          "location": -1.0,
+                          "value": 0.40
+                        },
+                        {
+                          "derivative": 0.0,
+                          "location": 0.0,
+                          "value": 0.53
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "derivative": 0.0,
+                    "location": 0.5,
+                    "value": 0.51
+                  }
+                ]
+              }
+            },
+            {
+              "derivative": 0.0,
+              "location": 0.5,
               "value": {
                 "coordinate": "fable:erosion",
                 "points": [
@@ -52,7 +104,26 @@
                   },
                   {
                     "derivative": 0.0,
-                    "location": -0.4,
+                    "location": -0.6,
+                    "value": {
+                      "coordinate": "fable:ridges",
+                      "points": [
+                        {
+                          "derivative": 0.0,
+                          "location": 0.0,
+                          "value": 1.62
+                        },
+                        {
+                          "derivative": 0.0,
+                          "location": 1.0,
+                          "value": 1.82
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "derivative": 0.0,
+                    "location": -0.55,
                     "value": {
                       "coordinate": "fable:ridges",
                       "points": [
