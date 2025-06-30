@@ -59,6 +59,25 @@
                         {
                           "derivative": 0.0,
                           "location": 0.0,
+                          "value": 0.82
+                        },
+                        {
+                          "derivative": 0.0,
+                          "location": 1.0,
+                          "value": 1.12
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "derivative": 0.0,
+                    "location": 0.6,
+                    "value": {
+                      "coordinate": "fable:ridges",
+                      "points": [
+                        {
+                          "derivative": 0.0,
+                          "location": 0.0,
                           "value": 1.12
                         },
                         {
@@ -96,6 +115,25 @@
                   {
                     "derivative": 0.0,
                     "location": 0.3,
+                    "value": {
+                      "coordinate": "fable:ridges",
+                      "points": [
+                        {
+                          "derivative": 0.0,
+                          "location": 0.0,
+                          "value": 0.82
+                        },
+                        {
+                          "derivative": 0.0,
+                          "location": 1.0,
+                          "value": 1.12
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "derivative": 0.0,
+                    "location": 0.6,
                     "value": {
                       "coordinate": "fable:ridges",
                       "points": [
