@@ -1,13 +1,58 @@
 {
-  "fable:temperate_ocean": {
-    "r": 53,
-    "g": 132,
-    "b": 228
+  "fable:undefined": {
+    "r": 0,
+    "g": 0,
+    "b": 0
   },
   "fable:freshwater": {
     "r": 153,
     "g": 193,
     "b": 241
+  },
+  "fable:temperate_ocean": {
+    "r": 53,
+    "g": 132,
+    "b": 228
+  },
+  "fable:subtropic_ocean": {
+    "r": 139,
+    "g": 92,
+    "b": 228
+  },
+  "fable:tropical_ocean": {
+    "r": 172,
+    "g": 104,
+    "b": 213
+  },
+  "fable:alpine_mountain": {
+    "r": 154,
+    "g": 153,
+    "b": 150
+  },
+  "fable:alpine_peak": {
+    "r": 255,
+    "g": 255,
+    "b": 255
+  },
+  "fable:mediterranean_mountain": {
+    "r": 190,
+    "g": 202,
+    "b": 111
+  },
+  "fable:mediterranean_peak": {
+    "r": 136,
+    "g": 91,
+    "b": 75
+  },
+  "fable:basalt_mountain": {
+    "r": 36,
+    "g": 31,
+    "b": 49
+  },
+  "fable:basalt_peak": {
+    "r": 61,
+    "g": 56,
+    "b": 70
   },
   "fable:sand_beach": {
     "r": 249,
@@ -18,6 +63,11 @@
     "r": 139,
     "g": 137,
     "b": 86
+  },
+  "fable:palm_beach": {
+    "r": 229,
+    "g": 249,
+    "b": 107
   },
   "fable:marsh": {
     "r": 101,
@@ -34,32 +84,32 @@
     "g": 62,
     "b": 49
   },
-  "fable:dirt_plains": {
-    "r": 156,
-    "g": 206,
-    "b": 54
+  "fable:dirt_desert": {
+    "r": 147,
+    "g": 116,
+    "b": 43
   },
   "fable:grass_plains": {
     "r": 89,
     "g": 178,
     "b": 33
   },
-  "fable:deciduous_forest": {
+  "fable:beech_forest": {
     "r": 14,
     "g": 130,
     "b": 8
   },
-  "fable:deep_deciduous_forest": {
+  "fable:oak_forest": {
     "r": 8,
     "g": 97,
     "b": 4
   },
-  "fable:gravel_steppe": {
+  "fable:gravel_highlands": {
     "r": 182,
     "g": 192,
     "b": 153
   },
-  "fable:grass_steppe": {
+  "fable:grass_highlands": {
     "r": 92,
     "g": 179,
     "b": 116
@@ -69,19 +119,59 @@
     "g": 104,
     "b": 62
   },
-  "fable:alpine_mountain": {
-    "r": 154,
-    "g": 153,
-    "b": 150
+  "fable:shrublands": {
+    "r": 198,
+    "g": 131,
+    "b": 200
   },
-  "fable:alpine_peak": {
-    "r": 255,
+  "fable:red_desert": {
+    "r": 219,
+    "g": 155,
+    "b": 58
+  },
+  "fable:acacia_forest": {
+    "r": 139,
+    "g": 135,
+    "b": 39
+  },
+  "fable:rainforest": {
+    "r": 71,
+    "g": 224,
+    "b": 33
+  },
+  "fable:oasis": {
+    "r": 128,
     "g": 255,
-    "b": 255
-  },
-  "fable:undefined": {
-    "r": 0,
-    "g": 0,
     "b": 0
+  },
+  "fable:mangrove_swamp": {
+    "r": 104,
+    "g": 88,
+    "b": 8
+  },
+  "fable:savanna": {
+    "r": 226,
+    "g": 205,
+    "b": 39
+  },
+  "fable:desert": {
+    "r": 252,
+    "g": 244,
+    "b": 168
+  },
+  "fable:cactus_desert": {
+    "r": 252,
+    "g": 255,
+    "b": 84
+  },
+  "fable:jungle": {
+    "r": 27,
+    "g": 194,
+    "b": 0
+  },
+  "fable:badlands": {
+    "r": 203,
+    "g": 144,
+    "b": 30
   }
 }

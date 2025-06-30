@@ -442,7 +442,7 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fable:dirt_plains"
+                        "fable:dirt_desert"
                       ]
                     },
                     "then_run": {
@@ -486,7 +486,7 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fable:gravel_steppe"
+                        "fable:gravel_highlands"
                       ]
                     },
                     "then_run": {
@@ -671,7 +671,7 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fable:dirt_plains"
+                        "fable:dirt_desert"
                       ]
                     },
                     "then_run": {
@@ -715,7 +715,7 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fable:gravel_steppe"
+                        "fable:gravel_highlands"
                       ]
                     },
                     "then_run": {
