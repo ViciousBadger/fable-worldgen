@@ -101,41 +101,11 @@
             ],
             "continentalness": [
               -0.1,
-              1
+              0.6
             ],
             "erosion": [
               -1,
               -0.75
-            ],
-            "temperature": [
-              -0.25,
-              0.25
-            ],
-            "humidity": [
-              -1,
-              1
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:alpine_peak"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              1
-            ],
-            "continentalness": [
-              -0.1,
-              1
-            ],
-            "erosion": [
-              -0.75,
-              -0.55
             ],
             "temperature": [
               -0.25,
@@ -161,10 +131,10 @@
             ],
             "continentalness": [
               -0.1,
-              1
+              0.6
             ],
             "erosion": [
-              -0.55,
+              -0.75,
               -0.05
             ],
             "temperature": [
@@ -191,10 +161,10 @@
             ],
             "continentalness": [
               -0.1,
-              1
+              0.6
             ],
             "erosion": [
-              -0.55,
+              -0.75,
               -0.05
             ],
             "temperature": [
@@ -221,10 +191,10 @@
             ],
             "continentalness": [
               -0.1,
-              1
+              0.6
             ],
             "erosion": [
-              -0.55,
+              -0.75,
               -0.05
             ],
             "temperature": [
@@ -396,6 +366,156 @@
         {
           "parameters": {
             "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.75
+            ],
+            "temperature": [
+              -0.25,
+              0.25
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:alpine_peak"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -0.75,
+              -0.55
+            ],
+            "temperature": [
+              -0.25,
+              0.25
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:alpine_mountain"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              -0.25,
+              0.25
+            ],
+            "humidity": [
+              -1,
+              -0.5
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:gravel_steppe"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              -0.25,
+              0.25
+            ],
+            "humidity": [
+              -0.5,
+              0
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:grass_steppe"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              -0.25,
+              0.25
+            ],
+            "humidity": [
+              0,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:montane_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
               -0.6,
               0.6
             ],
@@ -404,7 +524,7 @@
               0.1
             ],
             "erosion": [
-              -0.55,
+              -0.75,
               -0.05
             ],
             "temperature": [
@@ -461,10 +581,10 @@
             ],
             "continentalness": [
               0.1,
-              1
+              0.6
             ],
             "erosion": [
-              -0.55,
+              -0.75,
               -0.05
             ],
             "temperature": [
@@ -491,10 +611,10 @@
             ],
             "continentalness": [
               0.1,
-              1
+              0.6
             ],
             "erosion": [
-              -0.55,
+              -0.75,
               -0.05
             ],
             "temperature": [
@@ -521,10 +641,10 @@
             ],
             "continentalness": [
               0.1,
-              1
+              0.6
             ],
             "erosion": [
-              -0.55,
+              -0.75,
               -0.05
             ],
             "temperature": [
@@ -671,10 +791,10 @@
             ],
             "continentalness": [
               -0.1,
-              1
+              0.6
             ],
             "erosion": [
-              -0.55,
+              -0.75,
               -0.05
             ],
             "temperature": [
@@ -701,10 +821,10 @@
             ],
             "continentalness": [
               -0.1,
-              1
+              0.6
             ],
             "erosion": [
-              -0.55,
+              -0.75,
               -0.05
             ],
             "temperature": [
@@ -731,10 +851,10 @@
             ],
             "continentalness": [
               -0.1,
-              1
+              0.6
             ],
             "erosion": [
-              -0.55,
+              -0.75,
               -0.05
             ],
             "temperature": [

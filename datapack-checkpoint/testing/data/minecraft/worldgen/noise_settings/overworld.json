@@ -32,7 +32,7 @@
       "type": "fable:tri",
       "argument": {
         "type": "minecraft:mul",
-        "argument1": 0.00003125,
+        "argument1": 0.00002,
         "argument2": {
           "type": "minecraft:add",
           "argument1": {

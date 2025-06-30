@@ -17,12 +17,12 @@
                 "points": [
                   {
                     "derivative": 0.0,
-                    "location": 0.0,
+                    "location": 0.3,
                     "value": 0.0
                   },
                   {
                     "derivative": 0.0,
-                    "location": 0.66,
+                    "location": 0.8,
                     "value": {
                       "coordinate": "fable:erosion",
                       "points": [
@@ -104,12 +104,12 @@
                       "points": [
                         {
                           "derivative": 0.0,
-                          "location": -0.7,
+                          "location": -0.65,
                           "value": 0.0
                         },
                         {
                           "derivative": 0.0,
-                          "location": -0.4,
+                          "location": -0.25,
                           "value": {
                             "coordinate": "fable:ridges",
                             "points": [
@@ -128,7 +128,7 @@
                         },
                         {
                           "derivative": 0.0,
-                          "location": -0.05,
+                          "location": -0.2,
                           "value": {
                             "coordinate": "fable:ridges",
                             "points": [
@@ -147,7 +147,7 @@
                         },
                         {
                           "derivative": 0.0,
-                          "location": 0.0,
+                          "location": -0.1,
                           "value": 0.0
                         }
                       ]
@@ -162,7 +162,7 @@
                 "type": "minecraft:add",
                 "argument1": {
                   "type": "minecraft:mul",
-                  "argument1": 0.25,
+                  "argument1": 0.35,
                   "argument2": {
                     "type": "fable:circular",
                     "argument": {
@@ -175,7 +175,7 @@
                 },
                 "argument2": {
                   "type": "minecraft:mul",
-                  "argument1": 0.15,
+                  "argument1": 0.25,
                   "argument2": {
                     "type": "fable:circular",
                     "argument": {
@@ -189,7 +189,7 @@
               },
               "argument2": {
                 "type": "minecraft:mul",
-                "argument1": 0.1,
+                "argument1": 0.15,
                 "argument2": {
                   "type": "fable:circular",
                   "argument": {
@@ -223,12 +223,12 @@
                     "points": [
                       {
                         "derivative": 0.0,
-                        "location": -0.05,
+                        "location": 0.0,
                         "value": 0.0
                       },
                       {
                         "derivative": 0.0,
-                        "location": 0.0,
+                        "location": 0.1,
                         "value": {
                           "coordinate": "fable:humidity",
                           "points": [
@@ -294,7 +294,7 @@
                       },
                       {
                         "derivative": 0.0,
-                        "location": 0.6,
+                        "location": 0.5,
                         "value": 0.0
                       }
                     ]
@@ -370,12 +370,12 @@
                   "points": [
                     {
                       "derivative": 0.0,
-                      "location": 0.4,
+                      "location": 0.45,
                       "value": 0.0
                     },
                     {
                       "derivative": 0.0,
-                      "location": 0.6,
+                      "location": 0.55,
                       "value": {
                         "coordinate": "fable:ridges",
                         "points": [

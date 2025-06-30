@@ -36,7 +36,7 @@
     "blend": {
       "type": "minecraft:clamp",
       "min": 0.0,
-      "max": 0.97,
+      "max": 0.85,
       "input": {
         "type": "minecraft:add",
         "argument1": "fable:step_blend_bias",

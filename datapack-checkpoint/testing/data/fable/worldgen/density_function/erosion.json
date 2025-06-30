@@ -56,55 +56,22 @@
         "argument1": {
           "type": "minecraft:spline",
           "spline": {
-            "coordinate": "fable:continents",
+            "coordinate": {
+              "type": "minecraft:noise",
+              "noise": "fable:mtn_bias",
+              "xz_scale": 0.25,
+              "y_scale": 0.0
+            },
             "points": [
               {
                 "derivative": 0.0,
-                "location": 0.0,
-                "value": {
-                  "coordinate": {
-                    "type": "minecraft:noise",
-                    "noise": "fable:mtn_bias",
-                    "xz_scale": 0.25,
-                    "y_scale": 0.0
-                  },
-                  "points": [
-                    {
-                      "derivative": 0.0,
-                      "location": -0.2,
-                      "value": 0.0
-                    },
-                    {
-                      "derivative": 0.0,
-                      "location": 0.4,
-                      "value": 0.33
-                    }
-                  ]
-                }
+                "location": -0.2,
+                "value": 0.0
               },
               {
                 "derivative": 0.0,
-                "location": 0.5,
-                "value": {
-                  "coordinate": {
-                    "type": "minecraft:noise",
-                    "noise": "fable:mtn_bias",
-                    "xz_scale": 0.25,
-                    "y_scale": 0.0
-                  },
-                  "points": [
-                    {
-                      "derivative": 0.0,
-                      "location": -0.2,
-                      "value": 0.0
-                    },
-                    {
-                      "derivative": 0.0,
-                      "location": 0.4,
-                      "value": 1.0
-                    }
-                  ]
-                }
+                "location": 0.4,
+                "value": 1.0
               }
             ]
           }
