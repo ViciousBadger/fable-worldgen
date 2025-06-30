@@ -17,7 +17,7 @@
             },
             {
               "derivative": 0.0,
-              "location": 0.0,
+              "location": -0.1,
               "value": {
                 "coordinate": "fable:erosion",
                 "points": [
@@ -104,7 +104,7 @@
                   },
                   {
                     "derivative": 0.0,
-                    "location": -0.6,
+                    "location": -0.7,
                     "value": {
                       "coordinate": "fable:ridges",
                       "points": [

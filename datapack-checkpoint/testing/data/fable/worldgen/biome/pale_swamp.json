@@ -7,8 +7,8 @@
     "sky_color": 6269917,
     "water_color": 3570859,
     "water_fog_color": 331305,
-    "grass_color": 9811043,
-    "foliage_color": 9811043,
+    "grass_color": 6649176,
+    "foliage_color": 6649176,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -67,7 +67,8 @@
       "minecraft:spring_lava"
     ],
     [
-      "minecraft:glow_lichen"
+      "minecraft:glow_lichen",
+      "minecraft:trees_swamp"
     ],
     [
       "minecraft:freeze_top_layer"

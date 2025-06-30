@@ -28,12 +28,12 @@
                       "points": [
                         {
                           "derivative": 0.0,
-                          "location": -1.0,
+                          "location": -0.85,
                           "value": 1.0
                         },
                         {
                           "derivative": 0.0,
-                          "location": -0.5,
+                          "location": -0.65,
                           "value": 0.25
                         },
                         {
@@ -230,7 +230,7 @@
                         "derivative": 0.0,
                         "location": 0.0,
                         "value": {
-                          "coordinate": "fable:ridges",
+                          "coordinate": "fable:humidity",
                           "points": [
                             {
                               "derivative": 0.0,
@@ -240,7 +240,21 @@
                             {
                               "derivative": 0.0,
                               "location": 0.0,
-                              "value": 1.0
+                              "value": {
+                                "coordinate": "fable:ridges",
+                                "points": [
+                                  {
+                                    "derivative": 0.0,
+                                    "location": -1.0,
+                                    "value": 0.0
+                                  },
+                                  {
+                                    "derivative": 0.0,
+                                    "location": 0.0,
+                                    "value": 1.0
+                                  }
+                                ]
+                              }
                             }
                           ]
                         }
@@ -249,7 +263,7 @@
                         "derivative": 0.0,
                         "location": 0.4,
                         "value": {
-                          "coordinate": "fable:ridges",
+                          "coordinate": "fable:humidity",
                           "points": [
                             {
                               "derivative": 0.0,
@@ -259,7 +273,21 @@
                             {
                               "derivative": 0.0,
                               "location": 0.0,
-                              "value": 1.0
+                              "value": {
+                                "coordinate": "fable:ridges",
+                                "points": [
+                                  {
+                                    "derivative": 0.0,
+                                    "location": -1.0,
+                                    "value": 0.0
+                                  },
+                                  {
+                                    "derivative": 0.0,
+                                    "location": 0.0,
+                                    "value": 1.0
+                                  }
+                                ]
+                              }
                             }
                           ]
                         }

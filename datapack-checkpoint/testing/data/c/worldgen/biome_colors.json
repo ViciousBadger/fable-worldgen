@@ -1,0 +1,87 @@
+{
+  "fable:temperate_ocean": {
+    "r": 53,
+    "g": 132,
+    "b": 228
+  },
+  "fable:freshwater": {
+    "r": 153,
+    "g": 193,
+    "b": 241
+  },
+  "fable:sand_beach": {
+    "r": 249,
+    "g": 240,
+    "b": 107
+  },
+  "fable:gravel_beach": {
+    "r": 139,
+    "g": 137,
+    "b": 86
+  },
+  "fable:marsh": {
+    "r": 101,
+    "g": 103,
+    "b": 24
+  },
+  "fable:swamp": {
+    "r": 56,
+    "g": 71,
+    "b": 14
+  },
+  "fable:pale_swamp": {
+    "r": 59,
+    "g": 62,
+    "b": 49
+  },
+  "fable:dirt_plains": {
+    "r": 156,
+    "g": 206,
+    "b": 54
+  },
+  "fable:grass_plains": {
+    "r": 89,
+    "g": 178,
+    "b": 33
+  },
+  "fable:deciduous_forest": {
+    "r": 14,
+    "g": 130,
+    "b": 8
+  },
+  "fable:deep_deciduous_forest": {
+    "r": 8,
+    "g": 97,
+    "b": 4
+  },
+  "fable:gravel_steppe": {
+    "r": 182,
+    "g": 192,
+    "b": 153
+  },
+  "fable:grass_steppe": {
+    "r": 92,
+    "g": 179,
+    "b": 116
+  },
+  "fable:montane_forest": {
+    "r": 46,
+    "g": 104,
+    "b": 62
+  },
+  "fable:alpine_mountain": {
+    "r": 154,
+    "g": 153,
+    "b": 150
+  },
+  "fable:alpine_peak": {
+    "r": 255,
+    "g": 255,
+    "b": 255
+  },
+  "fable:undefined": {
+    "r": 0,
+    "g": 0,
+    "b": 0
+  }
+}

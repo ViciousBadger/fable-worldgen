@@ -46,7 +46,7 @@
       },
       "shift_z": {
         "type": "minecraft:mul",
-        "argument1": 1024,
+        "argument1": 768,
         "argument2": {
           "type": "minecraft:noise",
           "noise": "fable:land_shift_z",

@@ -51,7 +51,7 @@
         }
       }
     },
-    "vegetation": "fable:shapes",
+    "vegetation": "fable:humidity",
     "final_density": {
       "type": "minecraft:min",
       "argument1": {
@@ -342,8 +342,8 @@
   "spawn_target": [
     {
       "continentalness": [
-        -0.11,
-        1.0
+        -0.1,
+        0.1
       ],
       "depth": 0.0,
       "erosion": [
@@ -360,32 +360,8 @@
         1.0
       ],
       "weirdness": [
-        -1.0,
-        -0.16
-      ]
-    },
-    {
-      "continentalness": [
-        -0.11,
-        1.0
-      ],
-      "depth": 0.0,
-      "erosion": [
-        -1.0,
-        1.0
-      ],
-      "humidity": [
-        -1.0,
-        1.0
-      ],
-      "offset": 0.0,
-      "temperature": [
-        -1.0,
-        1.0
-      ],
-      "weirdness": [
-        0.16,
-        1.0
+        -0.5,
+        0.5
       ]
     }
   ],
@@ -436,7 +412,7 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fable:temperate_mountain_peak"
+                        "fable:alpine_peak"
                       ]
                     },
                     "then_run": {
@@ -451,7 +427,7 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fable:temperate_mountains"
+                        "fable:alpine_mountain"
                       ]
                     },
                     "then_run": {
@@ -459,6 +435,94 @@
                       "result_state": {
                         "Name": "minecraft:andesite"
                       }
+                    }
+                  },
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:biome",
+                      "biome_is": [
+                        "fable:dirt_plains"
+                      ]
+                    },
+                    "then_run": {
+                      "type": "minecraft:sequence",
+                      "sequence": [
+                        {
+                          "type": "minecraft:condition",
+                          "if_true": {
+                            "type": "minecraft:noise_threshold",
+                            "max_threshold": 2.0,
+                            "min_threshold": 0.8,
+                            "noise": "minecraft:surface"
+                          },
+                          "then_run": {
+                            "type": "minecraft:block",
+                            "result_state": {
+                              "Name": "minecraft:gravel"
+                            }
+                          }
+                        },
+                        {
+                          "type": "minecraft:condition",
+                          "if_true": {
+                            "type": "minecraft:noise_threshold",
+                            "max_threshold": 2.0,
+                            "min_threshold": 0.2,
+                            "noise": "minecraft:surface"
+                          },
+                          "then_run": {
+                            "type": "minecraft:block",
+                            "result_state": {
+                              "Name": "minecraft:coarse_dirt"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:biome",
+                      "biome_is": [
+                        "fable:gravel_steppe"
+                      ]
+                    },
+                    "then_run": {
+                      "type": "minecraft:sequence",
+                      "sequence": [
+                        {
+                          "type": "minecraft:condition",
+                          "if_true": {
+                            "type": "minecraft:noise_threshold",
+                            "max_threshold": 2.0,
+                            "min_threshold": 0.7,
+                            "noise": "minecraft:surface"
+                          },
+                          "then_run": {
+                            "type": "minecraft:block",
+                            "result_state": {
+                              "Name": "minecraft:gravel"
+                            }
+                          }
+                        },
+                        {
+                          "type": "minecraft:condition",
+                          "if_true": {
+                            "type": "minecraft:noise_threshold",
+                            "max_threshold": 0.7,
+                            "min_threshold": -0.2,
+                            "noise": "minecraft:surface"
+                          },
+                          "then_run": {
+                            "type": "minecraft:block",
+                            "result_state": {
+                              "Name": "minecraft:andesite"
+                            }
+                          }
+                        }
+                      ]
                     }
                   },
                   {
@@ -605,7 +669,7 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fable:temperate_mountain_peak"
+                        "fable:alpine_peak"
                       ]
                     },
                     "then_run": {
@@ -620,7 +684,7 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fable:temperate_mountains"
+                        "fable:alpine_mountain"
                       ]
                     },
                     "then_run": {
@@ -628,6 +692,94 @@
                       "result_state": {
                         "Name": "minecraft:andesite"
                       }
+                    }
+                  },
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:biome",
+                      "biome_is": [
+                        "fable:dirt_plains"
+                      ]
+                    },
+                    "then_run": {
+                      "type": "minecraft:sequence",
+                      "sequence": [
+                        {
+                          "type": "minecraft:condition",
+                          "if_true": {
+                            "type": "minecraft:noise_threshold",
+                            "max_threshold": 2.0,
+                            "min_threshold": 0.8,
+                            "noise": "minecraft:surface"
+                          },
+                          "then_run": {
+                            "type": "minecraft:block",
+                            "result_state": {
+                              "Name": "minecraft:gravel"
+                            }
+                          }
+                        },
+                        {
+                          "type": "minecraft:condition",
+                          "if_true": {
+                            "type": "minecraft:noise_threshold",
+                            "max_threshold": 2.0,
+                            "min_threshold": 0.2,
+                            "noise": "minecraft:surface"
+                          },
+                          "then_run": {
+                            "type": "minecraft:block",
+                            "result_state": {
+                              "Name": "minecraft:coarse_dirt"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:biome",
+                      "biome_is": [
+                        "fable:gravel_steppe"
+                      ]
+                    },
+                    "then_run": {
+                      "type": "minecraft:sequence",
+                      "sequence": [
+                        {
+                          "type": "minecraft:condition",
+                          "if_true": {
+                            "type": "minecraft:noise_threshold",
+                            "max_threshold": 2.0,
+                            "min_threshold": 0.7,
+                            "noise": "minecraft:surface"
+                          },
+                          "then_run": {
+                            "type": "minecraft:block",
+                            "result_state": {
+                              "Name": "minecraft:gravel"
+                            }
+                          }
+                        },
+                        {
+                          "type": "minecraft:condition",
+                          "if_true": {
+                            "type": "minecraft:noise_threshold",
+                            "max_threshold": 0.7,
+                            "min_threshold": -0.2,
+                            "noise": "minecraft:surface"
+                          },
+                          "then_run": {
+                            "type": "minecraft:block",
+                            "result_state": {
+                              "Name": "minecraft:andesite"
+                            }
+                          }
+                        }
+                      ]
                     }
                   },
                   {

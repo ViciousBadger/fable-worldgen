@@ -38,30 +38,17 @@
       "min": 0.0,
       "max": 0.97,
       "input": {
-        "type": "minecraft:mul",
-        "argument1": {
-          "type": "minecraft:spline",
-          "spline": {
-            "coordinate": "fable:continents",
-            "points": [
-              {
-                "derivative": 0.0,
-                "location": 0.0,
-                "value": 0.0
-              },
-              {
-                "derivative": 0.0,
-                "location": 0.5,
-                "value": 1.0
-              }
-            ]
-          }
-        },
+        "type": "minecraft:add",
+        "argument1": "fable:step_blend_bias",
         "argument2": {
-          "type": "minecraft:noise",
-          "noise": "fable:step_blend",
-          "xz_scale": 0.25,
-          "y_scale": 0.0
+          "type": "minecraft:mul",
+          "argument1": "fable:step_blend_amount",
+          "argument2": {
+            "type": "minecraft:noise",
+            "noise": "fable:step_blend",
+            "xz_scale": 0.25,
+            "y_scale": 0.0
+          }
         }
       }
     }
