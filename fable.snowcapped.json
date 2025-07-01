@@ -213,12 +213,12 @@
           "biome_mcj3lv3b",
           "biome_mcj3lv3b",
           "biome_mcj3lxs3",
-          "biome_mcj3m67c"
+          "biome_mcj3lxs3"
         ],
         [
           "biome_mcjlp9hg",
           "biome_mcjlp9hg",
-          "biome_mcjlpywq",
+          "biome_mck9q01m",
           "biome_mcjlpywq"
         ]
       ]
@@ -321,13 +321,13 @@
           "biome_mcjiprdc",
           "biome_mcjiprdc",
           "biome_mcjj6noe",
-          "biome_mcjjcqs3"
+          "biome_mck9mvza"
         ],
         [
           "biome_mcjlz6je",
-          "biome_mcjlz6je",
-          "biome_mcjlt84p",
-          "biome_mcjlt84p"
+          "biome_mck9l8cz",
+          "biome_mckacu1v",
+          "biome_mcka9jba"
         ]
       ]
     },
@@ -551,12 +551,12 @@
     {
       "key": "biome_mcjj8pne",
       "name": "fable:mediterranean_mountain",
-      "color": "#beca6f"
+      "color": "#885b4b"
     },
     {
       "key": "biome_mcjj3xo4",
       "name": "fable:mediterranean_peak",
-      "color": "#885b4b"
+      "color": "#af8f71"
     },
     {
       "key": "biome_mcjm8a0i",
@@ -634,19 +634,24 @@
       "color": "#2e683e"
     },
     {
-      "key": "biome_mcjiprdc",
-      "name": "fable:shrublands",
-      "color": "#c683c8"
-    },
-    {
       "key": "biome_mcjivi6e",
       "name": "fable:red_desert",
       "color": "#db9b3a"
     },
     {
+      "key": "biome_mcjiprdc",
+      "name": "fable:shrublands",
+      "color": "#eae117"
+    },
+    {
       "key": "biome_mcjj6noe",
       "name": "fable:acacia_forest",
       "color": "#8b8727"
+    },
+    {
+      "key": "biome_mck9mvza",
+      "name": "fable:sakura_forest",
+      "color": "#dc8add"
     },
     {
       "key": "biome_mcjjcqs3",
@@ -664,9 +669,9 @@
       "color": "#685808"
     },
     {
-      "key": "biome_mcjlr4zk",
-      "name": "fable:savanna",
-      "color": "#e2cd27"
+      "key": "biome_mck9q01m",
+      "name": "fable:acacia_swamp",
+      "color": "#a4a71f"
     },
     {
       "key": "biome_mcjlrq1x",
@@ -679,14 +684,34 @@
       "color": "#fcff54"
     },
     {
+      "key": "biome_mcjlr4zk",
+      "name": "fable:savanna",
+      "color": "#e2cd27"
+    },
+    {
       "key": "biome_mcjlt84p",
       "name": "fable:jungle",
       "color": "#1bc200"
     },
     {
+      "key": "biome_mck9l8cz",
+      "name": "fable:barrens",
+      "color": "#ebd142"
+    },
+    {
       "key": "biome_mcjlz6je",
       "name": "fable:badlands",
       "color": "#cb901e"
+    },
+    {
+      "key": "biome_mckacu1v",
+      "name": "fable:ethiopian_highlands",
+      "color": "#b7ab4c"
+    },
+    {
+      "key": "biome_mcka9jba",
+      "name": "fable:bamboo_jungle",
+      "color": "#66e152"
     }
   ],
   "targetVersion": "1_19",
