@@ -63,11 +63,11 @@
     ],
     [],
     [
-      "minecraft:spring_water",
-      "minecraft:spring_lava"
+      "minecraft:spring_water"
     ],
     [
-      "minecraft:glow_lichen"
+      "minecraft:glow_lichen",
+      "minecraft:trees_old_growth_spruce_taiga"
     ],
     [
       "minecraft:freeze_top_layer"

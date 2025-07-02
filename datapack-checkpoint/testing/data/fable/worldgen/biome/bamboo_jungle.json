@@ -63,11 +63,13 @@
     ],
     [],
     [
-      "minecraft:spring_water",
-      "minecraft:spring_lava"
+      "minecraft:spring_water"
     ],
     [
-      "minecraft:glow_lichen"
+      "minecraft:glow_lichen",
+      "minecraft:bamboo",
+      "minecraft:bamboo_vegetation",
+      "minecraft:vines"
     ],
     [
       "minecraft:freeze_top_layer"

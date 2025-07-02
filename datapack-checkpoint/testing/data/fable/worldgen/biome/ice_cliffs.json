@@ -28,7 +28,10 @@
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
-    [],
+    [
+      "minecraft:ice_spike",
+      "minecraft:ice_patch"
+    ],
     [],
     [
       "minecraft:ore_dirt",
@@ -63,8 +66,7 @@
     ],
     [],
     [
-      "minecraft:spring_water",
-      "minecraft:spring_lava"
+      "minecraft:spring_water"
     ],
     [
       "minecraft:glow_lichen"
