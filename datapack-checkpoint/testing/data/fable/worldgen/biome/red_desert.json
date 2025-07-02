@@ -3,12 +3,12 @@
   "temperature": 0.5,
   "downfall": 0.5,
   "effects": {
-    "fog_color": 0,
-    "sky_color": 0,
-    "water_color": 0,
-    "water_fog_color": 0,
-    "grass_color": 0,
-    "foliage_color": 0,
+    "fog_color": 10076657,
+    "sky_color": 6269917,
+    "water_color": 2987728,
+    "water_fog_color": 331305,
+    "grass_color": 15583596,
+    "foliage_color": 15583596,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,

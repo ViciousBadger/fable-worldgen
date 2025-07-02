@@ -9,6 +9,21 @@
     "g": 193,
     "b": 241
   },
+  "fable:frozen_freshwater": {
+    "r": 216,
+    "g": 229,
+    "b": 243
+  },
+  "fable:arctic_ocean": {
+    "r": 186,
+    "g": 208,
+    "b": 235
+  },
+  "fable:boreal_ocean": {
+    "r": 120,
+    "g": 166,
+    "b": 223
+  },
   "fable:temperate_ocean": {
     "r": 53,
     "g": 132,
@@ -24,6 +39,26 @@
     "g": 104,
     "b": 213
   },
+  "fable:polar_mountain": {
+    "r": 179,
+    "g": 169,
+    "b": 199
+  },
+  "fable:polar_peak": {
+    "r": 200,
+    "g": 197,
+    "b": 207
+  },
+  "fable:boreal_mountain": {
+    "r": 140,
+    "g": 216,
+    "b": 218
+  },
+  "fable:boreal_peak": {
+    "r": 214,
+    "g": 241,
+    "b": 255
+  },
   "fable:alpine_mountain": {
     "r": 154,
     "g": 153,
@@ -35,24 +70,39 @@
     "b": 255
   },
   "fable:mediterranean_mountain": {
-    "r": 190,
-    "g": 202,
-    "b": 111
-  },
-  "fable:mediterranean_peak": {
     "r": 136,
     "g": 91,
     "b": 75
   },
-  "fable:basalt_mountain": {
+  "fable:mediterranean_peak": {
+    "r": 175,
+    "g": 143,
+    "b": 113
+  },
+  "fable:equatorial_mountain": {
     "r": 36,
     "g": 31,
     "b": 49
   },
-  "fable:basalt_peak": {
+  "fable:equatorial_peak": {
     "r": 61,
     "g": 56,
     "b": 70
+  },
+  "fable:frozen_sand_beach": {
+    "r": 230,
+    "g": 228,
+    "b": 194
+  },
+  "fable:frozen_gravel_beach": {
+    "r": 214,
+    "g": 212,
+    "b": 196
+  },
+  "fable:frozen_stone_beach": {
+    "r": 198,
+    "g": 198,
+    "b": 198
   },
   "fable:sand_beach": {
     "r": 249,
@@ -63,6 +113,11 @@
     "r": 139,
     "g": 137,
     "b": 86
+  },
+  "fable:stone_beach": {
+    "r": 136,
+    "g": 136,
+    "b": 136
   },
   "fable:palm_beach": {
     "r": 229,
@@ -84,10 +139,70 @@
     "g": 62,
     "b": 49
   },
+  "fable:bog": {
+    "r": 14,
+    "g": 71,
+    "b": 40
+  },
+  "fable:frozen_wastes": {
+    "r": 255,
+    "g": 193,
+    "b": 190
+  },
+  "fable:snowy_plains": {
+    "r": 231,
+    "g": 255,
+    "b": 240
+  },
+  "fable:snowy_taiga": {
+    "r": 150,
+    "g": 255,
+    "b": 190
+  },
+  "fable:ice_cliffs": {
+    "r": 123,
+    "g": 231,
+    "b": 255
+  },
   "fable:dirt_desert": {
     "r": 147,
     "g": 116,
     "b": 43
+  },
+  "fable:cold_plains": {
+    "r": 33,
+    "g": 178,
+    "b": 117
+  },
+  "fable:spruce_forest": {
+    "r": 36,
+    "g": 150,
+    "b": 84
+  },
+  "fable:rocky_hills": {
+    "r": 88,
+    "g": 100,
+    "b": 110
+  },
+  "fable:redwood_forest": {
+    "r": 186,
+    "g": 121,
+    "b": 61
+  },
+  "fable:moss_field": {
+    "r": 7,
+    "g": 146,
+    "b": 46
+  },
+  "fable:birch_forest": {
+    "r": 90,
+    "g": 229,
+    "b": 148
+  },
+  "fable:heath": {
+    "r": 140,
+    "g": 164,
+    "b": 37
   },
   "fable:grass_plains": {
     "r": 89,
@@ -119,20 +234,30 @@
     "g": 104,
     "b": 62
   },
-  "fable:shrublands": {
-    "r": 198,
-    "g": 131,
-    "b": 200
+  "fable:pine_forest": {
+    "r": 29,
+    "g": 121,
+    "b": 41
   },
   "fable:red_desert": {
     "r": 219,
     "g": 155,
     "b": 58
   },
+  "fable:shrublands": {
+    "r": 234,
+    "g": 225,
+    "b": 23
+  },
   "fable:acacia_forest": {
     "r": 139,
     "g": 135,
     "b": 39
+  },
+  "fable:sakura_forest": {
+    "r": 220,
+    "g": 138,
+    "b": 221
   },
   "fable:rainforest": {
     "r": 71,
@@ -144,17 +269,22 @@
     "g": 255,
     "b": 0
   },
+  "fable:dry_lakebed": {
+    "r": 190,
+    "g": 179,
+    "b": 129
+  },
   "fable:mangrove_swamp": {
     "r": 104,
     "g": 88,
     "b": 8
   },
-  "fable:savanna": {
-    "r": 226,
-    "g": 205,
-    "b": 39
+  "fable:acacia_swamp": {
+    "r": 164,
+    "g": 167,
+    "b": 31
   },
-  "fable:desert": {
+  "fable:dune_desert": {
     "r": 252,
     "g": 244,
     "b": 168
@@ -164,14 +294,34 @@
     "g": 255,
     "b": 84
   },
+  "fable:savanna": {
+    "r": 226,
+    "g": 205,
+    "b": 39
+  },
   "fable:jungle": {
     "r": 27,
     "g": 194,
     "b": 0
   },
+  "fable:barrens": {
+    "r": 235,
+    "g": 209,
+    "b": 66
+  },
   "fable:badlands": {
     "r": 203,
     "g": 144,
     "b": 30
+  },
+  "fable:ethiopian_highlands": {
+    "r": 183,
+    "g": 171,
+    "b": 76
+  },
+  "fable:bamboo_jungle": {
+    "r": 102,
+    "g": 225,
+    "b": 82
   }
 }

@@ -11,7 +11,7 @@
             ],
             "continentalness": [
               -1,
-              1
+              -0.1
             ],
             "erosion": [
               -1,
@@ -19,6 +19,36 @@
             ],
             "temperature": [
               -1,
+              -0.75
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:arctic_ocean"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1,
+              -0.1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -0.75,
               -0.25
             ],
             "humidity": [
@@ -31,7 +61,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:undefined"
+          "biome": "fable:boreal_ocean"
         },
         {
           "parameters": {
@@ -138,6 +168,66 @@
               -0.75
             ],
             "temperature": [
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:polar_mountain"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              0.6
+            ],
+            "erosion": [
+              -1,
+              -0.75
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:boreal_mountain"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              0.6
+            ],
+            "erosion": [
+              -1,
+              -0.75
+            ],
+            "temperature": [
               -0.25,
               0.25
             ],
@@ -211,7 +301,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:basalt_mountain"
+          "biome": "fable:equatorial_mountain"
         },
         {
           "parameters": {
@@ -228,12 +318,102 @@
               -0.05
             ],
             "temperature": [
-              -0.25,
-              0.25
+              -1,
+              -0.75
             ],
             "humidity": [
               -1,
-              -0.5
+              -0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:frozen_wastes"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.6
+            ],
+            "continentalness": [
+              -0.1,
+              0.6
+            ],
+            "erosion": [
+              -0.75,
+              -0.05
+            ],
+            "temperature": [
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              -0.4,
+              0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:snowy_plains"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.6
+            ],
+            "continentalness": [
+              -0.1,
+              0.6
+            ],
+            "erosion": [
+              -0.75,
+              -0.05
+            ],
+            "temperature": [
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              0.4,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:snowy_taiga"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.6
+            ],
+            "continentalness": [
+              -0.1,
+              0.6
+            ],
+            "erosion": [
+              -0.75,
+              -0.05
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              -1,
+              -0.4
             ],
             "depth": [
               -1,
@@ -258,11 +438,131 @@
               -0.05
             ],
             "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              -0.4,
+              0
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:cold_plains"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.6
+            ],
+            "continentalness": [
+              -0.1,
+              0.6
+            ],
+            "erosion": [
+              -0.75,
+              -0.05
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              0,
+              0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:spruce_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.6
+            ],
+            "continentalness": [
+              -0.1,
+              0.6
+            ],
+            "erosion": [
+              -0.75,
+              -0.05
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              0.4,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:redwood_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.6
+            ],
+            "continentalness": [
+              -0.1,
+              0.6
+            ],
+            "erosion": [
+              -0.75,
+              -0.05
+            ],
+            "temperature": [
               -0.25,
               0.25
             ],
             "humidity": [
-              -0.5,
+              -1,
+              -0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:heath"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.6
+            ],
+            "continentalness": [
+              -0.1,
+              0.6
+            ],
+            "erosion": [
+              -0.75,
+              -0.05
+            ],
+            "temperature": [
+              -0.25,
+              0.25
+            ],
+            "humidity": [
+              -0.4,
               0
             ],
             "depth": [
@@ -293,7 +593,7 @@
             ],
             "humidity": [
               0,
-              0.5
+              0.4
             ],
             "depth": [
               -1,
@@ -322,7 +622,7 @@
               0.25
             ],
             "humidity": [
-              0.5,
+              0.4,
               1
             ],
             "depth": [
@@ -353,7 +653,7 @@
             ],
             "humidity": [
               -1,
-              -0.5
+              -0.4
             ],
             "depth": [
               -1,
@@ -382,7 +682,7 @@
               0.75
             ],
             "humidity": [
-              -0.5,
+              -0.4,
               0
             ],
             "depth": [
@@ -413,7 +713,7 @@
             ],
             "humidity": [
               0,
-              0.5
+              0.4
             ],
             "depth": [
               -1,
@@ -442,7 +742,7 @@
               0.75
             ],
             "humidity": [
-              0.5,
+              0.4,
               1
             ],
             "depth": [
@@ -473,7 +773,7 @@
             ],
             "humidity": [
               -1,
-              -0.5
+              -0.4
             ],
             "depth": [
               -1,
@@ -481,7 +781,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:desert"
+          "biome": "fable:dune_desert"
         },
         {
           "parameters": {
@@ -502,7 +802,7 @@
               1
             ],
             "humidity": [
-              -0.5,
+              -0.4,
               0
             ],
             "depth": [
@@ -533,7 +833,7 @@
             ],
             "humidity": [
               0,
-              0.5
+              0.4
             ],
             "depth": [
               -1,
@@ -562,7 +862,7 @@
               1
             ],
             "humidity": [
-              0.5,
+              0.4,
               1
             ],
             "depth": [
@@ -588,7 +888,37 @@
               0.5
             ],
             "temperature": [
-              -0.25,
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:frozen_freshwater"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.6
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              -0.05,
+              0.5
+            ],
+            "temperature": [
+              -0.75,
               1
             ],
             "humidity": [
@@ -618,7 +948,37 @@
               1
             ],
             "temperature": [
-              -0.25,
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:bog"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              0.5,
+              1
+            ],
+            "temperature": [
+              -0.75,
               0.75
             ],
             "humidity": [
@@ -648,12 +1008,12 @@
               1
             ],
             "temperature": [
-              -0.25,
+              -0.75,
               0.75
             ],
             "humidity": [
               0,
-              0.5
+              0.4
             ],
             "depth": [
               -1,
@@ -678,11 +1038,11 @@
               1
             ],
             "temperature": [
-              -0.25,
-              0.75
+              -0.75,
+              0.25
             ],
             "humidity": [
-              0.5,
+              0.4,
               1
             ],
             "depth": [
@@ -708,11 +1068,71 @@
               1
             ],
             "temperature": [
+              0.25,
+              0.75
+            ],
+            "humidity": [
+              0.4,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:swamp"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              0.5,
+              1
+            ],
+            "temperature": [
               0.75,
               1
             ],
             "humidity": [
               -1,
+              -0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:dry_lakebed"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              0.5,
+              1
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              -0.4,
               0
             ],
             "depth": [
@@ -743,6 +1163,36 @@
             ],
             "humidity": [
               0,
+              0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:acacia_swamp"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              0.5,
+              1
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.4,
               1
             ],
             "depth": [
@@ -752,6 +1202,66 @@
             "offset": 0
           },
           "biome": "fable:mangrove_swamp"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.75
+            ],
+            "temperature": [
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:polar_peak"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.75
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:boreal_peak"
         },
         {
           "parameters": {
@@ -841,7 +1351,67 @@
             ],
             "offset": 0
           },
-          "biome": "fable:basalt_peak"
+          "biome": "fable:equatorial_peak"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -0.75,
+              -0.55
+            ],
+            "temperature": [
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:polar_mountain"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -0.75,
+              -0.55
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:boreal_mountain"
         },
         {
           "parameters": {
@@ -931,7 +1501,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:basalt_mountain"
+          "biome": "fable:equatorial_mountain"
         },
         {
           "parameters": {
@@ -948,12 +1518,102 @@
               -0.05
             ],
             "temperature": [
-              -0.25,
-              0.25
+              -1,
+              -0.75
             ],
             "humidity": [
               -1,
-              -0.5
+              -0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:frozen_wastes"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.6
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              -0.4,
+              0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:snowy_plains"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              0.4,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:snowy_taiga"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.6
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              -1,
+              -0.4
             ],
             "depth": [
               -1,
@@ -978,11 +1638,131 @@
               -0.05
             ],
             "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              -0.4,
+              0
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:cold_plains"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.6
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              0,
+              0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:spruce_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.6
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              0.4,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:redwood_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.6
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
               -0.25,
               0.25
             ],
             "humidity": [
-              -0.5,
+              -1,
+              -0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:heath"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.6
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              -0.25,
+              0.25
+            ],
+            "humidity": [
+              -0.4,
               0
             ],
             "depth": [
@@ -1013,7 +1793,7 @@
             ],
             "humidity": [
               0,
-              0.5
+              0.4
             ],
             "depth": [
               -1,
@@ -1042,7 +1822,7 @@
               0.25
             ],
             "humidity": [
-              0.5,
+              0.4,
               1
             ],
             "depth": [
@@ -1073,7 +1853,7 @@
             ],
             "humidity": [
               -1,
-              -0.5
+              -0.4
             ],
             "depth": [
               -1,
@@ -1102,7 +1882,7 @@
               0.75
             ],
             "humidity": [
-              -0.5,
+              -0.4,
               0
             ],
             "depth": [
@@ -1133,7 +1913,7 @@
             ],
             "humidity": [
               0,
-              0.5
+              0.4
             ],
             "depth": [
               -1,
@@ -1147,7 +1927,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              1
+              -0.6
             ],
             "continentalness": [
               0.6,
@@ -1162,7 +1942,7 @@
               0.75
             ],
             "humidity": [
-              0.5,
+              0.4,
               1
             ],
             "depth": [
@@ -1193,7 +1973,7 @@
             ],
             "humidity": [
               -1,
-              -0.5
+              -0.4
             ],
             "depth": [
               -1,
@@ -1201,7 +1981,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:desert"
+          "biome": "fable:dune_desert"
         },
         {
           "parameters": {
@@ -1222,7 +2002,7 @@
               1
             ],
             "humidity": [
-              -0.5,
+              -0.4,
               0
             ],
             "depth": [
@@ -1253,7 +2033,7 @@
             ],
             "humidity": [
               0,
-              0.5
+              0.4
             ],
             "depth": [
               -1,
@@ -1267,7 +2047,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              1
+              -0.6
             ],
             "continentalness": [
               0.6,
@@ -1282,7 +2062,7 @@
               1
             ],
             "humidity": [
-              0.5,
+              0.4,
               1
             ],
             "depth": [
@@ -1292,6 +2072,126 @@
             "offset": 0
           },
           "biome": "fable:jungle"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              0.6
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.75,
+              -0.05
+            ],
+            "temperature": [
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              -1,
+              0
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:frozen_stone_beach"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              0.6
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.75,
+              -0.05
+            ],
+            "temperature": [
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              0,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:frozen_gravel_beach"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              0.6
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.75,
+              -0.05
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              -1,
+              0
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:stone_beach"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              0.6
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.75,
+              -0.05
+            ],
+            "temperature": [
+              -0.75,
+              0.25
+            ],
+            "humidity": [
+              0,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:gravel_beach"
         },
         {
           "parameters": {
@@ -1373,6 +2273,36 @@
             ],
             "humidity": [
               -1,
+              -0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:badlands"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              0.6
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.75,
+              -0.05
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              -0.4,
               0
             ],
             "depth": [
@@ -1400,6 +2330,126 @@
             "temperature": [
               0.75,
               1
+            ],
+            "humidity": [
+              0,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:sand_beach"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              0.6
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.05,
+              0.5
+            ],
+            "temperature": [
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              -1,
+              0
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:frozen_gravel_beach"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              0.6
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.05,
+              0.5
+            ],
+            "temperature": [
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              0,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:frozen_sand_beach"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              0.6
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.05,
+              0.5
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              -1,
+              0
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:gravel_beach"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              0.6
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.05,
+              0.5
+            ],
+            "temperature": [
+              -0.75,
+              0.75
             ],
             "humidity": [
               0,
@@ -1518,12 +2568,222 @@
               -0.05
             ],
             "temperature": [
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              -1,
+              0
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:ice_cliffs"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              0.6
+            ],
+            "continentalness": [
+              0.1,
+              0.6
+            ],
+            "erosion": [
+              -0.75,
+              0.5
+            ],
+            "temperature": [
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              0,
+              0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:snowy_plains"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              0.6
+            ],
+            "continentalness": [
+              0.1,
+              0.6
+            ],
+            "erosion": [
+              -0.75,
+              0.5
+            ],
+            "temperature": [
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              0.4,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:snowy_taiga"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              0.6
+            ],
+            "continentalness": [
+              0.1,
+              0.6
+            ],
+            "erosion": [
+              -0.75,
+              -0.05
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              -1,
+              -0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:rocky_hills"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              0.6
+            ],
+            "continentalness": [
+              0.1,
+              0.6
+            ],
+            "erosion": [
+              -0.75,
+              -0.05
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              -0.4,
+              0
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:moss_field"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              0.6
+            ],
+            "continentalness": [
+              0.1,
+              0.6
+            ],
+            "erosion": [
+              -0.75,
+              -0.05
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              0,
+              0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              0.6
+            ],
+            "continentalness": [
+              0.1,
+              0.6
+            ],
+            "erosion": [
+              -0.75,
+              -0.05
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              0.4,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:spruce_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              0.6
+            ],
+            "continentalness": [
+              0.1,
+              0.6
+            ],
+            "erosion": [
+              -0.75,
+              -0.05
+            ],
+            "temperature": [
               -0.25,
               0.25
             ],
             "humidity": [
               -1,
-              -0.5
+              -0.4
             ],
             "depth": [
               -1,
@@ -1552,7 +2812,7 @@
               0.25
             ],
             "humidity": [
-              -0.5,
+              -0.4,
               0
             ],
             "depth": [
@@ -1583,7 +2843,7 @@
             ],
             "humidity": [
               0,
-              1
+              0.4
             ],
             "depth": [
               -1,
@@ -1592,6 +2852,36 @@
             "offset": 0
           },
           "biome": "fable:montane_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              0.6
+            ],
+            "continentalness": [
+              0.1,
+              0.6
+            ],
+            "erosion": [
+              -0.75,
+              -0.05
+            ],
+            "temperature": [
+              -0.25,
+              0.25
+            ],
+            "humidity": [
+              0.4,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:pine_forest"
         },
         {
           "parameters": {
@@ -1643,7 +2933,7 @@
             ],
             "humidity": [
               0,
-              0.5
+              0.4
             ],
             "depth": [
               -1,
@@ -1665,14 +2955,14 @@
             ],
             "erosion": [
               -0.75,
-              0.5
+              -0.05
             ],
             "temperature": [
               0.25,
               0.75
             ],
             "humidity": [
-              0.5,
+              0.4,
               1
             ],
             "depth": [
@@ -1681,7 +2971,37 @@
             ],
             "offset": 0
           },
-          "biome": "fable:rainforest"
+          "biome": "fable:sakura_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              0.6
+            ],
+            "continentalness": [
+              0.1,
+              0.6
+            ],
+            "erosion": [
+              -0.75,
+              -0.05
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              -0.4,
+              0
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -1703,6 +3023,36 @@
             ],
             "humidity": [
               0,
+              0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:ethiopian_highlands"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              0.6
+            ],
+            "continentalness": [
+              0.1,
+              0.6
+            ],
+            "erosion": [
+              -0.75,
+              -0.05
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.4,
               1
             ],
             "depth": [
@@ -1711,7 +3061,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:jungle"
+          "biome": "fable:bamboo_jungle"
         },
         {
           "parameters": {
@@ -1728,12 +3078,72 @@
               0.5
             ],
             "temperature": [
-              -0.25,
-              0.25
+              -1,
+              -0.75
             ],
             "humidity": [
               -1,
-              -0.5
+              -0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:frozen_wastes"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              1
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.05,
+              0.5
+            ],
+            "temperature": [
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              -0.4,
+              0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:snowy_plains"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              1
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.05,
+              0.5
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              -1,
+              -0.4
             ],
             "depth": [
               -1,
@@ -1758,11 +3168,131 @@
               0.5
             ],
             "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              -0.4,
+              0
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:cold_plains"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              1
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.05,
+              0.5
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              0,
+              0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:spruce_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              1
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.05,
+              0.5
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              0.4,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:redwood_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              1
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.05,
+              0.5
+            ],
+            "temperature": [
               -0.25,
               0.25
             ],
             "humidity": [
-              -0.5,
+              -1,
+              -0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:heath"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              1
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.05,
+              0.5
+            ],
+            "temperature": [
+              -0.25,
+              0.25
+            ],
+            "humidity": [
+              -0.4,
               0
             ],
             "depth": [
@@ -1793,7 +3323,7 @@
             ],
             "humidity": [
               0,
-              0.5
+              0.4
             ],
             "depth": [
               -1,
@@ -1822,7 +3352,7 @@
               0.25
             ],
             "humidity": [
-              0.5,
+              0.4,
               1
             ],
             "depth": [
@@ -1853,7 +3383,7 @@
             ],
             "humidity": [
               -1,
-              -0.5
+              -0.4
             ],
             "depth": [
               -1,
@@ -1882,7 +3412,7 @@
               0.75
             ],
             "humidity": [
-              -0.5,
+              -0.4,
               0
             ],
             "depth": [
@@ -1908,12 +3438,12 @@
               0.5
             ],
             "temperature": [
-              0.75,
-              1
+              0.25,
+              0.75
             ],
             "humidity": [
-              -1,
-              -0.5
+              0.4,
+              1
             ],
             "depth": [
               -1,
@@ -1921,7 +3451,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:desert"
+          "biome": "fable:rainforest"
         },
         {
           "parameters": {
@@ -1942,7 +3472,37 @@
               1
             ],
             "humidity": [
-              -0.5,
+              -1,
+              -0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:dune_desert"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              1
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.05,
+              0.5
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              -0.4,
               0
             ],
             "depth": [
@@ -1973,7 +3533,7 @@
             ],
             "humidity": [
               0,
-              0.5
+              0.4
             ],
             "depth": [
               -1,
@@ -2002,7 +3562,7 @@
               1
             ],
             "humidity": [
-              0.5,
+              0.4,
               1
             ],
             "depth": [
@@ -2028,12 +3588,192 @@
               -0.05
             ],
             "temperature": [
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              -1,
+              0
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:ice_cliffs"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              1
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              0.5
+            ],
+            "temperature": [
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              0,
+              0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:snowy_plains"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              1
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              -1,
+              -0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:rocky_hills"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              1
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              -0.4,
+              0
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:moss_field"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              1
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              0,
+              0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              1
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              0.4,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:spruce_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              1
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
               -0.25,
               0.25
             ],
             "humidity": [
               -1,
-              -0.5
+              -0.4
             ],
             "depth": [
               -1,
@@ -2062,7 +3802,7 @@
               0.25
             ],
             "humidity": [
-              -0.5,
+              -0.4,
               0
             ],
             "depth": [
@@ -2093,7 +3833,7 @@
             ],
             "humidity": [
               0,
-              1
+              0.4
             ],
             "depth": [
               -1,
@@ -2102,6 +3842,36 @@
             "offset": 0
           },
           "biome": "fable:montane_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              1
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              -0.25,
+              0.25
+            ],
+            "humidity": [
+              0.4,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:pine_forest"
         },
         {
           "parameters": {
@@ -2148,12 +3918,42 @@
               -0.05
             ],
             "temperature": [
+              0.25,
+              0.75
+            ],
+            "humidity": [
+              0.4,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:sakura_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              1
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
               0.75,
               1
             ],
             "humidity": [
               -1,
-              0
+              -0.4
             ],
             "depth": [
               -1,
@@ -2182,7 +3982,67 @@
               1
             ],
             "humidity": [
+              -0.4,
+              0
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:barrens"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              1
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
               0,
+              0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:ethiopian_highlands"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              1
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.4,
               1
             ],
             "depth": [
@@ -2191,7 +4051,37 @@
             ],
             "offset": 0
           },
-          "biome": "fable:jungle"
+          "biome": "fable:bamboo_jungle"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.6,
+              1
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -0.05,
+              0.5
+            ],
+            "temperature": [
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              0.4,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:snowy_taiga"
         },
         {
           "parameters": {
@@ -2213,7 +4103,7 @@
             ],
             "humidity": [
               0,
-              0.5
+              0.4
             ],
             "depth": [
               -1,
@@ -2226,23 +4116,23 @@
         {
           "parameters": {
             "weirdness": [
-              -0.6,
-              1
-            ],
-            "continentalness": [
               0.6,
               1
             ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
             "erosion": [
-              -0.05,
-              0.5
+              -0.75,
+              -0.55
             ],
             "temperature": [
-              0.25,
-              0.75
+              -1,
+              -0.75
             ],
             "humidity": [
-              0.5,
+              -1,
               1
             ],
             "depth": [
@@ -2251,7 +4141,37 @@
             ],
             "offset": 0
           },
-          "biome": "fable:rainforest"
+          "biome": "fable:polar_mountain"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.6,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              -0.75,
+              -0.55
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:boreal_mountain"
         },
         {
           "parameters": {
@@ -2341,7 +4261,217 @@
             ],
             "offset": 0
           },
-          "biome": "fable:basalt_mountain"
+          "biome": "fable:equatorial_mountain"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.6,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              -1,
+              0
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:ice_cliffs"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.6,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              0.5
+            ],
+            "temperature": [
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              0,
+              0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:snowy_plains"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.6,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              0.5
+            ],
+            "temperature": [
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              0.4,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:snowy_taiga"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.6,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              -1,
+              -0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:rocky_hills"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.6,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              -0.4,
+              0
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:moss_field"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.6,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              0,
+              0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.6,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              0.4,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:spruce_forest"
         },
         {
           "parameters": {
@@ -2363,7 +4493,7 @@
             ],
             "humidity": [
               -1,
-              -0.5
+              -0.4
             ],
             "depth": [
               -1,
@@ -2392,7 +4522,7 @@
               0.25
             ],
             "humidity": [
-              -0.5,
+              -0.4,
               0
             ],
             "depth": [
@@ -2423,7 +4553,7 @@
             ],
             "humidity": [
               0,
-              1
+              0.4
             ],
             "depth": [
               -1,
@@ -2432,6 +4562,36 @@
             "offset": 0
           },
           "biome": "fable:montane_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.6,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              -0.25,
+              0.25
+            ],
+            "humidity": [
+              0.4,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:pine_forest"
         },
         {
           "parameters": {
@@ -2483,7 +4643,7 @@
             ],
             "humidity": [
               0,
-              0.5
+              0.4
             ],
             "depth": [
               -1,
@@ -2505,14 +4665,14 @@
             ],
             "erosion": [
               -0.55,
-              0.5
+              -0.05
             ],
             "temperature": [
               0.25,
               0.75
             ],
             "humidity": [
-              0.5,
+              0.4,
               1
             ],
             "depth": [
@@ -2521,7 +4681,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:rainforest"
+          "biome": "fable:sakura_forest"
         },
         {
           "parameters": {
@@ -2543,7 +4703,7 @@
             ],
             "humidity": [
               -1,
-              0
+              -0.4
             ],
             "depth": [
               -1,
@@ -2572,7 +4732,67 @@
               1
             ],
             "humidity": [
+              -0.4,
+              0
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:barrens"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.6,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
               0,
+              0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:ethiopian_highlands"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.6,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.4,
               1
             ],
             "depth": [
@@ -2581,7 +4801,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:jungle"
+          "biome": "fable:bamboo_jungle"
         },
         {
           "parameters": {
@@ -2598,12 +4818,72 @@
               0.5
             ],
             "temperature": [
-              -0.25,
-              0.25
+              -1,
+              -0.75
             ],
             "humidity": [
               -1,
-              -0.5
+              -0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:frozen_wastes"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.6,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              -0.05,
+              0.5
+            ],
+            "temperature": [
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              -0.4,
+              0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:snowy_plains"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.6,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              -0.05,
+              0.5
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              -1,
+              -0.4
             ],
             "depth": [
               -1,
@@ -2628,11 +4908,131 @@
               0.5
             ],
             "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              -0.4,
+              0
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:cold_plains"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.6,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              -0.05,
+              0.5
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              0,
+              0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:spruce_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.6,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              -0.05,
+              0.5
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              0.4,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:redwood_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.6,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              -0.05,
+              0.5
+            ],
+            "temperature": [
               -0.25,
               0.25
             ],
             "humidity": [
-              -0.5,
+              -1,
+              -0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:heath"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.6,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              -0.05,
+              0.5
+            ],
+            "temperature": [
+              -0.25,
+              0.25
+            ],
+            "humidity": [
+              -0.4,
               0
             ],
             "depth": [
@@ -2663,7 +5063,7 @@
             ],
             "humidity": [
               0,
-              0.5
+              0.4
             ],
             "depth": [
               -1,
@@ -2692,7 +5092,7 @@
               0.25
             ],
             "humidity": [
-              0.5,
+              0.4,
               1
             ],
             "depth": [
@@ -2723,7 +5123,7 @@
             ],
             "humidity": [
               -1,
-              -0.5
+              -0.4
             ],
             "depth": [
               -1,
@@ -2752,7 +5152,7 @@
               0.75
             ],
             "humidity": [
-              -0.5,
+              -0.4,
               0
             ],
             "depth": [
@@ -2778,12 +5178,12 @@
               0.5
             ],
             "temperature": [
-              0.75,
-              1
+              0.25,
+              0.75
             ],
             "humidity": [
-              -1,
-              -0.5
+              0.4,
+              1
             ],
             "depth": [
               -1,
@@ -2791,7 +5191,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:desert"
+          "biome": "fable:rainforest"
         },
         {
           "parameters": {
@@ -2812,7 +5212,37 @@
               1
             ],
             "humidity": [
-              -0.5,
+              -1,
+              -0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:dune_desert"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.6,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              -0.05,
+              0.5
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              -0.4,
               0
             ],
             "depth": [
@@ -2843,7 +5273,7 @@
             ],
             "humidity": [
               0,
-              0.5
+              0.4
             ],
             "depth": [
               -1,
@@ -2872,7 +5302,7 @@
               1
             ],
             "humidity": [
-              0.5,
+              0.4,
               1
             ],
             "depth": [

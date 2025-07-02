@@ -31,9 +31,9 @@
   ],
   "humidities": [
     -1,
-    -0.5,
+    -0.4,
     0,
-    0.5,
+    0.4,
     1
   ],
   "depths": [
@@ -372,10 +372,10 @@
       "name": "Mountain Peaks",
       "array": [
         [
-          "biome_mclvburk",
-          "biome_mclvburk",
-          "biome_mclvburk",
-          "biome_mclvburk"
+          "biome_mclywqsv",
+          "biome_mclywqsv",
+          "biome_mclywqsv",
+          "biome_mclywqsv"
         ],
         [
           "biome_mcltre0s",
@@ -557,6 +557,11 @@
       "key": "biome_mclvburk",
       "name": "fable:polar_mountain",
       "color": "#b3a9c7"
+    },
+    {
+      "key": "biome_mclywqsv",
+      "name": "fable:polar_peak",
+      "color": "#c8c5cf"
     },
     {
       "key": "biome_mcltr76i",
