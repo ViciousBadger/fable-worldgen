@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "fable:blend_steps",
+      "input": {
+        "type": "minecraft:add",
+        "argument1": "fable:offset",
+        "argument2": "fable:ridges_folded"
+      },
+      "step_size": {
+        "type": "minecraft:clamp",
+        "min": 0.0,
+        "max": 0.2,
+        "input": {
+          "type": "minecraft:add",
+          "argument1": 0.22,
+          "argument2": {
+            "type": "minecraft:mul",
+            "argument1": 0.12,
+            "argument2": {
+              "type": "minecraft:noise",
+              "noise": "fable:step_size",
+              "xz_scale": 0.35,
+              "y_scale": 0.0
+            }
+          }
+        }
+      },
+      "blend": {
+        "type": "minecraft:clamp",
+        "min": 0.0,
+        "max": 0.85,
+        "input": {
+          "type": "minecraft:add",
+          "argument1": "fable:step_blend_bias",
+          "argument2": {
+            "type": "minecraft:mul",
+            "argument1": "fable:step_blend_amount",
+            "argument2": {
+              "type": "minecraft:noise",
+              "noise": "fable:step_blend",
+              "xz_scale": 0.25,
+              "y_scale": 0.0
+            }
+          }
+        }
+      }
+    }
+  }
+}

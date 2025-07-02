@@ -28,6 +28,7 @@
     "depth": "fable:depth",
     "erosion": "fable:erosion",
     "ridges": "fable:ridges",
+    "vegetation": "fable:humidity",
     "temperature": {
       "type": "fable:tri",
       "argument": {
@@ -51,7 +52,6 @@
         }
       }
     },
-    "vegetation": "fable:humidity",
     "final_density": {
       "type": "minecraft:min",
       "argument1": {

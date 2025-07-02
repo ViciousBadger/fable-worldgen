@@ -17,24 +17,19 @@
                 "points": [
                   {
                     "derivative": 0.0,
-                    "location": 0.3,
+                    "location": 0.1,
                     "value": 0.0
                   },
                   {
                     "derivative": 0.0,
-                    "location": 0.8,
+                    "location": 0.6,
                     "value": {
                       "coordinate": "fable:erosion",
                       "points": [
                         {
                           "derivative": 0.0,
-                          "location": -0.85,
-                          "value": 1.0
-                        },
-                        {
-                          "derivative": 0.0,
                           "location": -0.65,
-                          "value": 0.25
+                          "value": 1.0
                         },
                         {
                           "derivative": 0.0,
@@ -53,33 +48,42 @@
                 "type": "minecraft:add",
                 "argument1": {
                   "type": "minecraft:mul",
-                  "argument1": 0.75,
+                  "argument1": 1.0,
                   "argument2": {
-                    "type": "minecraft:noise",
-                    "noise": "fable:shape/jagged_a",
-                    "xz_scale": 1.0,
-                    "y_scale": 0.0
+                    "type": "minecraft:half_negative",
+                    "argument": {
+                      "type": "minecraft:noise",
+                      "noise": "fable:shape/jagged_a",
+                      "xz_scale": 1.0,
+                      "y_scale": 0.0
+                    }
                   }
                 },
                 "argument2": {
                   "type": "minecraft:mul",
-                  "argument1": 0.45,
+                  "argument1": 0.8,
                   "argument2": {
-                    "type": "minecraft:noise",
-                    "noise": "fable:shape/jagged_b",
-                    "xz_scale": 1.0,
-                    "y_scale": 0.0
+                    "type": "minecraft:half_negative",
+                    "argument": {
+                      "type": "minecraft:noise",
+                      "noise": "fable:shape/jagged_b",
+                      "xz_scale": 1.0,
+                      "y_scale": 0.0
+                    }
                   }
                 }
               },
               "argument2": {
                 "type": "minecraft:mul",
-                "argument1": 0.35,
+                "argument1": 0.5,
                 "argument2": {
-                  "type": "minecraft:noise",
-                  "noise": "fable:shape/jagged_c",
-                  "xz_scale": 1.0,
-                  "y_scale": 0.0
+                  "type": "minecraft:half_negative",
+                  "argument": {
+                    "type": "minecraft:noise",
+                    "noise": "fable:shape/jagged_c",
+                    "xz_scale": 1.0,
+                    "y_scale": 0.0
+                  }
                 }
               }
             }
@@ -110,40 +114,12 @@
                         {
                           "derivative": 0.0,
                           "location": -0.25,
-                          "value": {
-                            "coordinate": "fable:bumps",
-                            "points": [
-                              {
-                                "derivative": 0.0,
-                                "location": -1.0,
-                                "value": 0.0
-                              },
-                              {
-                                "derivative": 0.0,
-                                "location": 0.0,
-                                "value": 1.0
-                              }
-                            ]
-                          }
+                          "value": 1.0
                         },
                         {
                           "derivative": 0.0,
                           "location": -0.2,
-                          "value": {
-                            "coordinate": "fable:bumps",
-                            "points": [
-                              {
-                                "derivative": 0.0,
-                                "location": -1.0,
-                                "value": 0.0
-                              },
-                              {
-                                "derivative": 0.0,
-                                "location": 0.0,
-                                "value": 0.5
-                              }
-                            ]
-                          }
+                          "value": 0.5
                         },
                         {
                           "derivative": 0.0,
@@ -162,7 +138,7 @@
                 "type": "minecraft:add",
                 "argument1": {
                   "type": "minecraft:mul",
-                  "argument1": 0.35,
+                  "argument1": 0.5,
                   "argument2": {
                     "type": "fable:circular",
                     "argument": {
@@ -175,7 +151,7 @@
                 },
                 "argument2": {
                   "type": "minecraft:mul",
-                  "argument1": 0.25,
+                  "argument1": 0.3,
                   "argument2": {
                     "type": "fable:circular",
                     "argument": {
@@ -189,7 +165,7 @@
               },
               "argument2": {
                 "type": "minecraft:mul",
-                "argument1": 0.15,
+                "argument1": 0.2,
                 "argument2": {
                   "type": "fable:circular",
                   "argument": {
@@ -240,21 +216,7 @@
                             {
                               "derivative": 0.0,
                               "location": 0.0,
-                              "value": {
-                                "coordinate": "fable:bumps",
-                                "points": [
-                                  {
-                                    "derivative": 0.0,
-                                    "location": -1.0,
-                                    "value": 0.0
-                                  },
-                                  {
-                                    "derivative": 0.0,
-                                    "location": 0.0,
-                                    "value": 1.0
-                                  }
-                                ]
-                              }
+                              "value": 1.0
                             }
                           ]
                         }
@@ -273,21 +235,7 @@
                             {
                               "derivative": 0.0,
                               "location": 0.0,
-                              "value": {
-                                "coordinate": "fable:bumps",
-                                "points": [
-                                  {
-                                    "derivative": 0.0,
-                                    "location": -1.0,
-                                    "value": 0.0
-                                  },
-                                  {
-                                    "derivative": 0.0,
-                                    "location": 0.0,
-                                    "value": 1.0
-                                  }
-                                ]
-                              }
+                              "value": 1.0
                             }
                           ]
                         }
@@ -309,7 +257,7 @@
               "type": "minecraft:add",
               "argument1": {
                 "type": "minecraft:mul",
-                "argument1": 0.2,
+                "argument1": 0.5,
                 "argument2": {
                   "type": "fable:circular",
                   "argument": {
@@ -322,7 +270,7 @@
               },
               "argument2": {
                 "type": "minecraft:mul",
-                "argument1": 0.15,
+                "argument1": 0.3,
                 "argument2": {
                   "type": "fable:circular",
                   "argument": {
@@ -336,7 +284,7 @@
             },
             "argument2": {
               "type": "minecraft:mul",
-              "argument1": 0.1,
+              "argument1": 0.2,
               "argument2": {
                 "type": "fable:circular",
                 "argument": {
@@ -376,21 +324,7 @@
                     {
                       "derivative": 0.0,
                       "location": 0.55,
-                      "value": {
-                        "coordinate": "fable:bumps",
-                        "points": [
-                          {
-                            "derivative": 0.0,
-                            "location": -1.0,
-                            "value": 0.0
-                          },
-                          {
-                            "derivative": 0.0,
-                            "location": 0.0,
-                            "value": 1.0
-                          }
-                        ]
-                      }
+                      "value": 1.0
                     }
                   ]
                 }
@@ -400,7 +334,7 @@
         },
         "argument2": {
           "type": "minecraft:mul",
-          "argument1": 0.05,
+          "argument1": 0.5,
           "argument2": {
             "type": "minecraft:noise",
             "noise": "fable:shape/wetland",

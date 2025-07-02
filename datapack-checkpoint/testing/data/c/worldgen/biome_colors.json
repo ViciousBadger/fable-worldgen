@@ -15,14 +15,14 @@
     "b": 243
   },
   "fable:arctic_ocean": {
-    "r": 186,
-    "g": 208,
-    "b": 235
+    "r": 41,
+    "g": 52,
+    "b": 150
   },
   "fable:boreal_ocean": {
-    "r": 120,
-    "g": 166,
-    "b": 223
+    "r": 49,
+    "g": 71,
+    "b": 190
   },
   "fable:temperate_ocean": {
     "r": 53,
@@ -30,14 +30,14 @@
     "b": 228
   },
   "fable:subtropic_ocean": {
-    "r": 139,
-    "g": 92,
-    "b": 228
+    "r": 39,
+    "g": 184,
+    "b": 230
   },
   "fable:tropical_ocean": {
-    "r": 172,
-    "g": 104,
-    "b": 213
+    "r": 49,
+    "g": 255,
+    "b": 255
   },
   "fable:polar_mountain": {
     "r": 179,
@@ -239,20 +239,30 @@
     "g": 121,
     "b": 41
   },
+  "fable:acacia_swamp": {
+    "r": 164,
+    "g": 167,
+    "b": 31
+  },
   "fable:red_desert": {
     "r": 219,
     "g": 155,
     "b": 58
   },
-  "fable:shrublands": {
-    "r": 234,
-    "g": 225,
-    "b": 23
+  "fable:shrub_plains": {
+    "r": 217,
+    "g": 211,
+    "b": 56
+  },
+  "fable:shrub_highlands": {
+    "r": 163,
+    "g": 182,
+    "b": 46
   },
   "fable:acacia_forest": {
-    "r": 139,
-    "g": 135,
-    "b": 39
+    "r": 186,
+    "g": 181,
+    "b": 68
   },
   "fable:sakura_forest": {
     "r": 220,
@@ -264,6 +274,16 @@
     "g": 224,
     "b": 33
   },
+  "fable:dune_desert": {
+    "r": 252,
+    "g": 244,
+    "b": 168
+  },
+  "fable:mangrove_swamp": {
+    "r": 104,
+    "g": 88,
+    "b": 8
+  },
   "fable:oasis": {
     "r": 128,
     "g": 255,
@@ -274,25 +294,10 @@
     "g": 179,
     "b": 129
   },
-  "fable:mangrove_swamp": {
-    "r": 104,
-    "g": 88,
-    "b": 8
-  },
-  "fable:acacia_swamp": {
-    "r": 164,
-    "g": 167,
-    "b": 31
-  },
-  "fable:dune_desert": {
-    "r": 252,
-    "g": 244,
-    "b": 168
-  },
   "fable:cactus_desert": {
-    "r": 252,
-    "g": 255,
-    "b": 84
+    "r": 193,
+    "g": 227,
+    "b": 47
   },
   "fable:savanna": {
     "r": 226,

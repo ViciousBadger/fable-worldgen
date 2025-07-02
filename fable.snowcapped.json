@@ -17,8 +17,10 @@
   ],
   "weirdnesses": [
     -1,
-    -0.6,
-    0.6,
+    -0.38,
+    -0.1,
+    0.1,
+    0.38,
     1
   ],
   "temperatures": [
@@ -47,28 +49,34 @@
     "name": "Biomes",
     "array": [
       [
+        "layout_mcj403vf",
+        "layout_mcj3zflb",
         "layout_mcj3zxj6",
         "layout_mcj3zflb",
         "layout_mcj403vf"
       ],
       [
+        "layout_mcj403vf",
+        "layout_mcj3zflb",
         "layout_mcj3zxj6",
         "layout_mcj3zflb",
         "layout_mcj403vf"
       ],
       [
-        "minecraft:deep_dark",
-        "minecraft:deep_dark",
-        "minecraft:deep_dark"
+        "layout_mcm9gn3r",
+        "layout_mcm9gn3r",
+        "layout_mcm9gn3r",
+        "layout_mcm9gn3r",
+        "layout_mcm9gn3r"
       ]
     ]
   },
   "modes": [
     "A",
     "A",
-    "A",
-    "A",
-    "A",
+    "B",
+    "B",
+    "B",
     "A",
     "B",
     "B",
@@ -246,15 +254,15 @@
           "biome_mcj3m67c"
         ],
         [
-          "biome_mcj3lv3b",
-          "biome_mcj3lv3b",
-          "biome_mcj3lxs3",
-          "biome_mcj3lxs3"
+          "biome_mclu4s4o",
+          "biome_mclu4s4o",
+          "biome_mck9q01m",
+          "biome_mck9q01m"
         ],
         [
-          "biome_mclu4s4o",
           "biome_mcjlp9hg",
-          "biome_mck9q01m",
+          "biome_mcjlp9hg",
+          "biome_mcjlpywq",
           "biome_mcjlpywq"
         ]
       ]
@@ -318,8 +326,8 @@
           "biome_mclumlbk"
         ],
         [
-          "biome_mcjiprdc",
-          "biome_mcjiprdc",
+          "biome_mcm9vcl8",
+          "biome_mcm9vcl8",
           "biome_mcjj6noe",
           "biome_mck9mvza"
         ],
@@ -407,7 +415,7 @@
   "slices": [
     {
       "key": "layout_mcj3zxj6",
-      "name": "Valley Slice",
+      "name": "Valleys",
       "array": [
         [
           "layout_mcj4nokt",
@@ -417,7 +425,7 @@
           "layout_mcj4nokt"
         ],
         [
-          "layout_mcj4cg05",
+          "layout_mcj47e74",
           "layout_mcj477bf",
           "layout_mcj477bf",
           "layout_mcj49xmu",
@@ -431,7 +439,7 @@
           "layout_mcj46wgo"
         ],
         [
-          "layout_mcj4cjfs",
+          "layout_mcj4cg05",
           "layout_mcj4cg05",
           "layout_mcj477bf",
           "layout_mcj49xmu",
@@ -441,7 +449,7 @@
     },
     {
       "key": "layout_mcj3zflb",
-      "name": "Middle Slice",
+      "name": "Main",
       "array": [
         [
           "layout_mcj4nokt",
@@ -465,7 +473,7 @@
           "layout_mcj46wgo"
         ],
         [
-          "layout_mcj4cjfs",
+          "layout_mcj4cg05",
           "layout_mcj4cg05",
           "layout_mcj47e74",
           "layout_mcj477bf",
@@ -475,7 +483,7 @@
     },
     {
       "key": "layout_mcj403vf",
-      "name": "Peak Slice",
+      "name": "Peaks",
       "array": [
         [
           "layout_mcj4nokt",
@@ -500,10 +508,78 @@
         ],
         [
           "layout_mcj4cjfs",
-          "layout_mcj4cg05",
+          "layout_mcj4cjfs",
           "layout_mcj47e74",
           "layout_mcj477bf",
           "layout_mcj46wgo"
+        ]
+      ]
+    },
+    {
+      "key": "layout_mcm9gj62",
+      "name": "Caves",
+      "array": [
+        [
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned"
+        ],
+        [
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned"
+        ],
+        [
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned"
+        ],
+        [
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned"
+        ]
+      ]
+    },
+    {
+      "key": "layout_mcm9gn3r",
+      "name": "Deep Dark",
+      "array": [
+        [
+          "minecraft:deep_dark",
+          "minecraft:deep_dark",
+          "unassigned",
+          "unassigned",
+          "unassigned"
+        ],
+        [
+          "minecraft:deep_dark",
+          "minecraft:deep_dark",
+          "unassigned",
+          "unassigned",
+          "unassigned"
+        ],
+        [
+          "minecraft:deep_dark",
+          "minecraft:deep_dark",
+          "unassigned",
+          "unassigned",
+          "unassigned"
+        ],
+        [
+          "minecraft:deep_dark",
+          "minecraft:deep_dark",
+          "unassigned",
+          "unassigned",
+          "unassigned"
         ]
       ]
     }
@@ -531,12 +607,12 @@
     {
       "key": "biome_mclv1d2z",
       "name": "fable:arctic_ocean",
-      "color": "#bad0eb"
+      "color": "#293496"
     },
     {
       "key": "biome_mclv0xqo",
       "name": "fable:boreal_ocean",
-      "color": "#78a6df"
+      "color": "#3147be"
     },
     {
       "key": "biome_mcj3kcuj",
@@ -546,12 +622,12 @@
     {
       "key": "biome_mcjiirf9",
       "name": "fable:subtropic_ocean",
-      "color": "#8b5ce4"
+      "color": "#27b8e6"
     },
     {
       "key": "biome_mcjm4ufc",
       "name": "fable:tropical_ocean",
-      "color": "#ac68d5"
+      "color": "#31ffff"
     },
     {
       "key": "biome_mclvburk",
@@ -754,19 +830,29 @@
       "color": "#1d7929"
     },
     {
+      "key": "biome_mck9q01m",
+      "name": "fable:acacia_swamp",
+      "color": "#a4a71f"
+    },
+    {
       "key": "biome_mcjivi6e",
       "name": "fable:red_desert",
       "color": "#db9b3a"
     },
     {
       "key": "biome_mcjiprdc",
-      "name": "fable:shrublands",
-      "color": "#eae117"
+      "name": "fable:shrub_plains",
+      "color": "#d9d338"
+    },
+    {
+      "key": "biome_mcm9vcl8",
+      "name": "fable:shrub_highlands",
+      "color": "#a3b62e"
     },
     {
       "key": "biome_mcjj6noe",
       "name": "fable:acacia_forest",
-      "color": "#8b8727"
+      "color": "#bab544"
     },
     {
       "key": "biome_mck9mvza",
@@ -779,6 +865,16 @@
       "color": "#47e021"
     },
     {
+      "key": "biome_mcjlrq1x",
+      "name": "fable:dune_desert",
+      "color": "#fcf4a8"
+    },
+    {
+      "key": "biome_mcjlpywq",
+      "name": "fable:mangrove_swamp",
+      "color": "#685808"
+    },
+    {
       "key": "biome_mcjlp9hg",
       "name": "fable:oasis",
       "color": "#80ff00"
@@ -789,24 +885,9 @@
       "color": "#beb381"
     },
     {
-      "key": "biome_mcjlpywq",
-      "name": "fable:mangrove_swamp",
-      "color": "#685808"
-    },
-    {
-      "key": "biome_mck9q01m",
-      "name": "fable:acacia_swamp",
-      "color": "#a4a71f"
-    },
-    {
-      "key": "biome_mcjlrq1x",
-      "name": "fable:dune_desert",
-      "color": "#fcf4a8"
-    },
-    {
       "key": "biome_mcjlrxuh",
       "name": "fable:cactus_desert",
-      "color": "#fcff54"
+      "color": "#c1e32f"
     },
     {
       "key": "biome_mcjlr4zk",
