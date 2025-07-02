@@ -308,7 +308,7 @@
         [
           "biome_mclutqfr",
           "biome_mclus3of",
-          "biome_mcluf7bw",
+          "biome_mclvr0zd",
           "biome_mclug5bj"
         ],
         [
@@ -689,6 +689,11 @@
       "color": "#249654"
     },
     {
+      "key": "biome_mclutqfr",
+      "name": "fable:rocky_hills",
+      "color": "#58646e"
+    },
+    {
       "key": "biome_mclujvzs",
       "name": "fable:redwood_forest",
       "color": "#ba793d"
@@ -699,9 +704,9 @@
       "color": "#07922e"
     },
     {
-      "key": "biome_mclutqfr",
-      "name": "fable:rocky_hills",
-      "color": "#58646e"
+      "key": "biome_mclvr0zd",
+      "name": "fable:birch_forest",
+      "color": "#5ae594"
     },
     {
       "key": "biome_mclrszup",
