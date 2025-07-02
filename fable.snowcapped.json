@@ -84,16 +84,16 @@
       "name": "Ocean",
       "array": [
         [
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x"
+          "biome_mclv1d2z",
+          "biome_mclv1d2z",
+          "biome_mclv1d2z",
+          "biome_mclv1d2z"
         ],
         [
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x"
+          "biome_mclv0xqo",
+          "biome_mclv0xqo",
+          "biome_mclv0xqo",
+          "biome_mclv0xqo"
         ],
         [
           "biome_mcj3kcuj",
@@ -120,16 +120,16 @@
       "name": "Lowland Beach",
       "array": [
         [
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x"
+          "biome_mclv56zg",
+          "biome_mclv56zg",
+          "biome_mclv49nv",
+          "biome_mclv49nv"
         ],
         [
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x"
+          "biome_mcj45qr9",
+          "biome_mcj45qr9",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx"
         ],
         [
           "biome_mcj45mcx",
@@ -156,16 +156,16 @@
       "name": "Highland Beach",
       "array": [
         [
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x"
+          "biome_mclv6k93",
+          "biome_mclv6k93",
+          "biome_mclv56zg",
+          "biome_mclv56zg"
         ],
         [
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x"
+          "biome_mcluyx1h",
+          "biome_mcluyx1h",
+          "biome_mcj45qr9",
+          "biome_mcj45qr9"
         ],
         [
           "biome_mcj45qr9",
@@ -188,20 +188,56 @@
       ]
     },
     {
+      "key": "layout_mcj49xmu",
+      "name": "Lowland Valley",
+      "array": [
+        [
+          "biome_mclv36ft",
+          "biome_mclv36ft",
+          "biome_mclv36ft",
+          "biome_mclv36ft"
+        ],
+        [
+          "biome_mcj4fh5v",
+          "biome_mcj4fh5v",
+          "biome_mcj4fh5v",
+          "biome_mcj4fh5v"
+        ],
+        [
+          "biome_mcj4fh5v",
+          "biome_mcj4fh5v",
+          "biome_mcj4fh5v",
+          "biome_mcj4fh5v"
+        ],
+        [
+          "biome_mcj4fh5v",
+          "biome_mcj4fh5v",
+          "biome_mcj4fh5v",
+          "biome_mcj4fh5v"
+        ],
+        [
+          "biome_mcj4fh5v",
+          "biome_mcj4fh5v",
+          "biome_mcj4fh5v",
+          "biome_mcj4fh5v"
+        ]
+      ]
+    },
+    {
       "key": "layout_mcj46wgo",
       "name": "Wetland",
       "array": [
         [
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x"
+          "biome_mclv8n6t",
+          "biome_mclv8n6t",
+          "biome_mclv8n6t",
+          "biome_mclv8n6t"
         ],
         [
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x"
+          "biome_mcj3lv3b",
+          "biome_mcj3lv3b",
+          "biome_mcj3lxs3",
+          "biome_mcj3m67c"
         ],
         [
           "biome_mcj3lv3b",
@@ -216,7 +252,7 @@
           "biome_mcj3lxs3"
         ],
         [
-          "biome_mcjlp9hg",
+          "biome_mclu4s4o",
           "biome_mcjlp9hg",
           "biome_mck9q01m",
           "biome_mcjlpywq"
@@ -228,19 +264,19 @@
       "name": "Lowland",
       "array": [
         [
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x"
-        ],
-        [
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x"
+          "biome_mclvemng",
+          "biome_mclvfdyc",
+          "biome_mclvfdyc",
+          "biome_mclvflno"
         ],
         [
           "biome_mcj3p6hk",
+          "biome_mcluf7bw",
+          "biome_mclug5bj",
+          "biome_mclujvzs"
+        ],
+        [
+          "biome_mclrszup",
           "biome_mcj3pamm",
           "biome_mcj3q5ry",
           "biome_mcj3w1gx"
@@ -260,62 +296,26 @@
       ]
     },
     {
-      "key": "layout_mcj49xmu",
-      "name": "Lowland Valley",
-      "array": [
-        [
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x"
-        ],
-        [
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x"
-        ],
-        [
-          "biome_mcj4fh5v",
-          "biome_mcj4fh5v",
-          "biome_mcj4fh5v",
-          "biome_mcj4fh5v"
-        ],
-        [
-          "biome_mcj4fh5v",
-          "biome_mcj4fh5v",
-          "biome_mcj4fh5v",
-          "biome_mcj4fh5v"
-        ],
-        [
-          "biome_mcj4fh5v",
-          "biome_mcj4fh5v",
-          "biome_mcj4fh5v",
-          "biome_mcj4fh5v"
-        ]
-      ]
-    },
-    {
       "key": "layout_mcj47e74",
       "name": "Highland",
       "array": [
         [
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x"
+          "biome_mclvh187",
+          "biome_mclvh187",
+          "biome_mclvfdyc",
+          "biome_mclvflno"
         ],
         [
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x"
+          "biome_mclutqfr",
+          "biome_mclus3of",
+          "biome_mcluf7bw",
+          "biome_mclug5bj"
         ],
         [
           "biome_mcj4kjf4",
           "biome_mcj3v19o",
           "biome_mcj3pqwa",
-          "biome_mcj3pqwa"
+          "biome_mclumlbk"
         ],
         [
           "biome_mcjiprdc",
@@ -336,16 +336,16 @@
       "name": "Mountains",
       "array": [
         [
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x"
+          "biome_mclvburk",
+          "biome_mclvburk",
+          "biome_mclvburk",
+          "biome_mclvburk"
         ],
         [
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x"
+          "biome_mcltr76i",
+          "biome_mcltr76i",
+          "biome_mcltr76i",
+          "biome_mcltr76i"
         ],
         [
           "biome_mcj3qa9j",
@@ -372,16 +372,16 @@
       "name": "Mountain Peaks",
       "array": [
         [
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x"
+          "biome_mclvburk",
+          "biome_mclvburk",
+          "biome_mclvburk",
+          "biome_mclvburk"
         ],
         [
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x",
-          "biome_mcj4b73x"
+          "biome_mcltre0s",
+          "biome_mcltre0s",
+          "biome_mcltre0s",
+          "biome_mcltre0s"
         ],
         [
           "biome_mcj3qg2c",
@@ -524,6 +524,21 @@
       "color": "#99c1f1"
     },
     {
+      "key": "biome_mclv36ft",
+      "name": "fable:frozen_freshwater",
+      "color": "#d8e5f3"
+    },
+    {
+      "key": "biome_mclv1d2z",
+      "name": "fable:arctic_ocean",
+      "color": "#bad0eb"
+    },
+    {
+      "key": "biome_mclv0xqo",
+      "name": "fable:boreal_ocean",
+      "color": "#78a6df"
+    },
+    {
       "key": "biome_mcj3kcuj",
       "name": "fable:temperate_ocean",
       "color": "#3584e4"
@@ -537,6 +552,21 @@
       "key": "biome_mcjm4ufc",
       "name": "fable:tropical_ocean",
       "color": "#ac68d5"
+    },
+    {
+      "key": "biome_mclvburk",
+      "name": "fable:polar_mountain",
+      "color": "#b3a9c7"
+    },
+    {
+      "key": "biome_mcltr76i",
+      "name": "fable:boreal_mountain",
+      "color": "#8cd8da"
+    },
+    {
+      "key": "biome_mcltre0s",
+      "name": "fable:boreal_peak",
+      "color": "#d6f1ff"
     },
     {
       "key": "biome_mcj3qa9j",
@@ -560,13 +590,28 @@
     },
     {
       "key": "biome_mcjm8a0i",
-      "name": "fable:basalt_mountain",
+      "name": "fable:equatorial_mountain",
       "color": "#241f31"
     },
     {
       "key": "biome_mcjm8gmy",
-      "name": "fable:basalt_peak",
+      "name": "fable:equatorial_peak",
       "color": "#3d3846"
+    },
+    {
+      "key": "biome_mclv49nv",
+      "name": "fable:frozen_sand_beach",
+      "color": "#e6e4c2"
+    },
+    {
+      "key": "biome_mclv56zg",
+      "name": "fable:frozen_gravel_beach",
+      "color": "#d6d4c4"
+    },
+    {
+      "key": "biome_mclv6k93",
+      "name": "fable:frozen_stone_beach",
+      "color": "#c6c6c6"
     },
     {
       "key": "biome_mcj45mcx",
@@ -577,6 +622,11 @@
       "key": "biome_mcj45qr9",
       "name": "fable:gravel_beach",
       "color": "#8b8956"
+    },
+    {
+      "key": "biome_mcluyx1h",
+      "name": "fable:stone_beach",
+      "color": "#888888"
     },
     {
       "key": "biome_mcjm19yq",
@@ -599,9 +649,64 @@
       "color": "#3b3e31"
     },
     {
+      "key": "biome_mclv8n6t",
+      "name": "fable:bog",
+      "color": "#0e4728"
+    },
+    {
+      "key": "biome_mclvemng",
+      "name": "fable:frozen_wastes",
+      "color": "#ffc1be"
+    },
+    {
+      "key": "biome_mclvfdyc",
+      "name": "fable:snowy_plains",
+      "color": "#e7fff0"
+    },
+    {
+      "key": "biome_mclvflno",
+      "name": "fable:snowy_taiga",
+      "color": "#96ffbe"
+    },
+    {
+      "key": "biome_mclvh187",
+      "name": "fable:ice_cliffs",
+      "color": "#7be7ff"
+    },
+    {
       "key": "biome_mcj3p6hk",
       "name": "fable:dirt_desert",
       "color": "#93742b"
+    },
+    {
+      "key": "biome_mcluf7bw",
+      "name": "fable:cold_plains",
+      "color": "#21b275"
+    },
+    {
+      "key": "biome_mclug5bj",
+      "name": "fable:spruce_forest",
+      "color": "#249654"
+    },
+    {
+      "key": "biome_mclujvzs",
+      "name": "fable:redwood_forest",
+      "color": "#ba793d"
+    },
+    {
+      "key": "biome_mclus3of",
+      "name": "fable:moss_field",
+      "color": "#07922e"
+    },
+    {
+      "key": "biome_mclutqfr",
+      "name": "fable:rocky_hills",
+      "color": "#58646e"
+    },
+    {
+      "key": "biome_mclrszup",
+      "name": "fable:heath",
+      "color": "#8ca425"
     },
     {
       "key": "biome_mcj3pamm",
@@ -634,6 +739,11 @@
       "color": "#2e683e"
     },
     {
+      "key": "biome_mclumlbk",
+      "name": "fable:pine_forest",
+      "color": "#1d7929"
+    },
+    {
       "key": "biome_mcjivi6e",
       "name": "fable:red_desert",
       "color": "#db9b3a"
@@ -664,6 +774,11 @@
       "color": "#80ff00"
     },
     {
+      "key": "biome_mclu4s4o",
+      "name": "fable:dry_lakebed",
+      "color": "#beb381"
+    },
+    {
       "key": "biome_mcjlpywq",
       "name": "fable:mangrove_swamp",
       "color": "#685808"
@@ -675,7 +790,7 @@
     },
     {
       "key": "biome_mcjlrq1x",
-      "name": "fable:desert",
+      "name": "fable:dune_desert",
       "color": "#fcf4a8"
     },
     {
