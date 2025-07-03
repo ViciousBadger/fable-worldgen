@@ -7,7 +7,10 @@
       "input": {
         "type": "minecraft:add",
         "argument1": "fable:offset",
-        "argument2": "fable:ridges_folded"
+        "argument2": {
+          "type": "minecraft:quarter_negative",
+          "argument": "fable:ridges_folded"
+        }
       },
       "step_size": {
         "type": "minecraft:clamp",
@@ -18,7 +21,7 @@
           "argument1": 0.22,
           "argument2": {
             "type": "minecraft:mul",
-            "argument1": 0.12,
+            "argument1": 0.09,
             "argument2": {
               "type": "minecraft:noise",
               "noise": "fable:step_size",

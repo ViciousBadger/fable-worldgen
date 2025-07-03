@@ -29,7 +29,7 @@
                   {
                     "derivative": 0.0,
                     "location": 1.0,
-                    "value": 2.55
+                    "value": 2.75
                   }
                 ]
               }
@@ -53,50 +53,12 @@
                   {
                     "derivative": 0.0,
                     "location": 0.3,
-                    "value": {
-                      "coordinate": "fable:bumps",
-                      "points": [
-                        {
-                          "derivative": 0.0,
-                          "location": -1.0,
-                          "value": 0.60
-                        },
-                        {
-                          "derivative": 0.0,
-                          "location": 0.0,
-                          "value": 0.82
-                        },
-                        {
-                          "derivative": 0.0,
-                          "location": 1.0,
-                          "value": 1.12
-                        }
-                      ]
-                    }
+                    "value": 0.82
                   },
                   {
                     "derivative": 0.0,
                     "location": 0.6,
-                    "value": {
-                      "coordinate": "fable:bumps",
-                      "points": [
-                        {
-                          "derivative": 0.0,
-                          "location": -1.0,
-                          "value": 0.60
-                        },
-                        {
-                          "derivative": 0.0,
-                          "location": 0.0,
-                          "value": 1.12
-                        },
-                        {
-                          "derivative": 0.0,
-                          "location": 1.0,
-                          "value": 1.42
-                        }
-                      ]
-                    }
+                    "value": 1.12
                   }
                 ]
               }
@@ -125,50 +87,12 @@
                   {
                     "derivative": 0.0,
                     "location": 0.3,
-                    "value": {
-                      "coordinate": "fable:bumps",
-                      "points": [
-                        {
-                          "derivative": 0.0,
-                          "location": -1.0,
-                          "value": 0.60
-                        },
-                        {
-                          "derivative": 0.0,
-                          "location": 0.0,
-                          "value": 0.82
-                        },
-                        {
-                          "derivative": 0.0,
-                          "location": 1.0,
-                          "value": 1.12
-                        }
-                      ]
-                    }
+                    "value": 0.82
                   },
                   {
                     "derivative": 0.0,
                     "location": 0.6,
-                    "value": {
-                      "coordinate": "fable:bumps",
-                      "points": [
-                        {
-                          "derivative": 0.0,
-                          "location": -1.0,
-                          "value": 0.60
-                        },
-                        {
-                          "derivative": 0.0,
-                          "location": 0.0,
-                          "value": 1.12
-                        },
-                        {
-                          "derivative": 0.0,
-                          "location": 1.0,
-                          "value": 1.42
-                        }
-                      ]
-                    }
+                    "value": 1.12
                   }
                 ]
               }
@@ -192,50 +116,12 @@
                   {
                     "derivative": 0.0,
                     "location": 0.1,
-                    "value": {
-                      "coordinate": "fable:bumps",
-                      "points": [
-                        {
-                          "derivative": 0.0,
-                          "location": -1.0,
-                          "value": 0.44
-                        },
-                        {
-                          "derivative": 0.0,
-                          "location": 0.0,
-                          "value": 0.51
-                        },
-                        {
-                          "derivative": 0.0,
-                          "location": 1.0,
-                          "value": 0.82
-                        }
-                      ]
-                    }
+                    "value": 0.51
                   },
                   {
                     "derivative": 0.0,
                     "location": 0.6,
-                    "value": {
-                      "coordinate": "fable:bumps",
-                      "points": [
-                        {
-                          "derivative": 0.0,
-                          "location": -1.0,
-                          "value": 0.44
-                        },
-                        {
-                          "derivative": 0.0,
-                          "location": 0.0,
-                          "value": 0.60
-                        },
-                        {
-                          "derivative": 0.0,
-                          "location": 1.0,
-                          "value": 0.92
-                        }
-                      ]
-                    }
+                    "value": 0.60
                   }
                 ]
               }
@@ -259,50 +145,12 @@
                   {
                     "derivative": 0.0,
                     "location": 0.1,
-                    "value": {
-                      "coordinate": "fable:bumps",
-                      "points": [
-                        {
-                          "derivative": 0.0,
-                          "location": -1.0,
-                          "value": 0.44
-                        },
-                        {
-                          "derivative": 0.0,
-                          "location": 0.0,
-                          "value": 0.51
-                        },
-                        {
-                          "derivative": 0.0,
-                          "location": 1.0,
-                          "value": 0.82
-                        }
-                      ]
-                    }
+                    "value": 0.51
                   },
                   {
                     "derivative": 0.0,
                     "location": 0.6,
-                    "value": {
-                      "coordinate": "fable:bumps",
-                      "points": [
-                        {
-                          "derivative": 0.0,
-                          "location": -1.0,
-                          "value": 0.44
-                        },
-                        {
-                          "derivative": 0.0,
-                          "location": 0.0,
-                          "value": 0.60
-                        },
-                        {
-                          "derivative": 0.0,
-                          "location": 1.0,
-                          "value": 0.92
-                        }
-                      ]
-                    }
+                    "value": 0.60
                   }
                 ]
               }
