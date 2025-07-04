@@ -29,12 +29,24 @@
           }
         },
         "argument2": {
-          "type": "fable:circular",
-          "argument": {
-            "type": "minecraft:noise",
-            "noise": "fable:humidity_c",
-            "xz_scale": 0.15,
-            "y_scale": 0.0
+          "type": "minecraft:add",
+          "argument1": {
+            "type": "fable:circular",
+            "argument": {
+              "type": "minecraft:noise",
+              "noise": "fable:humidity_c",
+              "xz_scale": 0.15,
+              "y_scale": 0.0
+            }
+          },
+          "argument2": {
+            "type": "fable:circular",
+            "argument": {
+              "type": "minecraft:noise",
+              "noise": "fable:humidity_d",
+              "xz_scale": 0.15,
+              "y_scale": 0.0
+            }
           }
         }
       }
