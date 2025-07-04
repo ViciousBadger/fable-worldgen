@@ -1,14 +1,14 @@
 {
   "has_precipitation": true,
-  "temperature": 0.5,
+  "temperature": -0.5,
   "downfall": 0.5,
   "effects": {
     "fog_color": 10076657,
     "sky_color": 6269917,
-    "water_color": 3570859,
+    "water_color": 3039361,
     "water_fog_color": 331305,
-    "grass_color": 10595639,
-    "foliage_color": 10595639,
+    "grass_color": 16753480,
+    "foliage_color": 16753480,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -66,8 +66,7 @@
       "minecraft:spring_water"
     ],
     [
-      "minecraft:glow_lichen",
-      "minecraft:trees_savanna"
+      "minecraft:glow_lichen"
     ],
     [
       "minecraft:freeze_top_layer"

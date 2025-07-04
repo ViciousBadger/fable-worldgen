@@ -428,8 +428,8 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fable:alpine_peak",
-                        "fable:boreal_peak",
+                        "fable:alpine_slopes",
+                        "fable:boreal_slopes",
                         "fable:polar_mountain"
                       ]
                     },
@@ -445,7 +445,8 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fable:boreal_mountain"
+                        "fable:boreal_mountain",
+                        "fable:boreal_peak"
                       ]
                     },
                     "then_run": {
@@ -460,7 +461,8 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fable:alpine_mountain"
+                        "fable:alpine_mountain",
+                        "fable:alpine_peak"
                       ]
                     },
                     "then_run": {

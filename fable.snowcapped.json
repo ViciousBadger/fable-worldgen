@@ -9,7 +9,8 @@
   ],
   "erosions": [
     -1,
-    -0.75,
+    -0.87,
+    -0.68,
     -0.55,
     -0.05,
     0.5,
@@ -376,6 +377,42 @@
       ]
     },
     {
+      "key": "layout_mcopvbva",
+      "name": "Mountain Slopes",
+      "array": [
+        [
+          "biome_mclvburk",
+          "biome_mclvburk",
+          "biome_mclvburk",
+          "biome_mclvburk"
+        ],
+        [
+          "biome_mcosk8fv",
+          "biome_mcosk8fv",
+          "biome_mcosk8fv",
+          "biome_mcosk8fv"
+        ],
+        [
+          "biome_mcoskey5",
+          "biome_mcoskey5",
+          "biome_mcoskey5",
+          "biome_mcoskey5"
+        ],
+        [
+          "biome_mcjj8pne",
+          "biome_mcjj8pne",
+          "biome_mcjj8pne",
+          "biome_mcjj8pne"
+        ],
+        [
+          "biome_mcjm8a0i",
+          "biome_mcjm8a0i",
+          "biome_mcjm8a0i",
+          "biome_mcjm8a0i"
+        ]
+      ]
+    },
+    {
       "key": "layout_mcj4cjfs",
       "name": "Mountain Peaks",
       "array": [
@@ -422,9 +459,11 @@
           "layout_mcj4nokt",
           "layout_mcj4nokt",
           "layout_mcj4nokt",
+          "layout_mcj4nokt",
           "layout_mcj4nokt"
         ],
         [
+          "layout_mcj4cg05",
           "layout_mcj47e74",
           "layout_mcj477bf",
           "layout_mcj477bf",
@@ -433,15 +472,17 @@
         ],
         [
           "layout_mcj4cg05",
+          "layout_mcj4cg05",
           "layout_mcj477bf",
           "layout_mcj477bf",
           "layout_mcj49xmu",
           "layout_mcj46wgo"
         ],
         [
+          "layout_mcopvbva",
+          "layout_mcopvbva",
           "layout_mcj4cg05",
-          "layout_mcj4cg05",
-          "layout_mcj477bf",
+          "layout_mcj47e74",
           "layout_mcj49xmu",
           "layout_mcj46wgo"
         ]
@@ -456,9 +497,11 @@
           "layout_mcj4nokt",
           "layout_mcj4nokt",
           "layout_mcj4nokt",
+          "layout_mcj4nokt",
           "layout_mcj4nokt"
         ],
         [
+          "layout_mcj4cg05",
           "layout_mcj4cg05",
           "layout_mcj4odan",
           "layout_mcj4odan",
@@ -467,13 +510,15 @@
         ],
         [
           "layout_mcj4cg05",
+          "layout_mcj4cg05",
           "layout_mcj47e74",
           "layout_mcj47e74",
           "layout_mcj477bf",
           "layout_mcj46wgo"
         ],
         [
-          "layout_mcj4cjfs",
+          "layout_mcopvbva",
+          "layout_mcopvbva",
           "layout_mcj4cg05",
           "layout_mcj47e74",
           "layout_mcj477bf",
@@ -490,16 +535,19 @@
           "layout_mcj4nokt",
           "layout_mcj4nokt",
           "layout_mcj4nokt",
+          "layout_mcj4nokt",
           "layout_mcj4nokt"
         ],
         [
           "layout_mcj4cg05",
           "layout_mcj4cg05",
           "layout_mcj47e74",
+          "layout_mcj47e74",
           "layout_mcj477bf",
           "layout_mcj46wgo"
         ],
         [
+          "layout_mcj4cjfs",
           "layout_mcj4cjfs",
           "layout_mcj4cg05",
           "layout_mcj47e74",
@@ -509,6 +557,7 @@
         [
           "layout_mcj4cjfs",
           "layout_mcj4cjfs",
+          "layout_mcj4cg05",
           "layout_mcj47e74",
           "layout_mcj477bf",
           "layout_mcj46wgo"
@@ -524,12 +573,6 @@
           "unassigned",
           "unassigned",
           "unassigned",
-          "unassigned"
-        ],
-        [
-          "unassigned",
-          "unassigned",
-          "unassigned",
           "unassigned",
           "unassigned"
         ],
@@ -538,9 +581,19 @@
           "unassigned",
           "unassigned",
           "unassigned",
+          "unassigned",
           "unassigned"
         ],
         [
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned"
+        ],
+        [
+          "unassigned",
           "unassigned",
           "unassigned",
           "unassigned",
@@ -556,12 +609,6 @@
         [
           "minecraft:deep_dark",
           "minecraft:deep_dark",
-          "unassigned",
-          "unassigned",
-          "unassigned"
-        ],
-        [
-          "minecraft:deep_dark",
           "minecraft:deep_dark",
           "unassigned",
           "unassigned",
@@ -570,11 +617,21 @@
         [
           "minecraft:deep_dark",
           "minecraft:deep_dark",
+          "minecraft:deep_dark",
           "unassigned",
           "unassigned",
           "unassigned"
         ],
         [
+          "minecraft:deep_dark",
+          "minecraft:deep_dark",
+          "minecraft:deep_dark",
+          "unassigned",
+          "unassigned",
+          "unassigned"
+        ],
+        [
+          "minecraft:deep_dark",
           "minecraft:deep_dark",
           "minecraft:deep_dark",
           "unassigned",
@@ -645,6 +702,11 @@
       "color": "#8cd8da"
     },
     {
+      "key": "biome_mcosk8fv",
+      "name": "fable:boreal_slopes",
+      "color": "#f3fbff"
+    },
+    {
       "key": "biome_mcltre0s",
       "name": "fable:boreal_peak",
       "color": "#d6f1ff"
@@ -655,9 +717,14 @@
       "color": "#9a9996"
     },
     {
+      "key": "biome_mcoskey5",
+      "name": "fable:alpine_slopes",
+      "color": "#ffffff"
+    },
+    {
       "key": "biome_mcj3qg2c",
       "name": "fable:alpine_peak",
-      "color": "#ffffff"
+      "color": "#c5c3be"
     },
     {
       "key": "biome_mcjj8pne",

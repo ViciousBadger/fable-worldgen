@@ -54,6 +54,11 @@
     "g": 216,
     "b": 218
   },
+  "fable:boreal_slopes": {
+    "r": 243,
+    "g": 251,
+    "b": 255
+  },
   "fable:boreal_peak": {
     "r": 214,
     "g": 241,
@@ -64,10 +69,15 @@
     "g": 153,
     "b": 150
   },
-  "fable:alpine_peak": {
+  "fable:alpine_slopes": {
     "r": 255,
     "g": 255,
     "b": 255
+  },
+  "fable:alpine_peak": {
+    "r": 197,
+    "g": 195,
+    "b": 190
   },
   "fable:mediterranean_mountain": {
     "r": 136,
