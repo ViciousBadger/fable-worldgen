@@ -1,0 +1,25 @@
+{
+  "feature": "fable:grass_tall",
+  "placement": [
+    {
+      "type": "minecraft:noise_threshold_count",
+      "above_noise": 4,
+      "below_noise": 1,
+      "noise_level": -0.8
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 5
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

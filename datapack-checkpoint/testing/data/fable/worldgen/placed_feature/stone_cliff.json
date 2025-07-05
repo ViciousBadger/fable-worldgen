@@ -1,0 +1,28 @@
+{
+  "feature": "fable:stone_cliff",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 256
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "minecraft:environment_scan",
+      "direction_of_search": "down",
+      "max_steps": 1,
+      "target_condition": {
+        "type": "minecraft:matching_blocks",
+        "blocks": "minecraft:stone"
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

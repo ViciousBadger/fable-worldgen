@@ -66,7 +66,9 @@
       "minecraft:spring_water"
     ],
     [
-      "minecraft:glow_lichen"
+      "minecraft:glow_lichen",
+      "fable:grass_basic",
+      "minecraft:trees_birch_and_oak"
     ],
     [
       "minecraft:freeze_top_layer"

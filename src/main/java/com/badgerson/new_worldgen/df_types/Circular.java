@@ -35,12 +35,12 @@ public record Circular(DensityFunction df) implements DensityFunctionTypes.Unary
 
   @Override
   public double minValue() {
-    return -1;
+    return 0.0;
   }
 
   @Override
   public double maxValue() {
-    return 1;
+    return df.maxValue();
   }
 
   @Override
