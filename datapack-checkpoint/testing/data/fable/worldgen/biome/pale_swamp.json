@@ -17,7 +17,9 @@
     }
   },
   "features": [
-    [],
+    [
+      "fable:cliff/andesite"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
@@ -67,7 +69,9 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:trees_swamp"
+      "fable:grass_basic",
+      "fable:dense_oak_bushes",
+      "fable:swamp_trees"
     ],
     [
       "minecraft:freeze_top_layer"

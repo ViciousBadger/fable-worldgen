@@ -765,6 +765,64 @@
                   {
                     "type": "minecraft:condition",
                     "if_true": {
+                      "type": "minecraft:biome",
+                      "biome_is": [
+                        "fable:bog",
+                        "fable:marsh",
+                        "fable:swamp",
+                        "fable:pale_swamp",
+                        "fable:acacia_swamp",
+                        "fable:mangrove_swamp"
+                      ]
+                    },
+                    "then_run": {
+                      "type": "minecraft:condition",
+                      "if_true": {
+                        "type": "minecraft:not",
+                        "invert": {
+                          "type": "minecraft:y_above",
+                          "anchor": {
+                            "absolute": 60
+                          },
+                          "surface_depth_multiplier": 1.0,
+                          "add_stone_depth": false
+                        }
+                      },
+                      "then_run": {
+                        "type": "minecraft:block",
+                        "result_state": {
+                          "Name": "minecraft:mud"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:biome",
+                      "biome_is": [
+                        "fable:oak_forest"
+                      ]
+                    },
+                    "then_run": {
+                      "type": "minecraft:condition",
+                      "if_true": {
+                        "type": "minecraft:noise_threshold",
+                        "max_threshold": 2.0,
+                        "min_threshold": 0.3,
+                        "noise": "minecraft:surface"
+                      },
+                      "then_run": {
+                        "type": "minecraft:block",
+                        "result_state": {
+                          "Name": "minecraft:podzol"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
                       "type": "minecraft:water",
                       "add_stone_depth": false,
                       "offset": 0,

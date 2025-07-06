@@ -17,7 +17,9 @@
     }
   },
   "features": [
-    [],
+    [
+      "fable:cliff/calcite"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],

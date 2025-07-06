@@ -8,7 +8,7 @@
     "water_color": 3570859,
     "water_fog_color": 331305,
     "grass_color": 6066479,
-    "foliage_color": 6066479,
+    "foliage_color": 5206580,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -17,12 +17,15 @@
     }
   },
   "features": [
-    [],
+    [
+      "fable:cliff/andesite"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
     [
-      "minecraft:amethyst_geode"
+      "minecraft:amethyst_geode",
+      "fable:rock/andesite_rare"
     ],
     [
       "minecraft:monster_room",
@@ -68,7 +71,10 @@
     [
       "minecraft:glow_lichen",
       "fable:grass_basic",
-      "minecraft:dark_forest_vegetation"
+      "fable:dense_oak_bushes",
+      "fable:rare_birch",
+      "fable:rare_pines",
+      "fable:oak_trees_dense"
     ],
     [
       "minecraft:freeze_top_layer"

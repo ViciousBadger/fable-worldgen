@@ -18,13 +18,15 @@
   },
   "features": [
     [
-      "fable:stone_cliff"
+      "fable:cliff/andesite"
     ],
     [
       "minecraft:lake_lava_underground"
     ],
     [
-      "minecraft:amethyst_geode"
+      "minecraft:amethyst_geode",
+      "fable:rock/andesite_common",
+      "fable:rock/andesite_large"
     ],
     [
       "minecraft:monster_room",

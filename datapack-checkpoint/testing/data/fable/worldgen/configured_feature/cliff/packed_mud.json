@@ -4,14 +4,14 @@
     "half_height": 4,
     "radius": {
       "type": "minecraft:uniform",
-      "max_inclusive": 4,
+      "max_inclusive": 3,
       "min_inclusive": 2
     },
     "state_provider": {
       "fallback": {
         "type": "minecraft:simple_state_provider",
         "state": {
-          "Name": "minecraft:andesite"
+          "Name": "minecraft:packed_mud"
         }
       },
       "rules": []
@@ -21,7 +21,8 @@
       "blocks": [
         "minecraft:dirt",
         "minecraft:stone",
-        "minecraft:grass_block"
+        "minecraft:grass_block",
+        "minecraft:mud"
       ]
     }
   }

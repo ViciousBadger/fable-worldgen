@@ -17,7 +17,9 @@
     }
   },
   "features": [
-    [],
+    [
+      "fable:cliff/packed_mud"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
@@ -66,7 +68,10 @@
       "minecraft:spring_water"
     ],
     [
-      "minecraft:glow_lichen"
+      "minecraft:glow_lichen",
+      "fable:grass_basic",
+      "fable:grass_tall_cover",
+      "fable:scattered_oak_bushes"
     ],
     [
       "minecraft:freeze_top_layer"
