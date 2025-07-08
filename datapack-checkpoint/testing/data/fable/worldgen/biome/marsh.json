@@ -30,7 +30,9 @@
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
-    [],
+    [
+      "fable:delta_lakes"
+    ],
     [],
     [
       "minecraft:ore_dirt",
@@ -71,7 +73,8 @@
       "minecraft:glow_lichen",
       "fable:grass_basic",
       "fable:grass_tall_cover",
-      "fable:scattered_oak_bushes"
+      "fable:scattered_oak_bushes",
+      "fable:flowers/swamp"
     ],
     [
       "minecraft:freeze_top_layer"

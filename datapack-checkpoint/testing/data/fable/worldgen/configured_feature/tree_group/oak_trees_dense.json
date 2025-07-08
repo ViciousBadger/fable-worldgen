@@ -3,14 +3,21 @@
   "config": {
     "features": [
       {
-        "chance": 0.15,
+        "chance": 0.25,
+        "feature": {
+          "feature": "fable:tree/dark_oak_tree",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.45,
         "feature": {
           "feature": "fable:tree/oak_tree_big",
           "placement": []
         }
       },
       {
-        "chance": 0.25,
+        "chance": 0.05,
         "feature": {
           "feature": "fable:tree/oak_tree_small",
           "placement": []

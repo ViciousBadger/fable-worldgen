@@ -1,18 +1,16 @@
 {
-  "feature": "fable:grass_tall",
+  "feature": "fable:delta_lake",
   "placement": [
     {
-      "type": "minecraft:noise_threshold_count",
-      "above_noise": 8,
-      "below_noise": 3,
-      "noise_level": -0.4
-    },
-    {
       "type": "minecraft:rarity_filter",
-      "chance": 2
+      "chance": 4
     },
     {
       "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:surface_water_depth_filter",
+      "max_water_depth": 0
     },
     {
       "type": "minecraft:heightmap",

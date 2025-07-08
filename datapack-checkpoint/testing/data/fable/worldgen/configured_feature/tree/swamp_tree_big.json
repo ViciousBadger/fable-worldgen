@@ -38,8 +38,7 @@
       }
     },
     "foliage_placer": {
-      "type": "minecraft:fancy_foliage_placer",
-      "height": 4,
+      "type": "minecraft:acacia_foliage_placer",
       "offset": 2,
       "radius": 3
     },

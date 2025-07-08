@@ -3,11 +3,22 @@
   "argument": {
     "type": "minecraft:min",
     "argument1": {
-      "type": "minecraft:max",
-      "argument1": 0.12,
+      "type": "minecraft:min",
+      "argument1": {
+        "type": "minecraft:max",
+        "argument1": 0.12,
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": 3.0,
+          "argument2": {
+            "type": "minecraft:abs",
+            "argument": "fable:rivers"
+          }
+        }
+      },
       "argument2": {
-        "type": "minecraft:mul",
-        "argument1": 3.0,
+        "type": "minecraft:max",
+        "argument1": 0.24,
         "argument2": {
           "type": "minecraft:abs",
           "argument": "fable:rivers"
