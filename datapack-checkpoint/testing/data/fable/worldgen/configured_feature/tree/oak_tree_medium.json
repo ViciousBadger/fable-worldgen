@@ -34,9 +34,9 @@
     },
     "foliage_placer": {
       "type": "minecraft:fancy_foliage_placer",
-      "height": 4,
+      "height": 3,
       "offset": 2,
-      "radius": 3
+      "radius": 2
     },
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
