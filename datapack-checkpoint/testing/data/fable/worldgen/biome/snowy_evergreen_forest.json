@@ -5,10 +5,10 @@
   "effects": {
     "fog_color": 10076657,
     "sky_color": 6269917,
-    "water_color": 3570859,
+    "water_color": 3039361,
     "water_fog_color": 331305,
-    "grass_color": 6980933,
-    "foliage_color": 6980933,
+    "grass_color": 3445850,
+    "foliage_color": 3445850,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -68,7 +68,9 @@
       "minecraft:spring_water"
     ],
     [
-      "minecraft:glow_lichen"
+      "minecraft:glow_lichen",
+      "fable:grass_sparse",
+      "minecraft:trees_taiga"
     ],
     [
       "minecraft:freeze_top_layer"

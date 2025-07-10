@@ -17,7 +17,9 @@
     }
   },
   "features": [
-    [],
+    [
+      "fable:cliff/diorite"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],

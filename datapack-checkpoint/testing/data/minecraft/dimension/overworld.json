@@ -473,36 +473,6 @@
             ],
             "humidity": [
               0,
-              0.4
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.38
-            ],
-            "continentalness": [
-              -0.1,
-              0.1
-            ],
-            "erosion": [
-              -0.68,
-              -0.05
-            ],
-            "temperature": [
-              -0.75,
-              -0.25
-            ],
-            "humidity": [
-              0.4,
               1
             ],
             "depth": [
@@ -511,7 +481,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:spruce_forest"
+          "biome": "fable:snowy_evergreen_forest"
         },
         {
           "parameters": {
@@ -653,6 +623,36 @@
             ],
             "humidity": [
               -1,
+              -0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:tabernas_desert"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.38
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.68,
+              -0.05
+            ],
+            "temperature": [
+              0.25,
+              0.75
+            ],
+            "humidity": [
+              -0.4,
               0
             ],
             "depth": [
@@ -691,7 +691,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:acacia_forest"
+          "biome": "fable:sclerophyll_forest"
         },
         {
           "parameters": {
@@ -931,7 +931,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:dirt_desert"
+          "biome": "fable:boreal_tundra"
         },
         {
           "parameters": {
@@ -961,7 +961,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:cold_plains"
+          "biome": "fable:boreal_plains"
         },
         {
           "parameters": {
@@ -991,7 +991,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:spruce_forest"
+          "biome": "fable:evergreen_forest"
         },
         {
           "parameters": {
@@ -1021,7 +1021,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:redwood_forest"
+          "biome": "fable:deep_evergreen_forest"
         },
         {
           "parameters": {
@@ -1111,7 +1111,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:beech_forest"
+          "biome": "fable:broadleaf_forest"
         },
         {
           "parameters": {
@@ -1141,7 +1141,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:oak_forest"
+          "biome": "fable:deep_broadleaf_forest"
         },
         {
           "parameters": {
@@ -1201,7 +1201,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:shrub_plains"
+          "biome": "fable:sclerophyll_bushlands"
         },
         {
           "parameters": {
@@ -1471,7 +1471,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:swamp"
+          "biome": "fable:pale_swamp"
         },
         {
           "parameters": {
@@ -2063,36 +2063,6 @@
             ],
             "humidity": [
               0,
-              0.4
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.22
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.55,
-              -0.05
-            ],
-            "temperature": [
-              -0.75,
-              -0.25
-            ],
-            "humidity": [
-              0.4,
               1
             ],
             "depth": [
@@ -2101,7 +2071,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:spruce_forest"
+          "biome": "fable:snowy_evergreen_forest"
         },
         {
           "parameters": {
@@ -2243,6 +2213,36 @@
             ],
             "humidity": [
               -1,
+              -0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:tabernas_desert"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.22
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              0.25,
+              0.75
+            ],
+            "humidity": [
+              -0.4,
               0
             ],
             "depth": [
@@ -2281,7 +2281,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:acacia_forest"
+          "biome": "fable:sclerophyll_forest"
         },
         {
           "parameters": {
@@ -3203,36 +3203,6 @@
             ],
             "humidity": [
               0,
-              0.4
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.38,
-              -0.22
-            ],
-            "continentalness": [
-              0.1,
-              0.6
-            ],
-            "erosion": [
-              -0.68,
-              -0.05
-            ],
-            "temperature": [
-              -0.75,
-              -0.25
-            ],
-            "humidity": [
-              0.4,
               1
             ],
             "depth": [
@@ -3241,7 +3211,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:spruce_forest"
+          "biome": "fable:snowy_evergreen_forest"
         },
         {
           "parameters": {
@@ -3383,6 +3353,36 @@
             ],
             "humidity": [
               -1,
+              -0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:tabernas_desert"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.38,
+              -0.22
+            ],
+            "continentalness": [
+              0.1,
+              0.6
+            ],
+            "erosion": [
+              -0.68,
+              -0.05
+            ],
+            "temperature": [
+              0.25,
+              0.75
+            ],
+            "humidity": [
+              -0.4,
               0
             ],
             "depth": [
@@ -3421,7 +3421,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:acacia_forest"
+          "biome": "fable:sclerophyll_forest"
         },
         {
           "parameters": {
@@ -3661,7 +3661,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:dirt_desert"
+          "biome": "fable:boreal_tundra"
         },
         {
           "parameters": {
@@ -3691,7 +3691,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:cold_plains"
+          "biome": "fable:boreal_plains"
         },
         {
           "parameters": {
@@ -3721,7 +3721,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:spruce_forest"
+          "biome": "fable:evergreen_forest"
         },
         {
           "parameters": {
@@ -3751,7 +3751,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:redwood_forest"
+          "biome": "fable:deep_evergreen_forest"
         },
         {
           "parameters": {
@@ -3841,7 +3841,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:beech_forest"
+          "biome": "fable:broadleaf_forest"
         },
         {
           "parameters": {
@@ -3871,7 +3871,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:oak_forest"
+          "biome": "fable:deep_broadleaf_forest"
         },
         {
           "parameters": {
@@ -3931,7 +3931,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:shrub_plains"
+          "biome": "fable:sclerophyll_bushlands"
         },
         {
           "parameters": {
@@ -4613,36 +4613,6 @@
             ],
             "humidity": [
               0,
-              0.4
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.22,
-              0.22
-            ],
-            "continentalness": [
-              -0.1,
-              0.1
-            ],
-            "erosion": [
-              -0.87,
-              -0.68
-            ],
-            "temperature": [
-              -0.75,
-              -0.25
-            ],
-            "humidity": [
-              0.4,
               1
             ],
             "depth": [
@@ -4651,7 +4621,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:spruce_forest"
+          "biome": "fable:snowy_evergreen_forest"
         },
         {
           "parameters": {
@@ -4793,6 +4763,36 @@
             ],
             "humidity": [
               -1,
+              -0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:tabernas_desert"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.22,
+              0.22
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.87,
+              -0.68
+            ],
+            "temperature": [
+              0.25,
+              0.75
+            ],
+            "humidity": [
+              -0.4,
               0
             ],
             "depth": [
@@ -4831,7 +4831,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:acacia_forest"
+          "biome": "fable:sclerophyll_forest"
         },
         {
           "parameters": {
@@ -5071,7 +5071,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:dirt_desert"
+          "biome": "fable:boreal_tundra"
         },
         {
           "parameters": {
@@ -5101,7 +5101,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:cold_plains"
+          "biome": "fable:boreal_plains"
         },
         {
           "parameters": {
@@ -5131,7 +5131,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:spruce_forest"
+          "biome": "fable:evergreen_forest"
         },
         {
           "parameters": {
@@ -5161,7 +5161,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:redwood_forest"
+          "biome": "fable:deep_evergreen_forest"
         },
         {
           "parameters": {
@@ -5251,7 +5251,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:beech_forest"
+          "biome": "fable:broadleaf_forest"
         },
         {
           "parameters": {
@@ -5281,7 +5281,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:oak_forest"
+          "biome": "fable:deep_broadleaf_forest"
         },
         {
           "parameters": {
@@ -5341,7 +5341,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:shrub_plains"
+          "biome": "fable:sclerophyll_bushlands"
         },
         {
           "parameters": {
@@ -5539,6 +5539,96 @@
             ],
             "temperature": [
               -0.75,
+              -0.25
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:boreal_freshwater"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.22,
+              0.22
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              -0.05,
+              0.5
+            ],
+            "temperature": [
+              -0.25,
+              0.25
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:temperate_freshwater"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.22,
+              0.22
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              -0.05,
+              0.5
+            ],
+            "temperature": [
+              0.25,
+              0.75
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:subtropic_freshwater"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.22,
+              0.22
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              -0.05,
+              0.5
+            ],
+            "temperature": [
+              0.75,
               1
             ],
             "humidity": [
@@ -5551,7 +5641,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:freshwater"
+          "biome": "fable:tropical_freshwater"
         },
         {
           "parameters": {
@@ -5611,7 +5701,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:acacia_forest"
+          "biome": "fable:sclerophyll_forest"
         },
         {
           "parameters": {
@@ -5783,36 +5873,6 @@
             ],
             "humidity": [
               0,
-              0.4
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.22,
-              1
-            ],
-            "continentalness": [
-              0.6,
-              1
-            ],
-            "erosion": [
-              -0.55,
-              -0.05
-            ],
-            "temperature": [
-              -0.75,
-              -0.25
-            ],
-            "humidity": [
-              0.4,
               1
             ],
             "depth": [
@@ -5821,7 +5881,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:spruce_forest"
+          "biome": "fable:snowy_evergreen_forest"
         },
         {
           "parameters": {
@@ -5963,6 +6023,36 @@
             ],
             "humidity": [
               -1,
+              -0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:tabernas_desert"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.22,
+              1
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              0.25,
+              0.75
+            ],
+            "humidity": [
+              -0.4,
               0
             ],
             "depth": [
@@ -6001,7 +6091,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:acacia_forest"
+          "biome": "fable:sclerophyll_forest"
         },
         {
           "parameters": {
@@ -6923,36 +7013,6 @@
             ],
             "humidity": [
               0,
-              0.4
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.22,
-              0.38
-            ],
-            "continentalness": [
-              0.1,
-              0.6
-            ],
-            "erosion": [
-              -0.68,
-              -0.05
-            ],
-            "temperature": [
-              -0.75,
-              -0.25
-            ],
-            "humidity": [
-              0.4,
               1
             ],
             "depth": [
@@ -6961,7 +7021,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:spruce_forest"
+          "biome": "fable:snowy_evergreen_forest"
         },
         {
           "parameters": {
@@ -7103,6 +7163,36 @@
             ],
             "humidity": [
               -1,
+              -0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:tabernas_desert"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.22,
+              0.38
+            ],
+            "continentalness": [
+              0.1,
+              0.6
+            ],
+            "erosion": [
+              -0.68,
+              -0.05
+            ],
+            "temperature": [
+              0.25,
+              0.75
+            ],
+            "humidity": [
+              -0.4,
               0
             ],
             "depth": [
@@ -7381,7 +7471,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:dirt_desert"
+          "biome": "fable:boreal_tundra"
         },
         {
           "parameters": {
@@ -7411,7 +7501,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:cold_plains"
+          "biome": "fable:boreal_plains"
         },
         {
           "parameters": {
@@ -7441,7 +7531,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:spruce_forest"
+          "biome": "fable:evergreen_forest"
         },
         {
           "parameters": {
@@ -7471,7 +7561,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:redwood_forest"
+          "biome": "fable:deep_evergreen_forest"
         },
         {
           "parameters": {
@@ -7561,7 +7651,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:beech_forest"
+          "biome": "fable:broadleaf_forest"
         },
         {
           "parameters": {
@@ -7591,7 +7681,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:oak_forest"
+          "biome": "fable:deep_broadleaf_forest"
         },
         {
           "parameters": {
@@ -7651,7 +7741,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:shrub_plains"
+          "biome": "fable:sclerophyll_bushlands"
         },
         {
           "parameters": {
@@ -7681,7 +7771,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:acacia_forest"
+          "biome": "fable:sclerophyll_forest"
         },
         {
           "parameters": {
@@ -8003,36 +8093,6 @@
             ],
             "humidity": [
               0,
-              0.4
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.38,
-              1
-            ],
-            "continentalness": [
-              -0.1,
-              0.1
-            ],
-            "erosion": [
-              -0.68,
-              -0.05
-            ],
-            "temperature": [
-              -0.75,
-              -0.25
-            ],
-            "humidity": [
-              0.4,
               1
             ],
             "depth": [
@@ -8041,7 +8101,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:spruce_forest"
+          "biome": "fable:snowy_evergreen_forest"
         },
         {
           "parameters": {
@@ -8183,6 +8243,36 @@
             ],
             "humidity": [
               -1,
+              -0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:tabernas_desert"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.38,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.68,
+              -0.05
+            ],
+            "temperature": [
+              0.25,
+              0.75
+            ],
+            "humidity": [
+              -0.4,
               0
             ],
             "depth": [
@@ -8221,7 +8311,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:acacia_forest"
+          "biome": "fable:sclerophyll_forest"
         },
         {
           "parameters": {
@@ -8431,7 +8521,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:dirt_desert"
+          "biome": "fable:boreal_tundra"
         },
         {
           "parameters": {
@@ -8461,7 +8551,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:cold_plains"
+          "biome": "fable:boreal_plains"
         },
         {
           "parameters": {
@@ -8491,7 +8581,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:spruce_forest"
+          "biome": "fable:evergreen_forest"
         },
         {
           "parameters": {
@@ -8521,7 +8611,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:redwood_forest"
+          "biome": "fable:deep_evergreen_forest"
         },
         {
           "parameters": {
@@ -8611,7 +8701,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:beech_forest"
+          "biome": "fable:broadleaf_forest"
         },
         {
           "parameters": {
@@ -8641,7 +8731,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:oak_forest"
+          "biome": "fable:deep_broadleaf_forest"
         },
         {
           "parameters": {
@@ -8701,7 +8791,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:shrub_plains"
+          "biome": "fable:sclerophyll_bushlands"
         },
         {
           "parameters": {
@@ -9323,36 +9413,6 @@
             ],
             "humidity": [
               0,
-              0.4
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.38,
-              1
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.55,
-              -0.05
-            ],
-            "temperature": [
-              -0.75,
-              -0.25
-            ],
-            "humidity": [
-              0.4,
               1
             ],
             "depth": [
@@ -9361,7 +9421,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:spruce_forest"
+          "biome": "fable:snowy_evergreen_forest"
         },
         {
           "parameters": {
@@ -9503,6 +9563,36 @@
             ],
             "humidity": [
               -1,
+              -0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:tabernas_desert"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.38,
+              1
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              0.25,
+              0.75
+            ],
+            "humidity": [
+              -0.4,
               0
             ],
             "depth": [
@@ -9541,7 +9631,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:acacia_forest"
+          "biome": "fable:sclerophyll_forest"
         },
         {
           "parameters": {

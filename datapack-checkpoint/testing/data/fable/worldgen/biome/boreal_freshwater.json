@@ -1,14 +1,14 @@
 {
   "has_precipitation": true,
-  "temperature": 0.5,
+  "temperature": 0.2,
   "downfall": 0.5,
   "effects": {
     "fog_color": 10076657,
     "sky_color": 6269917,
     "water_color": 3039361,
     "water_fog_color": 331305,
-    "grass_color": 6469257,
-    "foliage_color": 6469257,
+    "grass_color": 8106828,
+    "foliage_color": 8106828,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -17,7 +17,9 @@
     }
   },
   "features": [
-    [],
+    [
+      "fable:cliff/diorite"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
@@ -66,7 +68,11 @@
       "minecraft:spring_water"
     ],
     [
-      "minecraft:glow_lichen"
+      "minecraft:glow_lichen",
+      "fable:grass_basic",
+      "fable:scattered_oak_bushes",
+      "fable:oak_trees",
+      "minecraft:seagrass_river"
     ],
     [
       "minecraft:freeze_top_layer"
@@ -187,7 +193,14 @@
         "weight": 10
       }
     ],
-    "water_ambient": [],
+    "water_ambient": [
+      {
+        "type": "minecraft:cod",
+        "maxCount": 6,
+        "minCount": 3,
+        "weight": 10
+      }
+    ],
     "water_creature": []
   }
 }

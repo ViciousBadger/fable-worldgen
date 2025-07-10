@@ -512,7 +512,7 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fable:dirt_desert"
+                        "fable:boreal_tundra"
                       ]
                     },
                     "then_run": {
@@ -779,7 +779,8 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fable:oak_forest"
+                        "fable:deep_broadleaf_forest",
+                        "fable:deep_evergreen_forest"
                       ]
                     },
                     "then_run": {

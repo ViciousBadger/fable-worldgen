@@ -207,10 +207,10 @@
           "biome_mclv36ft"
         ],
         [
-          "biome_mcj4fh5v",
-          "biome_mcj4fh5v",
-          "biome_mcj4fh5v",
-          "biome_mcj4fh5v"
+          "biome_mcxdjyeu",
+          "biome_mcxdjyeu",
+          "biome_mcxdjyeu",
+          "biome_mcxdjyeu"
         ],
         [
           "biome_mcj4fh5v",
@@ -219,16 +219,16 @@
           "biome_mcj4fh5v"
         ],
         [
-          "biome_mcj4fh5v",
-          "biome_mcj4fh5v",
-          "biome_mcj4fh5v",
-          "biome_mcj4fh5v"
+          "biome_mcxdktxk",
+          "biome_mcxdktxk",
+          "biome_mcxdktxk",
+          "biome_mcxdktxk"
         ],
         [
-          "biome_mcj4fh5v",
-          "biome_mcj4fh5v",
-          "biome_mcj4fh5v",
-          "biome_mcj4fh5v"
+          "biome_mcxdlfl8",
+          "biome_mcxdlfl8",
+          "biome_mcxdlfl8",
+          "biome_mcxdlfl8"
         ]
       ]
     },
@@ -317,8 +317,8 @@
         [
           "biome_mclutqfr",
           "biome_mclus3of",
-          "biome_mclvr0zd",
-          "biome_mclug5bj"
+          "biome_mcxbjpdb",
+          "biome_mcxbjpdb"
         ],
         [
           "biome_mcj4kjf4",
@@ -327,7 +327,7 @@
           "biome_mclumlbk"
         ],
         [
-          "biome_mcm9vcl8",
+          "biome_mcxbgn0k",
           "biome_mcm9vcl8",
           "biome_mcjj6noe",
           "biome_mck9mvza"
@@ -652,14 +652,29 @@
       "name": "minecraft:deep_dark"
     },
     {
-      "key": "biome_mcj4fh5v",
-      "name": "fable:freshwater",
-      "color": "#99c1f1"
-    },
-    {
       "key": "biome_mclv36ft",
       "name": "fable:frozen_freshwater",
       "color": "#d8e5f3"
+    },
+    {
+      "key": "biome_mcxdjyeu",
+      "name": "fable:boreal_freshwater",
+      "color": "#608ec6"
+    },
+    {
+      "key": "biome_mcj4fh5v",
+      "name": "fable:temperate_freshwater",
+      "color": "#80c5ec"
+    },
+    {
+      "key": "biome_mcxdktxk",
+      "name": "fable:subtropic_freshwater",
+      "color": "#53c4e8"
+    },
+    {
+      "key": "biome_mcxdlfl8",
+      "name": "fable:tropical_freshwater",
+      "color": "#36d8e2"
     },
     {
       "key": "biome_mclv1d2z",
@@ -823,18 +838,23 @@
     },
     {
       "key": "biome_mcj3p6hk",
-      "name": "fable:dirt_desert",
-      "color": "#93742b"
+      "name": "fable:boreal_tundra",
+      "color": "#63b099"
     },
     {
       "key": "biome_mcluf7bw",
-      "name": "fable:cold_plains",
+      "name": "fable:boreal_plains",
       "color": "#21b275"
     },
     {
       "key": "biome_mclug5bj",
-      "name": "fable:spruce_forest",
-      "color": "#249654"
+      "name": "fable:evergreen_forest",
+      "color": "#208265"
+    },
+    {
+      "key": "biome_mclujvzs",
+      "name": "fable:deep_evergreen_forest",
+      "color": "#136e37"
     },
     {
       "key": "biome_mclutqfr",
@@ -842,14 +862,14 @@
       "color": "#58646e"
     },
     {
-      "key": "biome_mclujvzs",
-      "name": "fable:redwood_forest",
-      "color": "#ba793d"
-    },
-    {
       "key": "biome_mclus3of",
       "name": "fable:moss_field",
       "color": "#07922e"
+    },
+    {
+      "key": "biome_mcxbjpdb",
+      "name": "fable:snowy_evergreen_forest",
+      "color": "#52cda8"
     },
     {
       "key": "biome_mclvr0zd",
@@ -868,12 +888,12 @@
     },
     {
       "key": "biome_mcj3q5ry",
-      "name": "fable:beech_forest",
+      "name": "fable:broadleaf_forest",
       "color": "#0e8208"
     },
     {
       "key": "biome_mcj3w1gx",
-      "name": "fable:oak_forest",
+      "name": "fable:deep_broadleaf_forest",
       "color": "#086104"
     },
     {
@@ -908,18 +928,23 @@
     },
     {
       "key": "biome_mcjiprdc",
-      "name": "fable:shrub_plains",
+      "name": "fable:sclerophyll_bushlands",
       "color": "#d9d338"
+    },
+    {
+      "key": "biome_mcjj6noe",
+      "name": "fable:sclerophyll_forest",
+      "color": "#bab544"
+    },
+    {
+      "key": "biome_mcxbgn0k",
+      "name": "fable:tabernas_desert",
+      "color": "#c4ab5b"
     },
     {
       "key": "biome_mcm9vcl8",
       "name": "fable:shrub_highlands",
       "color": "#a3b62e"
-    },
-    {
-      "key": "biome_mcjj6noe",
-      "name": "fable:acacia_forest",
-      "color": "#bab544"
     },
     {
       "key": "biome_mck9mvza",

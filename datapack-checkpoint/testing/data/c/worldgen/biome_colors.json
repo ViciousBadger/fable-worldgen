@@ -4,15 +4,30 @@
     "g": 0,
     "b": 0
   },
-  "fable:freshwater": {
-    "r": 153,
-    "g": 193,
-    "b": 241
-  },
   "fable:frozen_freshwater": {
     "r": 216,
     "g": 229,
     "b": 243
+  },
+  "fable:boreal_freshwater": {
+    "r": 96,
+    "g": 142,
+    "b": 198
+  },
+  "fable:temperate_freshwater": {
+    "r": 128,
+    "g": 197,
+    "b": 236
+  },
+  "fable:subtropic_freshwater": {
+    "r": 83,
+    "g": 196,
+    "b": 232
+  },
+  "fable:tropical_freshwater": {
+    "r": 54,
+    "g": 216,
+    "b": 226
   },
   "fable:arctic_ocean": {
     "r": 41,
@@ -174,35 +189,40 @@
     "g": 231,
     "b": 255
   },
-  "fable:dirt_desert": {
-    "r": 147,
-    "g": 116,
-    "b": 43
+  "fable:boreal_tundra": {
+    "r": 99,
+    "g": 176,
+    "b": 153
   },
-  "fable:cold_plains": {
+  "fable:boreal_plains": {
     "r": 33,
     "g": 178,
     "b": 117
   },
-  "fable:spruce_forest": {
-    "r": 36,
-    "g": 150,
-    "b": 84
+  "fable:evergreen_forest": {
+    "r": 32,
+    "g": 130,
+    "b": 101
+  },
+  "fable:deep_evergreen_forest": {
+    "r": 19,
+    "g": 110,
+    "b": 55
   },
   "fable:rocky_hills": {
     "r": 88,
     "g": 100,
     "b": 110
   },
-  "fable:redwood_forest": {
-    "r": 186,
-    "g": 121,
-    "b": 61
-  },
   "fable:moss_field": {
     "r": 7,
     "g": 146,
     "b": 46
+  },
+  "fable:snowy_evergreen_forest": {
+    "r": 82,
+    "g": 205,
+    "b": 168
   },
   "fable:birch_forest": {
     "r": 90,
@@ -219,12 +239,12 @@
     "g": 178,
     "b": 33
   },
-  "fable:beech_forest": {
+  "fable:broadleaf_forest": {
     "r": 14,
     "g": 130,
     "b": 8
   },
-  "fable:oak_forest": {
+  "fable:deep_broadleaf_forest": {
     "r": 8,
     "g": 97,
     "b": 4
@@ -259,20 +279,25 @@
     "g": 155,
     "b": 58
   },
-  "fable:shrub_plains": {
+  "fable:sclerophyll_bushlands": {
     "r": 217,
     "g": 211,
     "b": 56
+  },
+  "fable:sclerophyll_forest": {
+    "r": 186,
+    "g": 181,
+    "b": 68
+  },
+  "fable:tabernas_desert": {
+    "r": 196,
+    "g": 171,
+    "b": 91
   },
   "fable:shrub_highlands": {
     "r": 163,
     "g": 182,
     "b": 46
-  },
-  "fable:acacia_forest": {
-    "r": 186,
-    "g": 181,
-    "b": 68
   },
   "fable:sakura_forest": {
     "r": 220,

@@ -5,10 +5,10 @@
   "effects": {
     "fog_color": 10076657,
     "sky_color": 6269917,
-    "water_color": 3570859,
+    "water_color": 2987728,
     "water_fog_color": 331305,
-    "grass_color": 6458165,
-    "foliage_color": 6458165,
+    "grass_color": 15583596,
+    "foliage_color": 15583596,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -17,7 +17,9 @@
     }
   },
   "features": [
-    [],
+    [
+      "fable:cliff/granite"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
@@ -67,7 +69,7 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:trees_old_growth_spruce_taiga"
+      "minecraft:patch_dead_bush_2"
     ],
     [
       "minecraft:freeze_top_layer"
