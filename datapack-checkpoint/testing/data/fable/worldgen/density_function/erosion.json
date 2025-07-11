@@ -5,44 +5,48 @@
     "argument1": {
       "type": "minecraft:mul",
       "argument1": {
-        "type": "minecraft:spline",
-        "spline": {
-          "coordinate": {
-            "type": "minecraft:noise",
-            "noise": "fable:mtn_bias",
-            "xz_scale": 0.25,
-            "y_scale": 0.0
-          },
-          "points": [
-            {
-              "derivative": 0.0,
-              "location": -0.5,
-              "value": 1.0
-            },
-            {
-              "derivative": 0.0,
-              "location": 0.0,
-              "value": 0.4
-            },
-            {
-              "derivative": 0.0,
-              "location": 0.4,
-              "value": 0.1
-            }
-          ]
+        "type": "minecraft:add",
+        "argument1": 1.0,
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": -1.0,
+          "argument2": "fable:mountain_regions"
         }
       },
       "argument2": {
-        "type": "minecraft:add",
-        "argument1": 0.5,
-        "argument2": {
-          "type": "minecraft:mul",
-          "argument1": 0.5,
+        "type": "minecraft:max",
+        "argument1": {
+          "type": "minecraft:add",
+          "argument1": 0.1,
           "argument2": {
-            "type": "minecraft:noise",
-            "noise": "fable:eroded",
-            "xz_scale": 0.35,
-            "y_scale": 0.0
+            "type": "minecraft:mul",
+            "argument1": 0.3,
+            "argument2": {
+              "type": "minecraft:abs",
+              "argument": {
+                "type": "minecraft:noise",
+                "noise": "fable:hills",
+                "xz_scale": 0.25,
+                "y_scale": 0.0
+              }
+            }
+          }
+        },
+        "argument2": {
+          "type": "minecraft:add",
+          "argument1": -1.0,
+          "argument2": {
+            "type": "minecraft:mul",
+            "argument1": 2.0,
+            "argument2": {
+              "type": "fable:circular",
+              "argument": {
+                "type": "minecraft:noise",
+                "noise": "fable:swamps",
+                "xz_scale": 0.35,
+                "y_scale": 0.0
+              }
+            }
           }
         }
       }
@@ -53,57 +57,22 @@
       "max": 0.0,
       "input": {
         "type": "minecraft:mul",
-        "argument1": {
-          "type": "minecraft:spline",
-          "spline": {
-            "coordinate": {
-              "type": "minecraft:noise",
-              "noise": "fable:mtn_bias",
-              "xz_scale": 0.25,
-              "y_scale": 0.0
-            },
-            "points": [
-              {
-                "derivative": 0.0,
-                "location": -0.2,
-                "value": 0.0
-              },
-              {
-                "derivative": 0.0,
-                "location": 0.4,
-                "value": 1.0
-              }
-            ]
-          }
-        },
+        "argument1": -1.0,
         "argument2": {
-          "type": "minecraft:add",
-          "argument1": -1.0,
-          "argument2": {
+          "type": "minecraft:min",
+          "argument1": {
             "type": "minecraft:add",
-            "argument1": {
-              "type": "minecraft:abs",
-              "argument": {
-                "type": "minecraft:noise",
-                "noise": "fable:mtn_a",
-                "xz_scale": 0.25,
-                "y_scale": 0.0
-              }
-            },
+            "argument1": -0.15,
             "argument2": {
               "type": "minecraft:mul",
-              "argument1": -0.12,
+              "argument1": 0.85,
               "argument2": {
                 "type": "minecraft:abs",
-                "argument": {
-                  "type": "minecraft:noise",
-                  "noise": "fable:mtn_b",
-                  "xz_scale": 0.25,
-                  "y_scale": 0.0
-                }
+                "argument": "fable:rivers"
               }
             }
-          }
+          },
+          "argument2": "fable:mountains"
         }
       }
     }

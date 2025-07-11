@@ -7,8 +7,8 @@
     "sky_color": 6269917,
     "water_color": 6388580,
     "water_fog_color": 2302743,
-    "grass_color": 6649176,
-    "foliage_color": 6649176,
+    "grass_color": 1466928,
+    "foliage_color": 1466928,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -17,9 +17,7 @@
     }
   },
   "features": [
-    [
-      "fable:cliff/andesite"
-    ],
+    [],
     [
       "minecraft:lake_lava_underground"
     ],
@@ -68,10 +66,7 @@
       "minecraft:spring_water"
     ],
     [
-      "minecraft:glow_lichen",
-      "fable:grass_basic",
-      "fable:dense_oak_bushes",
-      "fable:swamp_trees"
+      "minecraft:glow_lichen"
     ],
     [
       "minecraft:freeze_top_layer"

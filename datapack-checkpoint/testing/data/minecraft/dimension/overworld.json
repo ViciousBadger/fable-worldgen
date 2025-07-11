@@ -473,6 +473,36 @@
             ],
             "humidity": [
               0,
+              0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.38
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.68,
+              -0.05
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              0.4,
               1
             ],
             "depth": [
@@ -481,7 +511,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_evergreen_forest"
+          "biome": "fable:evergreen_hills"
         },
         {
           "parameters": {
@@ -1381,6 +1411,36 @@
             ],
             "offset": 0
           },
+          "biome": "fable:ice_lakes"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              0.5,
+              1
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              -1,
+              0
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
           "biome": "fable:bog"
         },
         {
@@ -1399,6 +1459,36 @@
             ],
             "temperature": [
               -0.75,
+              0.25
+            ],
+            "humidity": [
+              0,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:swamp"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              0.5,
+              1
+            ],
+            "temperature": [
+              -0.25,
               0.25
             ],
             "humidity": [
@@ -1428,68 +1518,8 @@
               1
             ],
             "temperature": [
-              -0.75,
-              0.25
-            ],
-            "humidity": [
-              0,
-              0.4
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:swamp"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              1
-            ],
-            "continentalness": [
-              -0.1,
-              1
-            ],
-            "erosion": [
-              0.5,
-              1
-            ],
-            "temperature": [
-              -0.75,
-              0.25
-            ],
-            "humidity": [
-              0.4,
-              1
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:pale_swamp"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              1
-            ],
-            "continentalness": [
-              -0.1,
-              1
-            ],
-            "erosion": [
-              0.5,
-              1
-            ],
-            "temperature": [
               0.25,
-              0.75
+              1
             ],
             "humidity": [
               -1,
@@ -1501,7 +1531,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:dry_lakebed"
+          "biome": "fable:dry_marsh"
         },
         {
           "parameters": {
@@ -1532,36 +1562,6 @@
             "offset": 0
           },
           "biome": "fable:acacia_swamp"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              1
-            ],
-            "continentalness": [
-              -0.1,
-              1
-            ],
-            "erosion": [
-              0.5,
-              1
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              -1,
-              0
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:oasis"
         },
         {
           "parameters": {
@@ -2063,6 +2063,36 @@
             ],
             "humidity": [
               0,
+              0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.22
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              0.4,
               1
             ],
             "depth": [
@@ -2071,7 +2101,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_evergreen_forest"
+          "biome": "fable:evergreen_hills"
         },
         {
           "parameters": {
@@ -3203,6 +3233,36 @@
             ],
             "humidity": [
               0,
+              0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.38,
+              -0.22
+            ],
+            "continentalness": [
+              0.1,
+              0.6
+            ],
+            "erosion": [
+              -0.68,
+              -0.05
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              0.4,
               1
             ],
             "depth": [
@@ -3211,7 +3271,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_evergreen_forest"
+          "biome": "fable:evergreen_hills"
         },
         {
           "parameters": {
@@ -4613,6 +4673,36 @@
             ],
             "humidity": [
               0,
+              0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.22,
+              0.22
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.87,
+              -0.68
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              0.4,
               1
             ],
             "depth": [
@@ -4621,7 +4711,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_evergreen_forest"
+          "biome": "fable:evergreen_hills"
         },
         {
           "parameters": {
@@ -5873,6 +5963,36 @@
             ],
             "humidity": [
               0,
+              0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.22,
+              1
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              0.4,
               1
             ],
             "depth": [
@@ -5881,7 +6001,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_evergreen_forest"
+          "biome": "fable:evergreen_hills"
         },
         {
           "parameters": {
@@ -7013,6 +7133,36 @@
             ],
             "humidity": [
               0,
+              0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.22,
+              0.38
+            ],
+            "continentalness": [
+              0.1,
+              0.6
+            ],
+            "erosion": [
+              -0.68,
+              -0.05
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              0.4,
               1
             ],
             "depth": [
@@ -7021,7 +7171,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_evergreen_forest"
+          "biome": "fable:evergreen_hills"
         },
         {
           "parameters": {
@@ -8093,6 +8243,36 @@
             ],
             "humidity": [
               0,
+              0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.38,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.68,
+              -0.05
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              0.4,
               1
             ],
             "depth": [
@@ -8101,7 +8281,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_evergreen_forest"
+          "biome": "fable:evergreen_hills"
         },
         {
           "parameters": {
@@ -9413,6 +9593,36 @@
             ],
             "humidity": [
               0,
+              0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.38,
+              1
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              -0.05
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              0.4,
               1
             ],
             "depth": [
@@ -9421,7 +9631,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_evergreen_forest"
+          "biome": "fable:evergreen_hills"
         },
         {
           "parameters": {

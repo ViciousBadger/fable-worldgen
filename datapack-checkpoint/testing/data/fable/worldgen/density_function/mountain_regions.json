@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "fable:shifted_density",
+    "input": {
+      "type": "fable:circular",
+      "argument": {
+        "type": "minecraft:noise",
+        "noise": "fable:mtn_bias",
+        "xz_scale": 0.25,
+        "y_scale": 0.0
+      }
+    },
+    "shift_x": {
+      "type": "minecraft:mul",
+      "argument1": 512,
+      "argument2": {
+        "type": "minecraft:noise",
+        "noise": "fable:region_shift_x",
+        "xz_scale": 0.25,
+        "y_scale": 0.0
+      }
+    },
+    "shift_z": {
+      "type": "minecraft:mul",
+      "argument1": 512,
+      "argument2": {
+        "type": "minecraft:noise",
+        "noise": "fable:region_shift_z",
+        "xz_scale": 0.25,
+        "y_scale": 0.0
+      }
+    }
+  }
+}

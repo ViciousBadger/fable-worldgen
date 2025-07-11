@@ -237,22 +237,22 @@
       "name": "Wetland",
       "array": [
         [
+          "biome_mcypovos",
+          "biome_mcypovos",
+          "biome_mcypovos",
+          "biome_mcypovos"
+        ],
+        [
           "biome_mclv8n6t",
           "biome_mclv8n6t",
-          "biome_mclv8n6t",
-          "biome_mclv8n6t"
+          "biome_mcj3lxs3",
+          "biome_mcj3lxs3"
         ],
         [
           "biome_mcj3lv3b",
           "biome_mcj3lv3b",
           "biome_mcj3lxs3",
-          "biome_mcj3m67c"
-        ],
-        [
-          "biome_mcj3lv3b",
-          "biome_mcj3lv3b",
-          "biome_mcj3lxs3",
-          "biome_mcj3m67c"
+          "biome_mcj3lxs3"
         ],
         [
           "biome_mclu4s4o",
@@ -261,8 +261,8 @@
           "biome_mck9q01m"
         ],
         [
-          "biome_mcjlp9hg",
-          "biome_mcjlp9hg",
+          "biome_mclu4s4o",
+          "biome_mclu4s4o",
           "biome_mcjlpywq",
           "biome_mcjlpywq"
         ]
@@ -317,7 +317,7 @@
         [
           "biome_mclutqfr",
           "biome_mclus3of",
-          "biome_mcxbjpdb",
+          "biome_mclvr0zd",
           "biome_mcxbjpdb"
         ],
         [
@@ -674,7 +674,7 @@
     {
       "key": "biome_mcxdlfl8",
       "name": "fable:tropical_freshwater",
-      "color": "#36d8e2"
+      "color": "#68dce3"
     },
     {
       "key": "biome_mclv1d2z",
@@ -699,7 +699,7 @@
     {
       "key": "biome_mcjm4ufc",
       "name": "fable:tropical_ocean",
-      "color": "#31ffff"
+      "color": "#2ad9f1"
     },
     {
       "key": "biome_mclvburk",
@@ -807,14 +807,14 @@
       "color": "#38470e"
     },
     {
-      "key": "biome_mcj3m67c",
-      "name": "fable:pale_swamp",
-      "color": "#3b3e31"
-    },
-    {
       "key": "biome_mclv8n6t",
       "name": "fable:bog",
       "color": "#0e4728"
+    },
+    {
+      "key": "biome_mcypovos",
+      "name": "fable:ice_lakes",
+      "color": "#62a0ea"
     },
     {
       "key": "biome_mclvemng",
@@ -868,7 +868,7 @@
     },
     {
       "key": "biome_mcxbjpdb",
-      "name": "fable:snowy_evergreen_forest",
+      "name": "fable:evergreen_hills",
       "color": "#52cda8"
     },
     {
@@ -967,13 +967,8 @@
       "color": "#685808"
     },
     {
-      "key": "biome_mcjlp9hg",
-      "name": "fable:oasis",
-      "color": "#80ff00"
-    },
-    {
       "key": "biome_mclu4s4o",
-      "name": "fable:dry_lakebed",
+      "name": "fable:dry_marsh",
       "color": "#beb381"
     },
     {
