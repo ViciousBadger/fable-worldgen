@@ -1,14 +1,14 @@
 {
   "has_precipitation": true,
-  "temperature": 0.5,
+  "temperature": 0.3,
   "downfall": 0.5,
   "effects": {
     "fog_color": 10076657,
     "sky_color": 6269917,
     "water_color": 3570859,
     "water_fog_color": 331305,
-    "grass_color": 12305263,
-    "foliage_color": 12305263,
+    "grass_color": 10074767,
+    "foliage_color": 10074767,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -21,7 +21,8 @@
       "fable:cliff/diorite"
     ],
     [
-      "minecraft:lake_lava_underground"
+      "minecraft:lake_lava_underground",
+      "fable:rock/diorite_rare"
     ],
     [
       "minecraft:amethyst_geode"
@@ -68,7 +69,9 @@
       "minecraft:spring_water"
     ],
     [
-      "minecraft:glow_lichen"
+      "minecraft:glow_lichen",
+      "fable:grass_basic",
+      "fable:scattered_dead_bushes"
     ],
     [
       "minecraft:freeze_top_layer"

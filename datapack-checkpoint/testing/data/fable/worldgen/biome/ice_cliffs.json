@@ -17,7 +17,9 @@
     }
   },
   "features": [
-    [],
+    [
+      "fable:cliff/packed_ice"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],

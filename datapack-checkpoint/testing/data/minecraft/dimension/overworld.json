@@ -361,7 +361,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_plains"
+          "biome": "fable:arctic_tundra"
         },
         {
           "parameters": {
@@ -391,7 +391,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_taiga"
+          "biome": "fable:white_forest"
         },
         {
           "parameters": {
@@ -473,36 +473,6 @@
             ],
             "humidity": [
               0,
-              0.4
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.38
-            ],
-            "continentalness": [
-              -0.1,
-              0.1
-            ],
-            "erosion": [
-              -0.68,
-              -0.05
-            ],
-            "temperature": [
-              -0.75,
-              -0.25
-            ],
-            "humidity": [
-              0.4,
               1
             ],
             "depth": [
@@ -931,7 +901,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_plains"
+          "biome": "fable:arctic_tundra"
         },
         {
           "parameters": {
@@ -1951,7 +1921,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_plains"
+          "biome": "fable:arctic_tundra"
         },
         {
           "parameters": {
@@ -1981,7 +1951,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_taiga"
+          "biome": "fable:white_forest"
         },
         {
           "parameters": {
@@ -2063,36 +2033,6 @@
             ],
             "humidity": [
               0,
-              0.4
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.22
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.55,
-              -0.05
-            ],
-            "temperature": [
-              -0.75,
-              -0.25
-            ],
-            "humidity": [
-              0.4,
               1
             ],
             "depth": [
@@ -3041,7 +2981,7 @@
             ],
             "continentalness": [
               0.1,
-              1
+              0.6
             ],
             "erosion": [
               -1,
@@ -3121,7 +3061,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_plains"
+          "biome": "fable:arctic_tundra"
         },
         {
           "parameters": {
@@ -3151,7 +3091,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_taiga"
+          "biome": "fable:white_forest"
         },
         {
           "parameters": {
@@ -3233,36 +3173,6 @@
             ],
             "humidity": [
               0,
-              0.4
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.38,
-              -0.22
-            ],
-            "continentalness": [
-              0.1,
-              0.6
-            ],
-            "erosion": [
-              -0.68,
-              -0.05
-            ],
-            "temperature": [
-              -0.75,
-              -0.25
-            ],
-            "humidity": [
-              0.4,
               1
             ],
             "depth": [
@@ -3691,7 +3601,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_plains"
+          "biome": "fable:arctic_tundra"
         },
         {
           "parameters": {
@@ -4207,6 +4117,36 @@
           "parameters": {
             "weirdness": [
               -0.38,
+              0.38
+            ],
+            "continentalness": [
+              0.6,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.68
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:equatorial_slopes"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.38,
               1
             ],
             "continentalness": [
@@ -4561,7 +4501,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_plains"
+          "biome": "fable:arctic_tundra"
         },
         {
           "parameters": {
@@ -4591,7 +4531,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_taiga"
+          "biome": "fable:white_forest"
         },
         {
           "parameters": {
@@ -4673,36 +4613,6 @@
             ],
             "humidity": [
               0,
-              0.4
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.22,
-              0.22
-            ],
-            "continentalness": [
-              -0.1,
-              0.1
-            ],
-            "erosion": [
-              -0.87,
-              -0.68
-            ],
-            "temperature": [
-              -0.75,
-              -0.25
-            ],
-            "humidity": [
-              0.4,
               1
             ],
             "depth": [
@@ -5131,7 +5041,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_plains"
+          "biome": "fable:arctic_tundra"
         },
         {
           "parameters": {
@@ -5761,7 +5671,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_taiga"
+          "biome": "fable:white_forest"
         },
         {
           "parameters": {
@@ -5851,7 +5761,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_plains"
+          "biome": "fable:arctic_tundra"
         },
         {
           "parameters": {
@@ -5881,7 +5791,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_taiga"
+          "biome": "fable:white_forest"
         },
         {
           "parameters": {
@@ -5963,36 +5873,6 @@
             ],
             "humidity": [
               0,
-              0.4
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.22,
-              1
-            ],
-            "continentalness": [
-              0.6,
-              1
-            ],
-            "erosion": [
-              -0.55,
-              -0.05
-            ],
-            "temperature": [
-              -0.75,
-              -0.25
-            ],
-            "humidity": [
-              0.4,
               1
             ],
             "depth": [
@@ -7051,7 +6931,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_plains"
+          "biome": "fable:arctic_tundra"
         },
         {
           "parameters": {
@@ -7133,36 +7013,6 @@
             ],
             "humidity": [
               0,
-              0.4
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.22,
-              0.38
-            ],
-            "continentalness": [
-              0.1,
-              0.6
-            ],
-            "erosion": [
-              -0.68,
-              -0.05
-            ],
-            "temperature": [
-              -0.75,
-              -0.25
-            ],
-            "humidity": [
-              0.4,
               1
             ],
             "depth": [
@@ -7561,7 +7411,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_plains"
+          "biome": "fable:arctic_tundra"
         },
         {
           "parameters": {
@@ -7591,7 +7441,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_taiga"
+          "biome": "fable:white_forest"
         },
         {
           "parameters": {
@@ -8131,7 +7981,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_plains"
+          "biome": "fable:arctic_tundra"
         },
         {
           "parameters": {
@@ -8161,7 +8011,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_taiga"
+          "biome": "fable:white_forest"
         },
         {
           "parameters": {
@@ -8243,36 +8093,6 @@
             ],
             "humidity": [
               0,
-              0.4
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.38,
-              1
-            ],
-            "continentalness": [
-              -0.1,
-              0.1
-            ],
-            "erosion": [
-              -0.68,
-              -0.05
-            ],
-            "temperature": [
-              -0.75,
-              -0.25
-            ],
-            "humidity": [
-              0.4,
               1
             ],
             "depth": [
@@ -8671,7 +8491,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_plains"
+          "biome": "fable:arctic_tundra"
         },
         {
           "parameters": {
@@ -9481,7 +9301,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_plains"
+          "biome": "fable:arctic_tundra"
         },
         {
           "parameters": {
@@ -9511,7 +9331,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:snowy_taiga"
+          "biome": "fable:white_forest"
         },
         {
           "parameters": {
@@ -9593,36 +9413,6 @@
             ],
             "humidity": [
               0,
-              0.4
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.38,
-              1
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.55,
-              -0.05
-            ],
-            "temperature": [
-              -0.75,
-              -0.25
-            ],
-            "humidity": [
-              0.4,
               1
             ],
             "depth": [

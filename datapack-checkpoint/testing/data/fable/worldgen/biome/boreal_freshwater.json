@@ -7,8 +7,8 @@
     "sky_color": 6269917,
     "water_color": 3039361,
     "water_fog_color": 331305,
-    "grass_color": 8106828,
-    "foliage_color": 8106828,
+    "grass_color": 7122294,
+    "foliage_color": 7122294,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -70,8 +70,8 @@
     [
       "minecraft:glow_lichen",
       "fable:grass_basic",
-      "fable:scattered_oak_bushes",
-      "fable:oak_trees",
+      "fable:scattered_spruce_bushes",
+      "fable:rare_pines",
       "minecraft:seagrass_river"
     ],
     [

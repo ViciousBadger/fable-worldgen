@@ -17,7 +17,9 @@
     }
   },
   "features": [
-    [],
+    [
+      "fable:cliff/basalt"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],

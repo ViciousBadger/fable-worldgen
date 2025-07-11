@@ -317,7 +317,7 @@
         [
           "biome_mclutqfr",
           "biome_mclus3of",
-          "biome_mclvr0zd",
+          "biome_mcxbjpdb",
           "biome_mcxbjpdb"
         ],
         [
@@ -405,10 +405,10 @@
           "biome_mcjj8pne"
         ],
         [
-          "biome_mcjm8a0i",
-          "biome_mcjm8a0i",
-          "biome_mcjm8a0i",
-          "biome_mcjm8a0i"
+          "biome_mcz1ltsj",
+          "biome_mcz1ltsj",
+          "biome_mcz1ltsj",
+          "biome_mcz1ltsj"
         ]
       ]
     },
@@ -754,7 +754,12 @@
     {
       "key": "biome_mcjm8a0i",
       "name": "fable:equatorial_mountain",
-      "color": "#241f31"
+      "color": "#936e38"
+    },
+    {
+      "key": "biome_mcz1ltsj",
+      "name": "fable:equatorial_slopes",
+      "color": "#63471d"
     },
     {
       "key": "biome_mcjm8gmy",
@@ -817,24 +822,24 @@
       "color": "#62a0ea"
     },
     {
-      "key": "biome_mclvemng",
-      "name": "fable:frozen_wastes",
-      "color": "#ffc1be"
-    },
-    {
-      "key": "biome_mclvfdyc",
-      "name": "fable:snowy_plains",
-      "color": "#e7fff0"
-    },
-    {
-      "key": "biome_mclvflno",
-      "name": "fable:snowy_taiga",
-      "color": "#96ffbe"
-    },
-    {
       "key": "biome_mclvh187",
       "name": "fable:ice_cliffs",
       "color": "#7be7ff"
+    },
+    {
+      "key": "biome_mclvemng",
+      "name": "fable:frozen_wastes",
+      "color": "#d3ad9b"
+    },
+    {
+      "key": "biome_mclvfdyc",
+      "name": "fable:arctic_tundra",
+      "color": "#d1cb94"
+    },
+    {
+      "key": "biome_mclvflno",
+      "name": "fable:white_forest",
+      "color": "#96ffbe"
     },
     {
       "key": "biome_mcj3p6hk",
