@@ -602,6 +602,50 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
+                        "fable:rocky_hills"
+                      ]
+                    },
+                    "then_run": {
+                      "type": "minecraft:sequence",
+                      "sequence": [
+                        {
+                          "type": "minecraft:condition",
+                          "if_true": {
+                            "type": "minecraft:noise_threshold",
+                            "max_threshold": 2.0,
+                            "min_threshold": 0.7,
+                            "noise": "minecraft:surface"
+                          },
+                          "then_run": {
+                            "type": "minecraft:block",
+                            "result_state": {
+                              "Name": "minecraft:diorite"
+                            }
+                          }
+                        },
+                        {
+                          "type": "minecraft:condition",
+                          "if_true": {
+                            "type": "minecraft:noise_threshold",
+                            "max_threshold": 0.7,
+                            "min_threshold": -0.2,
+                            "noise": "minecraft:surface"
+                          },
+                          "then_run": {
+                            "type": "minecraft:block",
+                            "result_state": {
+                              "Name": "minecraft:diorite"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:biome",
+                      "biome_is": [
                         "fable:sand_beach",
                         "fable:palm_beach",
                         "fable:cactus_desert",

@@ -3,14 +3,14 @@
   "config": {
     "features": [
       {
-        "chance": 0.10,
+        "chance": 0.20,
         "feature": {
           "feature": "fable:tree/spruce_tree_pale",
           "placement": []
         }
       },
       {
-        "chance": 0.35,
+        "chance": 0.60,
         "feature": {
           "feature": "fable:tree/spruce_tree_small",
           "placement": []

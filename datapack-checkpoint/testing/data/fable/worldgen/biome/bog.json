@@ -7,8 +7,8 @@
     "sky_color": 6269917,
     "water_color": 6388580,
     "water_fog_color": 2302743,
-    "grass_color": 1466928,
-    "foliage_color": 1466928,
+    "grass_color": 3959628,
+    "foliage_color": 3959628,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -28,7 +28,9 @@
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
-    [],
+    [
+      "fable:delta_lakes"
+    ],
     [],
     [
       "minecraft:ore_dirt",
@@ -66,7 +68,11 @@
       "minecraft:spring_water"
     ],
     [
-      "minecraft:glow_lichen"
+      "minecraft:glow_lichen",
+      "fable:grass_basic",
+      "fable:grass_tall_spots",
+      "fable:scattered_oak_bushes",
+      "fable:flowers/swamp"
     ],
     [
       "minecraft:freeze_top_layer"

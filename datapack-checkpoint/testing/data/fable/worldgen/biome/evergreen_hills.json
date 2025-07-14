@@ -1,14 +1,14 @@
 {
   "has_precipitation": true,
-  "temperature": 0.2,
+  "temperature": 0.25,
   "downfall": 0.5,
   "effects": {
     "fog_color": 10076657,
     "sky_color": 6269917,
     "water_color": 3039361,
     "water_fog_color": 331305,
-    "grass_color": 3445850,
-    "foliage_color": 3445850,
+    "grass_color": 10205347,
+    "foliage_color": 14662977,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
