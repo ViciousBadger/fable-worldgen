@@ -1,6 +1,6 @@
 {
   "has_precipitation": true,
-  "temperature": 0.5,
+  "temperature": -0.5,
   "downfall": 0.5,
   "effects": {
     "fog_color": 10076657,
@@ -17,7 +17,9 @@
     }
   },
   "features": [
-    [],
+    [
+      "fable:cliff/packed_ice"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
@@ -66,7 +68,8 @@
       "minecraft:spring_water"
     ],
     [
-      "minecraft:glow_lichen"
+      "minecraft:glow_lichen",
+      "fable:grass_sparse"
     ],
     [
       "minecraft:freeze_top_layer"
