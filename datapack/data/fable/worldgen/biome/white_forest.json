@@ -7,8 +7,8 @@
     "sky_color": 6269917,
     "water_color": 1916527,
     "water_fog_color": 331305,
-    "grass_color": 10726715,
-    "foliage_color": 10726715,
+    "grass_color": 16383998,
+    "foliage_color": 16383998,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -17,7 +17,9 @@
     }
   },
   "features": [
-    [],
+    [
+      "fable:cliff/tuff"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
@@ -67,7 +69,10 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:trees_taiga"
+      "fable:grass_sparse",
+      "fable:scattered_spruce_bushes",
+      "fable:rare_pines",
+      "fable:spruce_trees_hills"
     ],
     [
       "minecraft:freeze_top_layer"

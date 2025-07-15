@@ -1,5 +1,5 @@
 {
-  "feature": "fable:tree_group/spruce_trees_sparse",
+  "feature": "fable:tree_group/spruce_trees_hills",
   "placement": [
     {
       "type": "minecraft:count",
@@ -7,11 +7,11 @@
         "type": "minecraft:weighted_list",
         "distribution": [
           {
-            "data": 6,
+            "data": 3,
             "weight": 9
           },
           {
-            "data": 3,
+            "data": 1,
             "weight": 2
           },
           {
@@ -20,6 +20,12 @@
           }
         ]
       }
+    },
+    {
+      "type": "minecraft:noise_threshold_count",
+      "above_noise": 4,
+      "below_noise": 1,
+      "noise_level": 0.4
     },
     {
       "type": "minecraft:in_square"

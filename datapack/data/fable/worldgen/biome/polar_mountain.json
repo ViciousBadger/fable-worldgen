@@ -17,7 +17,9 @@
     }
   },
   "features": [
-    [],
+    [
+      "fable:cliff/tuff"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],

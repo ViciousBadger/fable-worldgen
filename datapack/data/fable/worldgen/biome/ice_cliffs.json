@@ -31,8 +31,7 @@
       "minecraft:monster_room_deep"
     ],
     [
-      "minecraft:ice_spike",
-      "minecraft:ice_patch"
+      "fable:ice_spike"
     ],
     [],
     [
