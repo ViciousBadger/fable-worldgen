@@ -43,12 +43,12 @@
                             {
                               "derivative": 0.0,
                               "location": -1.0,
-                              "value": 0.55
+                              "value": 1.55
                             },
                             {
                               "derivative": 0.0,
                               "location": -0.3,
-                              "value": 1.25
+                              "value": 3.25
                             },
                             {
                               "derivative": 0.0,
@@ -76,7 +76,7 @@
                             },
                             {
                               "derivative": 0.0,
-                              "location": 0.5,
+                              "location": 0.7,
                               "value": {
                                 "coordinate": "fable:humidity",
                                 "points": [
@@ -152,7 +152,7 @@
                             },
                             {
                               "derivative": 0.0,
-                              "location": 0.2,
+                              "location": 0.3,
                               "value": {
                                 "coordinate": "fable:humidity",
                                 "points": [
@@ -190,7 +190,7 @@
                             },
                             {
                               "derivative": 0.0,
-                              "location": 0.2,
+                              "location": 0.3,
                               "value": {
                                 "coordinate": "fable:humidity",
                                 "points": [
