@@ -153,8 +153,8 @@
           "biome_mcj45mcx"
         ],
         [
-          "biome_mcj45mcx",
-          "biome_mcj45mcx",
+          "biome_mcjlrq1x",
+          "biome_mcjm19yq",
           "biome_mcjm19yq",
           "biome_mcjm19yq"
         ]
@@ -191,8 +191,8 @@
         [
           "biome_mcjlz6je",
           "biome_mcjlz6je",
-          "biome_mcj45mcx",
-          "biome_mcj45mcx"
+          "biome_mcjm19yq",
+          "biome_mcjm19yq"
         ]
       ]
     },
@@ -298,9 +298,9 @@
         ],
         [
           "biome_mcjlrq1x",
-          "biome_mcjlrxuh",
           "biome_mcjlr4zk",
-          "biome_mcjlt84p"
+          "biome_mcjlt84p",
+          "biome_md7bjfyf"
         ]
       ]
     },
@@ -310,9 +310,9 @@
       "array": [
         [
           "biome_mclvh187",
-          "biome_mclvh187",
           "biome_mclvfdyc",
-          "biome_mclvflno"
+          "biome_mclvfdyc",
+          "biome_mclvh187"
         ],
         [
           "biome_mclutqfr",
@@ -844,12 +844,12 @@
     {
       "key": "biome_mcj3p6hk",
       "name": "fable:boreal_tundra",
-      "color": "#63b099"
+      "color": "#8eb36d"
     },
     {
       "key": "biome_mcluf7bw",
       "name": "fable:boreal_plains",
-      "color": "#21b275"
+      "color": "#63b099"
     },
     {
       "key": "biome_mclug5bj",
@@ -934,12 +934,12 @@
     {
       "key": "biome_mcjiprdc",
       "name": "fable:sclerophyll_bushlands",
-      "color": "#d9d338"
+      "color": "#bab544"
     },
     {
       "key": "biome_mcjj6noe",
       "name": "fable:sclerophyll_forest",
-      "color": "#bab544"
+      "color": "#a1b71b"
     },
     {
       "key": "biome_mcxbgn0k",
@@ -959,7 +959,7 @@
     {
       "key": "biome_mcjjcqs3",
       "name": "fable:rainforest",
-      "color": "#47e021"
+      "color": "#7adb19"
     },
     {
       "key": "biome_mcjlrq1x",
@@ -992,6 +992,11 @@
       "color": "#1bc200"
     },
     {
+      "key": "biome_md7bjfyf",
+      "name": "fable:deep_jungle",
+      "color": "#159700"
+    },
+    {
       "key": "biome_mck9l8cz",
       "name": "fable:barrens",
       "color": "#ebd142"
@@ -1008,7 +1013,7 @@
     },
     {
       "key": "biome_mcka9jba",
-      "name": "fable:bamboo_jungle",
+      "name": "fable:cliff_jungle",
       "color": "#66e152"
     }
   ],
