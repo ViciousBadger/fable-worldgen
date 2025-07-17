@@ -17,7 +17,9 @@
     }
   },
   "features": [
-    [],
+    [
+      "fable:cliff/red_sandstone"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],

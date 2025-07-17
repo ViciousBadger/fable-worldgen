@@ -195,14 +195,14 @@
     "b": 190
   },
   "fable:boreal_tundra": {
+    "r": 142,
+    "g": 179,
+    "b": 109
+  },
+  "fable:boreal_plains": {
     "r": 99,
     "g": 176,
     "b": 153
-  },
-  "fable:boreal_plains": {
-    "r": 33,
-    "g": 178,
-    "b": 117
   },
   "fable:evergreen_forest": {
     "r": 32,
@@ -285,14 +285,14 @@
     "b": 58
   },
   "fable:sclerophyll_bushlands": {
-    "r": 217,
-    "g": 211,
-    "b": 56
-  },
-  "fable:sclerophyll_forest": {
     "r": 186,
     "g": 181,
     "b": 68
+  },
+  "fable:sclerophyll_forest": {
+    "r": 161,
+    "g": 183,
+    "b": 27
   },
   "fable:tabernas_desert": {
     "r": 196,
@@ -310,9 +310,9 @@
     "b": 221
   },
   "fable:rainforest": {
-    "r": 71,
-    "g": 224,
-    "b": 33
+    "r": 122,
+    "g": 219,
+    "b": 25
   },
   "fable:dune_desert": {
     "r": 252,
@@ -344,6 +344,11 @@
     "g": 194,
     "b": 0
   },
+  "fable:deep_jungle": {
+    "r": 21,
+    "g": 151,
+    "b": 0
+  },
   "fable:barrens": {
     "r": 235,
     "g": 209,
@@ -359,7 +364,7 @@
     "g": 171,
     "b": 76
   },
-  "fable:bamboo_jungle": {
+  "fable:cliff_jungle": {
     "r": 102,
     "g": 225,
     "b": 82

@@ -17,7 +17,9 @@
     }
   },
   "features": [
-    [],
+    [
+      "fable:cliff/terracotta"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
