@@ -11,14 +11,30 @@
           "type": "minecraft:quarter_negative",
           "argument": {
             "type": "minecraft:mul",
-            "argument1": "fable:depth",
+            "argument1": {
+              "type": "minecraft:add",
+              "argument1": "fable:depth",
+              "argument2": {
+                "type": "minecraft:mul",
+                "argument1": "fable:jaggedness",
+                "argument2": {
+                  "type": "minecraft:half_negative",
+                  "argument": {
+                    "type": "minecraft:noise",
+                    "noise": "minecraft:jagged",
+                    "xz_scale": 750.0,
+                    "y_scale": 0.0
+                  }
+                }
+              }
+            },
             "argument2": "fable:factor"
           }
         }
       },
       "shift_x": {
         "type": "minecraft:mul",
-        "argument1": 16,
+        "argument1": "fable:cheese_grate",
         "argument2": {
           "type": "minecraft:noise",
           "noise": "fable:cheese_shift_x",
@@ -28,7 +44,7 @@
       },
       "shift_z": {
         "type": "minecraft:mul",
-        "argument1": 16,
+        "argument1": "fable:cheese_grate",
         "argument2": {
           "type": "minecraft:noise",
           "noise": "fable:cheese_shift_z",

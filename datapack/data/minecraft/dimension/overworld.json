@@ -1807,7 +1807,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.05
+              -0.33
             ],
             "continentalness": [
               0.1,
@@ -1867,7 +1867,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.05
+              -0.33
             ],
             "continentalness": [
               0.1,
@@ -1897,7 +1897,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.05
+              -0.33
             ],
             "continentalness": [
               0.1,
@@ -1927,7 +1927,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.05
+              -0.33
             ],
             "continentalness": [
               0.1,
@@ -1957,7 +1957,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.05
+              -0.33
             ],
             "continentalness": [
               0.1,
@@ -1987,7 +1987,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.05
+              -0.33
             ],
             "continentalness": [
               0.1,
@@ -2017,7 +2017,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.05
+              -0.33
             ],
             "continentalness": [
               0.1,
@@ -2047,7 +2047,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.05
+              -0.33
             ],
             "continentalness": [
               0.1,
@@ -2077,7 +2077,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.05
+              -0.33
             ],
             "continentalness": [
               0.1,
@@ -2107,7 +2107,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.05
+              -0.33
             ],
             "continentalness": [
               0.1,
@@ -2137,7 +2137,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.05
+              -0.33
             ],
             "continentalness": [
               0.1,
@@ -2197,7 +2197,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.05
+              -0.33
             ],
             "continentalness": [
               0.1,
@@ -2227,7 +2227,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.05
+              -0.33
             ],
             "continentalness": [
               0.1,
@@ -2257,7 +2257,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.05
+              -0.33
             ],
             "continentalness": [
               0.1,
@@ -2287,7 +2287,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.05
+              -0.33
             ],
             "continentalness": [
               0.1,
@@ -2317,7 +2317,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.05
+              -0.33
             ],
             "continentalness": [
               0.1,
@@ -3127,7 +3127,7 @@
           "parameters": {
             "weirdness": [
               -0.33,
-              0.55
+              -0.05
             ],
             "continentalness": [
               0.1,
@@ -3157,7 +3157,7 @@
           "parameters": {
             "weirdness": [
               -0.33,
-              0.33
+              -0.05
             ],
             "continentalness": [
               0.1,
@@ -3187,7 +3187,7 @@
           "parameters": {
             "weirdness": [
               -0.33,
-              0.33
+              -0.05
             ],
             "continentalness": [
               0.1,
@@ -3217,7 +3217,7 @@
           "parameters": {
             "weirdness": [
               -0.33,
-              0.55
+              -0.05
             ],
             "continentalness": [
               0.1,
@@ -3247,7 +3247,7 @@
           "parameters": {
             "weirdness": [
               -0.33,
-              0.33
+              -0.05
             ],
             "continentalness": [
               0.1,
@@ -3285,7 +3285,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               -1,
@@ -3345,7 +3345,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               -1,
@@ -3375,7 +3375,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               -0.75,
@@ -3405,7 +3405,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               -0.75,
@@ -3435,7 +3435,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               -0.75,
@@ -3465,7 +3465,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               -0.25,
@@ -3495,7 +3495,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               -0.25,
@@ -3525,7 +3525,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               -0.25,
@@ -3555,7 +3555,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               -0.25,
@@ -3585,7 +3585,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               0.25,
@@ -3615,7 +3615,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               0.25,
@@ -3675,7 +3675,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               0.25,
@@ -3705,7 +3705,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               0.75,
@@ -3735,7 +3735,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               0.75,
@@ -3765,7 +3765,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               0.75,
@@ -3795,7 +3795,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               0.75,
@@ -3824,7 +3824,7 @@
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -3854,7 +3854,7 @@
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -3884,7 +3884,7 @@
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -3914,7 +3914,7 @@
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -3944,7 +3944,7 @@
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -3974,7 +3974,7 @@
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -4004,7 +4004,7 @@
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -4034,7 +4034,7 @@
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -4064,7 +4064,7 @@
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -4094,7 +4094,7 @@
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -4124,7 +4124,7 @@
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -4154,7 +4154,7 @@
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -4184,7 +4184,7 @@
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -4214,7 +4214,37 @@
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
+              0.5
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              -1,
+              -0.5
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:dune_desert"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.33,
+              -0.05
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -4244,7 +4274,7 @@
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -4274,7 +4304,7 @@
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -5016,6 +5046,546 @@
         {
           "parameters": {
             "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.68
+            ],
+            "temperature": [
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              -1,
+              -0.5
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:ice_cliffs"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.3
+            ],
+            "temperature": [
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              -0.5,
+              0.5
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:arctic_tundra"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.68
+            ],
+            "temperature": [
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              0.5,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:ice_cliffs"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.68
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              -1,
+              -0.5
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:rocky_hills"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.68
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              -0.5,
+              0
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:moss_field"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.68
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              0,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:evergreen_hills"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.68
+            ],
+            "temperature": [
+              -0.25,
+              0.25
+            ],
+            "humidity": [
+              -1,
+              -0.5
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:gravel_highlands"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.68
+            ],
+            "temperature": [
+              -0.25,
+              0.25
+            ],
+            "humidity": [
+              -0.5,
+              0
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:grass_highlands"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.68
+            ],
+            "temperature": [
+              -0.25,
+              0.25
+            ],
+            "humidity": [
+              0,
+              0.5
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:montane_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.68
+            ],
+            "temperature": [
+              -0.25,
+              0.25
+            ],
+            "humidity": [
+              0.5,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:pine_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.68
+            ],
+            "temperature": [
+              0.25,
+              0.75
+            ],
+            "humidity": [
+              -1,
+              -0.5
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:tabernas_desert"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.68
+            ],
+            "temperature": [
+              0.25,
+              0.75
+            ],
+            "humidity": [
+              -0.5,
+              0
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:shrub_highlands"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.3
+            ],
+            "temperature": [
+              0.25,
+              0.75
+            ],
+            "humidity": [
+              0,
+              0.5
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:sclerophyll_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.68
+            ],
+            "temperature": [
+              0.25,
+              0.75
+            ],
+            "humidity": [
+              0.5,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:sakura_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.68
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              -1,
+              -0.5
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:badlands"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.68
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              -0.5,
+              0
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:barrens"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.68
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0,
+              0.5
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:ethiopian_highlands"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.05
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.68
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.5,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:cliff_jungle"
+        },
+        {
+          "parameters": {
+            "weirdness": [
               0.05,
               0.33
             ],
@@ -5497,6 +6067,156 @@
           "parameters": {
             "weirdness": [
               0.05,
+              0.55
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.68
+            ],
+            "temperature": [
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:polar_mountain"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.33
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.68
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:boreal_mountain"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.33
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.68
+            ],
+            "temperature": [
+              -0.25,
+              0.25
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:alpine_mountain"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.55
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.68
+            ],
+            "temperature": [
+              0.25,
+              0.75
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:mediterranean_mountain"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.33
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.68
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:equatorial_mountain"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
               0.33
             ],
             "continentalness": [
@@ -5505,7 +6225,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               -1,
@@ -5565,7 +6285,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               -1,
@@ -5595,7 +6315,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               -0.75,
@@ -5625,7 +6345,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               -0.75,
@@ -5655,7 +6375,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               -0.75,
@@ -5685,7 +6405,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               -0.25,
@@ -5715,7 +6435,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               -0.25,
@@ -5745,7 +6465,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               -0.25,
@@ -5775,7 +6495,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               -0.25,
@@ -5805,7 +6525,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               0.25,
@@ -5835,7 +6555,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               0.25,
@@ -5895,7 +6615,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               0.25,
@@ -5925,7 +6645,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               0.75,
@@ -5955,7 +6675,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               0.75,
@@ -5985,7 +6705,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               0.75,
@@ -6015,7 +6735,7 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              -0.3
             ],
             "temperature": [
               0.75,
@@ -6037,14 +6757,14 @@
           "parameters": {
             "weirdness": [
               0.05,
-              1
+              0.33
             ],
             "continentalness": [
               0.1,
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -6067,14 +6787,14 @@
           "parameters": {
             "weirdness": [
               0.05,
-              1
+              0.33
             ],
             "continentalness": [
               0.1,
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -6097,14 +6817,14 @@
           "parameters": {
             "weirdness": [
               0.05,
-              1
+              0.33
             ],
             "continentalness": [
               0.1,
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -6127,14 +6847,14 @@
           "parameters": {
             "weirdness": [
               0.05,
-              1
+              0.33
             ],
             "continentalness": [
               0.1,
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -6157,14 +6877,14 @@
           "parameters": {
             "weirdness": [
               0.05,
-              1
+              0.33
             ],
             "continentalness": [
               0.1,
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -6187,14 +6907,14 @@
           "parameters": {
             "weirdness": [
               0.05,
-              1
+              0.33
             ],
             "continentalness": [
               0.1,
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -6217,14 +6937,14 @@
           "parameters": {
             "weirdness": [
               0.05,
-              1
+              0.33
             ],
             "continentalness": [
               0.1,
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -6247,14 +6967,14 @@
           "parameters": {
             "weirdness": [
               0.05,
-              1
+              0.33
             ],
             "continentalness": [
               0.1,
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -6277,14 +6997,14 @@
           "parameters": {
             "weirdness": [
               0.05,
-              1
+              0.33
             ],
             "continentalness": [
               0.1,
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -6307,14 +7027,14 @@
           "parameters": {
             "weirdness": [
               0.05,
-              1
+              0.33
             ],
             "continentalness": [
               0.1,
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -6337,14 +7057,14 @@
           "parameters": {
             "weirdness": [
               0.05,
-              1
+              0.33
             ],
             "continentalness": [
               0.1,
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -6367,14 +7087,14 @@
           "parameters": {
             "weirdness": [
               0.05,
-              1
+              0.33
             ],
             "continentalness": [
               0.1,
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -6397,14 +7117,14 @@
           "parameters": {
             "weirdness": [
               0.05,
-              1
+              0.33
             ],
             "continentalness": [
               0.1,
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -6427,14 +7147,44 @@
           "parameters": {
             "weirdness": [
               0.05,
-              1
+              0.33
             ],
             "continentalness": [
               0.1,
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
+              0.5
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              -1,
+              -0.5
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:dune_desert"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.33
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -6457,14 +7207,14 @@
           "parameters": {
             "weirdness": [
               0.05,
-              1
+              0.33
             ],
             "continentalness": [
               0.1,
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [
@@ -6487,14 +7237,14 @@
           "parameters": {
             "weirdness": [
               0.05,
-              1
+              0.33
             ],
             "continentalness": [
               0.1,
               1
             ],
             "erosion": [
-              -0.05,
+              -0.3,
               0.5
             ],
             "temperature": [

@@ -5,26 +5,7 @@
     "argument1": {
       "type": "minecraft:min",
       "argument1": "fable:rivers",
-      "argument2": {
-        "type": "minecraft:add",
-        "argument1": 1.0,
-        "argument2": {
-          "type": "minecraft:mul",
-          "argument1": -1.0,
-          "argument2": {
-            "type": "fable:circular",
-            "argument": {
-              "type": "minecraft:abs",
-              "argument": {
-                "type": "minecraft:noise",
-                "noise": "fable:lakes",
-                "xz_scale": 0.25,
-                "y_scale": 0.0
-              }
-            }
-          }
-        }
-      }
+      "argument2": "fable:ridge/lakes"
     },
     "argument2": "fable:peaks"
   }
