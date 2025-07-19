@@ -4,11 +4,11 @@
     "type": "minecraft:cache_2d",
     "argument": {
       "type": "minecraft:add",
-      "argument1": -1.3333333333,
+      "argument1": -0.5037500262260437,
       "argument2": {
         "type": "minecraft:spline",
         "spline": {
-          "coordinate": "fable:ridges_folded",
+          "coordinate": "fable:erosion",
           "points": [
             {
               "derivative": 0.0,
@@ -24,284 +24,214 @@
                   {
                     "derivative": 0.0,
                     "location": -0.1,
-                    "value": 0.40
-                  }
-                ]
-              }
-            },
-            {
-              "derivative": 0.0,
-              "location": -0.64,
-              "value": {
-                "coordinate": "fable:continents",
-                "points": [
-                  {
-                    "derivative": 0.0,
-                    "location": -1.0,
-                    "value": -0.36
+                    "value": -0.12
                   },
                   {
                     "derivative": 0.0,
-                    "location": -0.1,
-                    "value": 0.44
-                  }
-                ]
-              }
-            },
-            {
-              "derivative": 0.0,
-              "location": -0.28,
-              "value": {
-                "coordinate": "fable:continents",
-                "points": [
-                  {
-                    "derivative": 0.0,
-                    "location": -1.0,
-                    "value": -0.36
-                  },
-                  {
-                    "derivative": 0.0,
-                    "location": -0.1,
-                    "value": 0.51
-                  }
-                ]
-              }
-            },
-            {
-              "derivative": 0.0,
-              "location": 0.0,
-              "value": {
-                "coordinate": "fable:erosion",
-                "points": [
-                  {
-                    "derivative": 0.0,
-                    "location": -1.0,
+                    "location": 0.3,
                     "value": {
-                      "coordinate": "fable:continents",
+                      "coordinate": "fable:ridges_folded",
                       "points": [
                         {
-                          "derivative": 0.0,
+                          "derivative": 0.5,
                           "location": -1.0,
-                          "value": -0.52
+                          "value": 0.66
                         },
                         {
-                          "derivative": 0.0,
-                          "location": -0.1,
-                          "value": 0.22
+                          "derivative": 0.1,
+                          "location": -0.3,
+                          "value": 0.95
                         },
                         {
-                          "derivative": 0.0,
+                          "derivative": 0.45,
+                          "location": 0.4,
+                          "value": 1.24
+                        },
+                        {
+                          "derivative": 0.07,
                           "location": 1.0,
-                          "value": 2.45
+                          "value": 1.64
                         }
                       ]
                     }
+                  }
+                ]
+              }
+            },
+            {
+              "derivative": 0.0,
+              "location": -0.75,
+              "value": {
+                "coordinate": "fable:continents",
+                "points": [
+                  {
+                    "derivative": 0.0,
+                    "location": -1.0,
+                    "value": -0.36
                   },
                   {
                     "derivative": 0.0,
-                    "location": -0.45,
-                    "value": {
-                      "coordinate": "fable:continents",
-                      "points": [
-                        {
-                          "derivative": 0.0,
-                          "location": -1.0,
-                          "value": -0.36
-                        },
-                        {
-                          "derivative": 0.0,
-                          "location": -0.1,
-                          "value": 0.22
-                        },
-                        {
-                          "derivative": 0.0,
-                          "location": 0.3,
-                          "value": {
-                            "coordinate": "fable:humidity",
-                            "points": [
-                              {
-                                "derivative": 0.0,
-                                "location": -1.0,
-                                "value": 0.84
-                              },
-                              {
-                                "derivative": 0.0,
-                                "location": 0.0,
-                                "value": 1.14
-                              },
-                              {
-                                "derivative": 0.0,
-                                "location": 1.0,
-                                "value": 0.84
-                              }
-                            ]
-                          }
-                        }
-                      ]
-                    }
+                    "location": -0.1,
+                    "value": -0.12
                   },
                   {
                     "derivative": 0.0,
-                    "location": -0.2,
+                    "location": 0.3,
                     "value": {
-                      "coordinate": "fable:continents",
+                      "coordinate": "fable:ridges_folded",
                       "points": [
                         {
-                          "derivative": 0.0,
+                          "derivative": 0.5,
                           "location": -1.0,
-                          "value": -0.36
+                          "value": 0.44
                         },
                         {
-                          "derivative": 0.0,
-                          "location": -0.1,
-                          "value": 0.22
+                          "derivative": 0.1,
+                          "location": -0.3,
+                          "value": 0.65
                         },
                         {
-                          "derivative": 0.0,
-                          "location": 0.3,
-                          "value": {
-                            "coordinate": "fable:humidity",
-                            "points": [
-                              {
-                                "derivative": 0.0,
-                                "location": -1.0,
-                                "value": 0.84
-                              },
-                              {
-                                "derivative": 0.0,
-                                "location": 0.0,
-                                "value": 1.14
-                              },
-                              {
-                                "derivative": 0.0,
-                                "location": 1.0,
-                                "value": 0.84
-                              }
-                            ]
-                          }
+                          "derivative": 0.45,
+                          "location": 0.4,
+                          "value": 1.04
+                        },
+                        {
+                          "derivative": 0.07,
+                          "location": 1.0,
+                          "value": 1.44
                         }
                       ]
                     }
+                  }
+                ]
+              }
+            },
+            {
+              "derivative": 0.0,
+              "location": -0.25,
+              "value": {
+                "coordinate": "fable:continents",
+                "points": [
+                  {
+                    "derivative": 0.0,
+                    "location": -1.0,
+                    "value": -0.36
                   },
                   {
                     "derivative": 0.0,
-                    "location": 0.05,
-                    "value": {
-                      "coordinate": "fable:continents",
-                      "points": [
-                        {
-                          "derivative": 0.0,
-                          "location": -1.0,
-                          "value": -0.36
-                        },
-                        {
-                          "derivative": 0.0,
-                          "location": -0.1,
-                          "value": 0.46
-                        },
-                        {
-                          "derivative": 0.0,
-                          "location": 0.1,
-                          "value": 0.51
-                        },
-                        {
-                          "derivative": 0.0,
-                          "location": 0.6,
-                          "value": {
-                            "coordinate": "fable:humidity",
-                            "points": [
-                              {
-                                "derivative": 0.0,
-                                "location": -1.0,
-                                "value": 0.60
-                              },
-                              {
-                                "derivative": 0.0,
-                                "location": 0.0,
-                                "value": 0.75
-                              },
-                              {
-                                "derivative": 0.0,
-                                "location": 1.0,
-                                "value": 0.60
-                              }
-                            ]
-                          }
-                        }
-                      ]
-                    }
+                    "location": -0.1,
+                    "value": -0.12
                   },
                   {
                     "derivative": 0.0,
-                    "location": 0.25,
+                    "location": 0.1,
                     "value": {
-                      "coordinate": "fable:continents",
+                      "coordinate": "fable:ridges_folded",
                       "points": [
                         {
-                          "derivative": 0.0,
+                          "derivative": 0.5,
                           "location": -1.0,
-                          "value": -0.36
+                          "value": -0.10
                         },
                         {
-                          "derivative": 0.0,
-                          "location": -0.1,
-                          "value": 0.46
+                          "derivative": 0.1,
+                          "location": -0.4,
+                          "value": -0.01
                         },
                         {
-                          "derivative": 0.0,
-                          "location": 0.1,
-                          "value": 0.51
+                          "derivative": 0.1,
+                          "location": 0.0,
+                          "value": 0.23
                         },
                         {
-                          "derivative": 0.0,
-                          "location": 0.6,
-                          "value": {
-                            "coordinate": "fable:humidity",
-                            "points": [
-                              {
-                                "derivative": 0.0,
-                                "location": -1.0,
-                                "value": 0.60
-                              },
-                              {
-                                "derivative": 0.0,
-                                "location": 0.0,
-                                "value": 0.75
-                              },
-                              {
-                                "derivative": 0.0,
-                                "location": 1.0,
-                                "value": 0.60
-                              }
-                            ]
-                          }
+                          "derivative": 0.94,
+                          "location": 0.4,
+                          "value": 0.34
+                        },
+                        {
+                          "derivative": 0.07,
+                          "location": 1.0,
+                          "value": 0.44
                         }
                       ]
                     }
+                  }
+                ]
+              }
+            },
+            {
+              "derivative": 0.0,
+              "location": 0.25,
+              "value": {
+                "coordinate": "fable:continents",
+                "points": [
+                  {
+                    "derivative": 0.0,
+                    "location": -1.0,
+                    "value": -0.36
                   },
                   {
                     "derivative": 0.0,
-                    "location": 0.5,
+                    "location": -0.1,
+                    "value": -0.12
+                  },
+                  {
+                    "derivative": 0.0,
+                    "location": 0.1,
                     "value": {
-                      "coordinate": "fable:continents",
+                      "coordinate": "fable:ridges_folded",
                       "points": [
                         {
-                          "derivative": 0.0,
+                          "derivative": 0.5,
                           "location": -1.0,
-                          "value": -0.26
+                          "value": -0.10
                         },
                         {
-                          "derivative": 0.0,
-                          "location": -0.1,
-                          "value": 0.48
+                          "derivative": 0.1,
+                          "location": -0.4,
+                          "value": -0.01
                         },
                         {
-                          "derivative": 0.0,
-                          "location": 0.1,
-                          "value": 0.51
+                          "derivative": 0.1,
+                          "location": 0.0,
+                          "value": 0.03
+                        },
+                        {
+                          "derivative": 0.94,
+                          "location": 0.4,
+                          "value": 0.05
+                        },
+                        {
+                          "derivative": 0.07,
+                          "location": 1.0,
+                          "value": 0.06
                         }
                       ]
                     }
+                  }
+                ]
+              }
+            },
+            {
+              "derivative": 0.0,
+              "location": 0.5,
+              "value": {
+                "coordinate": "fable:continents",
+                "points": [
+                  {
+                    "derivative": 0.0,
+                    "location": -1.0,
+                    "value": -0.26
+                  },
+                  {
+                    "derivative": 0.0,
+                    "location": -0.1,
+                    "value": -0.12
+                  },
+                  {
+                    "derivative": 0.0,
+                    "location": 0.0,
+                    "value": 0.0
                   }
                 ]
               }

@@ -4,7 +4,6 @@
     -1,
     -0.1,
     0.1,
-    0.6,
     1
   ],
   "erosions": [
@@ -12,16 +11,21 @@
     -0.87,
     -0.68,
     -0.55,
+    -0.3,
     -0.05,
     0.5,
     1
   ],
   "weirdnesses": [
     -1,
-    -0.38,
-    -0.22,
-    0.22,
-    0.38,
+    -0.77,
+    -0.55,
+    -0.33,
+    -0.05,
+    0.05,
+    0.33,
+    0.55,
+    0.77,
     1
   ],
   "temperatures": [
@@ -50,20 +54,32 @@
     "name": "Biomes",
     "array": [
       [
+        "layout_mcj3zflb",
         "layout_mcj403vf",
         "layout_mcj3zflb",
+        "layout_mdanh69h",
         "layout_mcj3zxj6",
+        "layout_mdanh69h",
         "layout_mcj3zflb",
-        "layout_mcj403vf"
+        "layout_mcj403vf",
+        "layout_mcj3zflb"
       ],
       [
+        "layout_mcj3zflb",
         "layout_mcj403vf",
         "layout_mcj3zflb",
+        "layout_mdanh69h",
         "layout_mcj3zxj6",
+        "layout_mdanh69h",
         "layout_mcj3zflb",
-        "layout_mcj403vf"
+        "layout_mcj403vf",
+        "layout_mcj3zflb"
       ],
       [
+        "layout_mcm9gn3r",
+        "layout_mcm9gn3r",
+        "layout_mcm9gn3r",
+        "layout_mcm9gn3r",
         "layout_mcm9gn3r",
         "layout_mcm9gn3r",
         "layout_mcm9gn3r",
@@ -75,10 +91,10 @@
   "modes": [
     "A",
     "A",
-    "B",
-    "B",
-    "B",
     "A",
+    "A",
+    "B",
+    "B",
     "B",
     "B",
     "B",
@@ -198,7 +214,7 @@
     },
     {
       "key": "layout_mcj49xmu",
-      "name": "Lowland Valley",
+      "name": "Freshwater",
       "array": [
         [
           "biome_mclv36ft",
@@ -460,13 +476,15 @@
           "layout_mcj4nokt",
           "layout_mcj4nokt",
           "layout_mcj4nokt",
+          "layout_mcj4nokt",
           "layout_mcj4nokt"
         ],
         [
           "layout_mcj4cg05",
-          "layout_mcj47e74",
+          "layout_mcj4cg05",
           "layout_mcj477bf",
           "layout_mcj477bf",
+          "layout_mcj49xmu",
           "layout_mcj49xmu",
           "layout_mcj46wgo"
         ],
@@ -476,14 +494,40 @@
           "layout_mcj477bf",
           "layout_mcj477bf",
           "layout_mcj49xmu",
+          "layout_mcj49xmu",
+          "layout_mcj46wgo"
+        ]
+      ]
+    },
+    {
+      "key": "layout_mdanh69h",
+      "name": "Low",
+      "array": [
+        [
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
+          "layout_mcj4nokt"
+        ],
+        [
+          "layout_mcj4cg05",
+          "layout_mcj4cg05",
+          "layout_mcj4odan",
+          "layout_mcj4odan",
+          "layout_mcj4odan",
+          "layout_mcj4o6wj",
           "layout_mcj46wgo"
         ],
         [
-          "layout_mcopvbva",
-          "layout_mcopvbva",
+          "layout_mcj4cg05",
           "layout_mcj4cg05",
           "layout_mcj47e74",
-          "layout_mcj49xmu",
+          "layout_mcj47e74",
+          "layout_mcj47e74",
+          "layout_mcj477bf",
           "layout_mcj46wgo"
         ]
       ]
@@ -498,19 +542,13 @@
           "layout_mcj4nokt",
           "layout_mcj4nokt",
           "layout_mcj4nokt",
+          "layout_mcj4nokt",
           "layout_mcj4nokt"
         ],
         [
           "layout_mcj4cg05",
           "layout_mcj4cg05",
-          "layout_mcj4odan",
-          "layout_mcj4odan",
-          "layout_mcj4o6wj",
-          "layout_mcj46wgo"
-        ],
-        [
-          "layout_mcj4cg05",
-          "layout_mcj4cg05",
+          "layout_mcj47e74",
           "layout_mcj47e74",
           "layout_mcj47e74",
           "layout_mcj477bf",
@@ -520,6 +558,7 @@
           "layout_mcopvbva",
           "layout_mcopvbva",
           "layout_mcj4cg05",
+          "layout_mcj47e74",
           "layout_mcj47e74",
           "layout_mcj477bf",
           "layout_mcj46wgo"
@@ -536,6 +575,7 @@
           "layout_mcj4nokt",
           "layout_mcj4nokt",
           "layout_mcj4nokt",
+          "layout_mcj4nokt",
           "layout_mcj4nokt"
         ],
         [
@@ -543,13 +583,6 @@
           "layout_mcj4cg05",
           "layout_mcj47e74",
           "layout_mcj47e74",
-          "layout_mcj477bf",
-          "layout_mcj46wgo"
-        ],
-        [
-          "layout_mcj4cjfs",
-          "layout_mcj4cjfs",
-          "layout_mcj4cg05",
           "layout_mcj47e74",
           "layout_mcj477bf",
           "layout_mcj46wgo"
@@ -558,6 +591,7 @@
           "layout_mcj4cjfs",
           "layout_mcj4cjfs",
           "layout_mcj4cg05",
+          "layout_mcj47e74",
           "layout_mcj47e74",
           "layout_mcj477bf",
           "layout_mcj46wgo"
@@ -574,13 +608,6 @@
           "unassigned",
           "unassigned",
           "unassigned",
-          "unassigned"
-        ],
-        [
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
           "unassigned",
           "unassigned"
         ],
@@ -590,9 +617,11 @@
           "unassigned",
           "unassigned",
           "unassigned",
+          "unassigned",
           "unassigned"
         ],
         [
+          "unassigned",
           "unassigned",
           "unassigned",
           "unassigned",
@@ -612,13 +641,6 @@
           "minecraft:deep_dark",
           "unassigned",
           "unassigned",
-          "unassigned"
-        ],
-        [
-          "minecraft:deep_dark",
-          "minecraft:deep_dark",
-          "minecraft:deep_dark",
-          "unassigned",
           "unassigned",
           "unassigned"
         ],
@@ -628,12 +650,14 @@
           "minecraft:deep_dark",
           "unassigned",
           "unassigned",
+          "unassigned",
           "unassigned"
         ],
         [
           "minecraft:deep_dark",
           "minecraft:deep_dark",
           "minecraft:deep_dark",
+          "unassigned",
           "unassigned",
           "unassigned",
           "unassigned"

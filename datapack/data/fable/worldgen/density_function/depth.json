@@ -2,10 +2,10 @@
   "type": "minecraft:add",
   "argument1": {
     "type": "minecraft:y_clamped_gradient",
-    "from_value": 2,
-    "from_y": -80,
-    "to_value": -2,
-    "to_y": 400
+    "from_value": 1.5,
+    "from_y": -64,
+    "to_value": -1.5,
+    "to_y": 320
   },
   "argument2": "fable:height"
 }

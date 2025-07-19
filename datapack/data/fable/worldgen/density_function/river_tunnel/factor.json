@@ -11,7 +11,7 @@
             "location": 0.55,
             "derivative": 0.0,
             "value": {
-              "coordinate": "fable:rivers_inner",
+              "coordinate": "fable:rivers",
               "points": [
                 {
                   "location": 0.0,

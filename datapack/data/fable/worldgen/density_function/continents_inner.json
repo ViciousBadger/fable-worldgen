@@ -1,0 +1,140 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:mul",
+        "argument1": 0.85,
+        "argument2": {
+          "type": "minecraft:abs",
+          "argument": {
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:square",
+              "argument": {
+                "type": "minecraft:noise",
+                "noise": "fable:continent/x1",
+                "xz_scale": 0.5,
+                "y_scale": 0.0
+              }
+            },
+            "argument2": {
+              "type": "minecraft:mul",
+              "argument1": -1.0,
+              "argument2": {
+                "type": "minecraft:square",
+                "argument": {
+                  "type": "minecraft:noise",
+                  "noise": "fable:continent/y1",
+                  "xz_scale": 0.5,
+                  "y_scale": 0.0
+                }
+              }
+            }
+          }
+        }
+      },
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": 0.35,
+        "argument2": {
+          "type": "minecraft:abs",
+          "argument": {
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:square",
+              "argument": {
+                "type": "minecraft:noise",
+                "noise": "fable:continent/x2",
+                "xz_scale": 0.5,
+                "y_scale": 0.0
+              }
+            },
+            "argument2": {
+              "type": "minecraft:mul",
+              "argument1": -1.0,
+              "argument2": {
+                "type": "minecraft:square",
+                "argument": {
+                  "type": "minecraft:noise",
+                  "noise": "fable:continent/y2",
+                  "xz_scale": 0.5,
+                  "y_scale": 0.0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "argument2": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:mul",
+        "argument1": 0.18,
+        "argument2": {
+          "type": "minecraft:abs",
+          "argument": {
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:square",
+              "argument": {
+                "type": "minecraft:noise",
+                "noise": "fable:continent/x3",
+                "xz_scale": 0.5,
+                "y_scale": 0.0
+              }
+            },
+            "argument2": {
+              "type": "minecraft:mul",
+              "argument1": -1.0,
+              "argument2": {
+                "type": "minecraft:square",
+                "argument": {
+                  "type": "minecraft:noise",
+                  "noise": "fable:continent/y3",
+                  "xz_scale": 0.5,
+                  "y_scale": 0.0
+                }
+              }
+            }
+          }
+        }
+      },
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": 0.08,
+        "argument2": {
+          "type": "minecraft:abs",
+          "argument": {
+            "type": "minecraft:add",
+            "argument1": {
+              "type": "minecraft:square",
+              "argument": {
+                "type": "minecraft:noise",
+                "noise": "fable:continent/x4",
+                "xz_scale": 0.5,
+                "y_scale": 0.0
+              }
+            },
+            "argument2": {
+              "type": "minecraft:mul",
+              "argument1": -1.0,
+              "argument2": {
+                "type": "minecraft:square",
+                "argument": {
+                  "type": "minecraft:noise",
+                  "noise": "fable:continent/y4",
+                  "xz_scale": 0.5,
+                  "y_scale": 0.0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

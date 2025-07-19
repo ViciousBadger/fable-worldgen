@@ -37,36 +37,27 @@
                       {
                         "derivative": 0.0,
                         "location": -0.75,
+                        "value": 6.8
+                      },
+                      {
+                        "derivative": 0.0,
+                        "location": -0.25,
                         "value": {
                           "coordinate": "fable:ridges_folded",
                           "points": [
                             {
                               "derivative": 0.0,
+                              "location": -1.0,
+                              "value": 8.88
+                            },
+                            {
+                              "derivative": 0.0,
                               "location": 0.0,
-                              "value": 2.25
+                              "value": 4.28
                             },
                             {
                               "derivative": 0.0,
                               "location": 1.0,
-                              "value": 6.8
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "derivative": 0.0,
-                        "location": -0.5,
-                        "value": {
-                          "coordinate": "fable:ridges_folded",
-                          "points": [
-                            {
-                              "derivative": 0.0,
-                              "location": 0.0,
-                              "value": 5.28
-                            },
-                            {
-                              "derivative": 0.0,
-                              "location": 0.5,
                               "value": {
                                 "coordinate": "fable:humidity",
                                 "points": [
@@ -88,40 +79,7 @@
                       },
                       {
                         "derivative": 0.0,
-                        "location": -0.1,
-                        "value": {
-                          "coordinate": "fable:ridges_folded",
-                          "points": [
-                            {
-                              "derivative": 0.0,
-                              "location": 0.0,
-                              "value": 5.28
-                            },
-                            {
-                              "derivative": 0.0,
-                              "location": 0.5,
-                              "value": {
-                                "coordinate": "fable:humidity",
-                                "points": [
-                                  {
-                                    "derivative": 0.0,
-                                    "location": -1.0,
-                                    "value": 1.34
-                                  },
-                                  {
-                                    "derivative": 0.0,
-                                    "location": 1.0,
-                                    "value": 3.20
-                                  }
-                                ]
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "derivative": 0.0,
-                        "location": 0.0,
+                        "location": 0.25,
                         "value": {
                           "coordinate": "fable:ridges_folded",
                           "points": [
@@ -137,19 +95,19 @@
                             },
                             {
                               "derivative": 0.0,
-                              "location": 0.25,
+                              "location": 1.0,
                               "value": {
                                 "coordinate": "fable:humidity",
                                 "points": [
                                   {
                                     "derivative": 0.0,
                                     "location": -1.0,
-                                    "value": 1.88
+                                    "value": 1.68
                                   },
                                   {
                                     "derivative": 0.0,
                                     "location": 1.0,
-                                    "value": 3.14
+                                    "value": 2.14
                                   }
                                 ]
                               }
@@ -159,45 +117,7 @@
                       },
                       {
                         "derivative": 0.0,
-                        "location": 0.4,
-                        "value": {
-                          "coordinate": "fable:ridges_folded",
-                          "points": [
-                            {
-                              "derivative": 0.0,
-                              "location": -1.0,
-                              "value": 8.88
-                            },
-                            {
-                              "derivative": 0.0,
-                              "location": 0.0,
-                              "value": 5.88
-                            },
-                            {
-                              "derivative": 0.0,
-                              "location": 0.3,
-                              "value": {
-                                "coordinate": "fable:humidity",
-                                "points": [
-                                  {
-                                    "derivative": 0.0,
-                                    "location": -1.0,
-                                    "value": 1.88
-                                  },
-                                  {
-                                    "derivative": 0.0,
-                                    "location": 1.0,
-                                    "value": 3.14
-                                  }
-                                ]
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "derivative": 0.0,
-                        "location": 0.6,
+                        "location": 0.5,
                         "value": 8.8
                       }
                     ]
