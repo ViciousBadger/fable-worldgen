@@ -66,9 +66,9 @@
       },
       "argument2": {
         "type": "minecraft:mul",
-        "argument1": 0.85,
+        "argument1": 0.45,
         "argument2": {
-          "type": "minecraft:square",
+          "type": "fable:circular",
           "argument": {
             "type": "minecraft:noise",
             "noise": "fable:continents/blob_b",
