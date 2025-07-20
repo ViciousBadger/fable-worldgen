@@ -226,7 +226,7 @@
                           "argument1": "fable:depth",
                           "argument2": {
                             "type": "minecraft:cache_2d",
-                            "argument": "minecraft:overworld/factor"
+                            "argument": "fable:factor"
                           }
                         }
                       }
