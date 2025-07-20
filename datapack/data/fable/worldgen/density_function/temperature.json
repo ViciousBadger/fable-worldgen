@@ -8,9 +8,22 @@
       "argument2": {
         "type": "minecraft:add",
         "argument1": {
-          "type": "minecraft:mul",
-          "argument1": 256.0,
-          "argument2": "fable:humidity"
+          "type": "minecraft:add",
+          "argument1": {
+            "type": "minecraft:mul",
+            "argument1": 256.0,
+            "argument2": "fable:humidity"
+          },
+          "argument2": {
+            "type": "minecraft:mul",
+            "argument1": 8192.0,
+            "argument2": {
+              "type": "minecraft:noise",
+              "noise": "fable:temp_variance",
+              "xz_scale": 0.25,
+              "y_scale": 0.0
+            }
+          }
         },
         "argument2": {
           "type": "fable:z"
