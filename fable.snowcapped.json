@@ -13,19 +13,26 @@
     -0.55,
     -0.3,
     -0.05,
+    0.135,
+    0.325,
     0.5,
+    0.75,
     1
   ],
   "weirdnesses": [
     -1,
+    -0.935,
     -0.77,
     -0.55,
-    -0.33,
+    -0.4,
+    -0.265,
     -0.05,
     0.05,
-    0.33,
+    0.265,
+    0.4,
     0.55,
     0.77,
+    0.935,
     1
   ],
   "temperatures": [
@@ -55,27 +62,39 @@
     "array": [
       [
         "layout_mcj3zflb",
+        "layout_mdbs4swf",
         "layout_mcj403vf",
+        "layout_mdbs4swf",
         "layout_mcj3zflb",
         "layout_mdanh69h",
         "layout_mcj3zxj6",
         "layout_mdanh69h",
         "layout_mcj3zflb",
+        "layout_mdbs4swf",
         "layout_mcj403vf",
+        "layout_mdbs4swf",
         "layout_mcj3zflb"
       ],
       [
         "layout_mcj3zflb",
+        "layout_mdbs4swf",
         "layout_mcj403vf",
+        "layout_mdbs4swf",
         "layout_mcj3zflb",
         "layout_mdanh69h",
         "layout_mcj3zxj6",
         "layout_mdanh69h",
         "layout_mcj3zflb",
+        "layout_mdbs4swf",
         "layout_mcj403vf",
+        "layout_mdbs4swf",
         "layout_mcj3zflb"
       ],
       [
+        "layout_mcm9gn3r",
+        "layout_mcm9gn3r",
+        "layout_mcm9gn3r",
+        "layout_mcm9gn3r",
         "layout_mcm9gn3r",
         "layout_mcm9gn3r",
         "layout_mcm9gn3r",
@@ -468,9 +487,12 @@
   "slices": [
     {
       "key": "layout_mcj3zxj6",
-      "name": "Valleys",
+      "name": "Valley",
       "array": [
         [
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
           "layout_mcj4nokt",
           "layout_mcj4nokt",
           "layout_mcj4nokt",
@@ -486,6 +508,9 @@
           "layout_mcj49xmu",
           "layout_mcj49xmu",
           "layout_mcj49xmu",
+          "layout_mcj49xmu",
+          "layout_mcj49xmu",
+          "layout_mcj46wgo",
           "layout_mcj46wgo"
         ],
         [
@@ -495,6 +520,9 @@
           "layout_mcj49xmu",
           "layout_mcj49xmu",
           "layout_mcj49xmu",
+          "layout_mcj49xmu",
+          "layout_mcj49xmu",
+          "layout_mcj46wgo",
           "layout_mcj46wgo"
         ]
       ]
@@ -510,6 +538,9 @@
           "layout_mcj4nokt",
           "layout_mcj4nokt",
           "layout_mcj4nokt",
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
           "layout_mcj4nokt"
         ],
         [
@@ -519,6 +550,9 @@
           "layout_mcj4odan",
           "layout_mcj4odan",
           "layout_mcj4o6wj",
+          "layout_mcj4o6wj",
+          "layout_mcj4o6wj",
+          "layout_mcj46wgo",
           "layout_mcj46wgo"
         ],
         [
@@ -528,15 +562,21 @@
           "layout_mcj47e74",
           "layout_mcj477bf",
           "layout_mcj477bf",
+          "layout_mcj477bf",
+          "layout_mcj477bf",
+          "layout_mcj46wgo",
           "layout_mcj46wgo"
         ]
       ]
     },
     {
       "key": "layout_mcj3zflb",
-      "name": "Main",
+      "name": "Mid",
       "array": [
         [
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
           "layout_mcj4nokt",
           "layout_mcj4nokt",
           "layout_mcj4nokt",
@@ -547,29 +587,38 @@
         ],
         [
           "layout_mcj4cg05",
-          "layout_mcj4cg05",
           "layout_mcj47e74",
           "layout_mcj47e74",
-          "layout_mcj47e74",
+          "layout_mcj4odan",
+          "layout_mcj4odan",
+          "layout_mcj4o6wj",
+          "layout_mcj4o6wj",
+          "layout_mcj4o6wj",
           "layout_mcj477bf",
-          "layout_mcj477bf"
+          "layout_mcj46wgo"
         ],
         [
           "layout_mcopvbva",
-          "layout_mcopvbva",
           "layout_mcj4cg05",
           "layout_mcj47e74",
           "layout_mcj47e74",
+          "layout_mcj47e74",
           "layout_mcj477bf",
-          "layout_mcj477bf"
+          "layout_mcj477bf",
+          "layout_mcj477bf",
+          "layout_mcj477bf",
+          "layout_mcj46wgo"
         ]
       ]
     },
     {
-      "key": "layout_mcj403vf",
-      "name": "Peaks",
+      "key": "layout_mdbs4swf",
+      "name": "High",
       "array": [
         [
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
           "layout_mcj4nokt",
           "layout_mcj4nokt",
           "layout_mcj4nokt",
@@ -584,6 +633,9 @@
           "layout_mcj47e74",
           "layout_mcj47e74",
           "layout_mcj47e74",
+          "layout_mcj477bf",
+          "layout_mcj477bf",
+          "layout_mcj477bf",
           "layout_mcj477bf",
           "layout_mcj477bf"
         ],
@@ -593,6 +645,51 @@
           "layout_mcj4cg05",
           "layout_mcj47e74",
           "layout_mcj47e74",
+          "layout_mcj47e74",
+          "layout_mcj477bf",
+          "layout_mcj477bf",
+          "layout_mcj477bf",
+          "layout_mcj477bf"
+        ]
+      ]
+    },
+    {
+      "key": "layout_mcj403vf",
+      "name": "Peak",
+      "array": [
+        [
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
+          "layout_mcj4nokt"
+        ],
+        [
+          "layout_mcj4cg05",
+          "layout_mcj4cg05",
+          "layout_mcj4cg05",
+          "layout_mcj47e74",
+          "layout_mcj47e74",
+          "layout_mcj47e74",
+          "layout_mcj477bf",
+          "layout_mcj477bf",
+          "layout_mcj477bf",
+          "layout_mcj477bf"
+        ],
+        [
+          "layout_mcj4cjfs",
+          "layout_mcj4cjfs",
+          "layout_mcopvbva",
+          "layout_mcj4cg05",
+          "layout_mcj47e74",
+          "layout_mcj47e74",
+          "layout_mcj47e74",
+          "layout_mcj477bf",
           "layout_mcj477bf",
           "layout_mcj477bf"
         ]
@@ -609,18 +706,27 @@
           "unassigned",
           "unassigned",
           "unassigned",
-          "unassigned"
-        ],
-        [
-          "unassigned",
-          "unassigned",
-          "unassigned",
           "unassigned",
           "unassigned",
           "unassigned",
           "unassigned"
         ],
         [
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned"
+        ],
+        [
+          "unassigned",
+          "unassigned",
+          "unassigned",
           "unassigned",
           "unassigned",
           "unassigned",
@@ -642,12 +748,6 @@
           "unassigned",
           "unassigned",
           "unassigned",
-          "unassigned"
-        ],
-        [
-          "minecraft:deep_dark",
-          "minecraft:deep_dark",
-          "minecraft:deep_dark",
           "unassigned",
           "unassigned",
           "unassigned",
@@ -657,6 +757,21 @@
           "minecraft:deep_dark",
           "minecraft:deep_dark",
           "minecraft:deep_dark",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned"
+        ],
+        [
+          "minecraft:deep_dark",
+          "minecraft:deep_dark",
+          "minecraft:deep_dark",
+          "unassigned",
+          "unassigned",
+          "unassigned",
           "unassigned",
           "unassigned",
           "unassigned",

@@ -20,6 +20,16 @@
               "points": [
                 {
                   "derivative": 0.0,
+                  "location": -1.1,
+                  "value": 0.85
+                },
+                {
+                  "derivative": 0.0,
+                  "location": -0.9,
+                  "value": 3.95
+                },
+                {
+                  "derivative": 0.0,
                   "location": -0.2,
                   "value": 3.95
                 },
@@ -88,7 +98,7 @@
                                   {
                                     "derivative": 0.0,
                                     "location": 1.0,
-                                    "value": 3.20
+                                    "value": 2.20
                                   }
                                 ]
                               }
@@ -98,7 +108,45 @@
                       },
                       {
                         "derivative": 0.0,
-                        "location": 0.25,
+                        "location": 0.15,
+                        "value": {
+                          "coordinate": "fable:ridges_folded",
+                          "points": [
+                            {
+                              "derivative": 0.0,
+                              "location": -1.0,
+                              "value": 8.88
+                            },
+                            {
+                              "derivative": 0.0,
+                              "location": 0.0,
+                              "value": 4.88
+                            },
+                            {
+                              "derivative": 0.0,
+                              "location": 1.0,
+                              "value": {
+                                "coordinate": "fable:humidity",
+                                "points": [
+                                  {
+                                    "derivative": 0.0,
+                                    "location": -1.0,
+                                    "value": 1.18
+                                  },
+                                  {
+                                    "derivative": 0.0,
+                                    "location": 1.0,
+                                    "value": 1.74
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "derivative": 0.0,
+                        "location": 0.35,
                         "value": {
                           "coordinate": "fable:ridges_folded",
                           "points": [
@@ -136,19 +184,43 @@
                       },
                       {
                         "derivative": 0.0,
-                        "location": 0.5,
+                        "location": 0.65,
                         "value": {
                           "coordinate": "fable:ridges_folded",
                           "points": [
                             {
                               "derivative": 0.0,
                               "location": -1.0,
-                              "value": 4.69
+                              "value": 4.29
                             },
                             {
                               "derivative": 0.0,
                               "location": 0.0,
-                              "value": 3.88
+                              "value": 4.04
+                            },
+                            {
+                              "derivative": 0.0,
+                              "location": 1.0,
+                              "value": 3.29
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "derivative": 0.0,
+                        "location": 0.85,
+                        "value": {
+                          "coordinate": "fable:ridges_folded",
+                          "points": [
+                            {
+                              "derivative": 0.0,
+                              "location": -1.0,
+                              "value": 3.89
+                            },
+                            {
+                              "derivative": 0.0,
+                              "location": 0.0,
+                              "value": 3.28
                             },
                             {
                               "derivative": 0.0,
