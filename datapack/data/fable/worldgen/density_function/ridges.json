@@ -4,9 +4,12 @@
     "type": "minecraft:min",
     "argument1": {
       "type": "minecraft:min",
-      "argument1": "fable:rivers",
-      "argument2": "fable:ridge/lakes"
+      "argument1": {
+        "type": "minecraft:abs",
+        "argument": "fable:ridge/river"
+      },
+      "argument2": "fable:ridge/lake"
     },
-    "argument2": "fable:peaks"
+    "argument2": "fable:ridge/peak"
   }
 }

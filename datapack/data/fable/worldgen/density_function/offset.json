@@ -235,14 +235,14 @@
                       "coordinate": "fable:ridges_folded",
                       "points": [
                         {
-                          "derivative": 0.5,
+                          "derivative": 0.0,
                           "location": -1.0,
-                          "value": -0.08
+                          "value": -0.06
                         },
                         {
                           "derivative": 0.0,
                           "location": -0.4,
-                          "value": -0.02
+                          "value": -0.04
                         },
                         {
                           "derivative": 0.0,
@@ -251,8 +251,13 @@
                         },
                         {
                           "derivative": 0.0,
+                          "location": 0.4,
+                          "value": 0.02
+                        },
+                        {
+                          "derivative": 0.0,
                           "location": 1.0,
-                          "value": 0.01
+                          "value": 0.04
                         }
                       ]
                     }

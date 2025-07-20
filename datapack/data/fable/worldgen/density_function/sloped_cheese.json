@@ -34,7 +34,7 @@
       },
       "shift_x": {
         "type": "minecraft:mul",
-        "argument1": "fable:cheese_grate",
+        "argument1": "fable:shift_factor",
         "argument2": {
           "type": "minecraft:noise",
           "noise": "fable:cheese_shift_x",
@@ -44,7 +44,7 @@
       },
       "shift_z": {
         "type": "minecraft:mul",
-        "argument1": "fable:cheese_grate",
+        "argument1": "fable:shift_factor",
         "argument2": {
           "type": "minecraft:noise",
           "noise": "fable:cheese_shift_z",

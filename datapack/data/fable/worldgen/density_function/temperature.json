@@ -19,7 +19,7 @@
             "argument1": 8192.0,
             "argument2": {
               "type": "minecraft:noise",
-              "noise": "fable:temp_variance",
+              "noise": "fable:temp_shift",
               "xz_scale": 0.25,
               "y_scale": 0.0
             }

@@ -137,7 +137,26 @@
                       {
                         "derivative": 0.0,
                         "location": 0.5,
-                        "value": 4.69
+                        "value": {
+                          "coordinate": "fable:ridges_folded",
+                          "points": [
+                            {
+                              "derivative": 0.0,
+                              "location": -1.0,
+                              "value": 4.69
+                            },
+                            {
+                              "derivative": 0.0,
+                              "location": 0.0,
+                              "value": 3.88
+                            },
+                            {
+                              "derivative": 0.0,
+                              "location": 1.0,
+                              "value": 1.29
+                            }
+                          ]
+                        }
                       }
                     ]
                   }
