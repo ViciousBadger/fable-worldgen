@@ -1,7 +1,9 @@
 {
   "dimensionName": "minecraft:overworld",
   "continentalnesses": [
+    -1.2,
     -1,
+    -0.5,
     -0.1,
     0.1,
     1
@@ -45,9 +47,9 @@
   ],
   "humidities": [
     -1,
-    -0.5,
-    0,
-    0.5,
+    -0.7000000000000001,
+    -0.1,
+    0.6,
     1
   ],
   "depths": [
@@ -123,6 +125,78 @@
     "B"
   ],
   "layouts": [
+    {
+      "key": "layout_mdd0k8qp",
+      "name": "Fungal",
+      "array": [
+        [
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o"
+        ],
+        [
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o"
+        ],
+        [
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o"
+        ],
+        [
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o"
+        ],
+        [
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o"
+        ]
+      ]
+    },
+    {
+      "key": "layout_mdd0isxv",
+      "name": "Deep Ocean",
+      "array": [
+        [
+          "biome_mdd0g7y4",
+          "biome_mdd0g7y4",
+          "biome_mdd0g7y4",
+          "biome_mdd0g7y4"
+        ],
+        [
+          "biome_mdd0gc7c",
+          "biome_mdd0gc7c",
+          "biome_mdd0gc7c",
+          "biome_mdd0gc7c"
+        ],
+        [
+          "biome_mdd0ggvv",
+          "biome_mdd0ggvv",
+          "biome_mdd0ggvv",
+          "biome_mdd0ggvv"
+        ],
+        [
+          "biome_mdd0gm6m",
+          "biome_mdd0gm6m",
+          "biome_mdd0gm6m",
+          "biome_mdd0gm6m"
+        ],
+        [
+          "biome_mdd0gpwf",
+          "biome_mdd0gpwf",
+          "biome_mdd0gpwf",
+          "biome_mdd0gpwf"
+        ]
+      ]
+    },
     {
       "key": "layout_mcj4nokt",
       "name": "Ocean",
@@ -412,14 +486,14 @@
       ]
     },
     {
-      "key": "layout_mcopvbva",
-      "name": "Mountain Slopes",
+      "key": "layout_mcj4cjfs",
+      "name": "Mountain Peaks",
       "array": [
         [
-          "biome_mclvburk",
-          "biome_mclvburk",
-          "biome_mclvburk",
-          "biome_mclvburk"
+          "biome_mclywqsv",
+          "biome_mclywqsv",
+          "biome_mclywqsv",
+          "biome_mclywqsv"
         ],
         [
           "biome_mcosk8fv",
@@ -432,42 +506,6 @@
           "biome_mcoskey5",
           "biome_mcoskey5",
           "biome_mcoskey5"
-        ],
-        [
-          "biome_mcjj8pne",
-          "biome_mcjj8pne",
-          "biome_mcjj8pne",
-          "biome_mcjj8pne"
-        ],
-        [
-          "biome_mcz1ltsj",
-          "biome_mcz1ltsj",
-          "biome_mcz1ltsj",
-          "biome_mcz1ltsj"
-        ]
-      ]
-    },
-    {
-      "key": "layout_mcj4cjfs",
-      "name": "Mountain Peaks",
-      "array": [
-        [
-          "biome_mclywqsv",
-          "biome_mclywqsv",
-          "biome_mclywqsv",
-          "biome_mclywqsv"
-        ],
-        [
-          "biome_mcltre0s",
-          "biome_mcltre0s",
-          "biome_mcltre0s",
-          "biome_mcltre0s"
-        ],
-        [
-          "biome_mcj3qg2c",
-          "biome_mcj3qg2c",
-          "biome_mcj3qg2c",
-          "biome_mcj3qg2c"
         ],
         [
           "biome_mcjj3xo4",
@@ -489,6 +527,30 @@
       "key": "layout_mcj3zxj6",
       "name": "Valley",
       "array": [
+        [
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp"
+        ],
+        [
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv"
+        ],
         [
           "layout_mcj4nokt",
           "layout_mcj4nokt",
@@ -532,6 +594,30 @@
       "name": "Low",
       "array": [
         [
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp"
+        ],
+        [
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv"
+        ],
+        [
           "layout_mcj4nokt",
           "layout_mcj4nokt",
           "layout_mcj4nokt",
@@ -574,6 +660,30 @@
       "name": "Mid",
       "array": [
         [
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp"
+        ],
+        [
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv"
+        ],
+        [
           "layout_mcj4nokt",
           "layout_mcj4nokt",
           "layout_mcj4nokt",
@@ -598,7 +708,7 @@
           "layout_mcj46wgo"
         ],
         [
-          "layout_mcopvbva",
+          "layout_mcj4cjfs",
           "layout_mcj4cg05",
           "layout_mcj47e74",
           "layout_mcj47e74",
@@ -616,6 +726,30 @@
       "name": "High",
       "array": [
         [
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp"
+        ],
+        [
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv"
+        ],
+        [
           "layout_mcj4nokt",
           "layout_mcj4nokt",
           "layout_mcj4nokt",
@@ -641,7 +775,7 @@
         ],
         [
           "layout_mcj4cjfs",
-          "layout_mcopvbva",
+          "layout_mcj4cjfs",
           "layout_mcj4cg05",
           "layout_mcj47e74",
           "layout_mcj47e74",
@@ -658,6 +792,30 @@
       "name": "Peak",
       "array": [
         [
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp",
+          "layout_mdd0k8qp"
+        ],
+        [
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv"
+        ],
+        [
           "layout_mcj4nokt",
           "layout_mcj4nokt",
           "layout_mcj4nokt",
@@ -684,7 +842,7 @@
         [
           "layout_mcj4cjfs",
           "layout_mcj4cjfs",
-          "layout_mcopvbva",
+          "layout_mcj4cjfs",
           "layout_mcj4cg05",
           "layout_mcj47e74",
           "layout_mcj47e74",
@@ -699,6 +857,30 @@
       "key": "layout_mcm9gj62",
       "name": "Caves",
       "array": [
+        [
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned"
+        ],
+        [
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned"
+        ],
         [
           "unassigned",
           "unassigned",
@@ -776,19 +958,43 @@
           "unassigned",
           "unassigned",
           "unassigned"
+        ],
+        [
+          "minecraft:deep_dark",
+          "minecraft:deep_dark",
+          "minecraft:deep_dark",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned"
+        ],
+        [
+          "minecraft:deep_dark",
+          "minecraft:deep_dark",
+          "minecraft:deep_dark",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned",
+          "unassigned"
         ]
       ]
     }
   ],
   "biomes": [
     {
-      "key": "biome_mcj4b73x",
-      "name": "fable:undefined",
-      "color": "#000000"
-    },
-    {
       "key": "minecraft:deep_dark",
       "name": "minecraft:deep_dark"
+    },
+    {
+      "key": "biome_mdd0ek6o",
+      "name": "fable:fungal_isles",
+      "color": "#813d9c"
     },
     {
       "key": "biome_mclv36ft",
@@ -823,7 +1029,7 @@
     {
       "key": "biome_mclv0xqo",
       "name": "fable:boreal_ocean",
-      "color": "#3147be"
+      "color": "#3148be"
     },
     {
       "key": "biome_mcj3kcuj",
@@ -841,68 +1047,78 @@
       "color": "#2ad9f1"
     },
     {
+      "key": "biome_mdd0g7y4",
+      "name": "fable:deep_arctic_ocean",
+      "color": "#1c2465"
+    },
+    {
+      "key": "biome_mdd0gc7c",
+      "name": "fable:deep_boreal_ocean",
+      "color": "#243487"
+    },
+    {
+      "key": "biome_mdd0ggvv",
+      "name": "fable:deep_temperate_ocean",
+      "color": "#235592"
+    },
+    {
+      "key": "biome_mdd0gm6m",
+      "name": "fable:deep_subtropic_ocean",
+      "color": "#1b7b9a"
+    },
+    {
+      "key": "biome_mdd0gpwf",
+      "name": "fable:deep_tropical_ocean",
+      "color": "#1f99aa"
+    },
+    {
       "key": "biome_mclvburk",
-      "name": "fable:polar_mountain",
+      "name": "fable:polar_mountains",
       "color": "#b3a9c7"
     },
     {
       "key": "biome_mclywqsv",
-      "name": "fable:polar_peak",
+      "name": "fable:polar_peaks",
       "color": "#c8c5cf"
     },
     {
       "key": "biome_mcltr76i",
-      "name": "fable:boreal_mountain",
-      "color": "#8cd8da"
+      "name": "fable:boreal_mountains",
+      "color": "#7bb6b8"
     },
     {
       "key": "biome_mcosk8fv",
-      "name": "fable:boreal_slopes",
-      "color": "#f3fbff"
-    },
-    {
-      "key": "biome_mcltre0s",
-      "name": "fable:boreal_peak",
-      "color": "#d6f1ff"
+      "name": "fable:boreal_peaks",
+      "color": "#b3c9d4"
     },
     {
       "key": "biome_mcj3qa9j",
-      "name": "fable:alpine_mountain",
+      "name": "fable:alpine_mountains",
       "color": "#9a9996"
     },
     {
       "key": "biome_mcoskey5",
-      "name": "fable:alpine_slopes",
+      "name": "fable:alpine_peaks",
       "color": "#ffffff"
     },
     {
-      "key": "biome_mcj3qg2c",
-      "name": "fable:alpine_peak",
-      "color": "#c5c3be"
-    },
-    {
       "key": "biome_mcjj8pne",
-      "name": "fable:mediterranean_mountain",
+      "name": "fable:mediterranean_mountains",
       "color": "#885b4b"
     },
     {
       "key": "biome_mcjj3xo4",
-      "name": "fable:mediterranean_peak",
+      "name": "fable:mediterranean_peaks",
       "color": "#af8f71"
     },
     {
       "key": "biome_mcjm8a0i",
-      "name": "fable:equatorial_mountain",
+      "name": "fable:equatorial_mountains",
       "color": "#936e38"
     },
     {
-      "key": "biome_mcz1ltsj",
-      "name": "fable:equatorial_slopes",
-      "color": "#63471d"
-    },
-    {
       "key": "biome_mcjm8gmy",
-      "name": "fable:equatorial_peak",
+      "name": "fable:equatorial_peaks",
       "color": "#3d3846"
     },
     {
@@ -1063,22 +1279,27 @@
     {
       "key": "biome_mck9q01m",
       "name": "fable:acacia_swamp",
-      "color": "#a4a71f"
+      "color": "#6d6f24"
     },
     {
       "key": "biome_mcjivi6e",
       "name": "fable:red_desert",
-      "color": "#db9b3a"
+      "color": "#b38236"
     },
     {
       "key": "biome_mcjiprdc",
       "name": "fable:sclerophyll_bushlands",
-      "color": "#bab544"
+      "color": "#848034"
     },
     {
       "key": "biome_mcjj6noe",
       "name": "fable:sclerophyll_forest",
-      "color": "#a1b71b"
+      "color": "#859d32"
+    },
+    {
+      "key": "biome_mcjjcqs3",
+      "name": "fable:rainforest",
+      "color": "#70ac23"
     },
     {
       "key": "biome_mcxbgn0k",
@@ -1088,17 +1309,12 @@
     {
       "key": "biome_mcm9vcl8",
       "name": "fable:shrub_highlands",
-      "color": "#a3b62e"
+      "color": "#a5b15d"
     },
     {
       "key": "biome_mck9mvza",
       "name": "fable:sakura_forest",
-      "color": "#dc8add"
-    },
-    {
-      "key": "biome_mcjjcqs3",
-      "name": "fable:rainforest",
-      "color": "#7adb19"
+      "color": "#b995b9"
     },
     {
       "key": "biome_mcjlrq1x",
@@ -1113,7 +1329,7 @@
     {
       "key": "biome_mclu4s4o",
       "name": "fable:dry_marsh",
-      "color": "#beb381"
+      "color": "#817956"
     },
     {
       "key": "biome_mcjlrxuh",
@@ -1123,7 +1339,7 @@
     {
       "key": "biome_mcjlr4zk",
       "name": "fable:savanna",
-      "color": "#e2cd27"
+      "color": "#dccc50"
     },
     {
       "key": "biome_mcjlt84p",
@@ -1133,17 +1349,17 @@
     {
       "key": "biome_md7bjfyf",
       "name": "fable:deep_jungle",
-      "color": "#159700"
+      "color": "#138501"
     },
     {
       "key": "biome_mck9l8cz",
       "name": "fable:barrens",
-      "color": "#ebd142"
+      "color": "#c9ab1b"
     },
     {
       "key": "biome_mcjlz6je",
       "name": "fable:badlands",
-      "color": "#cb901e"
+      "color": "#b77e11"
     },
     {
       "key": "biome_mckacu1v",

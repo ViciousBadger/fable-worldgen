@@ -669,8 +669,7 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fable:boreal_mountain",
-                        "fable:boreal_peak"
+                        "fable:boreal_mountains"
                       ]
                     },
                     "then_run": {
@@ -685,8 +684,7 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fable:alpine_mountain",
-                        "fable:alpine_peak"
+                        "fable:alpine_mountains"
                       ]
                     },
                     "then_run": {
@@ -701,7 +699,7 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fable:mediterranean_peak"
+                        "fable:mediterranean_peaks"
                       ]
                     },
                     "then_run": {
@@ -716,7 +714,7 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fable:equatorial_mountain"
+                        "fable:equatorial_mountains"
                       ]
                     },
                     "then_run": {
@@ -731,28 +729,13 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fable:equatorial_slopes"
+                        "fable:equatorial_peaks"
                       ]
                     },
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
                         "Name": "minecraft:smooth_basalt"
-                      }
-                    }
-                  },
-                  {
-                    "type": "minecraft:condition",
-                    "if_true": {
-                      "type": "minecraft:biome",
-                      "biome_is": [
-                        "fable:equatorial_peak"
-                      ]
-                    },
-                    "then_run": {
-                      "type": "minecraft:block",
-                      "result_state": {
-                        "Name": "minecraft:basalt"
                       }
                     }
                   },
@@ -773,7 +756,7 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fable:polar_peak"
+                        "fable:polar_peaks"
                       ]
                     },
                     "then_run": {
@@ -788,9 +771,9 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fable:alpine_slopes",
-                        "fable:boreal_slopes",
-                        "fable:polar_mountain"
+                        "fable:alpine_peaks",
+                        "fable:boreal_peaks",
+                        "fable:polar_mountains"
                       ]
                     },
                     "then_run": {
@@ -1090,14 +1073,61 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fable:stone_beach",
+                        "fable:stone_beach"
+                      ]
+                    },
+                    "then_run": {
+                      "type": "minecraft:block",
+                      "result_state": {
+                        "Name": "minecraft:diorite"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:biome",
+                      "biome_is": [
                         "fable:frozen_stone_beach"
                       ]
                     },
                     "then_run": {
                       "type": "minecraft:block",
                       "result_state": {
-                        "Name": "minecraft:stone"
+                        "Name": "minecraft:tuff"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:biome",
+                      "biome_is": [
+                        "fable:polar_ocean",
+                        "fable:deep_polar_ocean",
+                        "fable:boreal_ocean",
+                        "fable:deep_boreal_ocean",
+                        "fable:temperate_ocean",
+                        "fable:deep_temperate_ocean",
+                        "fable:subtropic_ocean",
+                        "fable:deep_subtropic_ocean",
+                        "fable:tropical_ocean",
+                        "fable:deep_tropical_ocean"
+                      ]
+                    },
+                    "then_run": {
+                      "type": "minecraft:condition",
+                      "if_true": {
+                        "type": "minecraft:water",
+                        "add_stone_depth": false,
+                        "offset": 0,
+                        "surface_depth_multiplier": 0
+                      },
+                      "then_run": {
+                        "type": "minecraft:block",
+                        "result_state": {
+                          "Name": "minecraft:gravel"
+                        }
                       }
                     }
                   }
@@ -1228,6 +1258,21 @@
                   {
                     "type": "minecraft:condition",
                     "if_true": {
+                      "type": "minecraft:biome",
+                      "biome_is": [
+                        "fable:fungal_isles"
+                      ]
+                    },
+                    "then_run": {
+                      "type": "minecraft:block",
+                      "result_state": {
+                        "Name": "minecraft:mycelium"
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
                       "type": "minecraft:water",
                       "add_stone_depth": false,
                       "offset": 0,
@@ -1270,7 +1315,7 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fable:mediterranean_mountain"
+                        "fable:mediterranean_mountains"
                       ]
                     },
                     "then_run": {
