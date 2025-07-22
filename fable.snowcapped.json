@@ -121,8 +121,8 @@
     "A",
     "A",
     "A",
-    "B",
-    "B",
+    "A",
+    "A",
     "B",
     "B",
     "B",
@@ -785,7 +785,7 @@
           "biome_mclrszup",
           "biome_mcj3pamm",
           "biome_mcj3pamm",
-          "biome_mcj3q5ry",
+          "biome_mcj3q5ry/biome_mclvr0zd",
           "biome_mcj3q5ry",
           "biome_mcj3q5ry",
           "biome_mcj3w1gx"
@@ -794,8 +794,8 @@
           "biome_mclrszup",
           "biome_mcj3pamm/biome_mclrszup",
           "biome_mcj3pamm/biome_mclrszup",
-          "biome_mcj3q5ry",
-          "biome_mcj3q5ry",
+          "biome_mcj3q5ry/biome_mclvr0zd",
+          "biome_mcj3q5ry/biome_mclvr0zd",
           "biome_mcjj6noe",
           "biome_mcjjcqs3"
         ],
@@ -875,7 +875,7 @@
           "biome_mcj3pqwa",
           "biome_mcj3pqwa",
           "biome_mcj3pqwa",
-          "biome_mclumlbk"
+          "biome_mclumlbk/biome_mclvr0zd"
         ],
         [
           "biome_mcj4kjf4",
@@ -884,7 +884,7 @@
           "biome_mcj3v19o",
           "biome_mcj3pqwa",
           "biome_mcj3pqwa",
-          "biome_mclumlbk"
+          "biome_mclumlbk/biome_mclvr0zd"
         ],
         [
           "biome_mcxbgn0k",
@@ -1856,12 +1856,12 @@
     },
     {
       "key": "biome_mcjiprdc",
-      "name": "fable:sclerophyll_bushlands",
+      "name": "fable:chaparral_bushlands",
       "color": "#848034"
     },
     {
       "key": "biome_mcjj6noe",
-      "name": "fable:sclerophyll_forest",
+      "name": "fable:chaparral_forest",
       "color": "#859d32"
     },
     {

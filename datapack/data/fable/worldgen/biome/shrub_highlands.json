@@ -68,7 +68,9 @@
       "minecraft:spring_water"
     ],
     [
-      "minecraft:glow_lichen"
+      "minecraft:glow_lichen",
+      "fable:grass_sparse",
+      "fable:scattered_oak_bushes"
     ],
     [
       "minecraft:freeze_top_layer"

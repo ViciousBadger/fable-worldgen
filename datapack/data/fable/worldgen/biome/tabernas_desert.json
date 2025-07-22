@@ -69,7 +69,8 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:patch_dead_bush_2"
+      "fable:grass_sparse",
+      "fable:scattered_oak_bushes"
     ],
     [
       "minecraft:freeze_top_layer"

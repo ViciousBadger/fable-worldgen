@@ -1081,7 +1081,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -1171,7 +1171,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -1793,36 +1793,6 @@
             ],
             "humidity": [
               -1,
-              -0.7000000000000001
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:frozen_wastes"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.4
-            ],
-            "continentalness": [
-              -0.1,
-              1
-            ],
-            "erosion": [
-              0.5,
-              0.75
-            ],
-            "temperature": [
-              -1,
-              -0.75
-            ],
-            "humidity": [
-              -0.7000000000000001,
               -0.4
             ],
             "depth": [
@@ -1853,36 +1823,6 @@
             ],
             "humidity": [
               -0.4,
-              0.425
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:arctic_tundra"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.4
-            ],
-            "continentalness": [
-              -0.1,
-              1
-            ],
-            "erosion": [
-              0.5,
-              0.75
-            ],
-            "temperature": [
-              -1,
-              -0.75
-            ],
-            "humidity": [
-              0.425,
               0.6
             ],
             "depth": [
@@ -2179,7 +2119,7 @@
             ],
             "temperature": [
               -0.25,
-              0.15
+              0.25
             ],
             "humidity": [
               -0.7000000000000001,
@@ -2197,7 +2137,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.4
+              -0.265
             ],
             "continentalness": [
               -0.1,
@@ -2257,36 +2197,6 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.4
-            ],
-            "continentalness": [
-              -0.1,
-              1
-            ],
-            "erosion": [
-              0.5,
-              0.75
-            ],
-            "temperature": [
-              0.15,
-              0.25
-            ],
-            "humidity": [
-              -0.7000000000000001,
-              -0.1
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:grass_plains"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
               -0.265
             ],
             "continentalness": [
@@ -2341,7 +2251,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -2407,7 +2317,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.4
+              -0.265
             ],
             "continentalness": [
               -0.1,
@@ -2431,7 +2341,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -2461,13 +2371,13 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
             "weirdness": [
               -1,
-              -0.4
+              -0.05
             ],
             "continentalness": [
               -0.1,
@@ -2551,7 +2461,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -2581,7 +2491,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -2617,7 +2527,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.4
+              -0.05
             ],
             "continentalness": [
               -0.1,
@@ -4171,7 +4081,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -4261,7 +4171,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -4463,36 +4373,6 @@
             ],
             "humidity": [
               -0.4,
-              0.425
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:arctic_tundra"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.4
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.05,
-              0.75
-            ],
-            "temperature": [
-              -1,
-              -0.75
-            ],
-            "humidity": [
-              0.425,
               0.6
             ],
             "depth": [
@@ -4921,7 +4801,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -5011,7 +4891,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -5101,7 +4981,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -5131,7 +5011,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -6001,7 +5881,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -6091,7 +5971,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -6721,7 +6601,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -6811,7 +6691,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -6901,7 +6781,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -6931,7 +6811,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -7951,7 +7831,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -8041,7 +7921,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -8641,7 +8521,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -8731,7 +8611,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -8821,7 +8701,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -8851,7 +8731,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -9721,7 +9601,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -9811,7 +9691,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -10411,7 +10291,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -10501,7 +10381,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -10591,7 +10471,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -10621,7 +10501,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -11641,7 +11521,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -11731,7 +11611,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -12331,7 +12211,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -12421,13 +12301,13 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
             "weirdness": [
               -0.77,
-              -0.4
+              -0.05
             ],
             "continentalness": [
               0.1,
@@ -12511,7 +12391,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -12541,7 +12421,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -12577,7 +12457,7 @@
           "parameters": {
             "weirdness": [
               -0.77,
-              -0.4
+              -0.05
             ],
             "continentalness": [
               0.1,
@@ -13261,7 +13141,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -13351,7 +13231,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -13951,7 +13831,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -14041,7 +13921,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -14131,7 +14011,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -14161,7 +14041,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -14467,7 +14347,7 @@
           "parameters": {
             "weirdness": [
               -0.55,
-              -0.05
+              -0.4
             ],
             "continentalness": [
               0.1,
@@ -14483,36 +14363,6 @@
             ],
             "humidity": [
               -0.7000000000000001,
-              0.425
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:arctic_tundra"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.55,
-              -0.4
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.55,
-              1
-            ],
-            "temperature": [
-              -1,
-              -0.75
-            ],
-            "humidity": [
-              0.425,
               0.6
             ],
             "depth": [
@@ -15061,7 +14911,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -15151,7 +15001,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -15751,7 +15601,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -15841,13 +15691,13 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
             "weirdness": [
               -0.55,
-              -0.4
+              -0.05
             ],
             "continentalness": [
               0.1,
@@ -15931,7 +15781,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -15961,7 +15811,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -15997,7 +15847,7 @@
           "parameters": {
             "weirdness": [
               -0.55,
-              -0.4
+              -0.05
             ],
             "continentalness": [
               0.1,
@@ -16681,7 +16531,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -16771,7 +16621,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -17377,306 +17227,6 @@
           "parameters": {
             "weirdness": [
               -0.4,
-              -0.265
-            ],
-            "continentalness": [
-              -0.1,
-              1
-            ],
-            "erosion": [
-              0.5,
-              0.75
-            ],
-            "temperature": [
-              -1,
-              -0.75
-            ],
-            "humidity": [
-              -0.7000000000000001,
-              0.425
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:arctic_tundra"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.4,
-              -0.265
-            ],
-            "continentalness": [
-              -0.1,
-              1
-            ],
-            "erosion": [
-              0.5,
-              0.75
-            ],
-            "temperature": [
-              -1,
-              -0.75
-            ],
-            "humidity": [
-              0.425,
-              1
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:white_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.4,
-              -0.265
-            ],
-            "continentalness": [
-              -0.1,
-              1
-            ],
-            "erosion": [
-              0.5,
-              0.75
-            ],
-            "temperature": [
-              -0.25,
-              -0.15
-            ],
-            "humidity": [
-              -0.1,
-              0.425
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:evergreen_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.4,
-              -0.265
-            ],
-            "continentalness": [
-              -0.1,
-              1
-            ],
-            "erosion": [
-              0.5,
-              0.75
-            ],
-            "temperature": [
-              -0.25,
-              -0.15
-            ],
-            "humidity": [
-              0.425,
-              1
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:deep_broadleaf_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.4,
-              -0.265
-            ],
-            "continentalness": [
-              -0.1,
-              1
-            ],
-            "erosion": [
-              0.5,
-              0.75
-            ],
-            "temperature": [
-              -0.15,
-              0.15
-            ],
-            "humidity": [
-              -0.1,
-              0.6
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:broadleaf_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.4,
-              -0.265
-            ],
-            "continentalness": [
-              -0.1,
-              1
-            ],
-            "erosion": [
-              0.5,
-              0.75
-            ],
-            "temperature": [
-              0.15,
-              0.25
-            ],
-            "humidity": [
-              -0.7000000000000001,
-              -0.1
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:heath"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.4,
-              -0.265
-            ],
-            "continentalness": [
-              -0.1,
-              1
-            ],
-            "erosion": [
-              0.5,
-              0.75
-            ],
-            "temperature": [
-              0.25,
-              0.75
-            ],
-            "humidity": [
-              -0.7000000000000001,
-              -0.4
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:red_desert"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.4,
-              -0.265
-            ],
-            "continentalness": [
-              -0.1,
-              1
-            ],
-            "erosion": [
-              0.5,
-              0.75
-            ],
-            "temperature": [
-              0.25,
-              0.75
-            ],
-            "humidity": [
-              -0.4,
-              -0.1
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:sclerophyll_bushlands"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.4,
-              -0.265
-            ],
-            "continentalness": [
-              -0.1,
-              1
-            ],
-            "erosion": [
-              0.5,
-              0.75
-            ],
-            "temperature": [
-              0.65,
-              1
-            ],
-            "humidity": [
-              -1,
-              -0.7000000000000001
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:dune_desert"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.4,
-              -0.265
-            ],
-            "continentalness": [
-              -0.1,
-              1
-            ],
-            "erosion": [
-              0.5,
-              0.75
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              -0.7000000000000001,
-              -0.4
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:dune_desert"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.4,
               0.4
             ],
             "continentalness": [
@@ -18109,36 +17659,6 @@
             ],
             "temperature": [
               0.65,
-              0.75
-            ],
-            "humidity": [
-              -1,
-              -0.7000000000000001
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:cactus_desert"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.4,
-              0.4
-            ],
-            "continentalness": [
-              -0.1,
-              1
-            ],
-            "erosion": [
-              0.75,
-              1
-            ],
-            "temperature": [
-              0.65,
               1
             ],
             "humidity": [
@@ -18212,36 +17732,6 @@
             "offset": 0
           },
           "biome": "fable:mangrove_swamp"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.4,
-              0.4
-            ],
-            "continentalness": [
-              -0.1,
-              1
-            ],
-            "erosion": [
-              0.75,
-              1
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              -0.7000000000000001,
-              -0.4
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:cactus_desert"
         },
         {
           "parameters": {
@@ -18495,36 +17985,6 @@
             ],
             "erosion": [
               -0.68,
-              0.75
-            ],
-            "temperature": [
-              -1,
-              -0.75
-            ],
-            "humidity": [
-              -0.7000000000000001,
-              0.425
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:arctic_tundra"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.4,
-              -0.265
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.68,
               -0.05
             ],
             "temperature": [
@@ -18532,7 +17992,7 @@
               -0.75
             ],
             "humidity": [
-              0.425,
+              -0.7000000000000001,
               0.6
             ],
             "depth": [
@@ -19081,7 +18541,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -19171,7 +18631,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -19343,7 +18803,7 @@
             ],
             "humidity": [
               -1,
-              -0.7000000000000001
+              -0.4
             ],
             "depth": [
               -1,
@@ -19372,7 +18832,7 @@
               -0.75
             ],
             "humidity": [
-              0.425,
+              0.6,
               1
             ],
             "depth": [
@@ -19549,7 +19009,7 @@
             ],
             "temperature": [
               -0.65,
-              -0.15
+              -0.25
             ],
             "humidity": [
               -0.1,
@@ -19639,7 +19099,7 @@
             ],
             "temperature": [
               -0.25,
-              0.15
+              0.25
             ],
             "humidity": [
               -0.7000000000000001,
@@ -19669,36 +19129,6 @@
             ],
             "temperature": [
               -0.25,
-              -0.15
-            ],
-            "humidity": [
-              0.425,
-              1
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:deep_broadleaf_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.4,
-              -0.265
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.05,
-              0.75
-            ],
-            "temperature": [
-              -0.15,
               0.15
             ],
             "humidity": [
@@ -19728,7 +19158,7 @@
               0.75
             ],
             "temperature": [
-              -0.15,
+              -0.25,
               0.15
             ],
             "humidity": [
@@ -19742,36 +19172,6 @@
             "offset": 0
           },
           "biome": "fable:deep_broadleaf_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.4,
-              -0.265
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.05,
-              0.75
-            ],
-            "temperature": [
-              0.15,
-              0.25
-            ],
-            "humidity": [
-              -0.7000000000000001,
-              -0.1
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:heath"
         },
         {
           "parameters": {
@@ -19831,7 +19231,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -19883,7 +19283,7 @@
             ],
             "humidity": [
               -1,
-              -0.4
+              -0.7000000000000001
             ],
             "depth": [
               -1,
@@ -19909,10 +19309,10 @@
             ],
             "temperature": [
               0.25,
-              0.75
+              0.65
             ],
             "humidity": [
-              -0.4,
+              -0.7000000000000001,
               -0.1
             ],
             "depth": [
@@ -19921,13 +19321,13 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
             "weirdness": [
               -0.4,
-              -0.265
+              -0.05
             ],
             "continentalness": [
               0.1,
@@ -19935,7 +19335,7 @@
             ],
             "erosion": [
               -0.05,
-              0.75
+              1
             ],
             "temperature": [
               0.65,
@@ -20002,7 +19402,7 @@
               0.75
             ],
             "humidity": [
-              -0.1,
+              -0.4,
               0.25
             ],
             "depth": [
@@ -20011,7 +19411,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -20041,7 +19441,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -20077,7 +19477,7 @@
           "parameters": {
             "weirdness": [
               -0.4,
-              -0.265
+              -0.05
             ],
             "continentalness": [
               0.1,
@@ -20085,7 +19485,7 @@
             ],
             "erosion": [
               -0.05,
-              0.75
+              1
             ],
             "temperature": [
               0.75,
@@ -20839,36 +20239,6 @@
             ],
             "temperature": [
               0.65,
-              0.75
-            ],
-            "humidity": [
-              -1,
-              -0.7000000000000001
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:cactus_desert"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.265,
-              0.265
-            ],
-            "continentalness": [
-              -0.1,
-              1
-            ],
-            "erosion": [
-              0.5,
-              1
-            ],
-            "temperature": [
-              0.65,
               1
             ],
             "humidity": [
@@ -20942,36 +20312,6 @@
             "offset": 0
           },
           "biome": "fable:mangrove_swamp"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.265,
-              0.265
-            ],
-            "continentalness": [
-              -0.1,
-              1
-            ],
-            "erosion": [
-              0.5,
-              1
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              -0.7000000000000001,
-              -0.4
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:cactus_desert"
         },
         {
           "parameters": {
@@ -21225,36 +20565,6 @@
             ],
             "erosion": [
               -0.84,
-              0.5
-            ],
-            "temperature": [
-              -1,
-              -0.75
-            ],
-            "humidity": [
-              -0.7000000000000001,
-              0.425
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:arctic_tundra"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.265,
-              -0.05
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.84,
               -0.3
             ],
             "temperature": [
@@ -21262,7 +20572,7 @@
               -0.75
             ],
             "humidity": [
-              0.425,
+              -0.7000000000000001,
               0.6
             ],
             "depth": [
@@ -21811,7 +21121,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -21901,7 +21211,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -22073,7 +21383,7 @@
             ],
             "humidity": [
               -1,
-              -0.7000000000000001
+              -0.4
             ],
             "depth": [
               -1,
@@ -22102,7 +21412,37 @@
               -0.75
             ],
             "humidity": [
-              0.425,
+              -0.4,
+              0.6
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:arctic_tundra"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.265,
+              -0.05
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.3,
+              0.5
+            ],
+            "temperature": [
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              0.6,
               1
             ],
             "depth": [
@@ -22279,7 +21619,7 @@
             ],
             "temperature": [
               -0.65,
-              -0.15
+              -0.25
             ],
             "humidity": [
               -0.1,
@@ -22369,7 +21709,7 @@
             ],
             "temperature": [
               -0.25,
-              0.15
+              0.25
             ],
             "humidity": [
               -0.7000000000000001,
@@ -22399,36 +21739,6 @@
             ],
             "temperature": [
               -0.25,
-              -0.15
-            ],
-            "humidity": [
-              0.425,
-              1
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:deep_broadleaf_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.265,
-              -0.05
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.3,
-              0.5
-            ],
-            "temperature": [
-              -0.15,
               0.15
             ],
             "humidity": [
@@ -22458,7 +21768,7 @@
               0.5
             ],
             "temperature": [
-              -0.15,
+              -0.25,
               0.15
             ],
             "humidity": [
@@ -22472,36 +21782,6 @@
             "offset": 0
           },
           "biome": "fable:deep_broadleaf_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.265,
-              -0.05
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.3,
-              0.5
-            ],
-            "temperature": [
-              0.15,
-              0.25
-            ],
-            "humidity": [
-              -0.7000000000000001,
-              -0.1
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:heath"
         },
         {
           "parameters": {
@@ -22561,7 +21841,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -22613,7 +21893,7 @@
             ],
             "humidity": [
               -1,
-              -0.4
+              -0.7000000000000001
             ],
             "depth": [
               -1,
@@ -22639,10 +21919,10 @@
             ],
             "temperature": [
               0.25,
-              0.75
+              0.65
             ],
             "humidity": [
-              -0.4,
+              -0.7000000000000001,
               -0.1
             ],
             "depth": [
@@ -22651,7 +21931,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -22665,7 +21945,7 @@
             ],
             "erosion": [
               -0.3,
-              0.5
+              1
             ],
             "temperature": [
               0.65,
@@ -22732,7 +22012,7 @@
               0.75
             ],
             "humidity": [
-              -0.1,
+              -0.4,
               0.25
             ],
             "depth": [
@@ -22741,7 +22021,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -22771,7 +22051,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -22815,7 +22095,7 @@
             ],
             "erosion": [
               -0.3,
-              0.5
+              1
             ],
             "temperature": [
               0.75,
@@ -23047,6 +22327,36 @@
           "parameters": {
             "weirdness": [
               -0.05,
+              0.265
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              0.5,
+              1
+            ],
+            "temperature": [
+              0.65,
+              0.75
+            ],
+            "humidity": [
+              -1,
+              -0.7000000000000001
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:cactus_desert"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
               1
             ],
             "continentalness": [
@@ -23072,6 +22382,36 @@
             "offset": 0
           },
           "biome": "fable:dune_desert"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.265
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              0.5,
+              1
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              -0.7000000000000001,
+              -0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:cactus_desert"
         },
         {
           "parameters": {
@@ -24259,7 +23599,7 @@
             ],
             "temperature": [
               -0.25,
-              0.25
+              -0.15
             ],
             "humidity": [
               0.6,
@@ -24332,6 +23672,36 @@
             "offset": 0
           },
           "biome": "fable:montane_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.265
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.84,
+              -0.3
+            ],
+            "temperature": [
+              -0.15,
+              0.25
+            ],
+            "humidity": [
+              0.6,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -24481,7 +23851,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -24571,7 +23941,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -25099,10 +24469,40 @@
             ],
             "temperature": [
               -0.15,
-              0.15
+              0.25
             ],
             "humidity": [
               -0.1,
+              0.25
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.265
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.3,
+              0.5
+            ],
+            "temperature": [
+              -0.15,
+              0.15
+            ],
+            "humidity": [
+              0.25,
               0.6
             ],
             "depth": [
@@ -25192,7 +24592,7 @@
               0.25
             ],
             "humidity": [
-              -0.1,
+              0.25,
               0.425
             ],
             "depth": [
@@ -25201,7 +24601,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:broadleaf_forest"
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -25231,7 +24631,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -25321,7 +24721,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -25411,7 +24811,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -25441,7 +24841,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -25939,7 +25339,7 @@
             ],
             "temperature": [
               -0.25,
-              0.25
+              -0.15
             ],
             "humidity": [
               0.6,
@@ -26012,6 +25412,36 @@
             "offset": 0
           },
           "biome": "fable:montane_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.265,
+              0.4
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.84,
+              -0.55
+            ],
+            "temperature": [
+              -0.15,
+              0.25
+            ],
+            "humidity": [
+              0.6,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -26161,7 +25591,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -26251,7 +25681,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -27019,10 +26449,40 @@
             ],
             "temperature": [
               -0.15,
-              0.15
+              0.25
             ],
             "humidity": [
               -0.1,
+              0.25
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.265,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              0.5,
+              0.75
+            ],
+            "temperature": [
+              -0.15,
+              0.15
+            ],
+            "humidity": [
+              0.25,
               0.6
             ],
             "depth": [
@@ -27112,7 +26572,7 @@
               0.25
             ],
             "humidity": [
-              -0.1,
+              0.25,
               0.425
             ],
             "depth": [
@@ -27121,7 +26581,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:broadleaf_forest"
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -27151,7 +26611,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -27241,7 +26701,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -27271,7 +26731,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -27361,7 +26821,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -27391,7 +26851,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -27512,6 +26972,66 @@
             "offset": 0
           },
           "biome": "fable:jungle"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.265,
+              0.4
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              0.75,
+              1
+            ],
+            "temperature": [
+              0.65,
+              0.75
+            ],
+            "humidity": [
+              -1,
+              -0.7000000000000001
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:cactus_desert"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.265,
+              0.4
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              0.75,
+              1
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              -0.7000000000000001,
+              -0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:cactus_desert"
         },
         {
           "parameters": {
@@ -28219,7 +27739,7 @@
             ],
             "temperature": [
               -0.25,
-              0.25
+              -0.15
             ],
             "humidity": [
               0.6,
@@ -28292,6 +27812,36 @@
             "offset": 0
           },
           "biome": "fable:montane_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.265,
+              0.4
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.68,
+              -0.05
+            ],
+            "temperature": [
+              -0.15,
+              0.25
+            ],
+            "humidity": [
+              0.6,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -28441,7 +27991,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -28531,7 +28081,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -29059,10 +28609,40 @@
             ],
             "temperature": [
               -0.15,
-              0.15
+              0.25
             ],
             "humidity": [
               -0.1,
+              0.25
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.265,
+              0.4
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.05,
+              0.75
+            ],
+            "temperature": [
+              -0.15,
+              0.15
+            ],
+            "humidity": [
+              0.25,
               0.6
             ],
             "depth": [
@@ -29152,7 +28732,7 @@
               0.25
             ],
             "humidity": [
-              -0.1,
+              0.25,
               0.425
             ],
             "depth": [
@@ -29161,7 +28741,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:broadleaf_forest"
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -29191,7 +28771,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -29281,7 +28861,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -29371,7 +28951,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -29401,7 +28981,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -30079,7 +29659,7 @@
             ],
             "temperature": [
               -0.25,
-              0.25
+              -0.15
             ],
             "humidity": [
               0.6,
@@ -30152,6 +29732,36 @@
             "offset": 0
           },
           "biome": "fable:montane_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.55
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.68,
+              -0.05
+            ],
+            "temperature": [
+              -0.15,
+              0.25
+            ],
+            "humidity": [
+              0.6,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -30301,7 +29911,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -30391,7 +30001,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -30919,10 +30529,40 @@
             ],
             "temperature": [
               -0.15,
-              0.15
+              0.25
             ],
             "humidity": [
               -0.1,
+              0.25
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.55
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.05,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.15
+            ],
+            "humidity": [
+              0.25,
               0.6
             ],
             "depth": [
@@ -31012,7 +30652,7 @@
               0.25
             ],
             "humidity": [
-              -0.1,
+              0.25,
               0.425
             ],
             "depth": [
@@ -31021,7 +30661,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:broadleaf_forest"
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -31051,7 +30691,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -31141,7 +30781,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -31231,7 +30871,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -31261,7 +30901,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -32089,7 +31729,7 @@
             ],
             "temperature": [
               -0.25,
-              0.25
+              -0.15
             ],
             "humidity": [
               0.6,
@@ -32162,6 +31802,36 @@
             "offset": 0
           },
           "biome": "fable:montane_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.55
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              0.135
+            ],
+            "temperature": [
+              -0.15,
+              0.25
+            ],
+            "humidity": [
+              0.6,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -32311,7 +31981,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -32401,7 +32071,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -32929,10 +32599,40 @@
             ],
             "temperature": [
               -0.15,
-              0.15
+              0.25
             ],
             "humidity": [
               -0.1,
+              0.25
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.55
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              0.135,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.15
+            ],
+            "humidity": [
+              0.25,
               0.6
             ],
             "depth": [
@@ -33022,7 +32722,7 @@
               0.25
             ],
             "humidity": [
-              -0.1,
+              0.25,
               0.425
             ],
             "depth": [
@@ -33031,7 +32731,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:broadleaf_forest"
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -33061,7 +32761,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -33151,7 +32851,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -33241,7 +32941,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -33271,7 +32971,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -33949,7 +33649,7 @@
             ],
             "temperature": [
               -0.25,
-              0.25
+              -0.15
             ],
             "humidity": [
               0.6,
@@ -34022,6 +33722,36 @@
             "offset": 0
           },
           "biome": "fable:montane_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.55,
+              0.77
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.55,
+              0.135
+            ],
+            "temperature": [
+              -0.15,
+              0.25
+            ],
+            "humidity": [
+              0.6,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -34171,7 +33901,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -34261,7 +33991,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -34789,10 +34519,40 @@
             ],
             "temperature": [
               -0.15,
-              0.15
+              0.25
             ],
             "humidity": [
               -0.1,
+              0.25
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.55,
+              0.935
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              0.135,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.15
+            ],
+            "humidity": [
+              0.25,
               0.6
             ],
             "depth": [
@@ -34882,7 +34642,7 @@
               0.25
             ],
             "humidity": [
-              -0.1,
+              0.25,
               0.425
             ],
             "depth": [
@@ -34891,7 +34651,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:broadleaf_forest"
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -34921,7 +34681,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -35011,7 +34771,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -35101,7 +34861,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -35131,7 +34891,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -35959,7 +35719,7 @@
             ],
             "temperature": [
               -0.25,
-              0.25
+              -0.15
             ],
             "humidity": [
               0.6,
@@ -36032,6 +35792,36 @@
             "offset": 0
           },
           "biome": "fable:montane_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.55,
+              0.77
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.3,
+              0.325
+            ],
+            "temperature": [
+              -0.15,
+              0.25
+            ],
+            "humidity": [
+              0.6,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -36181,7 +35971,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -36271,7 +36061,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -36799,10 +36589,40 @@
             ],
             "temperature": [
               -0.15,
-              0.15
+              0.25
             ],
             "humidity": [
               -0.1,
+              0.25
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.55,
+              0.935
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              0.325,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.15
+            ],
+            "humidity": [
+              0.25,
               0.6
             ],
             "depth": [
@@ -36892,7 +36712,7 @@
               0.25
             ],
             "humidity": [
-              -0.1,
+              0.25,
               0.425
             ],
             "depth": [
@@ -36901,7 +36721,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:broadleaf_forest"
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -36931,7 +36751,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -37021,7 +36841,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -37111,7 +36931,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -37141,7 +36961,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -37669,7 +37489,7 @@
             ],
             "temperature": [
               -0.25,
-              0.25
+              -0.15
             ],
             "humidity": [
               0.6,
@@ -37742,6 +37562,36 @@
             "offset": 0
           },
           "biome": "fable:montane_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.77,
+              0.935
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.68,
+              -0.05
+            ],
+            "temperature": [
+              -0.15,
+              0.25
+            ],
+            "humidity": [
+              0.6,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -37891,7 +37741,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -37981,7 +37831,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -38509,10 +38359,40 @@
             ],
             "temperature": [
               -0.15,
-              0.15
+              0.25
             ],
             "humidity": [
               -0.1,
+              0.25
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.77,
+              0.935
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.05,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.15
+            ],
+            "humidity": [
+              0.25,
               0.6
             ],
             "depth": [
@@ -38602,7 +38482,7 @@
               0.25
             ],
             "humidity": [
-              -0.1,
+              0.25,
               0.425
             ],
             "depth": [
@@ -38611,7 +38491,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:broadleaf_forest"
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -38641,7 +38521,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -38731,7 +38611,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -38821,7 +38701,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -38851,7 +38731,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -39529,7 +39409,7 @@
             ],
             "temperature": [
               -0.25,
-              0.25
+              -0.15
             ],
             "humidity": [
               0.6,
@@ -39602,6 +39482,36 @@
             "offset": 0
           },
           "biome": "fable:montane_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.77,
+              0.935
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.55,
+              0.135
+            ],
+            "temperature": [
+              -0.15,
+              0.25
+            ],
+            "humidity": [
+              0.6,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -39751,7 +39661,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -39841,7 +39751,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -40369,10 +40279,40 @@
             ],
             "temperature": [
               -0.15,
-              0.15
+              0.25
             ],
             "humidity": [
               -0.1,
+              0.25
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.77,
+              0.935
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              0.135,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.15
+            ],
+            "humidity": [
+              0.25,
               0.6
             ],
             "depth": [
@@ -40462,7 +40402,7 @@
               0.25
             ],
             "humidity": [
-              -0.1,
+              0.25,
               0.425
             ],
             "depth": [
@@ -40471,7 +40411,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:broadleaf_forest"
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -40501,7 +40441,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -40591,7 +40531,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -40681,7 +40621,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -40711,7 +40651,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -41209,7 +41149,7 @@
             ],
             "temperature": [
               -0.25,
-              0.25
+              -0.15
             ],
             "humidity": [
               0.6,
@@ -41282,6 +41222,36 @@
             "offset": 0
           },
           "biome": "fable:montane_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.935,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.84,
+              -0.55
+            ],
+            "temperature": [
+              -0.15,
+              0.25
+            ],
+            "humidity": [
+              0.6,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -41431,7 +41401,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -41521,7 +41491,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -43309,7 +43279,7 @@
             ],
             "temperature": [
               -0.25,
-              0.25
+              -0.15
             ],
             "humidity": [
               0.6,
@@ -43382,6 +43352,36 @@
             "offset": 0
           },
           "biome": "fable:montane_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.935,
+              1
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.68,
+              -0.05
+            ],
+            "temperature": [
+              -0.15,
+              0.25
+            ],
+            "humidity": [
+              0.6,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -43531,7 +43531,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -43621,7 +43621,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -44149,10 +44149,40 @@
             ],
             "temperature": [
               -0.15,
-              0.15
+              0.25
             ],
             "humidity": [
               -0.1,
+              0.25
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:birch_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.935,
+              1
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.05,
+              0.75
+            ],
+            "temperature": [
+              -0.15,
+              0.15
+            ],
+            "humidity": [
+              0.25,
               0.6
             ],
             "depth": [
@@ -44242,7 +44272,7 @@
               0.25
             ],
             "humidity": [
-              -0.1,
+              0.25,
               0.425
             ],
             "depth": [
@@ -44251,7 +44281,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:broadleaf_forest"
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -44281,7 +44311,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -44371,7 +44401,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -44461,7 +44491,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_bushlands"
+          "biome": "fable:chaparral_bushlands"
         },
         {
           "parameters": {
@@ -44491,7 +44521,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:sclerophyll_forest"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {

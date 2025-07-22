@@ -999,8 +999,7 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fable:red_desert",
-                        "fable:badlands"
+                        "fable:red_desert"
                       ]
                     },
                     "then_run": {
@@ -1029,6 +1028,51 @@
                           }
                         }
                       ]
+                    }
+                  },
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:biome",
+                      "biome_is": [
+                        "fable:tabernas_desert"
+                      ]
+                    },
+                    "then_run": {
+                      "type": "minecraft:condition",
+                      "if_true": {
+                        "type": "minecraft:noise_threshold",
+                        "max_threshold": 2.0,
+                        "min_threshold": 0.45,
+                        "noise": "minecraft:surface"
+                      },
+                      "then_run": {
+                        "type": "minecraft:sequence",
+                        "sequence": [
+                          {
+                            "type": "minecraft:condition",
+                            "if_true": {
+                              "type": "minecraft:stone_depth",
+                              "add_surface_depth": false,
+                              "offset": 0,
+                              "secondary_depth_range": 0,
+                              "surface_type": "ceiling"
+                            },
+                            "then_run": {
+                              "type": "minecraft:block",
+                              "result_state": {
+                                "Name": "minecraft:red_sandstone"
+                              }
+                            }
+                          },
+                          {
+                            "type": "minecraft:block",
+                            "result_state": {
+                              "Name": "minecraft:red_sand"
+                            }
+                          }
+                        ]
+                      }
                     }
                   },
                   {

@@ -70,7 +70,9 @@
     [
       "minecraft:glow_lichen",
       "minecraft:flower_cherry",
-      "minecraft:trees_cherry"
+      "minecraft:trees_cherry",
+      "fable:scattered_oak_bushes",
+      "fable:rare_chaparral_trees"
     ],
     [
       "minecraft:freeze_top_layer"

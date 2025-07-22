@@ -5,20 +5,20 @@
       {
         "chance": 0.05,
         "feature": {
-          "feature": "fable:tree/sclerophyll_tree_big",
+          "feature": "fable:tree/chaparral_tree_big",
           "placement": []
         }
       },
       {
         "chance": 0.35,
         "feature": {
-          "feature": "fable:tree/sclerophyll_tree_small",
+          "feature": "fable:tree/chaparral_tree_small",
           "placement": []
         }
       }
     ],
     "default": {
-      "feature": "fable:tree/sclerophyll_tree_medium",
+      "feature": "fable:tree/chaparral_tree_medium",
       "placement": []
     }
   }

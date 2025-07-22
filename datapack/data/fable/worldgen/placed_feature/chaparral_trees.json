@@ -1,5 +1,5 @@
 {
-  "feature": "fable:tree_group/sclerophyll_trees",
+  "feature": "fable:tree_group/chaparral_trees",
   "placement": [
     {
       "type": "minecraft:count",
@@ -7,12 +7,20 @@
         "type": "minecraft:weighted_list",
         "distribution": [
           {
-            "data": 0,
-            "weight": 10
+            "data": 5,
+            "weight": 9
+          },
+          {
+            "data": 3,
+            "weight": 3
           },
           {
             "data": 1,
-            "weight": 1
+            "weight": 3
+          },
+          {
+            "data": 0,
+            "weight": 3
           }
         ]
       }
