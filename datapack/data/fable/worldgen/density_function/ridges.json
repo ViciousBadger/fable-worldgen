@@ -1,15 +1,28 @@
 {
   "type": "minecraft:flat_cache",
   "argument": {
-    "type": "minecraft:min",
+    "type": "minecraft:mul",
     "argument1": {
+      "type": "minecraft:clamp",
+      "min": -1.0,
+      "max": 1.0,
+      "input": {
+        "type": "minecraft:mul",
+        "argument1": -62.831853,
+        "argument2": "fable:ridge/river"
+      }
+    },
+    "argument2": {
       "type": "minecraft:min",
       "argument1": {
-        "type": "minecraft:abs",
-        "argument": "fable:ridge/river"
+        "type": "minecraft:min",
+        "argument1": {
+          "type": "minecraft:abs",
+          "argument": "fable:ridge/river"
+        },
+        "argument2": "fable:ridge/lake"
       },
-      "argument2": "fable:ridge/lake"
-    },
-    "argument2": "fable:ridge/peak"
+      "argument2": "fable:ridge/peak"
+    }
   }
 }

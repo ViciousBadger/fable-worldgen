@@ -69,7 +69,9 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:trees_birch_and_oak",
+      "fable:grass_basic",
+      "fable:scattered_oak_bushes",
+      "fable:rainforest_trees",
       "minecraft:vines"
     ],
     [

@@ -69,7 +69,9 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:trees_savanna"
+      "fable:grass_basic",
+      "fable:scattered_oak_bushes",
+      "fable:sclerophyll_trees"
     ],
     [
       "minecraft:freeze_top_layer"

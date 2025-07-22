@@ -40,15 +40,22 @@
   "temperatures": [
     -1,
     -0.75,
+    -0.65,
     -0.25,
+    -0.15,
+    0.15,
     0.25,
+    0.65,
     0.75,
     1
   ],
   "humidities": [
     -1,
     -0.7000000000000001,
+    -0.4,
     -0.1,
+    0.25,
+    0.425,
     0.6,
     1
   ],
@@ -133,9 +140,6 @@
           "biome_mdd0ek6o",
           "biome_mdd0ek6o",
           "biome_mdd0ek6o",
-          "biome_mdd0ek6o"
-        ],
-        [
           "biome_mdd0ek6o",
           "biome_mdd0ek6o",
           "biome_mdd0ek6o",
@@ -145,15 +149,69 @@
           "biome_mdd0ek6o",
           "biome_mdd0ek6o",
           "biome_mdd0ek6o",
-          "biome_mdd0ek6o"
-        ],
-        [
           "biome_mdd0ek6o",
           "biome_mdd0ek6o",
           "biome_mdd0ek6o",
           "biome_mdd0ek6o"
         ],
         [
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o"
+        ],
+        [
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o"
+        ],
+        [
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o"
+        ],
+        [
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o"
+        ],
+        [
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o"
+        ],
+        [
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o"
+        ],
+        [
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
+          "biome_mdd0ek6o",
           "biome_mdd0ek6o",
           "biome_mdd0ek6o",
           "biome_mdd0ek6o",
@@ -169,9 +227,24 @@
           "biome_mdd0g7y4",
           "biome_mdd0g7y4",
           "biome_mdd0g7y4",
+          "biome_mdd0g7y4",
+          "biome_mdd0g7y4",
+          "biome_mdd0g7y4",
           "biome_mdd0g7y4"
         ],
         [
+          "biome_mdd0gc7c",
+          "biome_mdd0gc7c",
+          "biome_mdd0gc7c",
+          "biome_mdd0gc7c",
+          "biome_mdd0gc7c",
+          "biome_mdd0gc7c",
+          "biome_mdd0gc7c"
+        ],
+        [
+          "biome_mdd0gc7c",
+          "biome_mdd0gc7c",
+          "biome_mdd0gc7c",
           "biome_mdd0gc7c",
           "biome_mdd0gc7c",
           "biome_mdd0gc7c",
@@ -181,15 +254,51 @@
           "biome_mdd0ggvv",
           "biome_mdd0ggvv",
           "biome_mdd0ggvv",
+          "biome_mdd0ggvv",
+          "biome_mdd0ggvv",
+          "biome_mdd0ggvv",
+          "biome_mdd0ggvv"
+        ],
+        [
+          "biome_mdd0ggvv",
+          "biome_mdd0ggvv",
+          "biome_mdd0ggvv",
+          "biome_mdd0ggvv",
+          "biome_mdd0ggvv",
+          "biome_mdd0ggvv",
+          "biome_mdd0ggvv"
+        ],
+        [
+          "biome_mdd0ggvv",
+          "biome_mdd0ggvv",
+          "biome_mdd0ggvv",
+          "biome_mdd0ggvv",
+          "biome_mdd0ggvv",
+          "biome_mdd0ggvv",
           "biome_mdd0ggvv"
         ],
         [
           "biome_mdd0gm6m",
           "biome_mdd0gm6m",
           "biome_mdd0gm6m",
+          "biome_mdd0gm6m",
+          "biome_mdd0gm6m",
+          "biome_mdd0gm6m",
           "biome_mdd0gm6m"
         ],
         [
+          "biome_mdd0gm6m",
+          "biome_mdd0gm6m",
+          "biome_mdd0gm6m",
+          "biome_mdd0gm6m",
+          "biome_mdd0gm6m",
+          "biome_mdd0gm6m",
+          "biome_mdd0gm6m"
+        ],
+        [
+          "biome_mdd0gpwf",
+          "biome_mdd0gpwf",
+          "biome_mdd0gpwf",
           "biome_mdd0gpwf",
           "biome_mdd0gpwf",
           "biome_mdd0gpwf",
@@ -205,9 +314,24 @@
           "biome_mclv1d2z",
           "biome_mclv1d2z",
           "biome_mclv1d2z",
+          "biome_mclv1d2z",
+          "biome_mclv1d2z",
+          "biome_mclv1d2z",
           "biome_mclv1d2z"
         ],
         [
+          "biome_mclv0xqo",
+          "biome_mclv0xqo",
+          "biome_mclv0xqo",
+          "biome_mclv0xqo",
+          "biome_mclv0xqo",
+          "biome_mclv0xqo",
+          "biome_mclv0xqo"
+        ],
+        [
+          "biome_mclv0xqo",
+          "biome_mclv0xqo",
+          "biome_mclv0xqo",
           "biome_mclv0xqo",
           "biome_mclv0xqo",
           "biome_mclv0xqo",
@@ -217,15 +341,51 @@
           "biome_mcj3kcuj",
           "biome_mcj3kcuj",
           "biome_mcj3kcuj",
+          "biome_mcj3kcuj",
+          "biome_mcj3kcuj",
+          "biome_mcj3kcuj",
+          "biome_mcj3kcuj"
+        ],
+        [
+          "biome_mcj3kcuj",
+          "biome_mcj3kcuj",
+          "biome_mcj3kcuj",
+          "biome_mcj3kcuj",
+          "biome_mcj3kcuj",
+          "biome_mcj3kcuj",
+          "biome_mcj3kcuj"
+        ],
+        [
+          "biome_mcj3kcuj",
+          "biome_mcj3kcuj",
+          "biome_mcj3kcuj",
+          "biome_mcj3kcuj",
+          "biome_mcj3kcuj",
+          "biome_mcj3kcuj",
           "biome_mcj3kcuj"
         ],
         [
           "biome_mcjiirf9",
           "biome_mcjiirf9",
           "biome_mcjiirf9",
+          "biome_mcjiirf9",
+          "biome_mcjiirf9",
+          "biome_mcjiirf9",
           "biome_mcjiirf9"
         ],
         [
+          "biome_mcjiirf9",
+          "biome_mcjiirf9",
+          "biome_mcjiirf9",
+          "biome_mcjiirf9",
+          "biome_mcjiirf9",
+          "biome_mcjiirf9",
+          "biome_mcjiirf9"
+        ],
+        [
+          "biome_mcjm4ufc",
+          "biome_mcjm4ufc",
+          "biome_mcjm4ufc",
           "biome_mcjm4ufc",
           "biome_mcjm4ufc",
           "biome_mcjm4ufc",
@@ -240,12 +400,27 @@
         [
           "biome_mclv56zg",
           "biome_mclv56zg",
+          "biome_mclv56zg",
+          "biome_mclv49nv",
+          "biome_mclv49nv",
           "biome_mclv49nv",
           "biome_mclv49nv"
         ],
         [
           "biome_mcj45qr9",
           "biome_mcj45qr9",
+          "biome_mcj45qr9",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx"
+        ],
+        [
+          "biome_mcj45qr9",
+          "biome_mcj45qr9",
+          "biome_mcj45qr9",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
           "biome_mcj45mcx",
           "biome_mcj45mcx"
         ],
@@ -253,9 +428,42 @@
           "biome_mcj45mcx",
           "biome_mcj45mcx",
           "biome_mcj45mcx",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
           "biome_mcj45mcx"
         ],
         [
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx"
+        ],
+        [
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx"
+        ],
+        [
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx"
+        ],
+        [
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
           "biome_mcj45mcx",
           "biome_mcj45mcx",
           "biome_mcj45mcx",
@@ -263,6 +471,9 @@
         ],
         [
           "biome_mcjlrq1x",
+          "biome_mcjm19yq",
+          "biome_mcjm19yq",
+          "biome_mcjm19yq",
           "biome_mcjm19yq",
           "biome_mcjm19yq",
           "biome_mcjm19yq"
@@ -276,12 +487,27 @@
         [
           "biome_mclv6k93",
           "biome_mclv6k93",
+          "biome_mclv6k93",
+          "biome_mclv56zg",
+          "biome_mclv56zg",
           "biome_mclv56zg",
           "biome_mclv56zg"
         ],
         [
           "biome_mcluyx1h",
           "biome_mcluyx1h",
+          "biome_mcluyx1h",
+          "biome_mcj45qr9",
+          "biome_mcj45qr9",
+          "biome_mcj45qr9",
+          "biome_mcj45qr9"
+        ],
+        [
+          "biome_mcluyx1h",
+          "biome_mcluyx1h",
+          "biome_mcluyx1h",
+          "biome_mcj45qr9",
+          "biome_mcj45qr9",
           "biome_mcj45qr9",
           "biome_mcj45qr9"
         ],
@@ -289,9 +515,42 @@
           "biome_mcj45qr9",
           "biome_mcj45qr9",
           "biome_mcj45qr9",
+          "biome_mcj45qr9",
+          "biome_mcj45qr9",
+          "biome_mcj45qr9",
           "biome_mcj45qr9"
         ],
         [
+          "biome_mcj45qr9",
+          "biome_mcj45qr9",
+          "biome_mcj45qr9",
+          "biome_mcj45qr9",
+          "biome_mcj45qr9",
+          "biome_mcj45qr9",
+          "biome_mcj45qr9"
+        ],
+        [
+          "biome_mcj45qr9",
+          "biome_mcj45qr9",
+          "biome_mcj45qr9",
+          "biome_mcj45qr9",
+          "biome_mcj45qr9",
+          "biome_mcj45qr9",
+          "biome_mcj45qr9"
+        ],
+        [
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx"
+        ],
+        [
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
+          "biome_mcj45mcx",
           "biome_mcj45mcx",
           "biome_mcj45mcx",
           "biome_mcj45mcx",
@@ -300,6 +559,9 @@
         [
           "biome_mcjlz6je",
           "biome_mcjlz6je",
+          "biome_mcjlz6je",
+          "biome_mcjm19yq",
+          "biome_mcjm19yq",
           "biome_mcjm19yq",
           "biome_mcjm19yq"
         ]
@@ -313,9 +575,24 @@
           "biome_mclv36ft",
           "biome_mclv36ft",
           "biome_mclv36ft",
+          "biome_mclv36ft",
+          "biome_mclv36ft",
+          "biome_mclv36ft",
           "biome_mclv36ft"
         ],
         [
+          "biome_mcxdjyeu",
+          "biome_mcxdjyeu",
+          "biome_mcxdjyeu",
+          "biome_mcxdjyeu",
+          "biome_mcxdjyeu",
+          "biome_mcxdjyeu",
+          "biome_mcxdjyeu"
+        ],
+        [
+          "biome_mcxdjyeu",
+          "biome_mcxdjyeu",
+          "biome_mcxdjyeu",
           "biome_mcxdjyeu",
           "biome_mcxdjyeu",
           "biome_mcxdjyeu",
@@ -325,15 +602,51 @@
           "biome_mcj4fh5v",
           "biome_mcj4fh5v",
           "biome_mcj4fh5v",
+          "biome_mcj4fh5v",
+          "biome_mcj4fh5v",
+          "biome_mcj4fh5v",
+          "biome_mcj4fh5v"
+        ],
+        [
+          "biome_mcj4fh5v",
+          "biome_mcj4fh5v",
+          "biome_mcj4fh5v",
+          "biome_mcj4fh5v",
+          "biome_mcj4fh5v",
+          "biome_mcj4fh5v",
+          "biome_mcj4fh5v"
+        ],
+        [
+          "biome_mcj4fh5v",
+          "biome_mcj4fh5v",
+          "biome_mcj4fh5v",
+          "biome_mcj4fh5v",
+          "biome_mcj4fh5v",
+          "biome_mcj4fh5v",
           "biome_mcj4fh5v"
         ],
         [
           "biome_mcxdktxk",
           "biome_mcxdktxk",
           "biome_mcxdktxk",
+          "biome_mcxdktxk",
+          "biome_mcxdktxk",
+          "biome_mcxdktxk",
           "biome_mcxdktxk"
         ],
         [
+          "biome_mcxdktxk",
+          "biome_mcxdktxk",
+          "biome_mcxdktxk",
+          "biome_mcxdktxk",
+          "biome_mcxdktxk",
+          "biome_mcxdktxk",
+          "biome_mcxdktxk"
+        ],
+        [
+          "biome_mcxdlfl8",
+          "biome_mcxdlfl8",
+          "biome_mcxdlfl8",
           "biome_mcxdlfl8",
           "biome_mcxdlfl8",
           "biome_mcxdlfl8",
@@ -349,17 +662,53 @@
           "biome_mcypovos",
           "biome_mcypovos",
           "biome_mcypovos",
+          "biome_mcypovos",
+          "biome_mcypovos",
+          "biome_mcypovos",
           "biome_mcypovos"
         ],
         [
+          "biome_mclv8n6t",
+          "biome_mclv8n6t",
+          "biome_mclv8n6t",
+          "biome_mclv8n6t",
+          "biome_mclv8n6t",
+          "biome_mclv8n6t",
+          "biome_mcj3lxs3"
+        ],
+        [
+          "biome_mclv8n6t",
+          "biome_mclv8n6t",
+          "biome_mclv8n6t",
           "biome_mclv8n6t",
           "biome_mclv8n6t",
           "biome_mcj3lxs3",
           "biome_mcj3lxs3"
         ],
         [
+          "biome_mclv8n6t",
+          "biome_mclv8n6t",
           "biome_mcj3lv3b",
           "biome_mcj3lv3b",
+          "biome_mcj3lxs3",
+          "biome_mcj3lxs3",
+          "biome_mcj3lxs3"
+        ],
+        [
+          "biome_mcj3lv3b",
+          "biome_mcj3lv3b",
+          "biome_mcj3lv3b",
+          "biome_mcj3lxs3",
+          "biome_mcj3lxs3",
+          "biome_mcj3lxs3",
+          "biome_mcj3lxs3"
+        ],
+        [
+          "biome_mclu4s4o",
+          "biome_mcj3lv3b",
+          "biome_mcj3lv3b",
+          "biome_mcj3lv3b",
+          "biome_mcj3lxs3",
           "biome_mcj3lxs3",
           "biome_mcj3lxs3"
         ],
@@ -367,11 +716,26 @@
           "biome_mclu4s4o",
           "biome_mclu4s4o",
           "biome_mck9q01m",
+          "biome_mck9q01m",
+          "biome_mck9q01m",
+          "biome_mck9q01m",
           "biome_mck9q01m"
         ],
         [
+          "biome_mcjlrq1x/biome_mcjlrxuh",
           "biome_mclu4s4o",
           "biome_mclu4s4o",
+          "biome_mck9q01m",
+          "biome_mck9q01m",
+          "biome_mcjlpywq",
+          "biome_mcjlpywq"
+        ],
+        [
+          "biome_mcjlrq1x",
+          "biome_mcjlrq1x/biome_mcjlrxuh",
+          "biome_mclu4s4o",
+          "biome_mclu4s4o",
+          "biome_mcjlpywq",
           "biome_mcjlpywq",
           "biome_mcjlpywq"
         ]
@@ -383,33 +747,84 @@
       "array": [
         [
           "biome_mclvemng",
+          "biome_mclvemng/biome_mclvfdyc",
           "biome_mclvfdyc",
           "biome_mclvfdyc",
+          "biome_mclvfdyc",
+          "biome_mclvfdyc/biome_mclvflno",
           "biome_mclvflno"
         ],
         [
           "biome_mcj3p6hk",
           "biome_mcluf7bw",
+          "biome_mcluf7bw",
+          "biome_mcluf7bw",
           "biome_mclug5bj",
+          "biome_mclug5bj",
+          "biome_mclujvzs"
+        ],
+        [
+          "biome_mcj3p6hk",
+          "biome_mcluf7bw",
+          "biome_mcluf7bw",
+          "biome_mclug5bj",
+          "biome_mclug5bj",
+          "biome_mclujvzs",
           "biome_mclujvzs"
         ],
         [
           "biome_mclrszup",
           "biome_mcj3pamm",
+          "biome_mcj3pamm",
+          "biome_mcj3q5ry/biome_mclug5bj",
+          "biome_mcj3q5ry/biome_mclug5bj",
+          "biome_mcj3q5ry/biome_mcj3w1gx",
+          "biome_mcj3w1gx"
+        ],
+        [
+          "biome_mclrszup",
+          "biome_mcj3pamm",
+          "biome_mcj3pamm",
+          "biome_mcj3q5ry",
+          "biome_mcj3q5ry",
           "biome_mcj3q5ry",
           "biome_mcj3w1gx"
         ],
         [
+          "biome_mclrszup",
+          "biome_mcj3pamm/biome_mclrszup",
+          "biome_mcj3pamm/biome_mclrszup",
+          "biome_mcj3q5ry",
+          "biome_mcj3q5ry",
+          "biome_mcjj6noe",
+          "biome_mcjjcqs3"
+        ],
+        [
           "biome_mcjivi6e",
+          "biome_mcjiprdc/biome_mcjivi6e",
           "biome_mcjiprdc",
+          "biome_mcjj6noe",
+          "biome_mcjj6noe",
           "biome_mcjj6noe",
           "biome_mcjjcqs3"
         ],
         [
           "biome_mcjlrq1x",
+          "biome_mcjivi6e",
+          "biome_mcjiprdc",
+          "biome_mcjiprdc",
+          "biome_mcjj6noe",
+          "biome_mcjj6noe",
+          "biome_mcjlt84p"
+        ],
+        [
+          "biome_mcjlrq1x",
+          "biome_mcjlrq1x",
+          "biome_mcjlr4zk",
           "biome_mcjlr4zk",
           "biome_mcjlt84p",
-          "biome_md7bjfyf"
+          "biome_mcjlt84p",
+          "biome_mcjlt84p"
         ]
       ]
     },
@@ -421,30 +836,81 @@
           "biome_mclvh187",
           "biome_mclvfdyc",
           "biome_mclvfdyc",
+          "biome_mclvfdyc",
+          "biome_mclvfdyc",
+          "biome_mclvfdyc",
           "biome_mclvh187"
         ],
         [
           "biome_mclutqfr",
+          "biome_mclutqfr",
           "biome_mclus3of",
+          "biome_mclus3of",
+          "biome_mclus3of",
+          "biome_mcxbjpdb",
+          "biome_mcxbjpdb"
+        ],
+        [
+          "biome_mclutqfr",
+          "biome_mclus3of",
+          "biome_mclus3of",
+          "biome_mclus3of",
+          "biome_mcxbjpdb",
           "biome_mcxbjpdb",
           "biome_mcxbjpdb"
         ],
         [
           "biome_mcj4kjf4",
           "biome_mcj3v19o",
+          "biome_mcj3v19o",
+          "biome_mcj3v19o",
+          "biome_mcj3pqwa",
+          "biome_mcj3pqwa",
+          "biome_mclumlbk"
+        ],
+        [
+          "biome_mcj4kjf4",
+          "biome_mcj3v19o",
+          "biome_mcj3v19o",
+          "biome_mcj3pqwa",
+          "biome_mcj3pqwa",
+          "biome_mcj3pqwa",
+          "biome_mclumlbk"
+        ],
+        [
+          "biome_mcj4kjf4",
+          "biome_mcm9vcl8",
+          "biome_mcj3v19o",
+          "biome_mcj3v19o",
+          "biome_mcj3pqwa",
           "biome_mcj3pqwa",
           "biome_mclumlbk"
         ],
         [
           "biome_mcxbgn0k",
           "biome_mcm9vcl8",
+          "biome_mcm9vcl8",
+          "biome_mcjj6noe",
+          "biome_mcjj6noe",
           "biome_mcjj6noe",
           "biome_mck9mvza"
         ],
         [
+          "biome_mcxbgn0k",
+          "biome_mcxbgn0k",
+          "biome_mcm9vcl8",
+          "biome_mcjj6noe",
+          "biome_mckacu1v",
+          "biome_mckacu1v",
+          "biome_mck9mvza"
+        ],
+        [
+          "biome_mcjlz6je",
           "biome_mcjlz6je",
           "biome_mck9l8cz",
+          "biome_mck9l8cz",
           "biome_mckacu1v",
+          "biome_mcka9jba",
           "biome_mcka9jba"
         ]
       ]
@@ -457,9 +923,24 @@
           "biome_mclvburk",
           "biome_mclvburk",
           "biome_mclvburk",
+          "biome_mclvburk",
+          "biome_mclvburk",
+          "biome_mclvburk",
           "biome_mclvburk"
         ],
         [
+          "biome_mcltr76i",
+          "biome_mcltr76i",
+          "biome_mcltr76i",
+          "biome_mcltr76i",
+          "biome_mcltr76i",
+          "biome_mcltr76i",
+          "biome_mcltr76i"
+        ],
+        [
+          "biome_mcltr76i",
+          "biome_mcltr76i",
+          "biome_mcltr76i",
           "biome_mcltr76i",
           "biome_mcltr76i",
           "biome_mcltr76i",
@@ -469,15 +950,51 @@
           "biome_mcj3qa9j",
           "biome_mcj3qa9j",
           "biome_mcj3qa9j",
+          "biome_mcj3qa9j",
+          "biome_mcj3qa9j",
+          "biome_mcj3qa9j",
+          "biome_mcj3qa9j"
+        ],
+        [
+          "biome_mcj3qa9j",
+          "biome_mcj3qa9j",
+          "biome_mcj3qa9j",
+          "biome_mcj3qa9j",
+          "biome_mcj3qa9j",
+          "biome_mcj3qa9j",
+          "biome_mcj3qa9j"
+        ],
+        [
+          "biome_mcj3qa9j",
+          "biome_mcj3qa9j",
+          "biome_mcj3qa9j",
+          "biome_mcj3qa9j",
+          "biome_mcj3qa9j",
+          "biome_mcj3qa9j",
           "biome_mcj3qa9j"
         ],
         [
           "biome_mcjj8pne",
           "biome_mcjj8pne",
           "biome_mcjj8pne",
+          "biome_mcjj8pne",
+          "biome_mcjj8pne",
+          "biome_mcjj8pne",
           "biome_mcjj8pne"
         ],
         [
+          "biome_mcjj8pne",
+          "biome_mcjj8pne",
+          "biome_mcjj8pne",
+          "biome_mcjj8pne",
+          "biome_mcjj8pne",
+          "biome_mcjj8pne",
+          "biome_mcjj8pne"
+        ],
+        [
+          "biome_mcjm8a0i",
+          "biome_mcjm8a0i",
+          "biome_mcjm8a0i",
           "biome_mcjm8a0i",
           "biome_mcjm8a0i",
           "biome_mcjm8a0i",
@@ -493,9 +1010,24 @@
           "biome_mclywqsv",
           "biome_mclywqsv",
           "biome_mclywqsv",
+          "biome_mclywqsv",
+          "biome_mclywqsv",
+          "biome_mclywqsv",
           "biome_mclywqsv"
         ],
         [
+          "biome_mcosk8fv",
+          "biome_mcosk8fv",
+          "biome_mcosk8fv",
+          "biome_mcosk8fv",
+          "biome_mcosk8fv",
+          "biome_mcosk8fv",
+          "biome_mcosk8fv"
+        ],
+        [
+          "biome_mcosk8fv",
+          "biome_mcosk8fv",
+          "biome_mcosk8fv",
           "biome_mcosk8fv",
           "biome_mcosk8fv",
           "biome_mcosk8fv",
@@ -505,15 +1037,51 @@
           "biome_mcoskey5",
           "biome_mcoskey5",
           "biome_mcoskey5",
+          "biome_mcoskey5",
+          "biome_mcoskey5",
+          "biome_mcoskey5",
+          "biome_mcoskey5"
+        ],
+        [
+          "biome_mcoskey5",
+          "biome_mcoskey5",
+          "biome_mcoskey5",
+          "biome_mcoskey5",
+          "biome_mcoskey5",
+          "biome_mcoskey5",
+          "biome_mcoskey5"
+        ],
+        [
+          "biome_mcoskey5",
+          "biome_mcoskey5",
+          "biome_mcoskey5",
+          "biome_mcoskey5",
+          "biome_mcoskey5",
+          "biome_mcoskey5",
           "biome_mcoskey5"
         ],
         [
           "biome_mcjj3xo4",
           "biome_mcjj3xo4",
           "biome_mcjj3xo4",
+          "biome_mcjj3xo4",
+          "biome_mcjj3xo4",
+          "biome_mcjj3xo4",
           "biome_mcjj3xo4"
         ],
         [
+          "biome_mcjj3xo4",
+          "biome_mcjj3xo4",
+          "biome_mcjj3xo4",
+          "biome_mcjj3xo4",
+          "biome_mcjj3xo4",
+          "biome_mcjj3xo4",
+          "biome_mcjj3xo4"
+        ],
+        [
+          "biome_mcjm8gmy",
+          "biome_mcjm8gmy",
+          "biome_mcjm8gmy",
           "biome_mcjm8gmy",
           "biome_mcjm8gmy",
           "biome_mcjm8gmy",
@@ -1299,7 +1867,7 @@
     {
       "key": "biome_mcjjcqs3",
       "name": "fable:rainforest",
-      "color": "#70ac23"
+      "color": "#80cd1e"
     },
     {
       "key": "biome_mcxbgn0k",
