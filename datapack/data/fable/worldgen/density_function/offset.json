@@ -176,6 +176,64 @@
             },
             {
               "derivative": 0.0,
+              "location": 0.0,
+              "value": {
+                "coordinate": "fable:continents",
+                "points": [
+                  {
+                    "derivative": 0.0,
+                    "location": -1.1,
+                    "value": 0.02
+                  },
+                  {
+                    "derivative": 0.0,
+                    "location": -0.75,
+                    "value": -0.36
+                  },
+                  {
+                    "derivative": 0.0,
+                    "location": -0.1,
+                    "value": -0.12
+                  },
+                  {
+                    "derivative": 0.0,
+                    "location": 0.1,
+                    "value": {
+                      "coordinate": "fable:ridges_folded",
+                      "points": [
+                        {
+                          "derivative": 0.5,
+                          "location": -1.0,
+                          "value": -0.10
+                        },
+                        {
+                          "derivative": 0.1,
+                          "location": -0.4,
+                          "value": -0.01
+                        },
+                        {
+                          "derivative": 0.1,
+                          "location": 0.0,
+                          "value": 0.05
+                        },
+                        {
+                          "derivative": 0.3,
+                          "location": 0.67,
+                          "value": 0.18
+                        },
+                        {
+                          "derivative": 0.07,
+                          "location": 1.0,
+                          "value": 0.22
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "derivative": 0.0,
               "location": 0.25,
               "value": {
                 "coordinate": "fable:continents",
@@ -224,7 +282,7 @@
                         {
                           "derivative": 0.07,
                           "location": 1.0,
-                          "value": 0.06
+                          "value": 0.08
                         }
                       ]
                     }
