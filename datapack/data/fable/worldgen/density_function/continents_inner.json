@@ -16,7 +16,7 @@
               "argument": {
                 "type": "minecraft:noise",
                 "noise": "fable:continent/x1",
-                "xz_scale": 0.5,
+                "xz_scale": 0.35,
                 "y_scale": 0.0
               }
             },
@@ -28,7 +28,7 @@
                 "argument": {
                   "type": "minecraft:noise",
                   "noise": "fable:continent/y1",
-                  "xz_scale": 0.5,
+                  "xz_scale": 0.35,
                   "y_scale": 0.0
                 }
               }
@@ -48,7 +48,7 @@
               "argument": {
                 "type": "minecraft:noise",
                 "noise": "fable:continent/x2",
-                "xz_scale": 0.5,
+                "xz_scale": 0.35,
                 "y_scale": 0.0
               }
             },
@@ -60,7 +60,7 @@
                 "argument": {
                   "type": "minecraft:noise",
                   "noise": "fable:continent/y2",
-                  "xz_scale": 0.5,
+                  "xz_scale": 0.35,
                   "y_scale": 0.0
                 }
               }
@@ -83,7 +83,7 @@
               "argument": {
                 "type": "minecraft:noise",
                 "noise": "fable:continent/x3",
-                "xz_scale": 0.5,
+                "xz_scale": 0.35,
                 "y_scale": 0.0
               }
             },
@@ -95,7 +95,7 @@
                 "argument": {
                   "type": "minecraft:noise",
                   "noise": "fable:continent/y3",
-                  "xz_scale": 0.5,
+                  "xz_scale": 0.35,
                   "y_scale": 0.0
                 }
               }
@@ -115,7 +115,7 @@
               "argument": {
                 "type": "minecraft:noise",
                 "noise": "fable:continent/x4",
-                "xz_scale": 0.5,
+                "xz_scale": 0.35,
                 "y_scale": 0.0
               }
             },
@@ -127,7 +127,7 @@
                 "argument": {
                   "type": "minecraft:noise",
                   "noise": "fable:continent/y4",
-                  "xz_scale": 0.5,
+                  "xz_scale": 0.35,
                   "y_scale": 0.0
                 }
               }

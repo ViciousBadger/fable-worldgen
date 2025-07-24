@@ -15,7 +15,7 @@
             "argument": {
               "type": "minecraft:noise",
               "noise": "fable:erosion/region/x",
-              "xz_scale": 0.25,
+              "xz_scale": 0.35,
               "y_scale": 0.0
             }
           }
@@ -28,7 +28,7 @@
             "argument": {
               "type": "minecraft:noise",
               "noise": "fable:erosion/region/y",
-              "xz_scale": 0.25,
+              "xz_scale": 0.35,
               "y_scale": 0.0
             }
           }
@@ -42,7 +42,7 @@
           "argument": {
             "type": "minecraft:noise",
             "noise": "fable:erosion/region/z",
-            "xz_scale": 0.25,
+            "xz_scale": 0.35,
             "y_scale": 0.0
           }
         }
