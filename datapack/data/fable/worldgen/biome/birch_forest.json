@@ -17,7 +17,9 @@
     }
   },
   "features": [
-    [],
+    [
+      "fable:cliff/andesite"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
@@ -28,7 +30,9 @@
       "minecraft:monster_room",
       "minecraft:monster_room_deep"
     ],
-    [],
+    [
+      "fable:delta_lakes_rare"
+    ],
     [],
     [
       "minecraft:ore_dirt",
@@ -67,7 +71,11 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:trees_birch"
+      "fable:grass_basic",
+      "fable:scattered_oak_bushes",
+      "fable:rare_birch",
+      "fable:rare_pines",
+      "fable:birch_trees"
     ],
     [
       "minecraft:freeze_top_layer"
