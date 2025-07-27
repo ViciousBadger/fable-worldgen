@@ -16,7 +16,7 @@ public class RockFeature extends Feature<RockFeatureConfig> {
   }
 
   private static final int[] ROCK_SIZES =
-      new int[] {2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 5, 5, 6};
+      new int[] {1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 4, 4, 4, 5, 5, 6};
 
   @Override
   public boolean generate(FeatureContext<RockFeatureConfig> context) {
@@ -39,7 +39,7 @@ public class RockFeature extends Feature<RockFeatureConfig> {
     if (targetPos.getY() <= world.getBottomY() + 3) {
       return false;
     } else {
-      int r = ROCK_SIZES[random.nextInt(16)];
+      int r = ROCK_SIZES[random.nextInt(ROCK_SIZES.length)];
 
       SimplexNoiseSampler noise = new SimplexNoiseSampler(random);
 

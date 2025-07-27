@@ -19,7 +19,9 @@ import net.minecraft.world.gen.trunk.TrunkPlacerType;
 public class FableTrunkPlacer extends TrunkPlacer {
   public static final MapCodec<FableTrunkPlacer> CODEC =
       RecordCodecBuilder.mapCodec(
-          instance -> fillTrunkPlacerFields(instance).apply(instance, FableTrunkPlacer::new));
+          instance ->
+              // instance.group(BlockState.CODEC.fieldOf("state").forGetter(RockFeatureConfig::state))
+              fillTrunkPlacerFields(instance).apply(instance, FableTrunkPlacer::new));
 
   public FableTrunkPlacer(int baseHeight, int firstRandomHeight, int secondRandomHeight) {
     super(baseHeight, firstRandomHeight, secondRandomHeight);

@@ -24,7 +24,8 @@
       "minecraft:lake_lava_underground"
     ],
     [
-      "minecraft:amethyst_geode"
+      "minecraft:amethyst_geode",
+      "fable:rock/granite_rare"
     ],
     [
       "minecraft:monster_room",

@@ -24,7 +24,8 @@
       "minecraft:lake_lava_underground"
     ],
     [
-      "minecraft:amethyst_geode"
+      "minecraft:amethyst_geode",
+      "fable:rock/granite_rare"
     ],
     [
       "minecraft:monster_room",
@@ -71,8 +72,7 @@
       "minecraft:glow_lichen",
       "minecraft:flower_cherry",
       "minecraft:trees_cherry",
-      "fable:scattered_oak_bushes",
-      "fable:rare_chaparral_trees"
+      "fable:scattered_oak_bushes"
     ],
     [
       "minecraft:freeze_top_layer"
