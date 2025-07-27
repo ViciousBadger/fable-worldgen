@@ -1230,6 +1230,35 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
+                        "fable:dry_marsh"
+                      ]
+                    },
+                    "then_run": {
+                      "type": "minecraft:condition",
+                      "if_true": {
+                        "type": "minecraft:not",
+                        "invert": {
+                          "type": "minecraft:y_above",
+                          "anchor": {
+                            "absolute": 60
+                          },
+                          "surface_depth_multiplier": 1.0,
+                          "add_stone_depth": false
+                        }
+                      },
+                      "then_run": {
+                        "type": "minecraft:block",
+                        "result_state": {
+                          "Name": "minecraft:packed_mud"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:biome",
+                      "biome_is": [
                         "fable:deep_broadleaf_forest",
                         "fable:deep_evergreen_forest"
                       ]
