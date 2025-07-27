@@ -15,7 +15,7 @@
             ],
             "erosion": [
               -1,
-              1
+              -0.3
             ],
             "temperature": [
               -1,
@@ -32,6 +32,156 @@
             "offset": 0
           },
           "biome": "fable:fungal_isles"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.2,
+              -0.5
+            ],
+            "erosion": [
+              -0.3,
+              1
+            ],
+            "temperature": [
+              -1,
+              -0.75
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:deep_arctic_ocean"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.2,
+              -0.5
+            ],
+            "erosion": [
+              -0.3,
+              1
+            ],
+            "temperature": [
+              -0.75,
+              -0.25
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:deep_boreal_ocean"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.2,
+              -0.5
+            ],
+            "erosion": [
+              -0.3,
+              1
+            ],
+            "temperature": [
+              -0.25,
+              0.25
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:deep_temperate_ocean"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.2,
+              -0.5
+            ],
+            "erosion": [
+              -0.3,
+              1
+            ],
+            "temperature": [
+              0.25,
+              0.75
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:deep_subtropic_ocean"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.2,
+              -0.5
+            ],
+            "erosion": [
+              -0.3,
+              1
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:deep_tropical_ocean"
         },
         {
           "parameters": {

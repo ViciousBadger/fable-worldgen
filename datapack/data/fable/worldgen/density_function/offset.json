@@ -192,12 +192,7 @@
                 "points": [
                   {
                     "derivative": 0.0,
-                    "location": -1.1,
-                    "value": 0.02
-                  },
-                  {
-                    "derivative": 0.0,
-                    "location": -0.75,
+                    "location": -1.0,
                     "value": -0.36
                   },
                   {
@@ -255,12 +250,7 @@
                 "points": [
                   {
                     "derivative": 0.0,
-                    "location": -1.1,
-                    "value": 0.02
-                  },
-                  {
-                    "derivative": 0.0,
-                    "location": -0.75,
+                    "location": -1.0,
                     "value": -0.36
                   },
                   {
@@ -313,13 +303,8 @@
                 "points": [
                   {
                     "derivative": 0.0,
-                    "location": -1.1,
-                    "value": 0.02
-                  },
-                  {
-                    "derivative": 0.0,
-                    "location": -0.75,
-                    "value": -0.26
+                    "location": -1.0,
+                    "value": -0.36
                   },
                   {
                     "derivative": 0.0,
@@ -371,13 +356,8 @@
                 "points": [
                   {
                     "derivative": 0.0,
-                    "location": -1.1,
-                    "value": 0.02
-                  },
-                  {
-                    "derivative": 0.0,
-                    "location": -0.75,
-                    "value": -0.26
+                    "location": -1.0,
+                    "value": -0.36
                   },
                   {
                     "derivative": 0.0,
