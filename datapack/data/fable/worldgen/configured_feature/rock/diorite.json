@@ -1,8 +1,19 @@
 {
-  "type": "fable:rock",
+  "type": "minecraft:random_patch",
   "config": {
-    "state": {
-      "Name": "minecraft:diorite"
-    }
+    "feature": {
+      "feature": {
+        "type": "fable:rock",
+        "config": {
+          "state": {
+            "Name": "minecraft:diorite"
+          }
+        }
+      },
+      "placement": []
+    },
+    "tries": 6,
+    "xz_spread": 28,
+    "y_spread": 7
   }
 }

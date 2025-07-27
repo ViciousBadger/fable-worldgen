@@ -23,8 +23,7 @@
     ],
     [
       "minecraft:amethyst_geode",
-      "fable:rock/andesite_common",
-      "fable:rock/andesite_large"
+      "fable:rock/andesite_common"
     ],
     [
       "minecraft:monster_room",

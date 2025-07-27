@@ -2,14 +2,8 @@
   "feature": "fable:rock/andesite",
   "placement": [
     {
-      "type": "minecraft:noise_threshold_count",
-      "above_noise": 2,
-      "below_noise": 1,
-      "noise_level": 0.2
-    },
-    {
       "type": "minecraft:rarity_filter",
-      "chance": 12
+      "chance": 16
     },
     {
       "type": "minecraft:in_square"

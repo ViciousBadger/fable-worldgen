@@ -1,8 +1,0 @@
-{
-  "type": "fable:rock",
-  "config": {
-    "state": {
-      "Name": "minecraft:andesite"
-    }
-  }
-}
