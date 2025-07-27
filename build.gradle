@@ -19,7 +19,7 @@ repositories {
 }
 
 loom {
-    accessWidenerPath = file("src/main/resources/new-worldgen.accesswidener")
+    accessWidenerPath = file("src/main/resources/fable.accesswidener")
 
 }
 

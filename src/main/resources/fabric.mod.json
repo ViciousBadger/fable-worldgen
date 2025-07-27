@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "new-worldgen",
+  "id": "fable",
   "version": "${version}",
-  "name": "New Worldgen",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Fable Worldgen",
+  "description": "weee",
   "authors": [
-    "Me!"
+    "Badgerson"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
+    "homepage": "https://badgerson.com/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
   "license": "CC0-1.0",
-  "icon": "assets/new-worldgen/icon.png",
+  "icon": "assets/fable/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.badgerson.new_worldgen.NewWorldgen"
+      "com.badgerson.fable.Fable"
     ]
   },
   "mixins": [
-    "new-worldgen.mixins.json"
+    "fable.mixins.json"
   ],
-  "accessWidener": "new-worldgen.accesswidener",
+  "accessWidener": "fable.accesswidener",
   "depends": {
     "fabricloader": ">=0.16.14",
     "minecraft": "~1.21.1",

@@ -1,27 +1,8 @@
 {
-  "type": "minecraft:ore",
+  "type": "fable:rock",
   "config": {
-    "discard_chance_on_air_exposure": 0.0,
-    "size": 55,
-    "targets": [
-      {
-        "state": {
-          "Name": "minecraft:andesite"
-        },
-        "target": {
-          "predicate_type": "minecraft:tag_match",
-          "tag": "minecraft:air"
-        }
-      },
-      {
-        "state": {
-          "Name": "minecraft:andesite"
-        },
-        "target": {
-          "predicate_type": "minecraft:tag_match",
-          "tag": "minecraft:dirt"
-        }
-      }
-    ]
+    "state": {
+      "Name": "minecraft:andesite"
+    }
   }
 }

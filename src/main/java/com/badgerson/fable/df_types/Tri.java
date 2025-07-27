@@ -1,4 +1,4 @@
-package com.badgerson.new_worldgen.df_types;
+package com.badgerson.fable.df_types;
 
 import com.mojang.serialization.MapCodec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;

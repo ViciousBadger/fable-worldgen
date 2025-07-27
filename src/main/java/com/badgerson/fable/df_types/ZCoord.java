@@ -1,17 +1,17 @@
-package com.badgerson.new_worldgen.df_types;
+package com.badgerson.fable.df_types;
 
 import com.mojang.serialization.MapCodec;
 import net.minecraft.util.dynamic.CodecHolder;
 import net.minecraft.world.gen.densityfunction.DensityFunction;
 
-/** Outputs the X coordinate of input. */
-public record XCoord() implements DensityFunction.Base {
+/** Outputs the Z coordinate of input. */
+public record ZCoord() implements DensityFunction.Base {
 
-  public static final CodecHolder<XCoord> CODEC = CodecHolder.of(MapCodec.unit(new XCoord()));
+  public static final CodecHolder<ZCoord> CODEC = CodecHolder.of(MapCodec.unit(new ZCoord()));
 
   @Override
   public double sample(DensityFunction.NoisePos pos) {
-    return Math.min(Math.max(pos.blockX(), minValue()), maxValue());
+    return Math.min(Math.max(pos.blockZ(), minValue()), maxValue());
   }
 
   @Override

@@ -1,4 +1,4 @@
-package com.badgerson.new_worldgen.mixin;
+package com.badgerson.fable.mixin;
 
 import net.minecraft.world.Heightmap;
 import net.minecraft.world.chunk.Chunk;
