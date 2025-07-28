@@ -1,9 +1,9 @@
 package com.badgerson.fable;
 
 import com.badgerson.fable.df_types.*;
-import com.badgerson.fable.features.FableTrunkPlacer;
 import com.badgerson.fable.features.RockFeature;
 import com.badgerson.fable.features.RockFeatureConfig;
+import com.badgerson.fable.trees.FableTrunkPlacer;
 import com.mojang.serialization.MapCodec;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.registry.Registries;
