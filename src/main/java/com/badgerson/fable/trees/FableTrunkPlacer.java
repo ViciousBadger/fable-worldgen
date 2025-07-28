@@ -120,9 +120,12 @@ public class FableTrunkPlacer extends TrunkPlacer {
       // }
       dir = straighten(dir, new Quaternionf(), 0.5f);
 
-      if (recursionDepth < 2) {
+      double branchProg = (i / (double) segmentCount);
+      double begin = 0.4f;
+
+      if (recursionDepth < 2 && branchProg > begin) {
         double branchChance =
-            MathHelper.lerp((i / (double) segmentCount), branchinessStart, branchinessEnd);
+            MathHelper.lerp((branchProg - begin) * (1f - begin), branchinessStart, branchinessEnd);
         int branchCount = (int) branchChance;
         double fracPart = branchChance - branchCount;
         if (random.nextDouble() < fracPart) {
