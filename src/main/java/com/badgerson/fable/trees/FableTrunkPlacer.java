@@ -63,9 +63,10 @@ public class FableTrunkPlacer extends TrunkPlacer {
     setToDirt(world, replacer, random, startPos.down(), config);
 
     BlockPos here = startPos;
-    Vec3d angle = new Vec3d(0.0, 1.0, 0.0);
+    // We assume the identity direction to be up
+    Quaternionf initialDirection = new Quaternionf();
 
-    double trunkSegLength = 4.0;
+    double trunkSegLength = 2.5;
     int trunkSegCount = (int) (height / trunkSegLength);
 
     List<FoliagePlacer.TreeNode> treeNodes = new ArrayList<FoliagePlacer.TreeNode>();
@@ -76,11 +77,11 @@ public class FableTrunkPlacer extends TrunkPlacer {
         random,
         config,
         here,
-        angle,
+        initialDirection,
         trunkSegLength,
         trunkSegCount,
-        0.3,
-        6.0,
+        0.0,
+        4.0,
         0,
         treeNodes);
 
@@ -93,7 +94,7 @@ public class FableTrunkPlacer extends TrunkPlacer {
       Random random,
       TreeFeatureConfig config,
       BlockPos startPos,
-      Vec3d dir,
+      Quaternionf startDir,
       double segmentLength,
       int segmentCount,
       double branchinessStart,
@@ -101,10 +102,10 @@ public class FableTrunkPlacer extends TrunkPlacer {
       int recursionDepth,
       List<FoliagePlacer.TreeNode> treeNodes) {
     BlockPos here = startPos;
-    Vec3d angle = dir;
+    Quaternionf dir = startDir;
 
     for (int i = 0; i < segmentCount; i++) {
-      TrunkSegment seg = new TrunkSegment(Vec3d.of(here), angle, segmentLength);
+      TrunkSegment seg = new TrunkSegment(Vec3d.of(here), dir, segmentLength);
 
       while (seg.hasNext()) {
         here = seg.next();
@@ -112,10 +113,12 @@ public class FableTrunkPlacer extends TrunkPlacer {
       }
 
       if (random.nextInt() % 4 == 0) {
-        angle = new Vec3d(random.nextDouble() * 2.0 - 1.0, 1.0, random.nextDouble() * 2.0 - 1.0);
-      } else {
-        angle = dir;
+        dir = bend(dir, 0f, MathHelper.RADIANS_PER_DEGREE * 90f, random);
       }
+      // } else {
+      //   dir = straighten(dir, new Quaternionf(), 0.5f);
+      // }
+      dir = straighten(dir, new Quaternionf(), 0.5f);
 
       if (recursionDepth < 2) {
         double branchChance =
@@ -134,9 +137,10 @@ public class FableTrunkPlacer extends TrunkPlacer {
               config,
               //
               here,
-              new Vec3d(random.nextDouble() * 2.0 - 1.0, 1.0, random.nextDouble() * 2.0 - 1.0),
+              // new Vec3d(random.nextDouble() * 2.0 - 1.0, 1.0, random.nextDouble() * 2.0 - 1.0),
+              bend(dir, 35f, 75f, random),
               segmentLength,
-              (int) (segmentCount * 0.85),
+              (int) (segmentCount * 0.55),
               branchinessStart * 0.5,
               branchinessEnd * 0.5,
               recursionDepth + 1,
@@ -150,26 +154,23 @@ public class FableTrunkPlacer extends TrunkPlacer {
     return here;
   }
 
-  private Quaternionf bend(Quaternionf input, float factor, Random random) {
+  private Quaternionf bend(Quaternionf input, float minRadians, float maxRadians, Random random) {
     float angle = random.nextFloat() * MathHelper.TAU;
-    float amount = random.nextFloat() * factor;
+    // float amount = random.nextFloat() * factor;
+    float amount = minRadians + random.nextFloat() * (maxRadians - minRadians);
 
-    // Create a random axis in the XY plane using the angle
+    // Bend around XZ to "steer" the rotation away from up...
+    // Tryin to get this.. we go up by default.. Y......maybe
     Vector3f bendAxis =
-        new Vector3f((float) Math.cos(angle), (float) Math.sin(angle), 0.0f).normalize();
-
-    // Create the bend quaternion using axis-angle
+        new Vector3f((float) Math.cos(angle), 0.0f, (float) Math.sin(angle)).normalize();
     Quaternionf bendQuat = new Quaternionf().fromAxisAngleRad(bendAxis, amount);
 
-    // Compose: apply bend to the input quaternion
-    return input.mul(bendQuat, new Quaternionf());
+    Quaternionf result = new Quaternionf(input);
+    return result.mul(bendQuat);
   }
 
   private Quaternionf straighten(Quaternionf input, Quaternionf target, float amount) {
-    // Clamp amount to valid range
-    amount = Math.max(0.0f, Math.min(1.0f, amount));
-
-    // SLERP from input towards upTarget by amount
-    return input.slerp(target, amount, new Quaternionf());
+    Quaternionf result = new Quaternionf(input);
+    return result.slerp(target, amount);
   }
 }
