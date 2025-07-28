@@ -17,6 +17,8 @@ import net.minecraft.world.gen.foliage.FoliagePlacer;
 import net.minecraft.world.gen.foliage.FoliagePlacer.TreeNode;
 import net.minecraft.world.gen.trunk.TrunkPlacer;
 import net.minecraft.world.gen.trunk.TrunkPlacerType;
+import org.joml.Quaternionf;
+import org.joml.Vector3f;
 
 public class FableTrunkPlacer extends TrunkPlacer {
 
@@ -146,5 +148,28 @@ public class FableTrunkPlacer extends TrunkPlacer {
     treeNodes.add(new FoliagePlacer.TreeNode(here, 0, false));
 
     return here;
+  }
+
+  private Quaternionf bend(Quaternionf input, float factor, Random random) {
+    float angle = random.nextFloat() * MathHelper.TAU;
+    float amount = random.nextFloat() * factor;
+
+    // Create a random axis in the XY plane using the angle
+    Vector3f bendAxis =
+        new Vector3f((float) Math.cos(angle), (float) Math.sin(angle), 0.0f).normalize();
+
+    // Create the bend quaternion using axis-angle
+    Quaternionf bendQuat = new Quaternionf().fromAxisAngleRad(bendAxis, amount);
+
+    // Compose: apply bend to the input quaternion
+    return input.mul(bendQuat, new Quaternionf());
+  }
+
+  private Quaternionf straighten(Quaternionf input, Quaternionf target, float amount) {
+    // Clamp amount to valid range
+    amount = Math.max(0.0f, Math.min(1.0f, amount));
+
+    // SLERP from input towards upTarget by amount
+    return input.slerp(target, amount, new Quaternionf());
   }
 }
