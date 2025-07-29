@@ -54,22 +54,28 @@
       "height_rand_a": 6,
       "height_rand_b": 0,
       "config": {
+        "segment_length": 2,
         "trunk_thickness": 3,
         "bend_chance": 0.45,
         "min_bend_amount": 25,
         "max_bend_amount": 55,
         "straighten_amount": 45,
-        "side_branch_length": 8,
         "side_branch_chance": 0.5,
-        "side_branch_min_angle": 5,
-        "side_branch_max_angle": 35,
+        "side_branch_config": {
+          "length_min": 0.25,
+          "length_max": 0.75,
+          "angle_min": 35,
+          "angle_max": 75
+        },
         "up_branch_depth": 3,
         "min_up_branches": 6,
         "max_up_branches": 8,
-        "up_branch_length_min": 0.25,
-        "up_branch_length_max": 0.75,
-        "up_branch_min_angle": 5,
-        "up_branch_max_angle": 75
+        "up_branch_config": {
+          "length_min": 0.25,
+          "length_max": 0.75,
+          "angle_min": 5,
+          "angle_max": 75
+        }
       }
     },
     "trunk_provider": {
