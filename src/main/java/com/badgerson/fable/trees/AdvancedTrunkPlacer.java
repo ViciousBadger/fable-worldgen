@@ -18,25 +18,25 @@ import net.minecraft.world.gen.foliage.FoliagePlacer.TreeNode;
 import net.minecraft.world.gen.trunk.TrunkPlacer;
 import net.minecraft.world.gen.trunk.TrunkPlacerType;
 
-public class FableTrunkPlacer extends TrunkPlacer {
+public class AdvancedTrunkPlacer extends TrunkPlacer {
 
-  private FableTrunkConfig config;
+  private AdvancedTrunkConfig config;
 
-  public static final MapCodec<FableTrunkPlacer> CODEC =
+  public static final MapCodec<AdvancedTrunkPlacer> CODEC =
       RecordCodecBuilder.mapCodec(
           instance ->
               fillTrunkPlacerFields(instance)
                   .and(
-                      FableTrunkConfig.CODEC
+                      AdvancedTrunkConfig.CODEC
                           .fieldOf("config")
                           .forGetter(
                               (placer) -> {
                                 return placer.config;
                               }))
-                  .apply(instance, FableTrunkPlacer::new));
+                  .apply(instance, AdvancedTrunkPlacer::new));
 
-  public FableTrunkPlacer(
-      int baseHeight, int firstRandomHeight, int secondRandomHeight, FableTrunkConfig config) {
+  public AdvancedTrunkPlacer(
+      int baseHeight, int firstRandomHeight, int secondRandomHeight, AdvancedTrunkConfig config) {
     super(baseHeight, firstRandomHeight, secondRandomHeight);
     this.config = config;
   }
@@ -104,20 +104,21 @@ public class FableTrunkPlacer extends TrunkPlacer {
         this.getAndSetState(world, replacer, random, seg.next(), config);
       }
       here = seg.getCurrentVec();
-      if (random.nextFloat() > this.config.bendChance()) {
+      if (random.nextFloat() < this.config.bendChance()) {
         dir =
             TrunkUtil.bend(
                 dir,
                 MathHelper.RADIANS_PER_DEGREE * this.config.minBendAmount(),
                 MathHelper.RADIANS_PER_DEGREE * this.config.maxBendAmount(),
                 random);
+      } else {
+        dir =
+            TrunkUtil.bendTowardsUp(
+                dir, this.config.straightenAmount() * MathHelper.RADIANS_PER_DEGREE);
       }
-      dir =
-          TrunkUtil.bendTowardsUp(
-              dir, this.config.straightenAmount() * MathHelper.RADIANS_PER_DEGREE);
 
       // "Sideways" branches along the base trunk
-      if (!isMinor && random.nextDouble() > this.config.sideBranchChance()) {
+      if (!isMinor && random.nextDouble() < this.config.sideBranchChance()) {
 
         buildBranch(
             world,
@@ -162,7 +163,7 @@ public class FableTrunkPlacer extends TrunkPlacer {
             upSegmentCount,
             foliageRadius,
             recursionDepth + 1,
-            upSegmentCount < 3 || recursionDepth < 2,
+            upSegmentCount < 3 || recursionDepth > 2,
             treeNodes);
       }
     } else {

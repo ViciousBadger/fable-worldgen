@@ -18,10 +18,25 @@
       }
     },
     "trunk_placer": {
-      "type": "fable:trunk",
-      "base_height": 12,
-      "height_rand_a": 6,
-      "height_rand_b": 0
+      "type": "fable:advanced_trunk_placer",
+      "base_height": 10,
+      "height_rand_a": 2,
+      "height_rand_b": 0,
+      "config": {
+        "bend_chance": 0.5,
+        "min_bend_amount": 15,
+        "max_bend_amount": 45,
+        "straighten_amount": 15,
+        "side_branch_length": 6,
+        "side_branch_chance": 0.85,
+        "side_branch_min_angle": 25,
+        "side_branch_max_angle": 35,
+        "min_up_branches": 3,
+        "max_up_branches": 6,
+        "up_branch_length_factor": 0.85,
+        "up_branch_min_angle": 15,
+        "up_branch_max_angle": 65
+      }
     },
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",

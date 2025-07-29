@@ -3,7 +3,7 @@ package com.badgerson.fable;
 import com.badgerson.fable.df_types.*;
 import com.badgerson.fable.features.RockFeature;
 import com.badgerson.fable.features.RockFeatureConfig;
-import com.badgerson.fable.trees.FableTrunkPlacer;
+import com.badgerson.fable.trees.AdvancedTrunkPlacer;
 import com.mojang.serialization.MapCodec;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.registry.Registries;
@@ -18,11 +18,11 @@ public class Fable implements ModInitializer {
   public static final String MOD_ID = "fable";
   public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
-  public static final TrunkPlacerType<FableTrunkPlacer> TRUNK_PLACER =
+  public static final TrunkPlacerType<AdvancedTrunkPlacer> TRUNK_PLACER =
       Registry.register(
           Registries.TRUNK_PLACER_TYPE,
-          Identifier.of(MOD_ID, "trunk"),
-          new TrunkPlacerType<FableTrunkPlacer>(FableTrunkPlacer.CODEC));
+          Identifier.of(MOD_ID, "advanced_trunk_placer"),
+          new TrunkPlacerType<AdvancedTrunkPlacer>(AdvancedTrunkPlacer.CODEC));
 
   public static final RockFeature FEATURE_ROCK =
       Registry.register(

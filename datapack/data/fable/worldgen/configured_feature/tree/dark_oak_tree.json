@@ -25,7 +25,7 @@
       "type": "minecraft:jungle_foliage_placer",
       "offset": 1,
       "height": 2,
-      "radius": 3
+      "radius": 2
     },
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
@@ -49,22 +49,25 @@
       "upper_size": 2
     },
     "trunk_placer": {
-      "type": "minecraft:fancy_trunk_placer",
-      "base_height": 20,
-      "height_rand_a": 12,
-      "height_rand_b": 8,
-      "extra_branch_length": {
-        "type": "minecraft:uniform",
-        "max_inclusive": 16,
-        "min_inclusive": 8
-      },
-      "extra_branch_steps": {
-        "type": "minecraft:uniform",
-        "max_inclusive": 4,
-        "min_inclusive": 2
-      },
-      "can_grow_through": "#minecraft:mangrove_logs_can_grow_through",
-      "place_branch_per_log_probability": 0.4
+      "type": "fable:advanced_trunk_placer",
+      "base_height": 24,
+      "height_rand_a": 2,
+      "height_rand_b": 0,
+      "config": {
+        "bend_chance": 0.7,
+        "min_bend_amount": 35,
+        "max_bend_amount": 55,
+        "straighten_amount": 65,
+        "side_branch_length": 6,
+        "side_branch_chance": 0.85,
+        "side_branch_min_angle": 5,
+        "side_branch_max_angle": 35,
+        "min_up_branches": 5,
+        "max_up_branches": 6,
+        "up_branch_length_factor": 0.45,
+        "up_branch_min_angle": 45,
+        "up_branch_max_angle": 85
+      }
     },
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",

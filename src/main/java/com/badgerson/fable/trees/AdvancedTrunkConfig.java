@@ -4,7 +4,7 @@ import com.mojang.serialization.Codec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 import net.minecraft.world.gen.feature.FeatureConfig;
 
-public record FableTrunkConfig(
+public record AdvancedTrunkConfig(
     float bendChance,
     float minBendAmount,
     float maxBendAmount,
@@ -19,47 +19,47 @@ public record FableTrunkConfig(
     float upBranchMinAngle,
     float upBranchMaxAngle)
     implements FeatureConfig {
-  public static final Codec<FableTrunkConfig> CODEC =
+  public static final Codec<AdvancedTrunkConfig> CODEC =
       RecordCodecBuilder.create(
           instance ->
               instance
                   .group(
-                      Codec.FLOAT.fieldOf("bend_chance").forGetter(FableTrunkConfig::bendChance),
+                      Codec.FLOAT.fieldOf("bend_chance").forGetter(AdvancedTrunkConfig::bendChance),
                       Codec.FLOAT
                           .fieldOf("min_bend_amount")
-                          .forGetter(FableTrunkConfig::minBendAmount),
+                          .forGetter(AdvancedTrunkConfig::minBendAmount),
                       Codec.FLOAT
                           .fieldOf("max_bend_amount")
-                          .forGetter(FableTrunkConfig::maxBendAmount),
+                          .forGetter(AdvancedTrunkConfig::maxBendAmount),
                       Codec.FLOAT
                           .fieldOf("straighten_amount")
-                          .forGetter(FableTrunkConfig::straightenAmount),
+                          .forGetter(AdvancedTrunkConfig::straightenAmount),
                       Codec.INT
                           .fieldOf("side_branch_length")
-                          .forGetter(FableTrunkConfig::sideBranchLength),
+                          .forGetter(AdvancedTrunkConfig::sideBranchLength),
                       Codec.FLOAT
                           .fieldOf("side_branch_chance")
-                          .forGetter(FableTrunkConfig::sideBranchChance),
+                          .forGetter(AdvancedTrunkConfig::sideBranchChance),
                       Codec.FLOAT
                           .fieldOf("side_branch_min_angle")
-                          .forGetter(FableTrunkConfig::sideBranchMinAngle),
+                          .forGetter(AdvancedTrunkConfig::sideBranchMinAngle),
                       Codec.FLOAT
                           .fieldOf("side_branch_max_angle")
-                          .forGetter(FableTrunkConfig::sideBranchMaxAngle),
+                          .forGetter(AdvancedTrunkConfig::sideBranchMaxAngle),
                       Codec.INT
                           .fieldOf("min_up_branches")
-                          .forGetter(FableTrunkConfig::minUpBranches),
+                          .forGetter(AdvancedTrunkConfig::minUpBranches),
                       Codec.INT
                           .fieldOf("max_up_branches")
-                          .forGetter(FableTrunkConfig::maxUpBranches),
+                          .forGetter(AdvancedTrunkConfig::maxUpBranches),
                       Codec.FLOAT
                           .fieldOf("up_branch_length_factor")
-                          .forGetter(FableTrunkConfig::upBranchLengthFactor),
+                          .forGetter(AdvancedTrunkConfig::upBranchLengthFactor),
                       Codec.FLOAT
                           .fieldOf("up_branch_min_angle")
-                          .forGetter(FableTrunkConfig::upBranchMinAngle),
+                          .forGetter(AdvancedTrunkConfig::upBranchMinAngle),
                       Codec.FLOAT
                           .fieldOf("up_branch_max_angle")
-                          .forGetter(FableTrunkConfig::upBranchMaxAngle))
-                  .apply(instance, FableTrunkConfig::new));
+                          .forGetter(AdvancedTrunkConfig::upBranchMaxAngle))
+                  .apply(instance, AdvancedTrunkConfig::new));
 }
