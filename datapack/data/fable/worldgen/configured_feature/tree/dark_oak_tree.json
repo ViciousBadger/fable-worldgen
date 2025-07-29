@@ -25,7 +25,7 @@
       "type": "minecraft:jungle_foliage_placer",
       "offset": 1,
       "height": 2,
-      "radius": 2
+      "radius": 1
     },
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
@@ -50,23 +50,26 @@
     },
     "trunk_placer": {
       "type": "fable:advanced_trunk_placer",
-      "base_height": 24,
-      "height_rand_a": 2,
+      "base_height": 8,
+      "height_rand_a": 6,
       "height_rand_b": 0,
       "config": {
-        "bend_chance": 0.7,
-        "min_bend_amount": 35,
+        "trunk_thickness": 3,
+        "bend_chance": 0.45,
+        "min_bend_amount": 25,
         "max_bend_amount": 55,
-        "straighten_amount": 65,
-        "side_branch_length": 6,
-        "side_branch_chance": 0.85,
+        "straighten_amount": 45,
+        "side_branch_length": 8,
+        "side_branch_chance": 0.5,
         "side_branch_min_angle": 5,
         "side_branch_max_angle": 35,
-        "min_up_branches": 5,
-        "max_up_branches": 6,
-        "up_branch_length_factor": 0.45,
-        "up_branch_min_angle": 45,
-        "up_branch_max_angle": 85
+        "up_branch_depth": 3,
+        "min_up_branches": 6,
+        "max_up_branches": 8,
+        "up_branch_length_min": 0.25,
+        "up_branch_length_max": 0.75,
+        "up_branch_min_angle": 5,
+        "up_branch_max_angle": 75
       }
     },
     "trunk_provider": {

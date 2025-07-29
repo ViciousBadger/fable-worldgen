@@ -19,23 +19,26 @@
     },
     "trunk_placer": {
       "type": "fable:advanced_trunk_placer",
-      "base_height": 10,
-      "height_rand_a": 2,
+      "base_height": 6,
+      "height_rand_a": 6,
       "height_rand_b": 0,
       "config": {
-        "bend_chance": 0.5,
+        "trunk_thickness": 2,
+        "bend_chance": 0.25,
         "min_bend_amount": 15,
         "max_bend_amount": 45,
         "straighten_amount": 15,
         "side_branch_length": 6,
-        "side_branch_chance": 0.85,
+        "side_branch_chance": 0.5,
         "side_branch_min_angle": 25,
         "side_branch_max_angle": 35,
-        "min_up_branches": 3,
-        "max_up_branches": 6,
-        "up_branch_length_factor": 0.85,
-        "up_branch_min_angle": 15,
-        "up_branch_max_angle": 65
+        "up_branch_depth": 3,
+        "min_up_branches": 6,
+        "max_up_branches": 8,
+        "up_branch_length_min": 0.25,
+        "up_branch_length_max": 0.75,
+        "up_branch_min_angle": 5,
+        "up_branch_max_angle": 75
       }
     },
     "trunk_provider": {
@@ -49,9 +52,9 @@
     },
     "foliage_placer": {
       "type": "minecraft:fancy_foliage_placer",
-      "height": 4,
+      "height": 3,
       "offset": 2,
-      "radius": 3
+      "radius": 2
     },
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",

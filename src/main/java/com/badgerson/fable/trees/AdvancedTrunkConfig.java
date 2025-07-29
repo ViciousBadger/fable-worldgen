@@ -5,6 +5,7 @@ import com.mojang.serialization.codecs.RecordCodecBuilder;
 import net.minecraft.world.gen.feature.FeatureConfig;
 
 public record AdvancedTrunkConfig(
+    int trunkThickness,
     float bendChance,
     float minBendAmount,
     float maxBendAmount,
@@ -13,9 +14,11 @@ public record AdvancedTrunkConfig(
     float sideBranchChance,
     float sideBranchMinAngle,
     float sideBranchMaxAngle,
+    int upBranchDepth,
     int minUpBranches,
     int maxUpBranches,
-    float upBranchLengthFactor,
+    float upBranchLengthMin,
+    float upBranchLengthMax,
     float upBranchMinAngle,
     float upBranchMaxAngle)
     implements FeatureConfig {
@@ -24,6 +27,9 @@ public record AdvancedTrunkConfig(
           instance ->
               instance
                   .group(
+                      Codec.INT
+                          .fieldOf("trunk_thickness")
+                          .forGetter(AdvancedTrunkConfig::trunkThickness),
                       Codec.FLOAT.fieldOf("bend_chance").forGetter(AdvancedTrunkConfig::bendChance),
                       Codec.FLOAT
                           .fieldOf("min_bend_amount")
@@ -47,14 +53,20 @@ public record AdvancedTrunkConfig(
                           .fieldOf("side_branch_max_angle")
                           .forGetter(AdvancedTrunkConfig::sideBranchMaxAngle),
                       Codec.INT
+                          .fieldOf("up_branch_depth")
+                          .forGetter(AdvancedTrunkConfig::upBranchDepth),
+                      Codec.INT
                           .fieldOf("min_up_branches")
                           .forGetter(AdvancedTrunkConfig::minUpBranches),
                       Codec.INT
                           .fieldOf("max_up_branches")
                           .forGetter(AdvancedTrunkConfig::maxUpBranches),
                       Codec.FLOAT
-                          .fieldOf("up_branch_length_factor")
-                          .forGetter(AdvancedTrunkConfig::upBranchLengthFactor),
+                          .fieldOf("up_branch_length_min")
+                          .forGetter(AdvancedTrunkConfig::upBranchLengthMin),
+                      Codec.FLOAT
+                          .fieldOf("up_branch_length_max")
+                          .forGetter(AdvancedTrunkConfig::upBranchLengthMax),
                       Codec.FLOAT
                           .fieldOf("up_branch_min_angle")
                           .forGetter(AdvancedTrunkConfig::upBranchMinAngle),

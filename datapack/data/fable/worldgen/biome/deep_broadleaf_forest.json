@@ -8,6 +8,7 @@
     "water_color": 3570859,
     "water_fog_color": 331305,
     "grass_color": 6066479,
+    "grass_color_modifier": "dark_forest",
     "foliage_color": 5206580,
     "mood_sound": {
       "block_search_extent": 8,

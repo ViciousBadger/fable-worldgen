@@ -19,6 +19,11 @@ import net.minecraft.world.gen.trunk.TrunkPlacer;
 import net.minecraft.world.gen.trunk.TrunkPlacerType;
 
 public class AdvancedTrunkPlacer extends TrunkPlacer {
+  private enum BranchMode {
+    Trunk,
+    Side,
+    Top
+  }
 
   private AdvancedTrunkConfig config;
 
@@ -59,7 +64,7 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
     Vec3d initialPosition = Vec3d.of(startPos.down()).add(0.5, 0.5, 0.5);
     Vec3d initialDirection = new Vec3d(0.0, 1.0, 0.0);
 
-    double trunkSegLength = 3.0;
+    double trunkSegLength = 2.0;
     int trunkSegCount = (int) (height / trunkSegLength);
 
     List<FoliagePlacer.TreeNode> treeNodes = new ArrayList<FoliagePlacer.TreeNode>();
@@ -69,14 +74,15 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
         replacer,
         random,
         config,
+        treeNodes,
+        BranchMode.Trunk,
         initialPosition,
         initialDirection,
         trunkSegLength,
         trunkSegCount,
         1, // Foliage
-        0, // Recursion depth
-        false, // Minor
-        treeNodes);
+        0 // Recursion depth
+        );
 
     return treeNodes;
   }
@@ -86,14 +92,15 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
       BiConsumer<BlockPos, BlockState> replacer,
       Random random,
       TreeFeatureConfig config,
+      List<FoliagePlacer.TreeNode> treeNodes,
+      //
+      BranchMode mode,
       Vec3d startPos,
       Vec3d startDir,
       double segmentLength,
       int segmentCount,
       int foliageRadius,
-      int recursionDepth,
-      boolean isMinor,
-      List<FoliagePlacer.TreeNode> treeNodes) {
+      int recursionDepth) {
     Vec3d here = new Vec3d(startPos.x, startPos.y, startPos.z);
     Vec3d dir = startDir;
 
@@ -101,8 +108,24 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
       TrunkSegment seg = new TrunkSegment(here, dir, segmentLength);
 
       while (seg.hasNext()) {
-        this.getAndSetState(world, replacer, random, seg.next(), config);
+        if (mode != BranchMode.Trunk || this.config.trunkThickness() <= 1) {
+          this.getAndSetState(world, replacer, random, seg.next(), config);
+        } else if (this.config.trunkThickness() == 2) {
+          BlockPos next = seg.next();
+          this.getAndSetState(world, replacer, random, next, config);
+          this.getAndSetState(world, replacer, random, next.east(), config);
+          this.getAndSetState(world, replacer, random, next.south(), config);
+          this.getAndSetState(world, replacer, random, next.east().south(), config);
+        } else if (this.config.trunkThickness() == 3) {
+          BlockPos next = seg.next();
+          this.getAndSetState(world, replacer, random, next, config);
+          this.getAndSetState(world, replacer, random, next.east(), config);
+          this.getAndSetState(world, replacer, random, next.south(), config);
+          this.getAndSetState(world, replacer, random, next.north(), config);
+          this.getAndSetState(world, replacer, random, next.west(), config);
+        }
       }
+
       here = seg.getCurrentVec();
       if (random.nextFloat() < this.config.bendChance()) {
         dir =
@@ -118,32 +141,38 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
       }
 
       // "Sideways" branches along the base trunk
-      if (!isMinor && random.nextDouble() < this.config.sideBranchChance()) {
-
+      if (mode == BranchMode.Trunk && random.nextDouble() < this.config.sideBranchChance()) {
         buildBranch(
             world,
             replacer,
             random,
             config,
+            treeNodes,
             //
+            BranchMode.Side,
             here,
             TrunkUtil.bend(
                 dir, this.config.sideBranchMinAngle(), this.config.sideBranchMaxAngle(), random),
             segmentLength,
             (int) (this.config.sideBranchLength() / segmentLength),
             0, // Smaller foliage clumps (?)
-            recursionDepth + 1,
-            true, // Always minor branches
-            treeNodes);
+            recursionDepth + 1);
       }
     }
 
-    // "Upwards" branches at the end of trunks
+    // "Upwards" branches at the end of trunks (and other top branches, recursively)
     int branchCount = random.nextBetween(this.config.minUpBranches(), this.config.maxUpBranches());
-    int upSegmentCount = (int) (segmentCount * this.config.upBranchLengthFactor());
-    if (!isMinor && branchCount > 0 && upSegmentCount > 0) {
-      for (int j = 0; j < branchCount; j++) {
 
+    if (mode != BranchMode.Side
+        && branchCount > 0
+        && recursionDepth < this.config.upBranchDepth()) {
+      for (int j = 0; j < branchCount; j++) {
+        // Calc height fr this one
+        float lengthScale =
+            this.config.upBranchLengthMin()
+                + (random.nextFloat() * this.config.upBranchLengthMax()
+                    - this.config.upBranchLengthMin());
+        int upSegmentCount = Math.max((int) (segmentCount * lengthScale), 1);
         float branchDirAngle =
             (j / (float) branchCount) * MathHelper.TAU + (random.nextFloat() * 0.1f - 0.05f);
         buildBranch(
@@ -151,7 +180,9 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
             replacer,
             random,
             config,
+            treeNodes,
             //
+            BranchMode.Top,
             here,
             TrunkUtil.bendWithAngle(
                 dir,
@@ -162,9 +193,7 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
             segmentLength,
             upSegmentCount,
             foliageRadius,
-            recursionDepth + 1,
-            upSegmentCount < 3 || recursionDepth > 2,
-            treeNodes);
+            recursionDepth + 1);
       }
     } else {
       treeNodes.add(new FoliagePlacer.TreeNode(BlockPos.ofFloored(here), foliageRadius, false));
