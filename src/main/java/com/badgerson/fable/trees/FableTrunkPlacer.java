@@ -17,8 +17,6 @@ import net.minecraft.world.gen.foliage.FoliagePlacer;
 import net.minecraft.world.gen.foliage.FoliagePlacer.TreeNode;
 import net.minecraft.world.gen.trunk.TrunkPlacer;
 import net.minecraft.world.gen.trunk.TrunkPlacerType;
-import org.joml.Quaternionf;
-import org.joml.Vector3f;
 
 public class FableTrunkPlacer extends TrunkPlacer {
 
@@ -62,11 +60,10 @@ public class FableTrunkPlacer extends TrunkPlacer {
       TreeFeatureConfig config) {
     setToDirt(world, replacer, random, startPos.down(), config);
 
-    BlockPos here = startPos;
-    // We assume the identity direction to be up
-    Quaternionf initialDirection = new Quaternionf();
+    Vec3d initialPosition = Vec3d.of(startPos.down()).add(0.5, 0.5, 0.5);
+    Vec3d initialDirection = new Vec3d(0.0, 1.0, 0.0);
 
-    double trunkSegLength = 2.5;
+    double trunkSegLength = 3.0;
     int trunkSegCount = (int) (height / trunkSegLength);
 
     List<FoliagePlacer.TreeNode> treeNodes = new ArrayList<FoliagePlacer.TreeNode>();
@@ -76,90 +73,49 @@ public class FableTrunkPlacer extends TrunkPlacer {
         replacer,
         random,
         config,
-        here,
+        initialPosition,
         initialDirection,
         trunkSegLength,
         trunkSegCount,
-        0.0,
-        4.0,
+        1,
         0,
+        false,
         treeNodes);
 
     return treeNodes;
   }
 
-  private BlockPos buildBranch(
+  private Vec3d buildBranch(
       TestableWorld world,
       BiConsumer<BlockPos, BlockState> replacer,
       Random random,
       TreeFeatureConfig config,
-      BlockPos startPos,
-      Quaternionf startDir,
+      Vec3d startPos,
+      Vec3d startDir,
       double segmentLength,
       int segmentCount,
-      double branchinessStart,
-      double branchinessEnd,
+      int foliageRadius,
       int recursionDepth,
+      boolean isMinor,
       List<FoliagePlacer.TreeNode> treeNodes) {
-    BlockPos here = new BlockPos(startPos);
-    Quaternionf dir = startDir;
+    Vec3d here = new Vec3d(startPos.x, startPos.y, startPos.z);
+    Vec3d dir = startDir;
 
     for (int i = 0; i < segmentCount; i++) {
-      TrunkSegment seg = new TrunkSegment(Vec3d.of(here), dir, segmentLength);
+      TrunkSegment seg = new TrunkSegment(here, dir, segmentLength);
 
       while (seg.hasNext()) {
-        here = seg.next();
-        this.getAndSetState(world, replacer, random, here, config);
+        this.getAndSetState(world, replacer, random, seg.next(), config);
       }
-
-      // if (random.nextInt() % 4 == 0) {
-      //   dir = bend(dir, 0f, MathHelper.RADIANS_PER_DEGREE * 90f, random);
-      // }
-
-      // } else {
-      //   dir = straighten(dir, new Quaternionf(), 0.5f);
-      // }
-
-      // dir = straighten(dir, new Quaternionf(), 0.5f);
+      here = seg.getCurrentVec();
+      dir = TrunkUtil.bend(dir, 0f, MathHelper.RADIANS_PER_DEGREE * 45f, random);
+      dir = TrunkUtil.bendTowardsUp(dir, 10f * MathHelper.RADIANS_PER_DEGREE);
 
       double branchProg = (i / (double) segmentCount);
-      double begin = 0.4f;
 
-      // if (recursionDepth < 0 && branchProg > begin) {
-      //   double branchChance =
-      //       MathHelper.lerp((branchProg - begin) * (1f - begin), branchinessStart,
-      // branchinessEnd);
-      //   int branchCount = (int) branchChance;
-      //   double fracPart = branchChance - branchCount;
-      //   if (random.nextDouble() < fracPart) {
-      //     branchCount++;
-      //   }
-      //
-      //   for (int j = 0; j < branchCount; j++) {
-      //     buildBranch(
-      //         world,
-      //         replacer,
-      //         random,
-      //         config,
-      //         //
-      //         here,
-      //         // new Vec3d(random.nextDouble() * 2.0 - 1.0, 1.0, random.nextDouble() * 2.0 -
-      // 1.0),
-      //         bend(dir, 35f, 75f, random),
-      //         segmentLength,
-      //         (int) (segmentCount * 0.50),
-      //         branchinessStart * 0.5,
-      //         branchinessEnd * 0.5,
-      //         recursionDepth + 1,
-      //         treeNodes);
-      //   }
-      // }
+      // "Sideways" branches along the base trunk
+      if (!isMinor && random.nextInt(3) == 0) {
 
-    }
-
-    if (recursionDepth < 2) {
-      for (int j = 0; j < 4; j++) {
-        float branchAngle = (j / 4f) * MathHelper.TAU;
         buildBranch(
             world,
             replacer,
@@ -167,48 +123,48 @@ public class FableTrunkPlacer extends TrunkPlacer {
             config,
             //
             here,
-            bendWithAngle(
+            TrunkUtil.bend(dir, 15f, 45f, random),
+            segmentLength,
+            Math.max((int) (segmentCount * branchProg * 0.85f), 1),
+            0, // Smaller foliage clumps
+            recursionDepth + 1,
+            true, // Always minor branches
+            treeNodes);
+      }
+    }
+
+    // "Upwards" branches at the end of trunks
+    if (!isMinor) {
+      int branchCount = random.nextBetween(2, 4);
+      for (int j = 0; j < branchCount; j++) {
+        int newSegmentCount = Math.max((int) (segmentCount * 0.65), 1);
+
+        float branchDirAngle =
+            (j / (float) branchCount) * MathHelper.TAU + (random.nextFloat() * 0.1f - 0.05f);
+        buildBranch(
+            world,
+            replacer,
+            random,
+            config,
+            //
+            here,
+            TrunkUtil.bendWithAngle(
                 dir,
-                branchAngle,
-                MathHelper.RADIANS_PER_DEGREE * 45f,
+                branchDirAngle,
+                MathHelper.RADIANS_PER_DEGREE * 15f,
                 MathHelper.RADIANS_PER_DEGREE * 45f,
                 random),
             segmentLength,
-            (int) (segmentCount * 1.0),
-            branchinessStart,
-            branchinessEnd,
+            Math.max((int) (segmentCount * 0.65), 1),
+            foliageRadius,
             recursionDepth + 1,
+            newSegmentCount < 3 || recursionDepth < 2,
             treeNodes);
       }
     } else {
-      treeNodes.add(new FoliagePlacer.TreeNode(here, 0, false));
+      treeNodes.add(new FoliagePlacer.TreeNode(BlockPos.ofFloored(here), foliageRadius, false));
     }
 
     return here;
-  }
-
-  private Quaternionf bendWithAngle(
-      Quaternionf input, float angle, float minRadians, float maxRadians, Random random) {
-    // float amount = minRadians + random.nextFloat() * (maxRadians - minRadians);
-    float amount = MathHelper.RADIANS_PER_DEGREE * 45f;
-
-    Vector3f bendAxis = new Vector3f((float) Math.cos(angle), 0.0f, (float) Math.sin(angle));
-    Vector3f bendAxisLocal = input.transform(bendAxis);
-    Quaternionf bend = new Quaternionf().fromAxisAngleRad(bendAxisLocal, amount);
-    return new Quaternionf(input).mul(bend);
-  }
-
-  private Quaternionf bend(Quaternionf input, float minRadians, float maxRadians, Random random) {
-    float angle = random.nextFloat() * MathHelper.TAU;
-    float amount = minRadians + random.nextFloat() * (maxRadians - minRadians);
-
-    Vector3f bendAxis = new Vector3f((float) Math.cos(angle), 0.0f, (float) Math.sin(angle));
-    Quaternionf bend = new Quaternionf().fromAxisAngleRad(bendAxis, amount);
-    return new Quaternionf(bend).mul(input);
-  }
-
-  private Quaternionf straighten(Quaternionf input, Quaternionf target, float amount) {
-    float angleBetween = input.difference(target).angle();
-    return new Quaternionf(input).slerp(target, amount / angleBetween);
   }
 }

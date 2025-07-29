@@ -3,25 +3,23 @@ package com.badgerson.fable.trees;
 import java.util.Iterator;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
-import org.joml.Quaternionf;
-import org.joml.Vector3f;
 
 public class TrunkSegment implements Iterator<BlockPos> {
 
-  private static final double MOVE_INTERVAL = 0.85;
+  private static final double MOVE_INTERVAL = 1.0;
 
-  private Quaternionf dir;
+  private Vec3d dir;
   private double length;
 
   private Vec3d current;
   private double distTraveled = 0.0;
   private BlockPos lastBlockPos = null;
 
-  public TrunkSegment(Vec3d start, Quaternionf dir, double length) {
+  public TrunkSegment(Vec3d start, Vec3d dir, double length) {
     this.current = start;
     this.dir = dir;
     this.length = length;
-    this.lastBlockPos = BlockPos.ofFloored(start).down();
+    this.lastBlockPos = BlockPos.ofFloored(start);
   }
 
   public boolean hasNext() {
@@ -33,12 +31,16 @@ public class TrunkSegment implements Iterator<BlockPos> {
     var nextBlockPos = lastBlockPos;
     while (nextBlockPos.equals(lastBlockPos) && distTraveled < length) {
       double toMove = Math.min(MOVE_INTERVAL, length - distTraveled);
-      var m = dir.transform(new Vector3f(0f, 1f, 0f));
-      current = current.add(new Vec3d(m.x, m.y, m.z).multiply(toMove));
+      // var m = dir.transform(new Vector3f(0f, 1f, 0f));
+      current = current.add(dir.multiply(toMove));
       nextBlockPos = BlockPos.ofFloored(current);
 
       distTraveled += toMove;
     }
     return nextBlockPos;
+  }
+
+  public Vec3d getCurrentVec() {
+    return current;
   }
 }

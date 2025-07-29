@@ -50,7 +50,7 @@ public class RockFeature extends Feature<RockFeatureConfig> {
         BlockPos placePos = (BlockPos) iter.next();
 
         int relY = placePos.getY() - targetPos.getY();
-        double r2 = r - Math.max(0, relY * 0.65) + 0.33;
+        double r2 = r - Math.max(0, relY * 0.65) - 0.33;
 
         double s =
             noise.sample(placePos.getX() * 0.15, placePos.getY() * 0.15, placePos.getZ() * 0.15);
