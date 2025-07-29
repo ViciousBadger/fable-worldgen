@@ -8,7 +8,7 @@ import org.joml.Vector3f;
 
 public class TrunkSegment implements Iterator<BlockPos> {
 
-  private static final double MOVE_INTERVAL = 1.0;
+  private static final double MOVE_INTERVAL = 0.85;
 
   private Quaternionf dir;
   private double length;
@@ -21,7 +21,7 @@ public class TrunkSegment implements Iterator<BlockPos> {
     this.current = start;
     this.dir = dir;
     this.length = length;
-    this.lastBlockPos = BlockPos.ofFloored(start).south();
+    this.lastBlockPos = BlockPos.ofFloored(start).down();
   }
 
   public boolean hasNext() {
@@ -31,7 +31,7 @@ public class TrunkSegment implements Iterator<BlockPos> {
   public BlockPos next() {
     // Move until new blockpos..
     var nextBlockPos = lastBlockPos;
-    while (nextBlockPos == lastBlockPos && distTraveled < length) {
+    while (nextBlockPos.equals(lastBlockPos) && distTraveled < length) {
       double toMove = Math.min(MOVE_INTERVAL, length - distTraveled);
       var m = dir.transform(new Vector3f(0f, 1f, 0f));
       current = current.add(new Vec3d(m.x, m.y, m.z).multiply(toMove));
