@@ -21,7 +21,20 @@
       "type": "fable:trunk",
       "base_height": 8,
       "height_rand_a": 4,
-      "height_rand_b": 0
+      "height_rand_b": 0,
+      "bend_chance": 0.5,
+      "min_bend_amount": 15,
+      "max_bend_amount": 45,
+      "straighten_amount": 10,
+      "side_branch_length": 5,
+      "side_branch_chance": 0.75,
+      "side_branch_min_angle": 25,
+      "side_branch_max_angle": 35,
+      "min_up_branches": 1,
+      "max_up_branches": 4,
+      "up_branch_length_factor": 0.65,
+      "up_branch_min_angle": 15,
+      "up_branch_max_angle": 45
     },
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",

@@ -20,29 +20,25 @@ import net.minecraft.world.gen.trunk.TrunkPlacerType;
 
 public class FableTrunkPlacer extends TrunkPlacer {
 
+  private FableTrunkConfig config;
+
   public static final MapCodec<FableTrunkPlacer> CODEC =
       RecordCodecBuilder.mapCodec(
-          instance -> fillTrunkPlacerFields(instance).apply(instance, FableTrunkPlacer::new));
+          instance ->
+              fillTrunkPlacerFields(instance)
+                  .and(
+                      FableTrunkConfig.CODEC
+                          .fieldOf("config")
+                          .forGetter(
+                              (placer) -> {
+                                return placer.config;
+                              }))
+                  .apply(instance, FableTrunkPlacer::new));
 
-  // fillTrunkPlacerFields(instance)
-  //     .and(
-  //         instance.group(
-  //             Codec.INT
-  //                 .fieldOf("radius_top")
-  //                 .forGetter(
-  //                     (placer) -> {
-  //                       return placer.radiusTop;
-  //                     }),
-  //             Codec.INT
-  //                 .fieldOf("radius_bottom")
-  //                 .forGetter(
-  //                     (placer) -> {
-  //                       return placer.radiusBottom;
-  //                     })))
-  //     .apply(instance, FableTrunkPlacer::new));
-
-  public FableTrunkPlacer(int baseHeight, int firstRandomHeight, int secondRandomHeight) {
+  public FableTrunkPlacer(
+      int baseHeight, int firstRandomHeight, int secondRandomHeight, FableTrunkConfig config) {
     super(baseHeight, firstRandomHeight, secondRandomHeight);
+    this.config = config;
   }
 
   @Override
@@ -77,9 +73,9 @@ public class FableTrunkPlacer extends TrunkPlacer {
         initialDirection,
         trunkSegLength,
         trunkSegCount,
-        1,
-        0,
-        false,
+        1, // Foliage
+        0, // Recursion depth
+        false, // Minor
         treeNodes);
 
     return treeNodes;
@@ -108,13 +104,20 @@ public class FableTrunkPlacer extends TrunkPlacer {
         this.getAndSetState(world, replacer, random, seg.next(), config);
       }
       here = seg.getCurrentVec();
-      dir = TrunkUtil.bend(dir, 0f, MathHelper.RADIANS_PER_DEGREE * 45f, random);
-      dir = TrunkUtil.bendTowardsUp(dir, 10f * MathHelper.RADIANS_PER_DEGREE);
-
-      double branchProg = (i / (double) segmentCount);
+      if (random.nextFloat() > this.config.bendChance()) {
+        dir =
+            TrunkUtil.bend(
+                dir,
+                MathHelper.RADIANS_PER_DEGREE * this.config.minBendAmount(),
+                MathHelper.RADIANS_PER_DEGREE * this.config.maxBendAmount(),
+                random);
+      }
+      dir =
+          TrunkUtil.bendTowardsUp(
+              dir, this.config.straightenAmount() * MathHelper.RADIANS_PER_DEGREE);
 
       // "Sideways" branches along the base trunk
-      if (!isMinor && random.nextInt(3) == 0) {
+      if (!isMinor && random.nextDouble() > this.config.sideBranchChance()) {
 
         buildBranch(
             world,
@@ -123,10 +126,11 @@ public class FableTrunkPlacer extends TrunkPlacer {
             config,
             //
             here,
-            TrunkUtil.bend(dir, 15f, 45f, random),
+            TrunkUtil.bend(
+                dir, this.config.sideBranchMinAngle(), this.config.sideBranchMaxAngle(), random),
             segmentLength,
-            Math.max((int) (segmentCount * branchProg * 0.85f), 1),
-            0, // Smaller foliage clumps
+            (int) (this.config.sideBranchLength() / segmentLength),
+            0, // Smaller foliage clumps (?)
             recursionDepth + 1,
             true, // Always minor branches
             treeNodes);
@@ -134,10 +138,10 @@ public class FableTrunkPlacer extends TrunkPlacer {
     }
 
     // "Upwards" branches at the end of trunks
-    if (!isMinor) {
-      int branchCount = random.nextBetween(2, 4);
+    int branchCount = random.nextBetween(this.config.minUpBranches(), this.config.maxUpBranches());
+    int upSegmentCount = (int) (segmentCount * this.config.upBranchLengthFactor());
+    if (!isMinor && branchCount > 0 && upSegmentCount > 0) {
       for (int j = 0; j < branchCount; j++) {
-        int newSegmentCount = Math.max((int) (segmentCount * 0.65), 1);
 
         float branchDirAngle =
             (j / (float) branchCount) * MathHelper.TAU + (random.nextFloat() * 0.1f - 0.05f);
@@ -151,14 +155,14 @@ public class FableTrunkPlacer extends TrunkPlacer {
             TrunkUtil.bendWithAngle(
                 dir,
                 branchDirAngle,
-                MathHelper.RADIANS_PER_DEGREE * 15f,
-                MathHelper.RADIANS_PER_DEGREE * 45f,
+                MathHelper.RADIANS_PER_DEGREE * this.config.upBranchMinAngle(),
+                MathHelper.RADIANS_PER_DEGREE * this.config.upBranchMaxAngle(),
                 random),
             segmentLength,
-            Math.max((int) (segmentCount * 0.65), 1),
+            upSegmentCount,
             foliageRadius,
             recursionDepth + 1,
-            newSegmentCount < 3 || recursionDepth < 2,
+            upSegmentCount < 3 || recursionDepth < 2,
             treeNodes);
       }
     } else {
