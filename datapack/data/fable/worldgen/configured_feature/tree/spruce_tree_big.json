@@ -31,8 +31,8 @@
         "max_inclusive": 17,
         "min_inclusive": 13
       },
-      "offset": 15,
-      "radius": 4
+      "offset": 1,
+      "radius": 0
     },
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",

@@ -36,16 +36,11 @@
                 {
                   "derivative": 0.0,
                   "location": -0.1,
-                  "value": 6.8
-                },
-                {
-                  "derivative": 0.0,
-                  "location": 0.1,
                   "value": 8.8
                 },
                 {
                   "derivative": 0.0,
-                  "location": 0.3,
+                  "location": 0.1,
                   "value": {
                     "coordinate": "fable:erosion",
                     "points": [
@@ -130,7 +125,21 @@
                             {
                               "derivative": 0.0,
                               "location": 1.0,
-                              "value": 2.80
+                              "value": {
+                                "coordinate": "fable:humidity",
+                                "points": [
+                                  {
+                                    "derivative": 0.0,
+                                    "location": -1.0,
+                                    "value": 2.68
+                                  },
+                                  {
+                                    "derivative": 0.0,
+                                    "location": 1.0,
+                                    "value": 1.74
+                                  }
+                                ]
+                              }
                             }
                           ]
                         }
@@ -160,12 +169,12 @@
                                   {
                                     "derivative": 0.0,
                                     "location": -1.0,
-                                    "value": 6.68
+                                    "value": 3.68
                                   },
                                   {
                                     "derivative": 0.0,
                                     "location": 1.0,
-                                    "value": 2.14
+                                    "value": 1.14
                                   }
                                 ]
                               }
@@ -192,7 +201,7 @@
                             {
                               "derivative": 0.0,
                               "location": 1.0,
-                              "value": 1.49
+                              "value": 1.19
                             }
                           ]
                         }
