@@ -3,7 +3,7 @@
   "config": {
     "features": [
       {
-        "chance": 0.05,
+        "chance": 0.15,
         "feature": {
           "feature": "fable:tree/birch_tree_big",
           "placement": []
@@ -13,6 +13,13 @@
         "chance": 0.35,
         "feature": {
           "feature": "fable:tree/birch_tree_small",
+          "placement": []
+        }
+      },
+      {
+        "chance": 0.05,
+        "feature": {
+          "feature": "fable:tree/oak_tree_medium",
           "placement": []
         }
       }

@@ -1309,11 +1309,11 @@
             ],
             "temperature": [
               0.65,
-              0.75
+              1
             ],
             "humidity": [
               -0.1,
-              0.25
+              0.425
             ],
             "depth": [
               -1,
@@ -1321,7 +1321,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:chaparral_forest"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -1342,7 +1342,7 @@
               0.75
             ],
             "humidity": [
-              0.25,
+              0.425,
               0.6
             ],
             "depth": [
@@ -1351,7 +1351,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -1403,36 +1403,6 @@
             ],
             "humidity": [
               -0.4,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:barrens"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              -0.1,
-              0.1
-            ],
-            "erosion": [
-              -0.84,
-              -0.55
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              0.25,
               0.425
             ],
             "depth": [
@@ -1441,7 +1411,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -4309,11 +4279,11 @@
             ],
             "temperature": [
               0.65,
-              0.75
+              1
             ],
             "humidity": [
               -0.1,
-              0.25
+              0.425
             ],
             "depth": [
               -1,
@@ -4321,7 +4291,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:chaparral_forest"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -4335,14 +4305,14 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              0.75
             ],
             "temperature": [
               0.65,
               0.75
             ],
             "humidity": [
-              0.25,
+              0.425,
               0.6
             ],
             "depth": [
@@ -4351,7 +4321,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -4403,36 +4373,6 @@
             ],
             "humidity": [
               -0.4,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:barrens"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.935
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.68,
-              -0.05
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              0.25,
               0.425
             ],
             "depth": [
@@ -4441,7 +4381,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -6109,11 +6049,11 @@
             ],
             "temperature": [
               0.65,
-              0.75
+              1
             ],
             "humidity": [
               -0.1,
-              0.25
+              0.425
             ],
             "depth": [
               -1,
@@ -6121,7 +6061,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:chaparral_forest"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -6135,14 +6075,14 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              1
             ],
             "temperature": [
               0.65,
               0.75
             ],
             "humidity": [
-              0.25,
+              0.425,
               0.6
             ],
             "depth": [
@@ -6151,7 +6091,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -6203,36 +6143,6 @@
             ],
             "humidity": [
               -0.4,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:barrens"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.935,
-              -0.77
-            ],
-            "continentalness": [
-              -0.1,
-              0.1
-            ],
-            "erosion": [
-              -0.68,
-              -0.05
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              0.25,
               0.425
             ],
             "depth": [
@@ -6241,7 +6151,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -8059,11 +7969,11 @@
             ],
             "temperature": [
               0.65,
-              0.75
+              1
             ],
             "humidity": [
               -0.1,
-              0.25
+              0.425
             ],
             "depth": [
               -1,
@@ -8071,7 +7981,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:chaparral_forest"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -8085,14 +7995,14 @@
             ],
             "erosion": [
               -0.55,
-              0.135
+              1
             ],
             "temperature": [
               0.65,
               0.75
             ],
             "humidity": [
-              0.25,
+              0.425,
               0.6
             ],
             "depth": [
@@ -8101,7 +8011,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -8153,36 +8063,6 @@
             ],
             "humidity": [
               -0.4,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:barrens"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.935,
-              -0.77
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.55,
-              0.135
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              0.25,
               0.425
             ],
             "depth": [
@@ -8191,7 +8071,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -9829,11 +9709,11 @@
             ],
             "temperature": [
               0.65,
-              0.75
+              1
             ],
             "humidity": [
               -0.1,
-              0.25
+              0.425
             ],
             "depth": [
               -1,
@@ -9841,13 +9721,13 @@
             ],
             "offset": 0
           },
-          "biome": "fable:chaparral_forest"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
             "weirdness": [
               -0.77,
-              -0.55
+              -0.4
             ],
             "continentalness": [
               -0.1,
@@ -9855,14 +9735,14 @@
             ],
             "erosion": [
               -0.55,
-              0.135
+              1
             ],
             "temperature": [
               0.65,
               0.75
             ],
             "humidity": [
-              0.25,
+              0.425,
               0.6
             ],
             "depth": [
@@ -9871,7 +9751,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -9923,36 +9803,6 @@
             ],
             "humidity": [
               -0.4,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:barrens"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.77,
-              -0.55
-            ],
-            "continentalness": [
-              -0.1,
-              0.1
-            ],
-            "erosion": [
-              -0.55,
-              0.135
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              0.25,
               0.425
             ],
             "depth": [
@@ -9961,7 +9811,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -11749,11 +11599,11 @@
             ],
             "temperature": [
               0.65,
-              0.75
+              1
             ],
             "humidity": [
               -0.1,
-              0.25
+              0.425
             ],
             "depth": [
               -1,
@@ -11761,13 +11611,13 @@
             ],
             "offset": 0
           },
-          "biome": "fable:chaparral_forest"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
             "weirdness": [
               -0.77,
-              -0.55
+              -0.4
             ],
             "continentalness": [
               0.1,
@@ -11775,14 +11625,14 @@
             ],
             "erosion": [
               -0.3,
-              0.325
+              1
             ],
             "temperature": [
               0.65,
               0.75
             ],
             "humidity": [
-              0.25,
+              0.425,
               0.6
             ],
             "depth": [
@@ -11791,7 +11641,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -11843,36 +11693,6 @@
             ],
             "humidity": [
               -0.4,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:barrens"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.77,
-              -0.55
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.3,
-              0.325
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              0.25,
               0.425
             ],
             "depth": [
@@ -11881,7 +11701,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -13369,11 +13189,11 @@
             ],
             "temperature": [
               0.65,
-              0.75
+              1
             ],
             "humidity": [
               -0.1,
-              0.25
+              0.425
             ],
             "depth": [
               -1,
@@ -13381,7 +13201,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:chaparral_forest"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -13395,14 +13215,14 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              1
             ],
             "temperature": [
               0.65,
               0.75
             ],
             "humidity": [
-              0.25,
+              0.425,
               0.6
             ],
             "depth": [
@@ -13411,7 +13231,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -13463,36 +13283,6 @@
             ],
             "humidity": [
               -0.4,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:barrens"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.55,
-              -0.4
-            ],
-            "continentalness": [
-              -0.1,
-              0.1
-            ],
-            "erosion": [
-              -0.68,
-              -0.05
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              0.25,
               0.425
             ],
             "depth": [
@@ -13501,7 +13291,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -15139,11 +14929,11 @@
             ],
             "temperature": [
               0.65,
-              0.75
+              1
             ],
             "humidity": [
               -0.1,
-              0.25
+              0.425
             ],
             "depth": [
               -1,
@@ -15151,7 +14941,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:chaparral_forest"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -15165,14 +14955,14 @@
             ],
             "erosion": [
               -0.55,
-              0.135
+              1
             ],
             "temperature": [
               0.65,
               0.75
             ],
             "humidity": [
-              0.25,
+              0.425,
               0.6
             ],
             "depth": [
@@ -15181,7 +14971,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -15233,36 +15023,6 @@
             ],
             "humidity": [
               -0.4,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:barrens"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.55,
-              -0.4
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.55,
-              0.135
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              0.25,
               0.425
             ],
             "depth": [
@@ -15271,7 +15031,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -16759,11 +16519,11 @@
             ],
             "temperature": [
               0.65,
-              0.75
+              1
             ],
             "humidity": [
               -0.1,
-              0.25
+              0.425
             ],
             "depth": [
               -1,
@@ -16771,7 +16531,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:chaparral_forest"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -16792,7 +16552,7 @@
               0.75
             ],
             "humidity": [
-              0.25,
+              0.425,
               0.6
             ],
             "depth": [
@@ -16801,7 +16561,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -16853,36 +16613,6 @@
             ],
             "humidity": [
               -0.4,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:barrens"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.4,
-              -0.265
-            ],
-            "continentalness": [
-              -0.1,
-              0.1
-            ],
-            "erosion": [
-              -0.84,
-              -0.55
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              0.25,
               0.425
             ],
             "depth": [
@@ -16891,7 +16621,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -18769,11 +18499,11 @@
             ],
             "temperature": [
               0.65,
-              0.75
+              1
             ],
             "humidity": [
               -0.1,
-              0.25
+              0.425
             ],
             "depth": [
               -1,
@@ -18781,7 +18511,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:chaparral_forest"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -18795,14 +18525,14 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              0.75
             ],
             "temperature": [
               0.65,
               0.75
             ],
             "humidity": [
-              0.25,
+              0.425,
               0.6
             ],
             "depth": [
@@ -18811,7 +18541,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -18863,36 +18593,6 @@
             ],
             "humidity": [
               -0.4,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:barrens"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.4,
-              -0.265
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.68,
-              -0.05
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              0.25,
               0.425
             ],
             "depth": [
@@ -18901,7 +18601,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -21349,11 +21049,11 @@
             ],
             "temperature": [
               0.65,
-              0.75
+              1
             ],
             "humidity": [
               -0.1,
-              0.25
+              0.425
             ],
             "depth": [
               -1,
@@ -21361,7 +21061,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:chaparral_forest"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -21375,14 +21075,14 @@
             ],
             "erosion": [
               -0.84,
-              -0.3
+              0.5
             ],
             "temperature": [
               0.65,
               0.75
             ],
             "humidity": [
-              0.25,
+              0.425,
               0.6
             ],
             "depth": [
@@ -21391,7 +21091,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -21443,36 +21143,6 @@
             ],
             "humidity": [
               -0.4,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:barrens"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.265,
-              -0.05
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.84,
-              -0.3
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              0.25,
               0.425
             ],
             "depth": [
@@ -21481,7 +21151,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -23749,7 +23419,7 @@
             ],
             "temperature": [
               -0.25,
-              -0.15
+              0.25
             ],
             "humidity": [
               0.6,
@@ -23822,36 +23492,6 @@
             "offset": 0
           },
           "biome": "fable:montane_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.05,
-              0.265
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.84,
-              -0.3
-            ],
-            "temperature": [
-              -0.15,
-              0.25
-            ],
-            "humidity": [
-              0.6,
-              1
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -24079,11 +23719,11 @@
             ],
             "temperature": [
               0.65,
-              0.75
+              1
             ],
             "humidity": [
               -0.1,
-              0.25
+              0.425
             ],
             "depth": [
               -1,
@@ -24091,7 +23731,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:chaparral_forest"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -24105,14 +23745,14 @@
             ],
             "erosion": [
               -0.84,
-              -0.3
+              0.5
             ],
             "temperature": [
               0.65,
               0.75
             ],
             "humidity": [
-              0.25,
+              0.425,
               0.6
             ],
             "depth": [
@@ -24121,7 +23761,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -24173,36 +23813,6 @@
             ],
             "humidity": [
               -0.4,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:barrens"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.05,
-              0.265
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.84,
-              -0.3
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              0.25,
               0.425
             ],
             "depth": [
@@ -24211,7 +23821,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -24619,40 +24229,10 @@
             ],
             "temperature": [
               -0.15,
-              0.25
-            ],
-            "humidity": [
-              -0.1,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.05,
-              0.265
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.3,
-              0.5
-            ],
-            "temperature": [
-              -0.15,
               0.15
             ],
             "humidity": [
-              0.25,
+              -0.1,
               0.6
             ],
             "depth": [
@@ -24661,7 +24241,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:broadleaf_forest"
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -24742,7 +24322,7 @@
               0.25
             ],
             "humidity": [
-              0.25,
+              -0.1,
               0.425
             ],
             "depth": [
@@ -25489,7 +25069,7 @@
             ],
             "temperature": [
               -0.25,
-              -0.15
+              0.25
             ],
             "humidity": [
               0.6,
@@ -25562,36 +25142,6 @@
             "offset": 0
           },
           "biome": "fable:montane_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.265,
-              0.4
-            ],
-            "continentalness": [
-              -0.1,
-              0.1
-            ],
-            "erosion": [
-              -0.84,
-              -0.55
-            ],
-            "temperature": [
-              -0.15,
-              0.25
-            ],
-            "humidity": [
-              0.6,
-              1
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -25819,71 +25369,11 @@
             ],
             "temperature": [
               0.65,
-              0.75
-            ],
-            "humidity": [
-              -0.1,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:chaparral_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.265,
-              0.4
-            ],
-            "continentalness": [
-              -0.1,
-              0.1
-            ],
-            "erosion": [
-              -0.84,
-              -0.55
-            ],
-            "temperature": [
-              0.65,
-              0.75
-            ],
-            "humidity": [
-              0.25,
-              0.6
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:ethiopian_highlands"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.265,
-              0.4
-            ],
-            "continentalness": [
-              -0.1,
-              0.1
-            ],
-            "erosion": [
-              -0.84,
-              -0.55
-            ],
-            "temperature": [
-              0.75,
               1
             ],
             "humidity": [
-              -0.4,
-              0.25
+              -0.1,
+              0.425
             ],
             "depth": [
               -1,
@@ -25908,11 +25398,41 @@
               -0.55
             ],
             "temperature": [
+              0.65,
+              0.75
+            ],
+            "humidity": [
+              0.425,
+              0.6
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:chaparral_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.265,
+              0.4
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.84,
+              -0.55
+            ],
+            "temperature": [
               0.75,
               1
             ],
             "humidity": [
-              0.25,
+              -0.4,
               0.425
             ],
             "depth": [
@@ -25921,7 +25441,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -26599,40 +26119,10 @@
             ],
             "temperature": [
               -0.15,
-              0.25
-            ],
-            "humidity": [
-              -0.1,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.265,
-              1
-            ],
-            "continentalness": [
-              -0.1,
-              1
-            ],
-            "erosion": [
-              0.5,
-              0.75
-            ],
-            "temperature": [
-              -0.15,
               0.15
             ],
             "humidity": [
-              0.25,
+              -0.1,
               0.6
             ],
             "depth": [
@@ -26641,7 +26131,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:broadleaf_forest"
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -26722,7 +26212,7 @@
               0.25
             ],
             "humidity": [
-              0.25,
+              -0.1,
               0.425
             ],
             "depth": [
@@ -27889,7 +27379,7 @@
             ],
             "temperature": [
               -0.25,
-              -0.15
+              0.25
             ],
             "humidity": [
               0.6,
@@ -27962,36 +27452,6 @@
             "offset": 0
           },
           "biome": "fable:montane_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.265,
-              0.4
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.68,
-              -0.05
-            ],
-            "temperature": [
-              -0.15,
-              0.25
-            ],
-            "humidity": [
-              0.6,
-              1
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -28219,11 +27679,11 @@
             ],
             "temperature": [
               0.65,
-              0.75
+              1
             ],
             "humidity": [
               -0.1,
-              0.25
+              0.425
             ],
             "depth": [
               -1,
@@ -28231,7 +27691,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:chaparral_forest"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -28245,14 +27705,14 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              0.75
             ],
             "temperature": [
               0.65,
               0.75
             ],
             "humidity": [
-              0.25,
+              0.425,
               0.6
             ],
             "depth": [
@@ -28261,7 +27721,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -28313,36 +27773,6 @@
             ],
             "humidity": [
               -0.4,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:barrens"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.265,
-              0.4
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.68,
-              -0.05
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              0.25,
               0.425
             ],
             "depth": [
@@ -28351,7 +27781,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -28759,40 +28189,10 @@
             ],
             "temperature": [
               -0.15,
-              0.25
-            ],
-            "humidity": [
-              -0.1,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.265,
-              0.4
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.05,
-              0.75
-            ],
-            "temperature": [
-              -0.15,
               0.15
             ],
             "humidity": [
-              0.25,
+              -0.1,
               0.6
             ],
             "depth": [
@@ -28801,7 +28201,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:broadleaf_forest"
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -28882,7 +28282,7 @@
               0.25
             ],
             "humidity": [
-              0.25,
+              -0.1,
               0.425
             ],
             "depth": [
@@ -29809,7 +29209,7 @@
             ],
             "temperature": [
               -0.25,
-              -0.15
+              0.25
             ],
             "humidity": [
               0.6,
@@ -29882,36 +29282,6 @@
             "offset": 0
           },
           "biome": "fable:montane_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.4,
-              0.55
-            ],
-            "continentalness": [
-              -0.1,
-              0.1
-            ],
-            "erosion": [
-              -0.68,
-              -0.05
-            ],
-            "temperature": [
-              -0.15,
-              0.25
-            ],
-            "humidity": [
-              0.6,
-              1
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -30139,11 +29509,11 @@
             ],
             "temperature": [
               0.65,
-              0.75
+              1
             ],
             "humidity": [
               -0.1,
-              0.25
+              0.425
             ],
             "depth": [
               -1,
@@ -30151,7 +29521,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:chaparral_forest"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -30165,14 +29535,14 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              1
             ],
             "temperature": [
               0.65,
               0.75
             ],
             "humidity": [
-              0.25,
+              0.425,
               0.6
             ],
             "depth": [
@@ -30181,7 +29551,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -30233,36 +29603,6 @@
             ],
             "humidity": [
               -0.4,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:barrens"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.4,
-              0.55
-            ],
-            "continentalness": [
-              -0.1,
-              0.1
-            ],
-            "erosion": [
-              -0.68,
-              -0.05
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              0.25,
               0.425
             ],
             "depth": [
@@ -30271,7 +29611,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -30679,40 +30019,10 @@
             ],
             "temperature": [
               -0.15,
-              0.25
-            ],
-            "humidity": [
-              -0.1,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.4,
-              0.55
-            ],
-            "continentalness": [
-              -0.1,
-              0.1
-            ],
-            "erosion": [
-              -0.05,
-              1
-            ],
-            "temperature": [
-              -0.15,
               0.15
             ],
             "humidity": [
-              0.25,
+              -0.1,
               0.6
             ],
             "depth": [
@@ -30721,7 +30031,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:broadleaf_forest"
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -30802,7 +30112,7 @@
               0.25
             ],
             "humidity": [
-              0.25,
+              -0.1,
               0.425
             ],
             "depth": [
@@ -31879,7 +31189,7 @@
             ],
             "temperature": [
               -0.25,
-              -0.15
+              0.25
             ],
             "humidity": [
               0.6,
@@ -31952,36 +31262,6 @@
             "offset": 0
           },
           "biome": "fable:montane_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.4,
-              0.55
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.55,
-              0.135
-            ],
-            "temperature": [
-              -0.15,
-              0.25
-            ],
-            "humidity": [
-              0.6,
-              1
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -32209,11 +31489,11 @@
             ],
             "temperature": [
               0.65,
-              0.75
+              1
             ],
             "humidity": [
               -0.1,
-              0.25
+              0.425
             ],
             "depth": [
               -1,
@@ -32221,7 +31501,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:chaparral_forest"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -32235,14 +31515,14 @@
             ],
             "erosion": [
               -0.55,
-              0.135
+              1
             ],
             "temperature": [
               0.65,
               0.75
             ],
             "humidity": [
-              0.25,
+              0.425,
               0.6
             ],
             "depth": [
@@ -32251,7 +31531,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -32303,36 +31583,6 @@
             ],
             "humidity": [
               -0.4,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:barrens"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.4,
-              0.55
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.55,
-              0.135
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              0.25,
               0.425
             ],
             "depth": [
@@ -32341,7 +31591,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -32749,40 +31999,10 @@
             ],
             "temperature": [
               -0.15,
-              0.25
-            ],
-            "humidity": [
-              -0.1,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.4,
-              0.55
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              0.135,
-              1
-            ],
-            "temperature": [
-              -0.15,
               0.15
             ],
             "humidity": [
-              0.25,
+              -0.1,
               0.6
             ],
             "depth": [
@@ -32791,7 +32011,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:broadleaf_forest"
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -32872,7 +32092,7 @@
               0.25
             ],
             "humidity": [
-              0.25,
+              -0.1,
               0.425
             ],
             "depth": [
@@ -33799,7 +33019,7 @@
             ],
             "temperature": [
               -0.25,
-              -0.15
+              0.25
             ],
             "humidity": [
               0.6,
@@ -33872,36 +33092,6 @@
             "offset": 0
           },
           "biome": "fable:montane_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.55,
-              0.77
-            ],
-            "continentalness": [
-              -0.1,
-              0.1
-            ],
-            "erosion": [
-              -0.55,
-              0.135
-            ],
-            "temperature": [
-              -0.15,
-              0.25
-            ],
-            "humidity": [
-              0.6,
-              1
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -34129,11 +33319,11 @@
             ],
             "temperature": [
               0.65,
-              0.75
+              1
             ],
             "humidity": [
               -0.1,
-              0.25
+              0.425
             ],
             "depth": [
               -1,
@@ -34141,13 +33331,13 @@
             ],
             "offset": 0
           },
-          "biome": "fable:chaparral_forest"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
             "weirdness": [
               0.55,
-              0.77
+              0.935
             ],
             "continentalness": [
               -0.1,
@@ -34155,14 +33345,14 @@
             ],
             "erosion": [
               -0.55,
-              0.135
+              1
             ],
             "temperature": [
               0.65,
               0.75
             ],
             "humidity": [
-              0.25,
+              0.425,
               0.6
             ],
             "depth": [
@@ -34171,7 +33361,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -34223,36 +33413,6 @@
             ],
             "humidity": [
               -0.4,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:barrens"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.55,
-              0.77
-            ],
-            "continentalness": [
-              -0.1,
-              0.1
-            ],
-            "erosion": [
-              -0.55,
-              0.135
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              0.25,
               0.425
             ],
             "depth": [
@@ -34261,7 +33421,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -34669,40 +33829,10 @@
             ],
             "temperature": [
               -0.15,
-              0.25
-            ],
-            "humidity": [
-              -0.1,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.55,
-              0.935
-            ],
-            "continentalness": [
-              -0.1,
-              0.1
-            ],
-            "erosion": [
-              0.135,
-              1
-            ],
-            "temperature": [
-              -0.15,
               0.15
             ],
             "humidity": [
-              0.25,
+              -0.1,
               0.6
             ],
             "depth": [
@@ -34711,7 +33841,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:broadleaf_forest"
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -34792,7 +33922,7 @@
               0.25
             ],
             "humidity": [
-              0.25,
+              -0.1,
               0.425
             ],
             "depth": [
@@ -35869,7 +34999,7 @@
             ],
             "temperature": [
               -0.25,
-              -0.15
+              0.25
             ],
             "humidity": [
               0.6,
@@ -35942,36 +35072,6 @@
             "offset": 0
           },
           "biome": "fable:montane_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.55,
-              0.77
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.3,
-              0.325
-            ],
-            "temperature": [
-              -0.15,
-              0.25
-            ],
-            "humidity": [
-              0.6,
-              1
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -36199,11 +35299,11 @@
             ],
             "temperature": [
               0.65,
-              0.75
+              1
             ],
             "humidity": [
               -0.1,
-              0.25
+              0.425
             ],
             "depth": [
               -1,
@@ -36211,13 +35311,13 @@
             ],
             "offset": 0
           },
-          "biome": "fable:chaparral_forest"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
             "weirdness": [
               0.55,
-              0.77
+              0.935
             ],
             "continentalness": [
               0.1,
@@ -36225,14 +35325,14 @@
             ],
             "erosion": [
               -0.3,
-              0.325
+              1
             ],
             "temperature": [
               0.65,
               0.75
             ],
             "humidity": [
-              0.25,
+              0.425,
               0.6
             ],
             "depth": [
@@ -36241,7 +35341,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -36293,36 +35393,6 @@
             ],
             "humidity": [
               -0.4,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:barrens"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.55,
-              0.77
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.3,
-              0.325
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              0.25,
               0.425
             ],
             "depth": [
@@ -36331,7 +35401,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -36739,40 +35809,10 @@
             ],
             "temperature": [
               -0.15,
-              0.25
-            ],
-            "humidity": [
-              -0.1,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.55,
-              0.935
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              0.325,
-              1
-            ],
-            "temperature": [
-              -0.15,
               0.15
             ],
             "humidity": [
-              0.25,
+              -0.1,
               0.6
             ],
             "depth": [
@@ -36781,7 +35821,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:broadleaf_forest"
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -36862,7 +35902,7 @@
               0.25
             ],
             "humidity": [
-              0.25,
+              -0.1,
               0.425
             ],
             "depth": [
@@ -37639,7 +36679,7 @@
             ],
             "temperature": [
               -0.25,
-              -0.15
+              0.25
             ],
             "humidity": [
               0.6,
@@ -37712,36 +36752,6 @@
             "offset": 0
           },
           "biome": "fable:montane_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.77,
-              0.935
-            ],
-            "continentalness": [
-              -0.1,
-              0.1
-            ],
-            "erosion": [
-              -0.68,
-              -0.05
-            ],
-            "temperature": [
-              -0.15,
-              0.25
-            ],
-            "humidity": [
-              0.6,
-              1
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -37969,11 +36979,11 @@
             ],
             "temperature": [
               0.65,
-              0.75
+              1
             ],
             "humidity": [
               -0.1,
-              0.25
+              0.425
             ],
             "depth": [
               -1,
@@ -37981,7 +36991,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:chaparral_forest"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -37995,14 +37005,14 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              1
             ],
             "temperature": [
               0.65,
               0.75
             ],
             "humidity": [
-              0.25,
+              0.425,
               0.6
             ],
             "depth": [
@@ -38011,7 +37021,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -38063,36 +37073,6 @@
             ],
             "humidity": [
               -0.4,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:barrens"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.77,
-              0.935
-            ],
-            "continentalness": [
-              -0.1,
-              0.1
-            ],
-            "erosion": [
-              -0.68,
-              -0.05
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              0.25,
               0.425
             ],
             "depth": [
@@ -38101,7 +37081,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -38509,40 +37489,10 @@
             ],
             "temperature": [
               -0.15,
-              0.25
-            ],
-            "humidity": [
-              -0.1,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.77,
-              0.935
-            ],
-            "continentalness": [
-              -0.1,
-              0.1
-            ],
-            "erosion": [
-              -0.05,
-              1
-            ],
-            "temperature": [
-              -0.15,
               0.15
             ],
             "humidity": [
-              0.25,
+              -0.1,
               0.6
             ],
             "depth": [
@@ -38551,7 +37501,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:broadleaf_forest"
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -38632,7 +37582,7 @@
               0.25
             ],
             "humidity": [
-              0.25,
+              -0.1,
               0.425
             ],
             "depth": [
@@ -39559,7 +38509,7 @@
             ],
             "temperature": [
               -0.25,
-              -0.15
+              0.25
             ],
             "humidity": [
               0.6,
@@ -39632,36 +38582,6 @@
             "offset": 0
           },
           "biome": "fable:montane_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.77,
-              0.935
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.55,
-              0.135
-            ],
-            "temperature": [
-              -0.15,
-              0.25
-            ],
-            "humidity": [
-              0.6,
-              1
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -39889,11 +38809,11 @@
             ],
             "temperature": [
               0.65,
-              0.75
+              1
             ],
             "humidity": [
               -0.1,
-              0.25
+              0.425
             ],
             "depth": [
               -1,
@@ -39901,7 +38821,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:chaparral_forest"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -39915,14 +38835,14 @@
             ],
             "erosion": [
               -0.55,
-              0.135
+              1
             ],
             "temperature": [
               0.65,
               0.75
             ],
             "humidity": [
-              0.25,
+              0.425,
               0.6
             ],
             "depth": [
@@ -39931,7 +38851,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -39983,36 +38903,6 @@
             ],
             "humidity": [
               -0.4,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:barrens"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.77,
-              0.935
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.55,
-              0.135
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              0.25,
               0.425
             ],
             "depth": [
@@ -40021,7 +38911,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -40429,40 +39319,10 @@
             ],
             "temperature": [
               -0.15,
-              0.25
-            ],
-            "humidity": [
-              -0.1,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.77,
-              0.935
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              0.135,
-              1
-            ],
-            "temperature": [
-              -0.15,
               0.15
             ],
             "humidity": [
-              0.25,
+              -0.1,
               0.6
             ],
             "depth": [
@@ -40471,7 +39331,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:broadleaf_forest"
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -40552,7 +39412,7 @@
               0.25
             ],
             "humidity": [
-              0.25,
+              -0.1,
               0.425
             ],
             "depth": [
@@ -41299,7 +40159,7 @@
             ],
             "temperature": [
               -0.25,
-              -0.15
+              0.25
             ],
             "humidity": [
               0.6,
@@ -41372,36 +40232,6 @@
             "offset": 0
           },
           "biome": "fable:montane_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.935,
-              1
-            ],
-            "continentalness": [
-              -0.1,
-              0.1
-            ],
-            "erosion": [
-              -0.84,
-              -0.55
-            ],
-            "temperature": [
-              -0.15,
-              0.25
-            ],
-            "humidity": [
-              0.6,
-              1
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -41629,11 +40459,11 @@
             ],
             "temperature": [
               0.65,
-              0.75
+              1
             ],
             "humidity": [
               -0.1,
-              0.25
+              0.425
             ],
             "depth": [
               -1,
@@ -41641,7 +40471,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:chaparral_forest"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -41662,7 +40492,7 @@
               0.75
             ],
             "humidity": [
-              0.25,
+              0.425,
               0.6
             ],
             "depth": [
@@ -41671,7 +40501,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -41723,36 +40553,6 @@
             ],
             "humidity": [
               -0.4,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:barrens"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.935,
-              1
-            ],
-            "continentalness": [
-              -0.1,
-              0.1
-            ],
-            "erosion": [
-              -0.84,
-              -0.55
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              0.25,
               0.425
             ],
             "depth": [
@@ -41761,7 +40561,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -43429,7 +42229,7 @@
             ],
             "temperature": [
               -0.25,
-              -0.15
+              0.25
             ],
             "humidity": [
               0.6,
@@ -43502,36 +42302,6 @@
             "offset": 0
           },
           "biome": "fable:montane_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.935,
-              1
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.68,
-              -0.05
-            ],
-            "temperature": [
-              -0.15,
-              0.25
-            ],
-            "humidity": [
-              0.6,
-              1
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -43759,11 +42529,11 @@
             ],
             "temperature": [
               0.65,
-              0.75
+              1
             ],
             "humidity": [
               -0.1,
-              0.25
+              0.425
             ],
             "depth": [
               -1,
@@ -43771,7 +42541,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:chaparral_forest"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -43785,14 +42555,14 @@
             ],
             "erosion": [
               -0.68,
-              -0.05
+              0.75
             ],
             "temperature": [
               0.65,
               0.75
             ],
             "humidity": [
-              0.25,
+              0.425,
               0.6
             ],
             "depth": [
@@ -43801,7 +42571,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:chaparral_forest"
         },
         {
           "parameters": {
@@ -43853,36 +42623,6 @@
             ],
             "humidity": [
               -0.4,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:barrens"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.935,
-              1
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.68,
-              -0.05
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              0.25,
               0.425
             ],
             "depth": [
@@ -43891,7 +42631,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:ethiopian_highlands"
+          "biome": "fable:barrens"
         },
         {
           "parameters": {
@@ -44299,40 +43039,10 @@
             ],
             "temperature": [
               -0.15,
-              0.25
-            ],
-            "humidity": [
-              -0.1,
-              0.25
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:birch_forest"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.935,
-              1
-            ],
-            "continentalness": [
-              0.1,
-              1
-            ],
-            "erosion": [
-              -0.05,
-              0.75
-            ],
-            "temperature": [
-              -0.15,
               0.15
             ],
             "humidity": [
-              0.25,
+              -0.1,
               0.6
             ],
             "depth": [
@@ -44341,7 +43051,7 @@
             ],
             "offset": 0
           },
-          "biome": "fable:broadleaf_forest"
+          "biome": "fable:birch_forest"
         },
         {
           "parameters": {
@@ -44422,7 +43132,7 @@
               0.25
             ],
             "humidity": [
-              0.25,
+              -0.1,
               0.425
             ],
             "depth": [
