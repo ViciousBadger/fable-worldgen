@@ -279,11 +279,6 @@
     "g": 104,
     "b": 62
   },
-  "fable:pine_forest": {
-    "r": 29,
-    "g": 121,
-    "b": 41
-  },
   "fable:acacia_swamp": {
     "r": 109,
     "g": 111,
@@ -354,11 +349,6 @@
     "g": 194,
     "b": 0
   },
-  "fable:deep_jungle": {
-    "r": 19,
-    "g": 133,
-    "b": 1
-  },
   "fable:barrens": {
     "r": 201,
     "g": 171,
@@ -369,12 +359,7 @@
     "g": 126,
     "b": 17
   },
-  "fable:ethiopian_highlands": {
-    "r": 183,
-    "g": 171,
-    "b": 76
-  },
-  "fable:cliff_jungle": {
+  "fable:jungle_cliffs": {
     "r": 102,
     "g": 225,
     "b": 82

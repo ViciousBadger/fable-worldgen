@@ -769,7 +769,7 @@
           "biome_mcluf7bw",
           "biome_mclug5bj",
           "biome_mclug5bj",
-          "biome_mclujvzs",
+          "biome_mclug5bj/biome_mclujvzs",
           "biome_mclujvzs"
         ],
         [
@@ -834,12 +834,21 @@
       "array": [
         [
           "biome_mclvh187",
+          "biome_mclvh187",
+          "biome_mclvh187",
           "biome_mclvfdyc",
           "biome_mclvfdyc",
           "biome_mclvfdyc",
-          "biome_mclvfdyc",
-          "biome_mclvfdyc",
-          "biome_mclvh187"
+          "biome_mclvflno"
+        ],
+        [
+          "biome_mclutqfr",
+          "biome_mclutqfr",
+          "biome_mclutqfr",
+          "biome_mclus3of",
+          "biome_mclus3of",
+          "biome_mclus3of",
+          "biome_mcxbjpdb"
         ],
         [
           "biome_mclutqfr",
@@ -851,13 +860,13 @@
           "biome_mcxbjpdb"
         ],
         [
-          "biome_mclutqfr",
-          "biome_mclus3of",
-          "biome_mclus3of",
-          "biome_mclus3of",
-          "biome_mcxbjpdb",
-          "biome_mcxbjpdb",
-          "biome_mcxbjpdb"
+          "biome_mcj4kjf4",
+          "biome_mcj4kjf4",
+          "biome_mcj3v19o",
+          "biome_mcj3v19o",
+          "biome_mcj3v19o",
+          "biome_mcj3pqwa",
+          "biome_mcj3pqwa"
         ],
         [
           "biome_mcj4kjf4",
@@ -866,31 +875,22 @@
           "biome_mcj3v19o",
           "biome_mcj3pqwa",
           "biome_mcj3pqwa",
-          "biome_mclumlbk"
-        ],
-        [
-          "biome_mcj4kjf4",
-          "biome_mcj3v19o",
-          "biome_mcj3v19o",
-          "biome_mcj3pqwa",
-          "biome_mcj3pqwa",
-          "biome_mcj3pqwa",
-          "biome_mclumlbk"
+          "biome_mcj3pqwa"
         ],
         [
           "biome_mcj4kjf4",
           "biome_mcm9vcl8",
           "biome_mcj3v19o",
           "biome_mcj3v19o",
+          "biome_mcj3v19o",
           "biome_mcj3pqwa",
-          "biome_mcj3pqwa",
-          "biome_mclumlbk"
+          "biome_mcj3pqwa"
         ],
         [
           "biome_mcxbgn0k",
           "biome_mcm9vcl8",
           "biome_mcm9vcl8",
-          "biome_mcjj6noe",
+          "biome_mcm9vcl8",
           "biome_mcjj6noe",
           "biome_mcjj6noe",
           "biome_mck9mvza"
@@ -1840,11 +1840,6 @@
       "color": "#2e683e"
     },
     {
-      "key": "biome_mclumlbk",
-      "name": "fable:pine_forest",
-      "color": "#1d7929"
-    },
-    {
       "key": "biome_mck9q01m",
       "name": "fable:acacia_swamp",
       "color": "#6d6f24"
@@ -1915,11 +1910,6 @@
       "color": "#1bc200"
     },
     {
-      "key": "biome_md7bjfyf",
-      "name": "fable:deep_jungle",
-      "color": "#138501"
-    },
-    {
       "key": "biome_mck9l8cz",
       "name": "fable:barrens",
       "color": "#c9ab1b"
@@ -1930,13 +1920,8 @@
       "color": "#b77e11"
     },
     {
-      "key": "biome_mckacu1v",
-      "name": "fable:ethiopian_highlands",
-      "color": "#b7ab4c"
-    },
-    {
       "key": "biome_mcka9jba",
-      "name": "fable:cliff_jungle",
+      "name": "fable:jungle_cliffs",
       "color": "#66e152"
     }
   ],
