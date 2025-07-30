@@ -9,15 +9,18 @@ import org.joml.Vector3f;
 public final class TrunkUtil {
   public static Vec3d bend(Vec3d input, float minRadians, float maxRadians, Random random) {
 
-    return bendWithAngle(
+    return bendInDirection(
         input, random.nextFloat() * MathHelper.TAU, minRadians, maxRadians, random);
   }
 
-  public static Vec3d bendWithAngle(
+  public static Vec3d bendInDirection(
       Vec3d input, float directionAngle, float minRadians, float maxRadians, Random random) {
-    Vector3f original = input.toVector3f();
-
     float bendAngle = minRadians + random.nextFloat() * (maxRadians - minRadians);
+    return bendInDirectionWithAngle(input, random.nextFloat() * MathHelper.TAU, bendAngle);
+  }
+
+  public static Vec3d bendInDirectionWithAngle(Vec3d input, float directionAngle, float bendAngle) {
+    Vector3f original = input.toVector3f();
 
     // Create a consistent orthogonal basis
     Vector3f u = new Vector3f();

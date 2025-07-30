@@ -13,6 +13,10 @@ public record AdvancedTrunkConfig(
     Optional<UpBranchConfig> upBranchConfig)
     implements FeatureConfig {
 
+  public int toSegmentCount(float realLength) {
+    return Math.max((int) realLength / segmentLength(), 1);
+  }
+
   public static final Codec<AdvancedTrunkConfig> CODEC =
       RecordCodecBuilder.create(
           instance ->
