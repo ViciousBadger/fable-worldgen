@@ -68,11 +68,26 @@
           "straighten_amount": 25
         },
         "side_branches": {
-          "chance_per_segment": 1.0,
-          "min_length": 0.05,
-          "max_length": 0.10,
-          "min_angle": 25,
-          "max_angle": 55
+          "start_at": 1,
+          "layers": [
+            {
+              "counts": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
+              "length": {
+                "min": 4.0,
+                "max": 6.0
+              },
+              "angle": {
+                "min": 25,
+                "max": 55
+              }
+            }
+          ]
         }
       }
     },

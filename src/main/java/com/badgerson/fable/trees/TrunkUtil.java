@@ -19,6 +19,10 @@ public final class TrunkUtil {
     return bendInDirectionWithAngle(input, random.nextFloat() * MathHelper.TAU, bendAngle);
   }
 
+  public static Vec3d bendWithAngle(Vec3d input, float bendAngle, Random random) {
+    return bendInDirectionWithAngle(input, random.nextFloat() * MathHelper.TAU, bendAngle);
+  }
+
   public static Vec3d bendInDirectionWithAngle(Vec3d input, float directionAngle, float bendAngle) {
     Vector3f original = input.toVector3f();
 

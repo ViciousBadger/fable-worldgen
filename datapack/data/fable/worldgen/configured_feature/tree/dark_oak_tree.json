@@ -24,7 +24,7 @@
     "foliage_placer": {
       "type": "minecraft:jungle_foliage_placer",
       "offset": 1,
-      "height": 2,
+      "height": 1,
       "radius": 1
     },
     "foliage_provider": {
@@ -50,7 +50,7 @@
     },
     "trunk_placer": {
       "type": "fable:advanced_trunk_placer",
-      "base_height": 8,
+      "base_height": 16,
       "height_rand_a": 6,
       "height_rand_b": 0,
       "config": {
@@ -63,20 +63,89 @@
           "straighten_amount": 45
         },
         "side_branches": {
-          "chance_per_segment": 0.5,
-          "min_length": 0.25,
-          "max_length": 0.75,
-          "min_angle": 35,
-          "max_angle": 75
+          "start_at": 2,
+          "layers": [
+            {
+              "counts": [
+                6,
+                8,
+                12,
+                14
+              ],
+              "length": {
+                "min": 6.0,
+                "max": 8.0
+              },
+              "angle": {
+                "min": 25,
+                "max": 55
+              }
+            },
+            {
+              "counts": [
+                0,
+                1,
+                2
+              ],
+              "length": {
+                "min": 4.0,
+                "max": 8.0
+              },
+              "angle": {
+                "min": 25,
+                "max": 45
+              }
+            }
+          ]
         },
         "up_branches": {
-          "recursion_limit": 3,
-          "min_branches": 6,
-          "max_branches": 8,
-          "min_length": 0.25,
-          "max_length": 0.75,
-          "min_angle": 5,
-          "max_angle": 75
+          "layers": [
+            {
+              "thickness": 2,
+              "counts": [
+                4,
+                7
+              ],
+              "length": {
+                "min": 6.0,
+                "max": 10.0
+              },
+              "angle": {
+                "min": 25,
+                "max": 75
+              }
+            },
+            {
+              "counts": [
+                3,
+                4,
+                5
+              ],
+              "length": {
+                "min": 6.0,
+                "max": 8.0
+              },
+              "angle": {
+                "min": 25,
+                "max": 125
+              }
+            },
+            {
+              "counts": [
+                1,
+                2,
+                3
+              ],
+              "length": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "angle": {
+                "min": 5,
+                "max": 75
+              }
+            }
+          ]
         }
       }
     },

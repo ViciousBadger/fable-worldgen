@@ -32,20 +32,59 @@
           "straighten_amount": 25
         },
         "side_branches": {
-          "chance_per_segment": 0.5,
-          "min_length": 0.25,
-          "max_length": 0.50,
-          "min_angle": 5,
-          "max_angle": 25
+          "start_at": 1,
+          "layers": [
+            {
+              "counts": [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
+              "length": {
+                "min": 2.0,
+                "max": 8.0
+              },
+              "angle": {
+                "min": 5,
+                "max": 25
+              }
+            }
+          ]
         },
         "up_branches": {
-          "recursion_limit": 2,
-          "min_branches": 3,
-          "max_branches": 6,
-          "min_length": 0.25,
-          "max_length": 0.85,
-          "min_angle": 5,
-          "max_angle": 25
+          "layers": [
+            {
+              "counts": [
+                1,
+                2
+              ],
+              "length": {
+                "min": 4.0,
+                "max": 8.0
+              },
+              "angle": {
+                "min": 5,
+                "max": 35
+              }
+            },
+            {
+              "counts": [
+                2,
+                3,
+                4
+              ],
+              "length": {
+                "min": 2.0,
+                "max": 6.0
+              },
+              "angle": {
+                "min": 5,
+                "max": 25
+              }
+            }
+          ]
         }
       }
     },

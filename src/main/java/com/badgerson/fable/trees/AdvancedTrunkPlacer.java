@@ -8,6 +8,7 @@ import com.badgerson.fable.trees.config.UpBranchConfig;
 import com.mojang.serialization.MapCodec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.function.BiConsumer;
 import net.minecraft.block.BlockState;
@@ -68,8 +69,6 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
     Vec3d initialPosition = Vec3d.of(startPos.down()).add(0.5, 0.5, 0.5);
     Vec3d initialDirection = new Vec3d(0.0, 1.0, 0.0);
 
-    int trunkSegCount = (int) (height / this.config.segmentLength());
-
     List<FoliagePlacer.TreeNode> treeNodes = new ArrayList<FoliagePlacer.TreeNode>();
 
     buildBranch(
@@ -79,9 +78,10 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
         config,
         treeNodes,
         BranchMode.Trunk,
+        this.config.trunkThickness(),
         initialPosition,
         initialDirection,
-        trunkSegCount,
+        this.config.toSegmentCount(height),
         1, // Foliage
         0 // Recursion depth
         );
@@ -97,6 +97,7 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
       List<FoliagePlacer.TreeNode> treeNodes,
       //
       BranchMode mode,
+      int thickness,
       Vec3d startPos,
       Vec3d startDir,
       int segmentCount,
@@ -105,26 +106,48 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
     Vec3d here = new Vec3d(startPos.x, startPos.y, startPos.z);
     Vec3d dir = startDir;
 
+    HashMap<Integer, Integer> sideBranchPoints = new HashMap<>();
+
+    // Treat side branch layers as what layer of trunk/top to put them on..
+    if (mode != BranchMode.Side
+        && this.config.sideBranchConfig().isPresent()
+        && recursionDepth < this.config.sideBranchConfig().get().layers().size()) {
+
+      // Distribute side branches evenly along this branch..
+      BranchLayer thisLayer = this.config.sideBranchConfig().get().layers().get(recursionDepth);
+      int toDistribute = thisLayer.generateBranchCount(random);
+      for (int i = 0; i < toDistribute; i++) {
+        if (segmentCount > 1) {
+          int segmentToPutOn =
+              random.nextBetween(
+                  this.config.sideBranchConfig().get().startAt().orElse(0), segmentCount - 1);
+          sideBranchPoints.compute(segmentToPutOn, (k, v) -> (v == null) ? 0 : v + 1);
+        } else {
+          sideBranchPoints.compute(0, (k, v) -> (v == null) ? 0 : v + 1);
+        }
+      }
+    }
+
     for (int i = 0; i < segmentCount; i++) {
       TrunkSegment seg = new TrunkSegment(here, dir, this.config.segmentLength());
 
       while (seg.hasNext()) {
-        if (mode != BranchMode.Trunk || this.config.trunkThickness() <= 1) {
+        if (thickness <= 1) {
           this.getAndSetState(world, replacer, random, seg.next(), config);
-        } else if (this.config.trunkThickness() == 2) {
+        } else if (thickness == 2) {
           BlockPos next = seg.next();
           this.getAndSetState(world, replacer, random, next, config);
           this.getAndSetState(world, replacer, random, next.east(), config);
           this.getAndSetState(world, replacer, random, next.south(), config);
           this.getAndSetState(world, replacer, random, next.east().south(), config);
-        } else if (this.config.trunkThickness() == 3) {
+        } else if (thickness == 3) {
           BlockPos next = seg.next();
           this.getAndSetState(world, replacer, random, next, config);
           this.getAndSetState(world, replacer, random, next.east(), config);
           this.getAndSetState(world, replacer, random, next.south(), config);
           this.getAndSetState(world, replacer, random, next.north(), config);
           this.getAndSetState(world, replacer, random, next.west(), config);
-        } else if (this.config.trunkThickness() == 4) {
+        } else if (thickness == 4) {
           BlockPos next = seg.next();
           this.getAndSetState(world, replacer, random, next.north(), config);
           this.getAndSetState(world, replacer, random, next.north().east(), config);
@@ -157,38 +180,31 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
                   dir, bendingConfig.straightenAmount() * MathHelper.RADIANS_PER_DEGREE);
         }
       }
-    }
 
-    // "Sideways" branches along the base trunk
-    //   if (this.config.sideBranchConfig().isPresent()) {
-    //     SideBranchConfig sideBranchConfig = this.config.sideBranchConfig().get();
-    //     if (mode == BranchMode.Trunk
-    //         && i > 1
-    //         && random.nextDouble() < sideBranchConfig.chancePerSegment()) {
-    //       // Calc height fr this one
-    //       float lengthScale =
-    //           sideBranchConfig.minLength()
-    //               + random.nextFloat()
-    //                   * (sideBranchConfig.maxLength() - sideBranchConfig.minLength());
-    //
-    //       int newSegmentCount = Math.max((int) (segmentCount * lengthScale), 1);
-    //       buildBranch(
-    //           world,
-    //           replacer,
-    //           random,
-    //           config,
-    //           treeNodes,
-    //           //
-    //           BranchMode.Side,
-    //           here,
-    //           TrunkUtil.bend(dir, sideBranchConfig.minAngle(), sideBranchConfig.maxAngle(),
-    // random),
-    //           newSegmentCount,
-    //           0, // Smaller foliage clumps (?)
-    //           recursionDepth + 1);
-    //     }
-    //   }
-    // }
+      // "Sideways" branches along the base trunk
+      int sideBranchesHere = sideBranchPoints.getOrDefault(i, 0);
+      if (sideBranchesHere > 0) {
+        BranchLayer thisLayer = this.config.sideBranchConfig().get().layers().get(recursionDepth);
+
+        for (int j = 0; j < sideBranchesHere; j++) {
+          int newSegmentCount = this.config.toSegmentCount(thisLayer.length().generate(random));
+          buildBranch(
+              world,
+              replacer,
+              random,
+              config,
+              treeNodes,
+              //
+              BranchMode.Side,
+              thisLayer.thickness().orElse(1),
+              here,
+              TrunkUtil.bendWithAngle(dir, thisLayer.angle().generate(random), random),
+              newSegmentCount,
+              0, // Smaller foliage clumps (?)
+              recursionDepth + 1);
+        }
+      }
+    }
 
     // "Upwards" branches at the end of trunks (and other top branches, recursively)
     boolean putFoliageHere = true;
@@ -198,7 +214,7 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
 
       if (recursionDepth < upBranchConfig.layers().size()) {
         BranchLayer thisLayer = upBranchConfig.layers().get(recursionDepth);
-        int branchCount = thisLayer.counts().get(random.nextInt(thisLayer.counts().size()));
+        int branchCount = thisLayer.generateBranchCount(random);
 
         if (mode != BranchMode.Side && branchCount > 0) {
           putFoliageHere = false;
@@ -214,6 +230,7 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
                 treeNodes,
                 //
                 BranchMode.Top,
+                thisLayer.thickness().orElse(1),
                 here,
                 TrunkUtil.bendInDirectionWithAngle(
                     dir,
