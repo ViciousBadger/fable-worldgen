@@ -1,6 +1,10 @@
 package com.badgerson.fable.trees;
 
 import com.badgerson.fable.Fable;
+import com.badgerson.fable.trees.config.AdvancedTrunkConfig;
+import com.badgerson.fable.trees.config.BranchBendingConfig;
+import com.badgerson.fable.trees.config.SideBranchConfig;
+import com.badgerson.fable.trees.config.UpBranchConfig;
 import com.mojang.serialization.MapCodec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 import java.util.ArrayList;
@@ -136,89 +140,95 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
           this.getAndSetState(world, replacer, random, next.south(2).east(), config);
         }
       }
-
       here = seg.getCurrentVec();
-      if (random.nextFloat() < this.config.bendChance()) {
-        dir =
-            TrunkUtil.bend(
-                dir,
-                MathHelper.RADIANS_PER_DEGREE * this.config.minBendAmount(),
-                MathHelper.RADIANS_PER_DEGREE * this.config.maxBendAmount(),
-                random);
-      } else {
-        dir =
-            TrunkUtil.bendTowardsUp(
-                dir, this.config.straightenAmount() * MathHelper.RADIANS_PER_DEGREE);
+
+      if (this.config.bendingConfig().isPresent()) {
+        BranchBendingConfig bendingConfig = this.config.bendingConfig().get();
+        if (random.nextFloat() < bendingConfig.bendChance()) {
+          dir =
+              TrunkUtil.bend(
+                  dir,
+                  MathHelper.RADIANS_PER_DEGREE * bendingConfig.minBendAmount(),
+                  MathHelper.RADIANS_PER_DEGREE * bendingConfig.maxBendAmount(),
+                  random);
+        } else {
+          dir =
+              TrunkUtil.bendTowardsUp(
+                  dir, bendingConfig.straightenAmount() * MathHelper.RADIANS_PER_DEGREE);
+        }
       }
 
       // "Sideways" branches along the base trunk
-      if (mode == BranchMode.Trunk
-          && i > 1
-          && random.nextDouble() < this.config.sideBranchChance()) {
-        // Calc height fr this one
-        float lengthScale =
-            this.config.sideBranchConfig().lengthMin()
-                + random.nextFloat()
-                    * (this.config.sideBranchConfig().lengthMax()
-                        - this.config.sideBranchConfig().lengthMin());
+      if (this.config.sideBranchConfig().isPresent()) {
+        SideBranchConfig sideBranchConfig = this.config.sideBranchConfig().get();
+        if (mode == BranchMode.Trunk
+            && i > 1
+            && random.nextDouble() < sideBranchConfig.chancePerSegment()) {
+          // Calc height fr this one
+          float lengthScale =
+              sideBranchConfig.minLength()
+                  + random.nextFloat()
+                      * (sideBranchConfig.maxLength() - sideBranchConfig.minLength());
 
-        int newSegmentCount = Math.max((int) (segmentCount * lengthScale), 1);
-        buildBranch(
-            world,
-            replacer,
-            random,
-            config,
-            treeNodes,
-            //
-            BranchMode.Side,
-            here,
-            TrunkUtil.bend(
-                dir,
-                this.config.sideBranchConfig().angleMin(),
-                this.config.sideBranchConfig().angleMax(),
-                random),
-            newSegmentCount,
-            0, // Smaller foliage clumps (?)
-            recursionDepth + 1);
+          int newSegmentCount = Math.max((int) (segmentCount * lengthScale), 1);
+          buildBranch(
+              world,
+              replacer,
+              random,
+              config,
+              treeNodes,
+              //
+              BranchMode.Side,
+              here,
+              TrunkUtil.bend(dir, sideBranchConfig.minAngle(), sideBranchConfig.maxAngle(), random),
+              newSegmentCount,
+              0, // Smaller foliage clumps (?)
+              recursionDepth + 1);
+        }
       }
     }
 
     // "Upwards" branches at the end of trunks (and other top branches, recursively)
-    int branchCount = random.nextBetween(this.config.minUpBranches(), this.config.maxUpBranches());
+    boolean putFoliageHere = true;
+    if (this.config.upBranchConfig().isPresent()) {
+      UpBranchConfig upBranchConfig = this.config.upBranchConfig().get();
+      int branchCount =
+          random.nextBetween(upBranchConfig.minBranches(), upBranchConfig.maxBranches());
 
-    if (mode != BranchMode.Side
-        && branchCount > 0
-        && recursionDepth < this.config.upBranchDepth()) {
-      for (int j = 0; j < branchCount; j++) {
-        // Calc height fr this one
-        float lengthScale =
-            this.config.upBranchConfig().lengthMin()
-                + random.nextFloat()
-                    * (this.config.upBranchConfig().lengthMax()
-                        - this.config.upBranchConfig().lengthMin());
-        int newSegmentCount = Math.max((int) (segmentCount * lengthScale), 1);
-        float branchDirAngle =
-            (j / (float) branchCount) * MathHelper.TAU + (random.nextFloat() * 0.1f - 0.05f);
-        buildBranch(
-            world,
-            replacer,
-            random,
-            config,
-            treeNodes,
-            //
-            BranchMode.Top,
-            here,
-            TrunkUtil.bendWithAngle(
-                dir,
-                branchDirAngle,
-                MathHelper.RADIANS_PER_DEGREE * this.config.upBranchConfig().angleMin(),
-                MathHelper.RADIANS_PER_DEGREE * this.config.upBranchConfig().angleMax(),
-                random),
-            newSegmentCount,
-            foliageRadius,
-            recursionDepth + 1);
+      if (mode != BranchMode.Side
+          && branchCount > 0
+          && recursionDepth < upBranchConfig.recursionLimit()) {
+        putFoliageHere = false;
+        for (int j = 0; j < branchCount; j++) {
+          // Calc height fr this one
+          float lengthScale =
+              upBranchConfig.minLength()
+                  + random.nextFloat() * (upBranchConfig.maxLength() - upBranchConfig.minLength());
+          int newSegmentCount = Math.max((int) (segmentCount * lengthScale), 1);
+          float branchDirAngle =
+              (j / (float) branchCount) * MathHelper.TAU + (random.nextFloat() * 0.1f - 0.05f);
+          buildBranch(
+              world,
+              replacer,
+              random,
+              config,
+              treeNodes,
+              //
+              BranchMode.Top,
+              here,
+              TrunkUtil.bendWithAngle(
+                  dir,
+                  branchDirAngle,
+                  MathHelper.RADIANS_PER_DEGREE * upBranchConfig.minAngle(),
+                  MathHelper.RADIANS_PER_DEGREE * upBranchConfig.maxAngle(),
+                  random),
+              newSegmentCount,
+              foliageRadius,
+              recursionDepth + 1);
+        }
       }
-    } else {
+    }
+    if (putFoliageHere) {
       treeNodes.add(
           new FoliagePlacer.TreeNode(
               BlockPos.ofFloored(here),

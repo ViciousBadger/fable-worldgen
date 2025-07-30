@@ -25,25 +25,27 @@
       "config": {
         "segment_length": 2,
         "trunk_thickness": 2,
-        "bend_chance": 0.25,
-        "min_bend_amount": 15,
-        "max_bend_amount": 25,
-        "straighten_amount": 25,
-        "side_branch_chance": 0.75,
-        "side_branch_config": {
-          "length_min": 0.25,
-          "length_max": 0.50,
-          "angle_min": 10,
-          "angle_max": 35
+        "bending": {
+          "bend_chance": 0.25,
+          "min_bend_amount": 15,
+          "max_bend_amount": 25,
+          "straighten_amount": 25
         },
-        "up_branch_depth": 3,
-        "min_up_branches": 3,
-        "max_up_branches": 6,
-        "up_branch_config": {
-          "length_min": 0.25,
-          "length_max": 0.85,
-          "angle_min": 5,
-          "angle_max": 45
+        "side_branches": {
+          "chance_per_segment": 0.75,
+          "min_length": 0.25,
+          "max_length": 0.50,
+          "min_angle": 10,
+          "max_angle": 35
+        },
+        "up_branches": {
+          "recursion_limit": 3,
+          "min_branches": 3,
+          "max_branches": 6,
+          "min_length": 0.25,
+          "max_length": 0.85,
+          "min_angle": 5,
+          "max_angle": 45
         }
       }
     },

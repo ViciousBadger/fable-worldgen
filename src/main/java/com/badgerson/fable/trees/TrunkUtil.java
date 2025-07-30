@@ -52,11 +52,8 @@ public final class TrunkUtil {
   }
 
   public static Vec3d bendTowardsUp(Vec3d current, float maxAngle) {
-    Vector3f up = new Vector3f(0, 1, 0);
-
-    // Normalize for angle calculations
     Vector3f normalizedCurrent = current.toVector3f().normalize();
-    Vector3f normalizedUp = new Vector3f(up);
+    Vector3f normalizedUp = new Vector3f(0, 1, 0);
 
     // Calculate angle between vectors
     float currentAngle = normalizedCurrent.angle(normalizedUp);
