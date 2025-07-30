@@ -26,15 +26,92 @@
       }
     },
     "trunk_placer": {
-      "type": "minecraft:fancy_trunk_placer",
-      "base_height": 12,
-      "height_rand_a": 8,
-      "height_rand_b": 3
+      "type": "fable:advanced_trunk_placer",
+      "base_height": 7,
+      "height_rand_a": 14,
+      "height_rand_b": 0,
+      "config": {
+        "segment_length": 2,
+        "trunk_thickness": 1,
+        "bending": {
+          "bend_chance": 0.25,
+          "min_bend_amount": 15,
+          "max_bend_amount": 45,
+          "straighten_amount": 15
+        },
+        "side_branches": {
+          "start_at": 1,
+          "layers": [
+            {
+              "counts": [
+                6,
+                9
+              ],
+              "length": {
+                "min": 6.0,
+                "max": 8.0
+              },
+              "angle": {
+                "min": 25,
+                "max": 55
+              }
+            },
+            {
+              "counts": [
+                0,
+                1
+              ],
+              "length": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "angle": {
+                "min": 15,
+                "max": 35
+              }
+            }
+          ]
+        },
+        "up_branches": {
+          "layers": [
+            {
+              "counts": [
+                3,
+                4,
+                5
+              ],
+              "length": {
+                "min": 3.0,
+                "max": 8.0
+              },
+              "angle": {
+                "min": 35,
+                "max": 85
+              }
+            },
+            {
+              "counts": [
+                3,
+                4,
+                5
+              ],
+              "length": {
+                "min": 4.0,
+                "max": 6.0
+              },
+              "angle": {
+                "min": 25,
+                "max": 115
+              }
+            }
+          ]
+        }
+      }
     },
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:oak_log",
+        "Name": "minecraft:jungle_log",
         "Properties": {
           "axis": "y"
         }
@@ -49,7 +126,7 @@
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:oak_leaves",
+        "Name": "minecraft:mangrove_leaves",
         "Properties": {
           "distance": "7",
           "persistent": "false",

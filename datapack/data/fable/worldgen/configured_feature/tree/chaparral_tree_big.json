@@ -18,10 +18,106 @@
       }
     },
     "trunk_placer": {
-      "type": "minecraft:fancy_trunk_placer",
-      "base_height": 16,
-      "height_rand_a": 12,
-      "height_rand_b": 8
+      "type": "fable:advanced_trunk_placer",
+      "base_height": 12,
+      "height_rand_a": 4,
+      "height_rand_b": 0,
+      "config": {
+        "segment_length": 2,
+        "trunk_thickness": 2,
+        "bending": {
+          "bend_chance": 0.25,
+          "min_bend_amount": 15,
+          "max_bend_amount": 45,
+          "straighten_amount": 10
+        },
+        "side_branches": {
+          "start_at": 2,
+          "layers": [
+            {
+              "counts": [
+                6,
+                8,
+                12,
+                14
+              ],
+              "length": {
+                "min": 6.0,
+                "max": 8.0
+              },
+              "angle": {
+                "min": 25,
+                "max": 55
+              }
+            },
+            {
+              "counts": [
+                0,
+                1,
+                2
+              ],
+              "length": {
+                "min": 4.0,
+                "max": 8.0
+              },
+              "angle": {
+                "min": 25,
+                "max": 45
+              }
+            }
+          ]
+        },
+        "up_branches": {
+          "layers": [
+            {
+              "counts": [
+                6,
+                8,
+                10
+              ],
+              "length": {
+                "min": 6.0,
+                "max": 8.0
+              },
+              "angle": {
+                "min": 45,
+                "max": 85
+              }
+            },
+            {
+              "counts": [
+                3,
+                4,
+                5,
+                6
+              ],
+              "length": {
+                "min": 4.0,
+                "max": 6.0
+              },
+              "angle": {
+                "min": 65,
+                "max": 105
+              }
+            },
+            {
+              "counts": [
+                1,
+                2,
+                3
+              ],
+              "length": {
+                "min": 4.0,
+                "max": 6.0
+              },
+              "angle": {
+                "min": 5,
+                "max": 75
+              }
+            }
+          ]
+        }
+      }
     },
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
@@ -34,9 +130,9 @@
     },
     "foliage_placer": {
       "type": "minecraft:fancy_foliage_placer",
-      "height": 4,
-      "offset": 2,
-      "radius": 4
+      "height": 2,
+      "offset": 1,
+      "radius": 3
     },
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",

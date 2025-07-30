@@ -10,7 +10,7 @@
         }
       },
       {
-        "chance": 0.35,
+        "chance": 0.45,
         "feature": {
           "feature": "fable:tree/rainforest_tree_small",
           "placement": []
