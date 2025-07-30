@@ -60,7 +60,7 @@
           "bend_chance": 0.45,
           "min_bend_amount": 25,
           "max_bend_amount": 55,
-          "straighten_amount": 45
+          "straighten_amount": 75
         },
         "side_branches": {
           "start_at": 2,
@@ -111,8 +111,8 @@
                 "max": 10.0
               },
               "angle": {
-                "min": 25,
-                "max": 75
+                "min": 45,
+                "max": 95
               }
             },
             {

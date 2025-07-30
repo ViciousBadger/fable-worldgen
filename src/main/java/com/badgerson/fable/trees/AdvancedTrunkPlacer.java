@@ -247,9 +247,7 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
     if (putFoliageHere) {
       treeNodes.add(
           new FoliagePlacer.TreeNode(
-              BlockPos.ofFloored(here),
-              foliageRadius,
-              mode == BranchMode.Trunk && this.config.trunkThickness() > 1));
+              BlockPos.ofFloored(here), foliageRadius, this.config.trunkThickness() % 2 == 0));
     }
 
     return here;
