@@ -39,11 +39,11 @@
           "max_angle": 55
         },
         "up_branches": {
-          "recursion_limit": 3,
-          "min_branches": 1,
-          "max_branches": 3,
-          "min_length": 0.45,
-          "max_length": 1.0,
+          "recursion_limit": 2,
+          "min_branches": 6,
+          "max_branches": 8,
+          "min_length": 0.25,
+          "max_length": 0.75,
           "min_angle": 5,
           "max_angle": 75
         }
