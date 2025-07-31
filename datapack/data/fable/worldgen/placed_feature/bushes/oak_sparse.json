@@ -1,5 +1,5 @@
 {
-  "feature": "fable:tree_group/oak_trees_dense",
+  "feature": "fable:tree_group/oak_bushes",
   "placement": [
     {
       "type": "minecraft:count",
@@ -7,19 +7,15 @@
         "type": "minecraft:weighted_list",
         "distribution": [
           {
-            "data": 8,
-            "weight": 9
+            "data": 0,
+            "weight": 10
           },
           {
-            "data": 6,
-            "weight": 3
+            "data": 2,
+            "weight": 5
           },
           {
-            "data": 3,
-            "weight": 3
-          },
-          {
-            "data": 1,
+            "data": 12,
             "weight": 2
           }
         ]
@@ -34,17 +30,14 @@
     },
     {
       "type": "minecraft:heightmap",
-      "heightmap": "OCEAN_FLOOR"
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES"
     },
     {
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:would_survive",
         "state": {
-          "Name": "minecraft:oak_sapling",
-          "Properties": {
-            "stage": "0"
-          }
+          "Name": "minecraft:fern"
         }
       }
     },

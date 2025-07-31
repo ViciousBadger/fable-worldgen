@@ -70,10 +70,10 @@
     ],
     [
       "minecraft:glow_lichen",
-      "fable:grass_basic",
-      "fable:grass_tall_spots",
-      "fable:scattered_oak_bushes",
-      "fable:rare_oak_trees"
+      "fable:patches/grass/short_dense",
+      "fable:patches/grass/tall_sparse",
+      "fable:bushes/oak_sparse",
+      "fable:trees/grass_plains"
     ],
     [
       "minecraft:freeze_top_layer"

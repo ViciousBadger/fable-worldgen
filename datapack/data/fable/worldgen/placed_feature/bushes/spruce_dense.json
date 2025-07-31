@@ -1,5 +1,5 @@
 {
-  "feature": "fable:tree_group/oak_trees",
+  "feature": "fable:tree_group/spruce_bushes",
   "placement": [
     {
       "type": "minecraft:count",
@@ -7,12 +7,16 @@
         "type": "minecraft:weighted_list",
         "distribution": [
           {
-            "data": 0,
+            "data": 5,
             "weight": 10
           },
           {
-            "data": 1,
-            "weight": 1
+            "data": 7,
+            "weight": 4
+          },
+          {
+            "data": 2,
+            "weight": 2
           }
         ]
       }
@@ -26,17 +30,14 @@
     },
     {
       "type": "minecraft:heightmap",
-      "heightmap": "OCEAN_FLOOR"
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES"
     },
     {
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:would_survive",
         "state": {
-          "Name": "minecraft:oak_sapling",
-          "Properties": {
-            "stage": "0"
-          }
+          "Name": "minecraft:fern"
         }
       }
     },

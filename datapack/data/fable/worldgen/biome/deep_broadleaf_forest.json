@@ -73,11 +73,9 @@
     ],
     [
       "minecraft:glow_lichen",
-      "fable:grass_basic",
-      "fable:dense_oak_bushes",
-      "fable:rare_birch",
-      "fable:rare_pines",
-      "fable:oak_trees_dense"
+      "fable:patches/grass/short_dense",
+      "fable:bushes/oak_dense",
+      "fable:trees/ancient_forest"
     ],
     [
       "minecraft:freeze_top_layer"
