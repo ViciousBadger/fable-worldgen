@@ -136,7 +136,7 @@
   },
   "features": [
     [
-      "fable:cliff/diorite"
+      "fable:cliffs/diorite"
     ],
     [
       "minecraft:lake_lava_underground"
@@ -187,8 +187,8 @@
     ],
     [
       "minecraft:glow_lichen",
-      "fable:grass_sparse",
-      "fable:scattered_spruce_bushes"
+      "fable:grass/short_sparse",
+      "fable:bushes/spruce_sparse"
     ],
     [
       "minecraft:freeze_top_layer"

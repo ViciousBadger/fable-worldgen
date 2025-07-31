@@ -136,7 +136,7 @@
   },
   "features": [
     [
-      "fable:cliff/tuff"
+      "fable:cliffs/tuff"
     ],
     [
       "minecraft:lake_lava_underground"
@@ -187,10 +187,9 @@
     ],
     [
       "minecraft:glow_lichen",
-      "fable:grass_sparse",
-      "fable:scattered_spruce_bushes",
-      "fable:rare_pines",
-      "fable:spruce_trees_hills"
+      "fable:grass/short_sparse",
+      "fable:bushes/spruce_sparse",
+      "fable:trees/evergreen_hills"
     ],
     [
       "minecraft:freeze_top_layer"

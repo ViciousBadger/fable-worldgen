@@ -1,5 +1,22 @@
 {
-  "feature": "fable:tree_group/spruce_bushes",
+  "feature": {
+    "type": "minecraft:random_selector",
+    "config": {
+      "features": [
+        {
+          "chance": 0.4,
+          "feature": {
+            "feature": "fable:bush/spruce/m",
+            "placement": []
+          }
+        }
+      ],
+      "default": {
+        "feature": "fable:bush/spruce/s",
+        "placement": []
+      }
+    }
+  },
   "placement": [
     {
       "type": "minecraft:count",

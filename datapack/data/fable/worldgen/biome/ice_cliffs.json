@@ -136,7 +136,7 @@
   },
   "features": [
     [
-      "fable:cliff/packed_ice"
+      "fable:cliffs/packed_ice"
     ],
     [
       "minecraft:lake_lava_underground"
@@ -149,7 +149,7 @@
       "minecraft:monster_room_deep"
     ],
     [
-      "fable:ice_spike"
+      "fable:ice_spikes"
     ],
     [],
     [

@@ -136,14 +136,14 @@
   },
   "features": [
     [
-      "fable:cliff/diorite"
+      "fable:cliffs/diorite"
     ],
     [
       "minecraft:lake_lava_underground"
     ],
     [
       "minecraft:amethyst_geode",
-      "fable:rock/diorite_rare"
+      "fable:rocks/diorite_rare"
     ],
     [
       "minecraft:monster_room",
@@ -188,10 +188,9 @@
     ],
     [
       "minecraft:glow_lichen",
-      "fable:grass_sparse",
-      "fable:scattered_oak_bushes",
-      "fable:scattered_spruce_bushes",
-      "fable:rare_pines"
+      "fable:grass/short_sparse",
+      "fable:bushes/oak_sparse",
+      "fable:bushes/spruce_sparse"
     ],
     [
       "minecraft:freeze_top_layer"

@@ -136,7 +136,7 @@
   },
   "features": [
     [
-      "fable:cliff/packed_ice"
+      "fable:cliffs/packed_ice"
     ],
     [
       "minecraft:lake_lava_underground"
@@ -187,7 +187,7 @@
     ],
     [
       "minecraft:glow_lichen",
-      "fable:grass_sparse"
+      "fable:grass/short_sparse"
     ],
     [
       "minecraft:freeze_top_layer"

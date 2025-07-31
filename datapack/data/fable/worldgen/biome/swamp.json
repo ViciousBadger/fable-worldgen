@@ -136,7 +136,7 @@
   },
   "features": [
     [
-      "fable:cliff/packed_mud"
+      "fable:cliffs/packed_mud"
     ],
     [
       "minecraft:lake_lava_underground"
@@ -189,9 +189,9 @@
     ],
     [
       "minecraft:glow_lichen",
-      "fable:grass_basic",
-      "fable:dense_oak_bushes",
-      "fable:swamp_trees",
+      "fable:grass/short_dense",
+      "fable:bushes/oak_dense",
+      "fable:trees/swamp",
       "fable:shrooms",
       "fable:flowers/swamp",
       "minecraft:patch_dead_bush",

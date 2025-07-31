@@ -185,8 +185,8 @@
     ],
     [
       "minecraft:glow_lichen",
-      "fable:grass_basic",
-      "fable:dense_oak_bushes",
+      "fable:grass/short_dense",
+      "fable:bushes/oak_dense",
       "fable:swamp_trees_acacia",
       "fable:shrooms",
       "fable:flowers/swamp",

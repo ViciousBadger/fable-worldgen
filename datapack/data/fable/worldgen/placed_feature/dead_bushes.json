@@ -1,5 +1,5 @@
 {
-  "feature": "fable:tree/oak_bush_small",
+  "feature": "fable:patch/dead_bushes",
   "placement": [
     {
       "type": "minecraft:count",
@@ -8,15 +8,15 @@
         "distribution": [
           {
             "data": 0,
-            "weight": 10
+            "weight": 8
           },
           {
             "data": 1,
-            "weight": 4
+            "weight": 6
           },
           {
-            "data": 4,
-            "weight": 1
+            "data": 8,
+            "weight": 2
           }
         ]
       }
@@ -35,10 +35,13 @@
     {
       "type": "minecraft:block_predicate_filter",
       "predicate": {
-        "type": "minecraft:would_survive",
-        "state": {
-          "Name": "minecraft:fern"
-        }
+        "type": "minecraft:matching_block_tag",
+        "tag": "minecraft:dirt",
+        "offset": [
+          0,
+          -1,
+          0
+        ]
       }
     },
     {

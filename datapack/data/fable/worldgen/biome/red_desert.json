@@ -136,14 +136,14 @@
   },
   "features": [
     [
-      "fable:cliff/red_sandstone"
+      "fable:cliffs/red_sandstone"
     ],
     [
       "minecraft:lake_lava_underground"
     ],
     [
       "minecraft:amethyst_geode",
-      "fable:rock/granite_rare"
+      "fable:rocks/granite_rare"
     ],
     [
       "minecraft:monster_room",

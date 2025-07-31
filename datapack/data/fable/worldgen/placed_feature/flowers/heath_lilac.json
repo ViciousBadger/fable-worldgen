@@ -1,5 +1,5 @@
 {
-  "feature": "fable:lilac",
+  "feature": "fable:patch/flower/lilac",
   "placement": [
     {
       "type": "minecraft:noise_threshold_count",

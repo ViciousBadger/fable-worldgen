@@ -4,20 +4,24 @@
     "config": {
       "features": [
         {
-          "chance": 0.3,
+          "chance": 0.1,
           "feature": {
-            "feature": "fable:red_mushroom",
+            "feature": "fable:patch/flower/orchid",
             "placement": []
           }
         }
       ],
       "default": {
-        "feature": "fable:brown_mushroom",
+        "feature": "fable:patch/flower/peony",
         "placement": []
       }
     }
   },
   "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 8
+    },
     {
       "type": "minecraft:in_square"
     },

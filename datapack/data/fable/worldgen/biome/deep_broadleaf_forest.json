@@ -137,14 +137,14 @@
   },
   "features": [
     [
-      "fable:cliff/andesite"
+      "fable:cliffs/andesite"
     ],
     [
       "minecraft:lake_lava_underground"
     ],
     [
       "minecraft:amethyst_geode",
-      "fable:rock/andesite_rare"
+      "fable:rocks/andesite_rare"
     ],
     [
       "minecraft:monster_room",
@@ -191,7 +191,7 @@
     ],
     [
       "minecraft:glow_lichen",
-      "fable:patches/grass/short_dense",
+      "fable:grass/short_dense",
       "fable:bushes/oak_dense",
       "fable:trees/ancient_forest"
     ],

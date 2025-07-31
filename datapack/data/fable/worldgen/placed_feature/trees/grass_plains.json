@@ -4,14 +4,14 @@
     "config": {
       "features": [
         {
-          "chance": 0.02,
+          "chance": 0.05,
           "feature": {
             "feature": "fable:tree/oak/l",
             "placement": []
           }
         },
         {
-          "chance": 0.45,
+          "chance": 0.25,
           "feature": {
             "feature": "fable:tree/oak/s",
             "placement": []

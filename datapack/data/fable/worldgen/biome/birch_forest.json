@@ -136,7 +136,7 @@
   },
   "features": [
     [
-      "fable:cliff/andesite"
+      "fable:cliffs/andesite"
     ],
     [
       "minecraft:lake_lava_underground"
@@ -189,11 +189,9 @@
     ],
     [
       "minecraft:glow_lichen",
-      "fable:grass_basic",
-      "fable:scattered_oak_bushes",
-      "fable:rare_birch",
-      "fable:rare_pines",
-      "fable:birch_trees"
+      "fable:grass/short_dense",
+      "fable:bushes/oak_sparse",
+      "fable:trees/birch_forest"
     ],
     [
       "minecraft:freeze_top_layer"

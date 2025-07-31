@@ -136,14 +136,14 @@
   },
   "features": [
     [
-      "fable:cliff/granite"
+      "fable:cliffs/granite"
     ],
     [
       "minecraft:lake_lava_underground"
     ],
     [
       "minecraft:amethyst_geode",
-      "fable:rock/granite_common"
+      "fable:rocks/granite_common"
     ],
     [
       "minecraft:monster_room",
@@ -188,8 +188,8 @@
     ],
     [
       "minecraft:glow_lichen",
-      "fable:grass_sparse",
-      "fable:scattered_oak_bushes"
+      "fable:grass/short_sparse",
+      "fable:bushes/oak_dense"
     ],
     [
       "minecraft:freeze_top_layer"

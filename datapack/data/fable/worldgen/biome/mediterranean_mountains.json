@@ -136,7 +136,7 @@
   },
   "features": [
     [
-      "fable:cliff/granite"
+      "fable:cliffs/granite"
     ],
     [
       "minecraft:lake_lava_underground"
@@ -187,8 +187,7 @@
     ],
     [
       "minecraft:glow_lichen",
-      "fable:grass_sparse",
-      "fable:scattered_oak_bushes"
+      "fable:grass/short_dense"
     ],
     [
       "minecraft:freeze_top_layer"
