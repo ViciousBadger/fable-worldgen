@@ -26,10 +26,10 @@
         "segment_length": 2,
         "trunk_thickness": 2,
         "bending": {
-          "bend_chance": 0.25,
-          "min_bend_amount": 15,
-          "max_bend_amount": 45,
-          "straighten_amount": 10
+          "bend_chance": 0.35,
+          "min_bend_amount": 25,
+          "max_bend_amount": 65,
+          "straighten_amount": 15
         },
         "side_branches": {
           "start_at": 2,
@@ -98,21 +98,6 @@
               "angle": {
                 "min": 65,
                 "max": 105
-              }
-            },
-            {
-              "counts": [
-                1,
-                2,
-                3
-              ],
-              "length": {
-                "min": 4.0,
-                "max": 6.0
-              },
-              "angle": {
-                "min": 5,
-                "max": 75
               }
             }
           ]
