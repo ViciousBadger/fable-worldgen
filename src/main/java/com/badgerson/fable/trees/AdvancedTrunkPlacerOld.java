@@ -23,7 +23,7 @@ import net.minecraft.world.gen.foliage.FoliagePlacer.TreeNode;
 import net.minecraft.world.gen.trunk.TrunkPlacer;
 import net.minecraft.world.gen.trunk.TrunkPlacerType;
 
-public class AdvancedTrunkPlacer extends TrunkPlacer {
+public class AdvancedTrunkPlacerOld extends TrunkPlacer {
 
   private AdvancedTrunkConfig config;
 

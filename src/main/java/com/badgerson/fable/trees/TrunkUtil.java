@@ -1,30 +1,30 @@
 package com.badgerson.fable.trees;
 
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
-import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.math.random.Random;
 import org.joml.Quaternionf;
 import org.joml.Vector3f;
 
 public final class TrunkUtil {
-  public static Vec3d bend(Vec3d input, float minRadians, float maxRadians, Random random) {
-
+  public static Vector3f bend(Vector3f input, float minRadians, float maxRadians, Random random) {
     return bendInDirection(
         input, random.nextFloat() * MathHelper.TAU, minRadians, maxRadians, random);
   }
 
-  public static Vec3d bendInDirection(
-      Vec3d input, float directionAngle, float minRadians, float maxRadians, Random random) {
+  public static Vector3f bendInDirection(
+      Vector3f input, float directionAngle, float minRadians, float maxRadians, Random random) {
     float bendAngle = minRadians + random.nextFloat() * (maxRadians - minRadians);
     return bendInDirectionWithAngle(input, random.nextFloat() * MathHelper.TAU, bendAngle);
   }
 
-  public static Vec3d bendWithAngle(Vec3d input, float bendAngle, Random random) {
+  public static Vector3f bendWithAngle(Vector3f input, float bendAngle, Random random) {
     return bendInDirectionWithAngle(input, random.nextFloat() * MathHelper.TAU, bendAngle);
   }
 
-  public static Vec3d bendInDirectionWithAngle(Vec3d input, float directionAngle, float bendAngle) {
-    Vector3f original = input.toVector3f();
+  public static Vector3f bendInDirectionWithAngle(
+      Vector3f input, float directionAngle, float bendAngle) {
+    Vector3f outputVec = new Vector3f(input);
 
     // Create a consistent orthogonal basis
     Vector3f u = new Vector3f();
@@ -35,14 +35,14 @@ public final class TrunkUtil {
     Vector3f worldZ = new Vector3f(0, 0, 1);
 
     // Check if original is nearly parallel to worldX
-    float dotX = Math.abs(original.dot(worldX) / original.length());
+    float dotX = Math.abs(outputVec.dot(worldX) / outputVec.length());
     Vector3f reference = (dotX > 0.9f) ? worldZ : worldX;
 
     // Create orthogonal basis
-    original.cross(reference, u);
+    outputVec.cross(reference, u);
     u.normalize();
 
-    original.cross(u, v);
+    outputVec.cross(u, v);
     v.normalize();
 
     // Construct the perpendicular axis from directionAngle
@@ -54,34 +54,34 @@ public final class TrunkUtil {
 
     // Apply the bend rotation
     Quaternionf bendRotation = new Quaternionf().rotateAxis(bendAngle, perpAxis);
-    bendRotation.transform(original);
-    return new Vec3d(original);
+    bendRotation.transform(outputVec);
+    return outputVec;
   }
 
-  public static Vec3d bendTowardsUp(Vec3d current, float maxAngle) {
-    Vector3f normalizedCurrent = current.toVector3f().normalize();
+  public static Vector3f bendTowardsUp(Vector3f input, float maxAngle) {
+    Vector3f output = input.normalize(new Vector3f());
     Vector3f normalizedUp = new Vector3f(0, 1, 0);
 
     // Calculate angle between vectors
-    float currentAngle = normalizedCurrent.angle(normalizedUp);
+    float currentAngle = output.angle(normalizedUp);
 
     // If already close enough, rotate fully to target
     if (currentAngle <= maxAngle || currentAngle < 1e-6f) {
-      return new Vec3d(normalizedUp).multiply(current.length());
+      return output.mul(input.length());
     }
 
     // Find rotation axis (cross product)
-    Vector3f rotationAxis = new Vector3f(normalizedCurrent).cross(normalizedUp);
+    Vector3f rotationAxis = output.cross(normalizedUp);
 
     // Handle edge case where vectors are opposite
     if (rotationAxis.lengthSquared() < 1e-6f) {
       // Find any perpendicular vector for rotation axis
-      if (Math.abs(normalizedCurrent.x) < 0.9f) {
+      if (Math.abs(output.x) < 0.9f) {
         rotationAxis.set(1, 0, 0);
       } else {
         rotationAxis.set(0, 0, 1);
       }
-      rotationAxis.cross(normalizedCurrent).normalize();
+      rotationAxis.cross(output).normalize();
     } else {
       rotationAxis.normalize();
     }
@@ -90,8 +90,12 @@ public final class TrunkUtil {
     Quaternionf rotation = new Quaternionf().rotateAxis(maxAngle, rotationAxis);
 
     // Apply rotation and restore original magnitude
-    Vector3f result = new Vector3f(normalizedCurrent);
+    Vector3f result = new Vector3f(output);
     rotation.transform(result);
-    return new Vec3d(result).multiply(current.length());
+    return output.mul(input.length());
+  }
+
+  public static BlockPos vecToBlock(Vector3f vec) {
+    return new BlockPos((int) vec.x, (int) vec.y, (int) vec.z);
   }
 }

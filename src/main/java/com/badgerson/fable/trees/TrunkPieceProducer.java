@@ -3,25 +3,25 @@ package com.badgerson.fable.trees;
 import java.util.Iterator;
 import net.minecraft.util.math.BlockPos;
 
-public class TrunkPiece implements Iterable<BlockPos> {
+public class TrunkPieceProducer implements Iterable<BlockPos> {
   private final BlockPos center;
   private final int thickness;
 
-  public TrunkPiece(BlockPos center, int thickness) {
+  public TrunkPieceProducer(BlockPos center, int thickness) {
     this.center = center;
     this.thickness = thickness;
   }
 
   @Override
   public Iterator<BlockPos> iterator() {
-    return new TrunkPieceIter(center, thickness);
+    return new TrunkPieceIterator(center, thickness);
   }
 
-  private class TrunkPieceIter implements Iterator<BlockPos> {
+  private class TrunkPieceIterator implements Iterator<BlockPos> {
     private BlockPos[] inner;
     private int i = 0;
 
-    public TrunkPieceIter(BlockPos center, int thickness) {
+    public TrunkPieceIterator(BlockPos center, int thickness) {
       if (thickness == 2) {
         inner = new BlockPos[] {center, center.east(), center.south(), center.east().south()};
       } else if (thickness == 3) {
