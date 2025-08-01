@@ -132,35 +132,8 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
       TrunkSegment seg = new TrunkSegment(here, dir, this.config.segmentLength());
 
       while (seg.hasNext()) {
-        if (thickness <= 1) {
-          this.getAndSetState(world, replacer, random, seg.next(), config);
-        } else if (thickness == 2) {
-          BlockPos next = seg.next();
-          this.getAndSetState(world, replacer, random, next, config);
-          this.getAndSetState(world, replacer, random, next.east(), config);
-          this.getAndSetState(world, replacer, random, next.south(), config);
-          this.getAndSetState(world, replacer, random, next.east().south(), config);
-        } else if (thickness == 3) {
-          BlockPos next = seg.next();
-          this.getAndSetState(world, replacer, random, next, config);
-          this.getAndSetState(world, replacer, random, next.east(), config);
-          this.getAndSetState(world, replacer, random, next.south(), config);
-          this.getAndSetState(world, replacer, random, next.north(), config);
-          this.getAndSetState(world, replacer, random, next.west(), config);
-        } else if (thickness == 4) {
-          BlockPos next = seg.next();
-          this.getAndSetState(world, replacer, random, next.north(), config);
-          this.getAndSetState(world, replacer, random, next.north().east(), config);
-          this.getAndSetState(world, replacer, random, next.west(), config);
-          // this.getAndSetState(world, replacer, random, next, config);
-          // this.getAndSetState(world, replacer, random, next.east(), config);
-          this.getAndSetState(world, replacer, random, next.east(2), config);
-          this.getAndSetState(world, replacer, random, next.south().west(), config);
-          // this.getAndSetState(world, replacer, random, next.south(), config);
-          // this.getAndSetState(world, replacer, random, next.south().east(), config);
-          this.getAndSetState(world, replacer, random, next.south().east(2), config);
-          this.getAndSetState(world, replacer, random, next.south(2), config);
-          this.getAndSetState(world, replacer, random, next.south(2).east(), config);
+        for (BlockPos pos : new TrunkPiece(seg.next(), thickness)) {
+          this.getAndSetState(world, replacer, random, pos, config);
         }
       }
       here = seg.getCurrentVec();
