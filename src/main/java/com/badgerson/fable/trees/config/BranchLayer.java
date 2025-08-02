@@ -18,17 +18,42 @@ public record BranchLayer(
   }
 
   public static final Codec<BranchLayer> CODEC =
-      RecordCodecBuilder.create(
-          instance ->
-              instance
-                  .group(
-                      Codec.list(Codec.INT)
-                          .fieldOf("count_choices")
-                          .forGetter(BranchLayer::count_choices),
-                      FloatBounds.CODEC.fieldOf("length").forGetter(BranchLayer::length),
-                      FloatBounds.CODEC.fieldOf("angle").forGetter(BranchLayer::angle),
-                      Codec.INT.optionalFieldOf("thickness").forGetter(BranchLayer::thickness),
-                      BranchSideConfig.CODEC.optionalFieldOf("side").forGetter(BranchLayer::side),
-                      BranchTipConfig.CODEC.optionalFieldOf("tip").forGetter(BranchLayer::tip))
-                  .apply(instance, BranchLayer::new));
+      Codec.recursive(
+          BranchLayer.class.getSimpleName(),
+          selfCodec ->
+              RecordCodecBuilder.create(
+                  instance ->
+                      instance
+                          .group(
+                              Codec.list(Codec.INT)
+                                  .fieldOf("count_choices")
+                                  .forGetter(BranchLayer::count_choices),
+                              FloatBounds.CODEC.fieldOf("length").forGetter(BranchLayer::length),
+                              FloatBounds.CODEC.fieldOf("angle").forGetter(BranchLayer::angle),
+                              Codec.INT
+                                  .optionalFieldOf("thickness")
+                                  .forGetter(BranchLayer::thickness),
+                              BranchSideConfig.CODEC
+                                  .optionalFieldOf("side")
+                                  .forGetter(BranchLayer::side),
+                              BranchTipConfig.CODEC
+                                  .optionalFieldOf("tip")
+                                  .forGetter(BranchLayer::tip))
+                          .apply(instance, BranchLayer::new)));
+
+  // public static final Codec<BranchLayer> CODEC =
+  //     RecordCodecBuilder.create(
+  //         instance ->
+  //             instance
+  //                 .group(
+  //                     Codec.list(Codec.INT)
+  //                         .fieldOf("count_choices")
+  //                         .forGetter(BranchLayer::count_choices),
+  //                     FloatBounds.CODEC.fieldOf("length").forGetter(BranchLayer::length),
+  //                     FloatBounds.CODEC.fieldOf("angle").forGetter(BranchLayer::angle),
+  //                     Codec.INT.optionalFieldOf("thickness").forGetter(BranchLayer::thickness),
+  //
+  // BranchSideConfig.CODEC.optionalFieldOf("side").forGetter(BranchLayer::side),
+  //                     BranchTipConfig.CODEC.optionalFieldOf("tip").forGetter(BranchLayer::tip))
+  //                 .apply(instance, BranchLayer::new));
 }
