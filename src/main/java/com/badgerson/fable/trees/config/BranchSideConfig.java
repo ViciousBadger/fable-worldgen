@@ -5,26 +5,18 @@ import com.mojang.serialization.codecs.RecordCodecBuilder;
 import java.util.Optional;
 
 public record BranchSideConfig(
-    Optional<Integer> startPadding,
-    Optional<Integer> endPadding,
-    Optional<BranchLayer> branches,
-    Optional<FoliageLayer> foliage) {
+    Optional<Float> startPadding, Optional<Float> endPadding, BranchLayer branches) {
   public static final Codec<BranchSideConfig> CODEC =
       RecordCodecBuilder.create(
           instance ->
               instance
                   .group(
-                      Codec.INT
+                      Codec.FLOAT
                           .optionalFieldOf("start_padding")
                           .forGetter(BranchSideConfig::startPadding),
-                      Codec.INT
+                      Codec.FLOAT
                           .optionalFieldOf("end_padding")
                           .forGetter(BranchSideConfig::endPadding),
-                      BranchLayer.CODEC
-                          .optionalFieldOf("branches")
-                          .forGetter(BranchSideConfig::branches),
-                      FoliageLayer.CODEC
-                          .optionalFieldOf("foliage")
-                          .forGetter(BranchSideConfig::foliage))
+                      BranchLayer.CODEC.fieldOf("branches").forGetter(BranchSideConfig::branches))
                   .apply(instance, BranchSideConfig::new));
 }

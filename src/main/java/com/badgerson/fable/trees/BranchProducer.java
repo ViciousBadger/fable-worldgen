@@ -2,6 +2,7 @@ package com.badgerson.fable.trees;
 
 import com.badgerson.fable.trees.config.BranchBendingConfig;
 import com.badgerson.fable.trees.config.BranchLayer;
+import com.badgerson.fable.trees.config.FloatBounds;
 import com.google.common.collect.ImmutableList;
 import java.util.ArrayList;
 import java.util.List;
@@ -62,12 +63,52 @@ public class BranchProducer {
     float length = this.layer.length().generate(random);
     // float length = this.layer.length().max();
 
+    // Distribute side branches evenly along this branch..
+    List<Float> sideBranchPoints = new ArrayList<>();
+    layer
+        .side()
+        .ifPresent(
+            sideConfig -> {
+              int toDistribute = sideConfig.branches().generateBranchCount(random);
+              float min = sideConfig.startPadding().orElse(0f);
+              float max = length - sideConfig.endPadding().orElse(0f);
+
+              if (min > max) {
+                max = min;
+              }
+
+              for (int i = 0; i < toDistribute; i++) {
+                sideBranchPoints.add(new FloatBounds(min, max).generate(random));
+              }
+            });
+
     BranchWalker walker = new BranchWalker(startPos, startDir, length);
     while (walker.hasNext()) {
       BlockPos center = walker.next();
       for (BlockPos trunkPos : new TrunkSegment(center, thickness)) {
         blocks.add(new BranchProduct.TrunkBlock(trunkPos));
       }
+
+      layer
+          .side()
+          .ifPresent(
+              (sideConfig) -> {
+                for (int i = sideBranchPoints.size() - 1; i > 0; i--) {
+                  if (walker.getCurrentDist() > sideBranchPoints.get(i)) {
+                    subBranches.add(
+                        new BranchProducer(
+                            sideConfig.branches(),
+                            bending,
+                            walker.getCurrentVec(),
+                            TrunkUtil.bendWithAngle(
+                                walker.getCurrentDir(),
+                                sideConfig.branches().generateBranchBendAngle(random),
+                                random)));
+
+                    sideBranchPoints.remove(i);
+                  }
+                }
+              });
 
       // bending.ifPresent(
       //     (bendingConfig) -> {

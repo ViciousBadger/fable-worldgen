@@ -53,6 +53,10 @@ public class BranchWalker implements Iterator<BlockPos> {
     dir = TrunkUtil.bendTowardsUp(dir, config.straightenAmount() * MathHelper.RADIANS_PER_DEGREE);
   }
 
+  public float getCurrentDist() {
+    return currentDist;
+  }
+
   public Vector3f getCurrentVec() {
     return new Vector3f(pos);
   }
