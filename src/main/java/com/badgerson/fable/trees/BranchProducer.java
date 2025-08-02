@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.random.Random;
 import org.joml.Vector3f;
 
@@ -27,23 +28,39 @@ public class BranchProducer {
     this.startDir = startDir;
   }
 
-  public ImmutableList<BranchProduct> produceMany(Random random) {
-    List<BranchProduct> output = new ArrayList<>();
+  public static ImmutableList<BranchProducer> evenlySpread(
+      BranchLayer layer,
+      Optional<BranchBendingConfig> bending,
+      Vector3f pos,
+      Vector3f dir,
+      Random random) {
+    List<BranchProducer> result = new ArrayList<>();
     int count = layer.generateBranchCount(random);
-    for (int i = 0; i < count; i++) {
-      output.add(produceOne(random));
+    if (count > 1) {
+      for (int i = 0; i < count; i++) {
+        float branchDirAngle = (i / (float) count) * MathHelper.TAU;
+        Vector3f newDir =
+            TrunkUtil.bendInDirectionWithAngle(
+                dir, branchDirAngle, layer.generateBranchBendAngle(random));
+        // Vector3f newDir =
+        //     TrunkUtil.bendInDirectionWithAngle(
+        //         dir, branchDirAngle, 45f * MathHelper.RADIANS_PER_DEGREE);
+        result.add(new BranchProducer(layer, bending, pos, newDir));
+      }
+    } else {
+      result.add(new BranchProducer(layer, bending, pos, dir));
     }
-    return ImmutableList.copyOf(output);
+    return ImmutableList.copyOf(result);
   }
 
-  public BranchProduct produceOne(Random random) {
+  public BranchProduct produce(Random random) {
     List<BranchProduct.TrunkBlock> blocks = new ArrayList<>();
     List<BranchProduct.FoliageNode> foliage = new ArrayList<>();
     List<BranchProducer> subBranches = new ArrayList<>();
 
     int thickness = this.layer.thickness().orElse(1);
     float length = this.layer.length().generate(random);
-    Vector3f startDir = this.startDir;
+    // float length = this.layer.length().max();
 
     BranchWalker walker = new BranchWalker(startPos, startDir, length);
     while (walker.hasNext()) {
@@ -51,6 +68,12 @@ public class BranchProducer {
       for (BlockPos trunkPos : new TrunkSegment(center, thickness)) {
         blocks.add(new BranchProduct.TrunkBlock(trunkPos));
       }
+
+      // bending.ifPresent(
+      //     (bendingConfig) -> {
+      //       walker.applyBending(bendingConfig, random);
+      //     });
+
       // TODO: Place side branches .......
       // TODO: Place side foliage ....... (separately or together?)
     }
@@ -65,7 +88,10 @@ public class BranchProducer {
                   .branches()
                   .ifPresent(
                       (branchLayer) -> {
-                        subBranches.add(new BranchProducer(branchLayer, bending, endPos, endDir));
+                        for (BranchProducer child :
+                            evenlySpread(branchLayer, bending, endPos, endDir, random)) {
+                          subBranches.add(child);
+                        }
                       });
               tipConfig
                   .foliage()
@@ -73,7 +99,9 @@ public class BranchProducer {
                       (foliageConfig) -> {
                         foliage.add(
                             new BranchProduct.FoliageNode(
-                                TrunkUtil.vecToBlock(endPos), foliageConfig.radius()));
+                                TrunkUtil.vecToBlock(endPos),
+                                foliageConfig.radius(),
+                                thickness % 2 == 0));
                       });
             });
 

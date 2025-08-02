@@ -29,10 +29,10 @@
       "type": "fable:advanced_trunk_placer",
       "config": {
         "bending": {
-          "bend_chance": 0.45,
+          "bend_chance": 0.20,
           "min_bend_amount": 35,
           "max_bend_amount": 85,
-          "straighten_amount": 95
+          "straighten_amount": 45
         },
         "trunk": {
           "thickness": 3,

@@ -68,28 +68,35 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
     List<FoliagePlacer.TreeNode> treeNodes = new ArrayList<FoliagePlacer.TreeNode>();
 
     List<BranchProducer> nextLayer = new ArrayList<>();
-    nextLayer.add(
-        new BranchProducer(
-            this.config.trunk(), this.config.bending(), initialPosition, initialDirection));
+    for (BranchProducer trunkBranch :
+        BranchProducer.evenlySpread(
+            this.config.trunk(),
+            this.config.bending(),
+            initialPosition,
+            initialDirection,
+            random)) {
+      nextLayer.add(trunkBranch);
+    }
 
     while (nextLayer.size() > 0) {
       // Layer swap
       List<BranchProducer> thisLayer = nextLayer;
       nextLayer = new ArrayList<>();
 
-      // Build these
+      // Build this layer
       for (BranchProducer producer : thisLayer) {
-        for (BranchProduct product : producer.produceMany(random)) {
-          for (BranchProduct.TrunkBlock block : product.trunkBlocks()) {
-            this.getAndSetState(world, replacer, random, block.pos(), config);
-          }
-          for (BranchProduct.FoliageNode foliage : product.foliageNodes()) {
-            // TODO: how 2 detext giantTrunk (trunk thickness)?
-            treeNodes.add(new FoliagePlacer.TreeNode(foliage.pos(), foliage.radius(), false));
-          }
-          for (BranchProducer subBranch : product.subBranches()) {
-            nextLayer.add(subBranch);
-          }
+        BranchProduct product = producer.produce(random);
+        for (BranchProduct.TrunkBlock block : product.trunkBlocks()) {
+          this.getAndSetState(world, replacer, random, block.pos(), config);
+        }
+        for (BranchProduct.FoliageNode foliage : product.foliageNodes()) {
+          // TODO: how 2 detext giantTrunk (trunk thickness)?
+          treeNodes.add(
+              new FoliagePlacer.TreeNode(
+                  foliage.pos(), foliage.radius(), foliage.isOnGiantTrunk()));
+        }
+        for (BranchProducer subBranch : product.subBranches()) {
+          nextLayer.add(subBranch);
         }
       }
     }

@@ -4,7 +4,6 @@ import com.badgerson.fable.trees.config.BranchBendingConfig;
 import java.util.Iterator;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
-import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.math.random.Random;
 import org.joml.Vector3f;
 
@@ -19,8 +18,8 @@ public class BranchWalker implements Iterator<BlockPos> {
   private BlockPos lastBlockPos = null;
 
   public BranchWalker(Vector3f startPos, Vector3f startDir, float targetDist) {
-    this.pos = startPos;
-    this.dir = startDir;
+    this.pos = new Vector3f(startPos);
+    this.dir = new Vector3f(startDir);
     this.targetDist = targetDist;
   }
 
@@ -34,8 +33,8 @@ public class BranchWalker implements Iterator<BlockPos> {
     while (nextBlockPos == null
         || (nextBlockPos.equals(lastBlockPos) && currentDist < targetDist)) {
       float toMove = Math.min(STEP_SIZE, targetDist - currentDist);
-      pos = pos.add(dir.mul(toMove));
-      nextBlockPos = BlockPos.ofFloored(new Vec3d(pos));
+      pos.add(dir.mul(toMove, new Vector3f()));
+      nextBlockPos = TrunkUtil.vecToBlock(pos);
 
       currentDist += toMove;
     }
@@ -50,9 +49,8 @@ public class BranchWalker implements Iterator<BlockPos> {
               config.minBendAmount() * MathHelper.RADIANS_PER_DEGREE,
               config.maxBendAmount() * MathHelper.RADIANS_PER_DEGREE,
               random);
-    } else {
-      dir = TrunkUtil.bendTowardsUp(dir, config.straightenAmount() * MathHelper.RADIANS_PER_DEGREE);
     }
+    dir = TrunkUtil.bendTowardsUp(dir, config.straightenAmount() * MathHelper.RADIANS_PER_DEGREE);
   }
 
   public Vector3f getCurrentVec() {

@@ -9,5 +9,5 @@ public record BranchProduct(
     ImmutableList<BranchProducer> subBranches) {
   public record TrunkBlock(BlockPos pos) {}
 
-  public record FoliageNode(BlockPos pos, int radius) {}
+  public record FoliageNode(BlockPos pos, int radius, boolean isOnGiantTrunk) {}
 }

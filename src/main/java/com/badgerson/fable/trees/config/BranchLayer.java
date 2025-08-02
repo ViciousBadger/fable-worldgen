@@ -4,6 +4,7 @@ import com.mojang.serialization.Codec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 import java.util.List;
 import java.util.Optional;
+import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.random.Random;
 
 public record BranchLayer(
@@ -17,6 +18,12 @@ public record BranchLayer(
     return this.countChoices()
         .map((choices) -> choices.get(random.nextInt(choices.size())))
         .orElse(1);
+  }
+
+  public float generateBranchBendAngle(Random random) {
+    return this.angle()
+        .map((angle) -> angle.generate(random) * MathHelper.RADIANS_PER_DEGREE)
+        .orElse(0f);
   }
 
   public static final Codec<BranchLayer> CODEC =

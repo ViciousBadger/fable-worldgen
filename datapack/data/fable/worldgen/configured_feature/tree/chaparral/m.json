@@ -21,7 +21,7 @@
       "type": "fable:advanced_trunk_placer",
       "config": {
         "bending": {
-          "bend_chance": 0.25,
+          "bend_chance": 0.15,
           "min_bend_amount": 15,
           "max_bend_amount": 45,
           "straighten_amount": 10
