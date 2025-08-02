@@ -66,26 +66,26 @@
               "angle": {
                 "min": 5,
                 "max": 35
-              }
-            },
-            "tip": {
-              "branches": {
-                "count_choices": [
-                  2,
-                  3,
-                  4
-                ],
-                "length": {
-                  "min": 2.0,
-                  "max": 6.0
-                },
-                "angle": {
-                  "min": 5,
-                  "max": 25
-                },
-                "tip": {
-                  "foliage": {
-                    "radius": 1
+              },
+              "tip": {
+                "branches": {
+                  "count_choices": [
+                    2,
+                    3,
+                    4
+                  ],
+                  "length": {
+                    "min": 2.0,
+                    "max": 6.0
+                  },
+                  "angle": {
+                    "min": 5,
+                    "max": 25
+                  },
+                  "tip": {
+                    "foliage": {
+                      "radius": 1
+                    }
                   }
                 }
               }
