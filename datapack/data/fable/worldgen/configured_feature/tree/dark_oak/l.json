@@ -52,10 +52,14 @@
       "type": "fable:advanced_trunk_placer",
       "config": {
         "bending": {
-          "bend_chance": 0.20,
-          "min_bend_amount": 25,
-          "max_bend_amount": 55,
-          "straighten_amount": 35
+          "sideways": {
+            "min": 15,
+            "max": 45
+          },
+          "upwards": {
+            "min": 0,
+            "max": 5
+          }
         },
         "trunk": {
           "thickness": 3,

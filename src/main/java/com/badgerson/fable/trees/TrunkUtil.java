@@ -71,7 +71,7 @@ public final class TrunkUtil {
     }
 
     // Find rotation axis (cross product)
-    Vector3f rotationAxis = output.cross(normalizedUp);
+    Vector3f rotationAxis = output.cross(normalizedUp, new Vector3f());
 
     // Handle edge case where vectors are opposite
     if (rotationAxis.lengthSquared() < 1e-6f) {

@@ -63,7 +63,6 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
     // collect subbranches in that same list and clear list somehow i guess or swap lists
 
     Vector3f initialPosition = Vec3d.of(startPos.down()).add(0.5, 0.5, 0.5).toVector3f();
-    Vector3f initialDirection = new Vector3f(0.0f, 1.0f, 0.0f);
 
     List<FoliagePlacer.TreeNode> treeNodes = new ArrayList<FoliagePlacer.TreeNode>();
 
@@ -73,10 +72,25 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
             this.config.trunk(),
             this.config.bending(),
             initialPosition,
-            initialDirection,
+            new Vector3f(0f, 1f, 0f),
             random)) {
       nextLayer.add(trunkBranch);
     }
+
+    this.config
+        .roots()
+        .ifPresent(
+            (rootsConfig) -> {
+              for (BranchProducer rootBranch :
+                  BranchProducer.evenlySpread(
+                      rootsConfig,
+                      this.config.bending(),
+                      initialPosition,
+                      new Vector3f(0f, -1f, 0f),
+                      random)) {
+                nextLayer.add(rootBranch);
+              }
+            });
 
     while (nextLayer.size() > 0) {
       // Layer swap

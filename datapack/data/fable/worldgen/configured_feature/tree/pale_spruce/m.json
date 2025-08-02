@@ -53,12 +53,6 @@
     "trunk_placer": {
       "type": "fable:advanced_trunk_placer",
       "config": {
-        "bending": {
-          "bend_chance": 0.05,
-          "min_bend_amount": 5,
-          "max_bend_amount": 20,
-          "straighten_amount": 15
-        },
         "trunk": {
           "length": {
             "min": 12.0,

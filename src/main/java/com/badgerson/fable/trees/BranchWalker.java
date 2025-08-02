@@ -42,15 +42,12 @@ public class BranchWalker implements Iterator<BlockPos> {
   }
 
   public void applyBending(BranchBendingConfig config, Random random) {
-    if (random.nextFloat() < config.bendChance()) {
-      dir =
-          TrunkUtil.bend(
-              dir,
-              config.minBendAmount() * MathHelper.RADIANS_PER_DEGREE,
-              config.maxBendAmount() * MathHelper.RADIANS_PER_DEGREE,
-              random);
-    }
-    dir = TrunkUtil.bendTowardsUp(dir, config.straightenAmount() * MathHelper.RADIANS_PER_DEGREE);
+    dir =
+        TrunkUtil.bendWithAngle(
+            dir, config.sideways().generate(random) * MathHelper.RADIANS_PER_DEGREE, random);
+    dir =
+        TrunkUtil.bendTowardsUp(
+            dir, config.upwards().generate(random) * MathHelper.RADIANS_PER_DEGREE);
   }
 
   public float getCurrentDist() {

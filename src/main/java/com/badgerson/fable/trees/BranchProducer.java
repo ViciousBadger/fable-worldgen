@@ -111,10 +111,10 @@ public class BranchProducer {
                 }
               });
 
-      // bending.ifPresent(
-      //     (bendingConfig) -> {
-      //       walker.applyBending(bendingConfig, random);
-      //     });
+      bending.ifPresent(
+          (bendingConfig) -> {
+            walker.applyBending(bendingConfig, random);
+          });
     }
 
     Vector3f endPos = walker.getCurrentVec();
