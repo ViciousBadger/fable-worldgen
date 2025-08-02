@@ -31,7 +31,8 @@ public class BranchWalker implements Iterator<BlockPos> {
   public BlockPos next() {
     // Move until new blockpos..
     var nextBlockPos = lastBlockPos;
-    while (nextBlockPos.equals(lastBlockPos) && currentDist < targetDist) {
+    while (nextBlockPos == null
+        || (nextBlockPos.equals(lastBlockPos) && currentDist < targetDist)) {
       float toMove = Math.min(STEP_SIZE, targetDist - currentDist);
       pos = pos.add(dir.mul(toMove));
       nextBlockPos = BlockPos.ofFloored(new Vec3d(pos));

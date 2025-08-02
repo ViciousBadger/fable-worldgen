@@ -48,7 +48,7 @@ public class BranchProducer {
     BranchWalker walker = new BranchWalker(startPos, startDir, length);
     while (walker.hasNext()) {
       BlockPos center = walker.next();
-      for (BlockPos trunkPos : new TrunkPieceProducer(center, thickness)) {
+      for (BlockPos trunkPos : new TrunkSegment(center, thickness)) {
         blocks.add(new BranchProduct.TrunkBlock(trunkPos));
       }
       // TODO: Place side branches .......

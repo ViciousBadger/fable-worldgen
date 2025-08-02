@@ -52,6 +52,11 @@
               "angle": {
                 "min": 25,
                 "max": 55
+              },
+              "tip": {
+                "foliage": {
+                  "radius": 0
+                }
               }
             }
           },
@@ -83,6 +88,11 @@
                   "angle": {
                     "min": 15,
                     "max": 35
+                  },
+                  "tip": {
+                    "foliage": {
+                      "radius": 0
+                    }
                   }
                 }
               },
@@ -100,6 +110,11 @@
                   "angle": {
                     "min": 25,
                     "max": 115
+                  },
+                  "tip": {
+                    "foliage": {
+                      "radius": 1
+                    }
                   }
                 }
               }

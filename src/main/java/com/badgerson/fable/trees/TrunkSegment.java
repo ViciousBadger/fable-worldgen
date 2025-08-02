@@ -2,45 +2,58 @@ package com.badgerson.fable.trees;
 
 import java.util.Iterator;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.math.Vec3d;
 
-public class TrunkSegment implements Iterator<BlockPos> {
+public class TrunkSegment implements Iterable<BlockPos> {
+  private final BlockPos center;
+  private final int thickness;
 
-  private static final double MOVE_INTERVAL = 1.0;
-
-  private Vec3d dir;
-  private double length;
-
-  private Vec3d current;
-  private double distTraveled = 0.0;
-  private BlockPos lastBlockPos = null;
-
-  public TrunkSegment(Vec3d start, Vec3d dir, double length) {
-    this.current = start;
-    this.dir = dir;
-    this.length = length;
-    this.lastBlockPos = BlockPos.ofFloored(start);
+  public TrunkSegment(BlockPos center, int thickness) {
+    this.center = center;
+    this.thickness = thickness;
   }
 
-  public boolean hasNext() {
-    return distTraveled < length;
+  @Override
+  public Iterator<BlockPos> iterator() {
+    return new TrunkSegmentIter(center, thickness);
   }
 
-  public BlockPos next() {
-    // Move until new blockpos..
-    var nextBlockPos = lastBlockPos;
-    while (nextBlockPos.equals(lastBlockPos) && distTraveled < length) {
-      double toMove = Math.min(MOVE_INTERVAL, length - distTraveled);
-      // var m = dir.transform(new Vector3f(0f, 1f, 0f));
-      current = current.add(dir.multiply(toMove));
-      nextBlockPos = BlockPos.ofFloored(current);
+  private class TrunkSegmentIter implements Iterator<BlockPos> {
+    private BlockPos[] inner;
+    private int i = 0;
 
-      distTraveled += toMove;
+    public TrunkSegmentIter(BlockPos center, int thickness) {
+      if (thickness == 2) {
+        inner = new BlockPos[] {center, center.east(), center.south(), center.east().south()};
+      } else if (thickness == 3) {
+        inner =
+            new BlockPos[] {
+              center, center.east(), center.south(), center.north(), center.west(),
+            };
+      } else if (thickness == 4) {
+        inner =
+            new BlockPos[] {
+              center.north(),
+              center.north().east(),
+              center.west(),
+              center.east(2),
+              center.south().west(),
+              center.south().east(2),
+              center.south(2),
+              center.south(2).east(),
+            };
+      } else {
+        inner = new BlockPos[] {center};
+      }
     }
-    return nextBlockPos;
-  }
 
-  public Vec3d getCurrentVec() {
-    return current;
+    @Override
+    public boolean hasNext() {
+      return i < inner.length;
+    }
+
+    @Override
+    public BlockPos next() {
+      return inner[i++];
+    }
   }
 }

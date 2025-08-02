@@ -2,7 +2,6 @@ package com.badgerson.fable.trees;
 
 import com.badgerson.fable.Fable;
 import com.badgerson.fable.trees.config.AdvancedTrunkConfig;
-import com.google.common.collect.ImmutableList;
 import com.mojang.serialization.MapCodec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
 import java.util.ArrayList;
@@ -80,8 +79,7 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
 
       // Build these
       for (BranchProducer producer : thisLayer) {
-        ImmutableList<BranchProduct> products = producer.produceMany(random);
-        for (BranchProduct product : products) {
+        for (BranchProduct product : producer.produceMany(random)) {
           for (BranchProduct.TrunkBlock block : product.trunkBlocks()) {
             this.getAndSetState(world, replacer, random, block.pos(), config);
           }
