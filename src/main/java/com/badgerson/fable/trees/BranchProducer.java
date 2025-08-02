@@ -38,8 +38,9 @@ public class BranchProducer {
     List<BranchProducer> result = new ArrayList<>();
     int count = layer.generateBranchCount(random);
     if (count > 1) {
+      float randomStart = random.nextFloat() * MathHelper.TAU;
       for (int i = 0; i < count; i++) {
-        float branchDirAngle = (i / (float) count) * MathHelper.TAU;
+        float branchDirAngle = randomStart + (i / (float) count) * MathHelper.TAU;
         Vector3f newDir =
             TrunkUtil.bendInDirectionWithAngle(
                 dir, branchDirAngle, layer.generateBranchBendAngle(random));
@@ -114,9 +115,6 @@ public class BranchProducer {
       //     (bendingConfig) -> {
       //       walker.applyBending(bendingConfig, random);
       //     });
-
-      // TODO: Place side branches .......
-      // TODO: Place side foliage ....... (separately or together?)
     }
 
     Vector3f endPos = walker.getCurrentVec();

@@ -142,7 +142,9 @@
     "water_creature": []
   },
   "features": [
-    [],
+    [
+      "fable:cliffs/packed_ice"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
