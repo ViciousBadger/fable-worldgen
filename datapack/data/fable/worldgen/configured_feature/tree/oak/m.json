@@ -19,23 +19,21 @@
     },
     "trunk_placer": {
       "type": "fable:advanced_trunk_placer",
-      "base_height": 4,
-      "height_rand_a": 4,
-      "height_rand_b": 0,
       "config": {
-        "segment_length": 2,
-        "trunk_thickness": 1,
         "bending": {
           "bend_chance": 0.25,
           "min_bend_amount": 15,
           "max_bend_amount": 45,
           "straighten_amount": 15
         },
-        "side_branches": {
-          "start_at": 1,
-          "layers": [
-            {
-              "counts": [
+        "trunk": {
+          "length": {
+            "min": 4.0,
+            "max": 8.0
+          },
+          "side": {
+            "branches": {
+              "count_choices": [
                 0,
                 1,
                 2
@@ -48,27 +46,11 @@
                 "min": 25,
                 "max": 55
               }
-            },
-            {
-              "counts": [
-                0,
-                1
-              ],
-              "length": {
-                "min": 2.0,
-                "max": 4.0
-              },
-              "angle": {
-                "min": 15,
-                "max": 35
-              }
             }
-          ]
-        },
-        "up_branches": {
-          "layers": [
-            {
-              "counts": [
+          },
+          "tip": {
+            "branches": {
+              "count_choices": [
                 1,
                 2
               ],
@@ -79,24 +61,42 @@
               "angle": {
                 "min": 5,
                 "max": 35
-              }
-            },
-            {
-              "counts": [
-                3,
-                4,
-                5
-              ],
-              "length": {
-                "min": 4.0,
-                "max": 6.0
               },
-              "angle": {
-                "min": 45,
-                "max": 95
+              "side": {
+                "branches": {
+                  "count_choices": [
+                    0,
+                    1
+                  ],
+                  "length": {
+                    "min": 2.0,
+                    "max": 4.0
+                  },
+                  "angle": {
+                    "min": 15,
+                    "max": 35
+                  }
+                }
+              },
+              "tip": {
+                "branches": {
+                  "count_choices": [
+                    3,
+                    4,
+                    5
+                  ],
+                  "length": {
+                    "min": 4.0,
+                    "max": 6.0
+                  },
+                  "angle": {
+                    "min": 45,
+                    "max": 95
+                  }
+                }
               }
             }
-          ]
+          }
         }
       }
     },

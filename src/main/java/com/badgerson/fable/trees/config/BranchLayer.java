@@ -7,14 +7,16 @@ import java.util.Optional;
 import net.minecraft.util.math.random.Random;
 
 public record BranchLayer(
-    List<Integer> count_choices,
     FloatBounds length,
-    FloatBounds angle,
+    Optional<List<Integer>> countChoices,
+    Optional<FloatBounds> angle,
     Optional<Integer> thickness,
     Optional<BranchSideConfig> side,
     Optional<BranchTipConfig> tip) {
   public int generateBranchCount(Random random) {
-    return this.count_choices().get(random.nextInt(this.count_choices().size()));
+    return this.countChoices()
+        .map((choices) -> choices.get(random.nextInt(choices.size())))
+        .orElse(1);
   }
 
   public static final Codec<BranchLayer> CODEC =
@@ -25,11 +27,13 @@ public record BranchLayer(
                   instance ->
                       instance
                           .group(
-                              Codec.list(Codec.INT)
-                                  .fieldOf("count_choices")
-                                  .forGetter(BranchLayer::count_choices),
                               FloatBounds.CODEC.fieldOf("length").forGetter(BranchLayer::length),
-                              FloatBounds.CODEC.fieldOf("angle").forGetter(BranchLayer::angle),
+                              Codec.list(Codec.INT)
+                                  .optionalFieldOf("count_choices")
+                                  .forGetter(BranchLayer::countChoices),
+                              FloatBounds.CODEC
+                                  .optionalFieldOf("angle")
+                                  .forGetter(BranchLayer::angle),
                               Codec.INT
                                   .optionalFieldOf("thickness")
                                   .forGetter(BranchLayer::thickness),
@@ -40,20 +44,4 @@ public record BranchLayer(
                                   .optionalFieldOf("tip")
                                   .forGetter(BranchLayer::tip))
                           .apply(instance, BranchLayer::new)));
-
-  // public static final Codec<BranchLayer> CODEC =
-  //     RecordCodecBuilder.create(
-  //         instance ->
-  //             instance
-  //                 .group(
-  //                     Codec.list(Codec.INT)
-  //                         .fieldOf("count_choices")
-  //                         .forGetter(BranchLayer::count_choices),
-  //                     FloatBounds.CODEC.fieldOf("length").forGetter(BranchLayer::length),
-  //                     FloatBounds.CODEC.fieldOf("angle").forGetter(BranchLayer::angle),
-  //                     Codec.INT.optionalFieldOf("thickness").forGetter(BranchLayer::thickness),
-  //
-  // BranchSideConfig.CODEC.optionalFieldOf("side").forGetter(BranchLayer::side),
-  //                     BranchTipConfig.CODEC.optionalFieldOf("tip").forGetter(BranchLayer::tip))
-  //                 .apply(instance, BranchLayer::new));
 }

@@ -27,8 +27,8 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
   public static final MapCodec<AdvancedTrunkPlacer> CODEC =
       RecordCodecBuilder.mapCodec(
           instance ->
-              fillTrunkPlacerFields(instance)
-                  .and(
+              instance
+                  .group(
                       AdvancedTrunkConfig.CODEC
                           .fieldOf("config")
                           .forGetter(
@@ -37,9 +37,8 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
                               }))
                   .apply(instance, AdvancedTrunkPlacer::new));
 
-  public AdvancedTrunkPlacer(
-      int baseHeight, int firstRandomHeight, int secondRandomHeight, AdvancedTrunkConfig config) {
-    super(baseHeight, firstRandomHeight, secondRandomHeight);
+  public AdvancedTrunkPlacer(AdvancedTrunkConfig config) {
+    super((int) config.trunk().length().min(), 0, 0);
     this.config = config;
   }
 

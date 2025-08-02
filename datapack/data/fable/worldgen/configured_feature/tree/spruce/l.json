@@ -55,23 +55,22 @@
     },
     "trunk_placer": {
       "type": "fable:advanced_trunk_placer",
-      "base_height": 23,
-      "height_rand_a": 12,
-      "height_rand_b": 14,
       "config": {
-        "segment_length": 4,
-        "trunk_thickness": 3,
         "bending": {
           "bend_chance": 0.15,
           "min_bend_amount": 15,
           "max_bend_amount": 30,
           "straighten_amount": 25
         },
-        "side_branches": {
-          "start_at": 2,
-          "layers": [
-            {
-              "counts": [
+        "trunk": {
+          "thickness": 3,
+          "length": {
+            "min": 32.0,
+            "max": 42.0
+          },
+          "side": {
+            "branches": {
+              "count_choices": [
                 3
               ],
               "length": {
@@ -81,9 +80,19 @@
               "angle": {
                 "min": 25,
                 "max": 55
+              },
+              "tip": {
+                "foliage": {
+                  "radius": 0
+                }
               }
             }
-          ]
+          },
+          "tip": {
+            "foliage": {
+              "radius": 1
+            }
+          }
         }
       }
     },

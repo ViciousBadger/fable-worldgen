@@ -19,23 +19,21 @@
     },
     "trunk_placer": {
       "type": "fable:advanced_trunk_placer",
-      "base_height": 4,
-      "height_rand_a": 2,
-      "height_rand_b": 0,
       "config": {
-        "segment_length": 2,
-        "trunk_thickness": 1,
         "bending": {
           "bend_chance": 0.25,
           "min_bend_amount": 15,
           "max_bend_amount": 45,
           "straighten_amount": 10
         },
-        "side_branches": {
-          "start_at": 1,
-          "layers": [
-            {
-              "counts": [
+        "trunk": {
+          "length": {
+            "min": 4.0,
+            "max": 6.0
+          },
+          "side": {
+            "branches": {
+              "count_choices": [
                 2,
                 2,
                 4
@@ -49,12 +47,10 @@
                 "max": 35
               }
             }
-          ]
-        },
-        "up_branches": {
-          "layers": [
-            {
-              "counts": [
+          },
+          "tip": {
+            "branches": {
+              "count_choices": [
                 4,
                 6
               ],
@@ -65,24 +61,31 @@
               "angle": {
                 "min": 45,
                 "max": 75
-              }
-            },
-            {
-              "counts": [
-                3,
-                4,
-                5
-              ],
-              "length": {
-                "min": 4.0,
-                "max": 6.0
               },
-              "angle": {
-                "min": 45,
-                "max": 95
+              "tip": {
+                "branches": {
+                  "count_choices": [
+                    3,
+                    4,
+                    5
+                  ],
+                  "length": {
+                    "min": 4.0,
+                    "max": 6.0
+                  },
+                  "angle": {
+                    "min": 45,
+                    "max": 95
+                  },
+                  "tip": {
+                    "foliage": {
+                      "radius": 1
+                    }
+                  }
+                }
               }
             }
-          ]
+          }
         }
       }
     },

@@ -50,23 +50,22 @@
     },
     "trunk_placer": {
       "type": "fable:advanced_trunk_placer",
-      "base_height": 16,
-      "height_rand_a": 6,
-      "height_rand_b": 0,
       "config": {
-        "segment_length": 2,
-        "trunk_thickness": 3,
         "bending": {
           "bend_chance": 0.45,
           "min_bend_amount": 25,
           "max_bend_amount": 55,
           "straighten_amount": 75
         },
-        "side_branches": {
-          "start_at": 2,
-          "layers": [
-            {
-              "counts": [
+        "trunk": {
+          "thickness": 3,
+          "length": {
+            "min": 16.0,
+            "max": 22.0
+          },
+          "side": {
+            "branches": {
+              "count_choices": [
                 6,
                 8,
                 12,
@@ -80,29 +79,12 @@
                 "min": 25,
                 "max": 55
               }
-            },
-            {
-              "counts": [
-                0,
-                1,
-                2
-              ],
-              "length": {
-                "min": 4.0,
-                "max": 8.0
-              },
-              "angle": {
-                "min": 25,
-                "max": 45
-              }
             }
-          ]
-        },
-        "up_branches": {
-          "layers": [
-            {
+          },
+          "tip": {
+            "branches": {
               "thickness": 2,
-              "counts": [
+              "count_choices": [
                 4,
                 7
               ],
@@ -113,39 +95,60 @@
               "angle": {
                 "min": 45,
                 "max": 95
-              }
-            },
-            {
-              "counts": [
-                3,
-                4,
-                5
-              ],
-              "length": {
-                "min": 6.0,
-                "max": 8.0
               },
-              "angle": {
-                "min": 25,
-                "max": 125
-              }
-            },
-            {
-              "counts": [
-                1,
-                2,
-                3
-              ],
-              "length": {
-                "min": 2.0,
-                "max": 4.0
+              "side": {
+                "branches": {
+                  "count_choices": [
+                    0,
+                    1,
+                    2
+                  ],
+                  "length": {
+                    "min": 4.0,
+                    "max": 8.0
+                  },
+                  "angle": {
+                    "min": 25,
+                    "max": 45
+                  }
+                }
               },
-              "angle": {
-                "min": 5,
-                "max": 75
+              "tip": {
+                "branches": {
+                  "count_choices": [
+                    3,
+                    4,
+                    5
+                  ],
+                  "length": {
+                    "min": 6.0,
+                    "max": 8.0
+                  },
+                  "angle": {
+                    "min": 25,
+                    "max": 125
+                  },
+                  "tip": {
+                    "branches": {
+                      "count_choices": [
+                        1,
+                        2,
+                        3
+                      ],
+                      "length": {
+                        "min": 2.0,
+                        "max": 4.0
+                      },
+                      "angle": {
+                        "min": 5,
+                        "max": 75
+                      }
+                    }
+                  }
+                }
               }
             }
-          ]
+          }
         }
       }
     },
