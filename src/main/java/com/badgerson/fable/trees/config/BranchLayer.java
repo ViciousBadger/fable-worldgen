@@ -9,6 +9,7 @@ import net.minecraft.util.math.random.Random;
 
 public record BranchLayer(
     FloatBounds length,
+    Optional<BranchBendingConfig> bending,
     Optional<List<Integer>> countChoices,
     Optional<FloatBounds> angle,
     Optional<Integer> thickness,
@@ -35,6 +36,9 @@ public record BranchLayer(
                       instance
                           .group(
                               FloatBounds.CODEC.fieldOf("length").forGetter(BranchLayer::length),
+                              BranchBendingConfig.CODEC
+                                  .optionalFieldOf("bending")
+                                  .forGetter(BranchLayer::bending),
                               Codec.list(Codec.INT)
                                   .optionalFieldOf("count_choices")
                                   .forGetter(BranchLayer::countChoices),

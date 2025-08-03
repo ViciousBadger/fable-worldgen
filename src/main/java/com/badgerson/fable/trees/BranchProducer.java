@@ -63,6 +63,7 @@ public class BranchProducer {
     int thickness = this.layer.thickness().orElse(1);
     float length = this.layer.length().generate(random);
     // float length = this.layer.length().max();
+    Optional<BranchBendingConfig> bending = this.layer.bending().or(() -> this.bending);
 
     // Distribute side branches evenly along this branch..
     List<Float> sideBranchPoints = new ArrayList<>();
