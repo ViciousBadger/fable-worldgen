@@ -66,7 +66,7 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
 
     List<FoliagePlacer.TreeNode> treeNodes = new ArrayList<FoliagePlacer.TreeNode>();
 
-    List<BranchProducer> nextLayer = new ArrayList<>();
+    List<BranchProducer> thisLayer = new ArrayList<>();
     for (BranchProducer trunkBranch :
         BranchProducer.evenlySpread(
             this.config.trunk(),
@@ -74,7 +74,7 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
             initialPosition,
             new Vector3f(0f, 1f, 0f),
             random)) {
-      nextLayer.add(trunkBranch);
+      thisLayer.add(trunkBranch);
     }
 
     this.config
@@ -88,14 +88,15 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
                       initialPosition,
                       new Vector3f(0f, -1f, 0f),
                       random)) {
-                nextLayer.add(rootBranch);
+                thisLayer.add(rootBranch);
               }
             });
 
-    while (nextLayer.size() > 0) {
-      // Layer swap
-      List<BranchProducer> thisLayer = nextLayer;
-      nextLayer = new ArrayList<>();
+    while (thisLayer.size() > 0) {
+      // // Layer swap
+      // List<BranchProducer> thisLayer = thisLayer;
+      // thisLayer = new ArrayList<>();
+      List<BranchProducer> nextLayer = new ArrayList<>();
 
       // Build this layer
       for (BranchProducer producer : thisLayer) {
@@ -113,6 +114,9 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
           nextLayer.add(subBranch);
         }
       }
+
+      thisLayer.clear();
+      thisLayer.addAll(nextLayer);
     }
 
     return treeNodes;

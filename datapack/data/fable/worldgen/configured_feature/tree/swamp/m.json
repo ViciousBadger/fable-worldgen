@@ -30,12 +30,12 @@
       "config": {
         "bending": {
           "sideways": {
-            "min": 25,
-            "max": 85
+            "min": 8,
+            "max": 24
           },
           "upwards": {
-            "min": 10,
-            "max": 45
+            "min": 0,
+            "max": 10
           }
         },
         "trunk": {

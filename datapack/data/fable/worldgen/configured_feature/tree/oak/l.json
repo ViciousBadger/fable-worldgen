@@ -22,12 +22,12 @@
       "config": {
         "bending": {
           "sideways": {
-            "min": 15,
-            "max": 45
+            "min": 2,
+            "max": 8
           },
           "upwards": {
-            "min": 0,
-            "max": 5
+            "min": 15,
+            "max": 25
           }
         },
         "trunk": {
@@ -66,6 +66,7 @@
                 3,
                 4
               ],
+              "thickness": 2,
               "length": {
                 "min": 6.0,
                 "max": 8.0
@@ -105,8 +106,8 @@
                     6
                   ],
                   "length": {
-                    "min": 4.0,
-                    "max": 6.0
+                    "min": 3.0,
+                    "max": 5.0
                   },
                   "angle": {
                     "min": 65,
@@ -120,8 +121,8 @@
                         3
                       ],
                       "length": {
-                        "min": 4.0,
-                        "max": 6.0
+                        "min": 1.0,
+                        "max": 3.0
                       },
                       "angle": {
                         "min": 5,
