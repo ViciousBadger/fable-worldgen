@@ -26,8 +26,8 @@
             "max": 8
           },
           "upwards": {
-            "min": 15,
-            "max": 25
+            "min": 25,
+            "max": 45
           }
         },
         "trunk": {

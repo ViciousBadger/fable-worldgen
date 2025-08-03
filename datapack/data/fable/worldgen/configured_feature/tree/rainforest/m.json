@@ -72,8 +72,8 @@
                 5
               ],
               "length": {
-                "min": 3.0,
-                "max": 8.0
+                "min": 4.0,
+                "max": 7.0
               },
               "angle": {
                 "min": 35,
@@ -108,8 +108,8 @@
                     5
                   ],
                   "length": {
-                    "min": 4.0,
-                    "max": 6.0
+                    "min": 3.0,
+                    "max": 5.0
                   },
                   "angle": {
                     "min": 25,
@@ -140,7 +140,7 @@
       "type": "minecraft:fancy_foliage_placer",
       "height": 3,
       "offset": 2,
-      "radius": 2
+      "radius": 3
     },
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",

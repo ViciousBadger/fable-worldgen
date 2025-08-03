@@ -58,7 +58,7 @@
           },
           "upwards": {
             "min": 15,
-            "max": 25
+            "max": 45
           }
         },
         "trunk": {
@@ -76,8 +76,8 @@
                 14
               ],
               "length": {
-                "min": 6.0,
-                "max": 8.0
+                "min": 3.0,
+                "max": 6.0
               },
               "angle": {
                 "min": 25,
@@ -91,6 +91,9 @@
             }
           },
           "tip": {
+            "foliage": {
+              "radius": 1
+            },
             "branches": {
               "thickness": 2,
               "count_choices": [
@@ -98,8 +101,8 @@
                 7
               ],
               "length": {
-                "min": 6.0,
-                "max": 10.0
+                "min": 3.0,
+                "max": 6.0
               },
               "angle": {
                 "min": 45,
@@ -113,8 +116,8 @@
                     2
                   ],
                   "length": {
-                    "min": 4.0,
-                    "max": 8.0
+                    "min": 2.0,
+                    "max": 5.0
                   },
                   "angle": {
                     "min": 25,
@@ -128,6 +131,9 @@
                 }
               },
               "tip": {
+                "foliage": {
+                  "radius": 1
+                },
                 "branches": {
                   "count_choices": [
                     3,
@@ -135,14 +141,17 @@
                     5
                   ],
                   "length": {
-                    "min": 6.0,
-                    "max": 8.0
+                    "min": 3.0,
+                    "max": 5.0
                   },
                   "angle": {
                     "min": 25,
                     "max": 125
                   },
                   "tip": {
+                    "foliage": {
+                      "radius": 1
+                    },
                     "branches": {
                       "count_choices": [
                         1,

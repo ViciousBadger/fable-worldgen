@@ -83,7 +83,7 @@ public class BranchProducer {
               }
             });
 
-    BranchWalker walker = new BranchWalker(startPos, startDir, length);
+    BranchWalker walker = new BranchWalker(startPos, startDir, length, bending, random);
     while (walker.hasNext()) {
       BlockPos center = walker.next();
       for (BlockPos trunkPos : new TrunkSegment(center, thickness)) {
@@ -110,11 +110,6 @@ public class BranchProducer {
                   }
                 }
               });
-
-      bending.ifPresent(
-          (bendingConfig) -> {
-            walker.applyBending(bendingConfig, random);
-          });
     }
 
     Vector3f endPos = walker.getCurrentVec();
