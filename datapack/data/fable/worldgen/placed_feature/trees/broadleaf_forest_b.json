@@ -4,38 +4,62 @@
     "config": {
       "features": [
         {
-          "chance": 0.35,
+          "chance": 0.05,
           "feature": {
-            "feature": "fable:tree/spruce/s",
+            "feature": "fable:tree/oak/l",
             "placement": []
           }
         },
         {
-          "chance": 0.15,
+          "chance": 0.55,
           "feature": {
-            "feature": "fable:tree/oak/m",
+            "feature": "fable:tree/oak/s",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.02,
+          "feature": {
+            "feature": "fable:tree/birch/m",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.02,
+          "feature": {
+            "feature": "fable:tree/spruce/m",
             "placement": []
           }
         }
       ],
       "default": {
-        "feature": "fable:tree/oak/s",
+        "feature": "fable:tree/oak/m",
         "placement": []
       }
     }
   },
   "placement": [
     {
+      "type": "minecraft:noise_threshold_count",
+      "above_noise": 0,
+      "below_noise": 1,
+      "noise_level": 0.0
+    },
+    {
       "type": "minecraft:count",
       "count": {
         "type": "minecraft:weighted_list",
         "distribution": [
           {
-            "data": 8,
+            "data": 4,
             "weight": 9
           },
           {
-            "data": 3,
+            "data": 2,
+            "weight": 3
+          },
+          {
+            "data": 1,
             "weight": 2
           }
         ]

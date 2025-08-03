@@ -192,7 +192,8 @@
       "minecraft:glow_lichen",
       "fable:grass/short_dense",
       "fable:bushes/oak_sparse",
-      "fable:trees/montane_forest"
+      "fable:trees/montane_forest_a",
+      "fable:trees/montane_forest_b"
     ],
     [
       "minecraft:freeze_top_layer"

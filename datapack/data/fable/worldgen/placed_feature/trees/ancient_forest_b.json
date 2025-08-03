@@ -6,12 +6,19 @@
         {
           "chance": 0.05,
           "feature": {
-            "feature": "fable:tree/oak/l",
+            "feature": "fable:tree/dark_oak/l",
             "placement": []
           }
         },
         {
           "chance": 0.25,
+          "feature": {
+            "feature": "fable:tree/oak/l",
+            "placement": []
+          }
+        },
+        {
+          "chance": 0.10,
           "feature": {
             "feature": "fable:tree/oak/s",
             "placement": []
@@ -27,8 +34,8 @@
   "placement": [
     {
       "type": "minecraft:noise_threshold_count",
-      "above_noise": 1,
-      "below_noise": 0,
+      "above_noise": 0,
+      "below_noise": 1,
       "noise_level": 0.0
     },
     {
@@ -37,16 +44,16 @@
         "type": "minecraft:weighted_list",
         "distribution": [
           {
-            "data": 0,
-            "weight": 12
+            "data": 4,
+            "weight": 9
+          },
+          {
+            "data": 2,
+            "weight": 3
           },
           {
             "data": 1,
             "weight": 2
-          },
-          {
-            "data": 2,
-            "weight": 1
           }
         ]
       }

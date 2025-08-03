@@ -4,22 +4,22 @@
     "config": {
       "features": [
         {
-          "chance": 0.05,
+          "chance": 0.35,
           "feature": {
-            "feature": "fable:tree/oak/l",
+            "feature": "fable:tree/spruce/s",
             "placement": []
           }
         },
         {
-          "chance": 0.25,
+          "chance": 0.15,
           "feature": {
-            "feature": "fable:tree/oak/s",
+            "feature": "fable:tree/oak/m",
             "placement": []
           }
         }
       ],
       "default": {
-        "feature": "fable:tree/oak/m",
+        "feature": "fable:tree/oak/s",
         "placement": []
       }
     }
@@ -37,16 +37,12 @@
         "type": "minecraft:weighted_list",
         "distribution": [
           {
-            "data": 0,
-            "weight": 12
+            "data": 8,
+            "weight": 9
           },
           {
-            "data": 1,
+            "data": 3,
             "weight": 2
-          },
-          {
-            "data": 2,
-            "weight": 1
           }
         ]
       }
