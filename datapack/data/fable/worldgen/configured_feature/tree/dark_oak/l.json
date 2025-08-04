@@ -57,8 +57,8 @@
             "max": 15
           },
           "upwards": {
-            "min": 15,
-            "max": 45
+            "min": 35,
+            "max": 65
           }
         },
         "trunk": {
