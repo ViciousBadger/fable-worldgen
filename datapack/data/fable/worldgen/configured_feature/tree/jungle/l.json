@@ -1,0 +1,105 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "decorators": [
+      {
+        "type": "minecraft:leave_vine",
+        "probability": 0.25
+      },
+      {
+        "type": "minecraft:trunk_vine"
+      }
+    ],
+    "force_dirt": false,
+    "ignore_vines": true,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 0,
+      "lower_size": 0,
+      "min_clipped_height": 4,
+      "upper_size": 0
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dirt"
+      }
+    },
+    "trunk_placer": {
+      "type": "fable:advanced_trunk_placer",
+      "config": {
+        "bending": {
+          "sideways": {
+            "min": 5,
+            "max": 15
+          },
+          "upwards": {
+            "min": 65,
+            "max": 90
+          }
+        },
+        "trunk": {
+          "thickness": 4,
+          "length": {
+            "min": 24.0,
+            "max": 32.0
+          },
+          "side": {
+            "branches": {
+              "count_choices": [
+                24,
+                28,
+                32,
+                38
+              ],
+              "length": {
+                "min": 2.0,
+                "max": 8.0
+              },
+              "angle": {
+                "min": 15,
+                "max": 45
+              },
+              "tip": {
+                "foliage": {
+                  "radius": 0
+                }
+              }
+            }
+          },
+          "tip": {
+            "foliage": {
+              "radius": 1
+            }
+          }
+        }
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:jungle_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    "foliage_placer": {
+      "type": "minecraft:jungle_foliage_placer",
+      "height": 3,
+      "offset": 1,
+      "radius": 3
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:jungle_leaves",
+        "Properties": {
+          "distance": "7",
+          "persistent": "false",
+          "waterlogged": "false"
+        }
+      }
+    }
+  }
+}

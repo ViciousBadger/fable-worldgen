@@ -1,0 +1,191 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "decorators": [
+      {
+        "type": "minecraft:leave_vine",
+        "probability": 0.25
+      },
+      {
+        "type": "minecraft:trunk_vine"
+      }
+    ],
+    "force_dirt": false,
+    "ignore_vines": true,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
+      "limit": 0,
+      "lower_size": 0,
+      "min_clipped_height": 4,
+      "upper_size": 0
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dirt"
+      }
+    },
+    "trunk_placer": {
+      "type": "fable:advanced_trunk_placer",
+      "config": {
+        "bending": {
+          "sideways": {
+            "min": 2,
+            "max": 8
+          },
+          "upwards": {
+            "min": 25,
+            "max": 45
+          }
+        },
+        "roots": {
+          "count_choices": [
+            3,
+            4,
+            5
+          ],
+          "length": {
+            "min": 2.0,
+            "max": 6.0
+          }
+        },
+        "trunk": {
+          "length": {
+            "min": 4.0,
+            "max": 8.0
+          },
+          "side": {
+            "branches": {
+              "count_choices": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "length": {
+                "min": 2.0,
+                "max": 6.0
+              },
+              "angle": {
+                "min": 25,
+                "max": 55
+              },
+              "tip": {
+                "foliage": {
+                  "radius": 0
+                }
+              }
+            }
+          },
+          "tip": {
+            "branches": {
+              "count_choices": [
+                1,
+                2
+              ],
+              "length": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "angle": {
+                "min": 5,
+                "max": 35
+              },
+              "side": {
+                "branches": {
+                  "count_choices": [
+                    0,
+                    1
+                  ],
+                  "length": {
+                    "min": 2.0,
+                    "max": 4.0
+                  },
+                  "angle": {
+                    "min": 15,
+                    "max": 35
+                  },
+                  "tip": {
+                    "foliage": {
+                      "radius": 0
+                    }
+                  }
+                }
+              },
+              "tip": {
+                "foliage": {
+                  "radius": 2
+                },
+                "branches": {
+                  "count_choices": [
+                    3,
+                    4,
+                    5
+                  ],
+                  "length": {
+                    "min": 4.0,
+                    "max": 6.0
+                  },
+                  "angle": {
+                    "min": 45,
+                    "max": 95
+                  },
+                  "tip": {
+                    "foliage": {
+                      "radius": 1
+                    },
+                    "branches": {
+                      "count_choices": [
+                        2,
+                        3
+                      ],
+                      "length": {
+                        "min": 2.0,
+                        "max": 3.0
+                      },
+                      "angle": {
+                        "min": 25,
+                        "max": 85
+                      },
+                      "tip": {
+                        "foliage": {
+                          "radius": 1
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:jungle_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    "foliage_placer": {
+      "type": "minecraft:jungle_foliage_placer",
+      "height": 3,
+      "offset": 2,
+      "radius": 2
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:jungle_leaves",
+        "Properties": {
+          "distance": "7",
+          "persistent": "false",
+          "waterlogged": "false"
+        }
+      }
+    }
+  }
+}

@@ -187,7 +187,9 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:trees_jungle",
+      "fable:grass/short_dense",
+      "fable:bushes/jungle_dense",
+      "fable:trees/jungle",
       "minecraft:vines"
     ],
     [

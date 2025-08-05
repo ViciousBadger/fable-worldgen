@@ -1785,7 +1785,7 @@
             ],
             "erosion": [
               -0.05,
-              1
+              0.75
             ],
             "temperature": [
               0.75,
@@ -2407,7 +2407,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.05
+              -0.265
             ],
             "continentalness": [
               -0.1,
@@ -2415,7 +2415,7 @@
             ],
             "erosion": [
               0.5,
-              1
+              0.75
             ],
             "temperature": [
               0.65,
@@ -2557,7 +2557,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              -0.05
+              -0.265
             ],
             "continentalness": [
               -0.1,
@@ -2565,7 +2565,7 @@
             ],
             "erosion": [
               0.5,
-              1
+              0.75
             ],
             "temperature": [
               0.75,
@@ -3053,7 +3053,7 @@
             ],
             "humidity": [
               -0.4,
-              1
+              0.6
             ],
             "depth": [
               -1,
@@ -3062,6 +3062,66 @@
             "offset": 0
           },
           "biome": "fable:acacia_swamp"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              0.75,
+              1
+            ],
+            "temperature": [
+              0.25,
+              1
+            ],
+            "humidity": [
+              0.6,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:mangrove_swamp"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              0.75,
+              1
+            ],
+            "temperature": [
+              0.65,
+              1
+            ],
+            "humidity": [
+              -1,
+              -0.7000000000000001
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:cactus_desert"
         },
         {
           "parameters": {
@@ -3172,6 +3232,36 @@
               1
             ],
             "humidity": [
+              -0.7000000000000001,
+              -0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:cactus_desert"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              0.75,
+              1
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
               -0.1,
               0.25
             ],
@@ -4815,7 +4905,7 @@
             ],
             "erosion": [
               -0.05,
-              1
+              0.75
             ],
             "temperature": [
               0.65,
@@ -4965,7 +5055,7 @@
             ],
             "erosion": [
               -0.05,
-              1
+              0.75
             ],
             "temperature": [
               0.75,
@@ -11827,7 +11917,7 @@
           "parameters": {
             "weirdness": [
               -0.77,
-              -0.05
+              -0.4
             ],
             "continentalness": [
               0.1,
@@ -11977,7 +12067,7 @@
           "parameters": {
             "weirdness": [
               -0.77,
-              -0.05
+              -0.4
             ],
             "continentalness": [
               0.1,
@@ -15037,7 +15127,7 @@
           "parameters": {
             "weirdness": [
               -0.55,
-              -0.05
+              -0.4
             ],
             "continentalness": [
               0.1,
@@ -15187,7 +15277,7 @@
           "parameters": {
             "weirdness": [
               -0.55,
-              -0.05
+              -0.4
             ],
             "continentalness": [
               0.1,
@@ -16417,7 +16507,7 @@
           "parameters": {
             "weirdness": [
               -0.4,
-              -0.05
+              -0.265
             ],
             "continentalness": [
               -0.1,
@@ -16425,7 +16515,7 @@
             ],
             "erosion": [
               -0.05,
-              1
+              0.75
             ],
             "temperature": [
               0.75,
@@ -16883,7 +16973,7 @@
             ],
             "humidity": [
               -0.4,
-              1
+              0.6
             ],
             "depth": [
               -1,
@@ -16892,6 +16982,66 @@
             "offset": 0
           },
           "biome": "fable:acacia_swamp"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              0.4
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              0.75,
+              1
+            ],
+            "temperature": [
+              0.25,
+              1
+            ],
+            "humidity": [
+              0.6,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:mangrove_swamp"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              0.4
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              0.75,
+              1
+            ],
+            "temperature": [
+              0.65,
+              1
+            ],
+            "humidity": [
+              -1,
+              -0.7000000000000001
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:cactus_desert"
         },
         {
           "parameters": {
@@ -16982,6 +17132,36 @@
             "offset": 0
           },
           "biome": "fable:mangrove_swamp"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              0.4
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              0.75,
+              1
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              -0.7000000000000001,
+              -0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:cactus_desert"
         },
         {
           "parameters": {
@@ -18487,7 +18667,7 @@
           "parameters": {
             "weirdness": [
               -0.4,
-              -0.05
+              -0.265
             ],
             "continentalness": [
               0.1,
@@ -18495,7 +18675,7 @@
             ],
             "erosion": [
               -0.05,
-              1
+              0.75
             ],
             "temperature": [
               0.65,
@@ -18637,7 +18817,7 @@
           "parameters": {
             "weirdness": [
               -0.4,
-              -0.05
+              -0.265
             ],
             "continentalness": [
               0.1,
@@ -18645,7 +18825,7 @@
             ],
             "erosion": [
               -0.05,
-              1
+              0.75
             ],
             "temperature": [
               0.75,
@@ -18967,6 +19147,36 @@
           "parameters": {
             "weirdness": [
               -0.265,
+              -0.05
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              -0.05,
+              0.5
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              -1,
+              -0.7000000000000001
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:dune_desert"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.265,
               0.265
             ],
             "continentalness": [
@@ -19373,7 +19583,7 @@
             ],
             "humidity": [
               -0.4,
-              1
+              0.6
             ],
             "depth": [
               -1,
@@ -19382,6 +19592,66 @@
             "offset": 0
           },
           "biome": "fable:acacia_swamp"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.265,
+              0.265
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              0.5,
+              1
+            ],
+            "temperature": [
+              0.25,
+              1
+            ],
+            "humidity": [
+              0.6,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:mangrove_swamp"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.265,
+              0.265
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              0.5,
+              1
+            ],
+            "temperature": [
+              0.65,
+              1
+            ],
+            "humidity": [
+              -1,
+              -0.7000000000000001
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:cactus_desert"
         },
         {
           "parameters": {
@@ -19472,6 +19742,36 @@
             "offset": 0
           },
           "biome": "fable:mangrove_swamp"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.265,
+              0.265
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              0.5,
+              1
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              -0.7000000000000001,
+              -0.4
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:cactus_desert"
         },
         {
           "parameters": {
@@ -20985,7 +21285,7 @@
             ],
             "erosion": [
               -0.3,
-              1
+              0.5
             ],
             "temperature": [
               0.65,
@@ -21135,7 +21435,7 @@
             ],
             "erosion": [
               -0.3,
-              1
+              0.5
             ],
             "temperature": [
               0.75,
@@ -21366,96 +21666,6 @@
         {
           "parameters": {
             "weirdness": [
-              -0.05,
-              0.265
-            ],
-            "continentalness": [
-              -0.1,
-              1
-            ],
-            "erosion": [
-              0.5,
-              1
-            ],
-            "temperature": [
-              0.65,
-              0.75
-            ],
-            "humidity": [
-              -1,
-              -0.7000000000000001
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:cactus_desert"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.05,
-              1
-            ],
-            "continentalness": [
-              -0.1,
-              1
-            ],
-            "erosion": [
-              0.5,
-              1
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              -1,
-              -0.7000000000000001
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:dune_desert"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.05,
-              0.265
-            ],
-            "continentalness": [
-              -0.1,
-              1
-            ],
-            "erosion": [
-              0.5,
-              1
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              -0.7000000000000001,
-              -0.4
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:cactus_desert"
-        },
-        {
-          "parameters": {
-            "weirdness": [
               0.05,
               1
             ],
@@ -22035,7 +22245,7 @@
             ],
             "erosion": [
               -0.05,
-              1
+              0.5
             ],
             "temperature": [
               0.75,
@@ -25772,66 +25982,6 @@
             "offset": 0
           },
           "biome": "fable:jungle"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.265,
-              0.4
-            ],
-            "continentalness": [
-              -0.1,
-              1
-            ],
-            "erosion": [
-              0.75,
-              1
-            ],
-            "temperature": [
-              0.65,
-              0.75
-            ],
-            "humidity": [
-              -1,
-              -0.7000000000000001
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:cactus_desert"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.265,
-              0.4
-            ],
-            "continentalness": [
-              -0.1,
-              1
-            ],
-            "erosion": [
-              0.75,
-              1
-            ],
-            "temperature": [
-              0.75,
-              1
-            ],
-            "humidity": [
-              -0.7000000000000001,
-              -0.4
-            ],
-            "depth": [
-              -1,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "fable:cactus_desert"
         },
         {
           "parameters": {
@@ -40155,7 +40305,7 @@
             ],
             "erosion": [
               -0.05,
-              1
+              0.75
             ],
             "temperature": [
               0.75,
@@ -40613,7 +40763,7 @@
             ],
             "humidity": [
               -0.4,
-              1
+              0.6
             ],
             "depth": [
               -1,
@@ -40638,8 +40788,38 @@
               1
             ],
             "temperature": [
+              0.25,
+              1
+            ],
+            "humidity": [
+              0.6,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:mangrove_swamp"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.935,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              0.75,
+              1
+            ],
+            "temperature": [
               0.65,
-              0.75
+              1
             ],
             "humidity": [
               -1,

@@ -1,0 +1,69 @@
+{
+  "feature": {
+    "type": "minecraft:random_selector",
+    "config": {
+      "features": [
+        {
+          "chance": 0.6,
+          "feature": {
+            "feature": "fable:bush/jungle/m",
+            "placement": []
+          }
+        }
+      ],
+      "default": {
+        "feature": "fable:bush/jungle/s",
+        "placement": []
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "data": 10,
+            "weight": 10
+          },
+          {
+            "data": 8,
+            "weight": 4
+          },
+          {
+            "data": 4,
+            "weight": 2
+          },
+          {
+            "data": 2,
+            "weight": 2
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:surface_water_depth_filter",
+      "max_water_depth": 0
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "MOTION_BLOCKING_NO_LEAVES"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:would_survive",
+        "state": {
+          "Name": "minecraft:fern"
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
