@@ -2633,6 +2633,36 @@
             ],
             "humidity": [
               0.25,
+              0.425
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:savanna_woodland"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.265
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              0.5,
+              0.75
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.425,
               1
             ],
             "depth": [
@@ -5123,6 +5153,36 @@
             ],
             "humidity": [
               0.25,
+              0.425
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:savanna_woodland"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.935
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.05,
+              0.75
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.425,
               1
             ],
             "depth": [
@@ -6803,6 +6863,36 @@
             ],
             "humidity": [
               0.25,
+              0.425
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:savanna_woodland"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.935,
+              -0.77
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.05,
+              1
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.425,
               1
             ],
             "depth": [
@@ -8633,6 +8723,36 @@
             ],
             "humidity": [
               0.25,
+              0.425
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:savanna_woodland"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.935,
+              -0.77
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              0.135,
+              1
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.425,
               1
             ],
             "depth": [
@@ -10313,6 +10433,36 @@
             ],
             "humidity": [
               0.25,
+              0.425
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:savanna_woodland"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.77,
+              -0.4
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              0.135,
+              1
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.425,
               1
             ],
             "depth": [
@@ -12143,6 +12293,36 @@
             ],
             "humidity": [
               0.25,
+              0.425
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:savanna_woodland"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.77,
+              -0.4
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              0.325,
+              1
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.425,
               1
             ],
             "depth": [
@@ -13673,6 +13853,36 @@
             ],
             "humidity": [
               0.25,
+              0.425
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:savanna_woodland"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.55,
+              -0.4
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.05,
+              1
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.425,
               1
             ],
             "depth": [
@@ -15353,6 +15563,36 @@
             ],
             "humidity": [
               0.25,
+              0.425
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:savanna_woodland"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.55,
+              -0.4
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              0.135,
+              1
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.425,
               1
             ],
             "depth": [
@@ -18893,6 +19133,36 @@
             ],
             "humidity": [
               0.25,
+              0.425
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:savanna_woodland"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              -0.265
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.05,
+              0.75
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.425,
               1
             ],
             "depth": [
@@ -21503,6 +21773,36 @@
             ],
             "humidity": [
               0.25,
+              0.425
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:savanna_woodland"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.265,
+              -0.05
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.3,
+              0.5
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.425,
               1
             ],
             "depth": [
@@ -23809,7 +24109,7 @@
             ],
             "temperature": [
               0.15,
-              0.75
+              0.65
             ],
             "humidity": [
               0.425,
@@ -23839,7 +24139,7 @@
             ],
             "temperature": [
               0.15,
-              0.65
+              0.75
             ],
             "humidity": [
               0.6,
@@ -24053,7 +24353,7 @@
             ],
             "humidity": [
               0.25,
-              1
+              0.425
             ],
             "depth": [
               -1,
@@ -24062,6 +24362,36 @@
             "offset": 0
           },
           "biome": "fable:chaparral_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.265
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.3,
+              0.5
+            ],
+            "temperature": [
+              0.65,
+              0.75
+            ],
+            "humidity": [
+              0.425,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:rainforest"
         },
         {
           "parameters": {
@@ -24113,6 +24443,36 @@
             ],
             "humidity": [
               0.25,
+              0.6
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:savanna_woodland"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.265
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.3,
+              0.5
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.6,
               1
             ],
             "depth": [
@@ -25669,7 +26029,7 @@
             ],
             "temperature": [
               0.15,
-              0.75
+              0.65
             ],
             "humidity": [
               0.425,
@@ -25699,7 +26059,7 @@
             ],
             "temperature": [
               0.15,
-              0.65
+              0.75
             ],
             "humidity": [
               0.6,
@@ -25913,7 +26273,7 @@
             ],
             "humidity": [
               0.25,
-              1
+              0.425
             ],
             "depth": [
               -1,
@@ -25922,6 +26282,36 @@
             "offset": 0
           },
           "biome": "fable:chaparral_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.265,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              0.5,
+              0.75
+            ],
+            "temperature": [
+              0.65,
+              0.75
+            ],
+            "humidity": [
+              0.425,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:rainforest"
         },
         {
           "parameters": {
@@ -25973,6 +26363,36 @@
             ],
             "humidity": [
               0.25,
+              0.6
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:savanna_woodland"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.265,
+              1
+            ],
+            "continentalness": [
+              -0.1,
+              1
+            ],
+            "erosion": [
+              0.5,
+              0.75
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.6,
               1
             ],
             "depth": [
@@ -27649,7 +28069,7 @@
             ],
             "temperature": [
               0.15,
-              0.75
+              0.65
             ],
             "humidity": [
               0.425,
@@ -27679,7 +28099,7 @@
             ],
             "temperature": [
               0.15,
-              0.65
+              0.75
             ],
             "humidity": [
               0.6,
@@ -27893,7 +28313,7 @@
             ],
             "humidity": [
               0.25,
-              1
+              0.425
             ],
             "depth": [
               -1,
@@ -27902,6 +28322,36 @@
             "offset": 0
           },
           "biome": "fable:chaparral_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.265,
+              0.4
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.05,
+              0.75
+            ],
+            "temperature": [
+              0.65,
+              0.75
+            ],
+            "humidity": [
+              0.425,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:rainforest"
         },
         {
           "parameters": {
@@ -27953,6 +28403,36 @@
             ],
             "humidity": [
               0.25,
+              0.6
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:savanna_woodland"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.265,
+              0.4
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.05,
+              0.75
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.6,
               1
             ],
             "depth": [
@@ -29479,7 +29959,7 @@
             ],
             "temperature": [
               0.15,
-              0.75
+              0.65
             ],
             "humidity": [
               0.425,
@@ -29509,7 +29989,7 @@
             ],
             "temperature": [
               0.15,
-              0.65
+              0.75
             ],
             "humidity": [
               0.6,
@@ -29723,7 +30203,7 @@
             ],
             "humidity": [
               0.25,
-              1
+              0.425
             ],
             "depth": [
               -1,
@@ -29732,6 +30212,36 @@
             "offset": 0
           },
           "biome": "fable:chaparral_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.55
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.05,
+              1
+            ],
+            "temperature": [
+              0.65,
+              0.75
+            ],
+            "humidity": [
+              0.425,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:rainforest"
         },
         {
           "parameters": {
@@ -29783,6 +30293,36 @@
             ],
             "humidity": [
               0.25,
+              0.6
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:savanna_woodland"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.55
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.05,
+              1
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.6,
               1
             ],
             "depth": [
@@ -31459,7 +31999,7 @@
             ],
             "temperature": [
               0.15,
-              0.75
+              0.65
             ],
             "humidity": [
               0.425,
@@ -31489,7 +32029,7 @@
             ],
             "temperature": [
               0.15,
-              0.65
+              0.75
             ],
             "humidity": [
               0.6,
@@ -31703,7 +32243,7 @@
             ],
             "humidity": [
               0.25,
-              1
+              0.425
             ],
             "depth": [
               -1,
@@ -31712,6 +32252,36 @@
             "offset": 0
           },
           "biome": "fable:chaparral_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.55
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              0.135,
+              1
+            ],
+            "temperature": [
+              0.65,
+              0.75
+            ],
+            "humidity": [
+              0.425,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:rainforest"
         },
         {
           "parameters": {
@@ -31763,6 +32333,36 @@
             ],
             "humidity": [
               0.25,
+              0.6
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:savanna_woodland"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.55
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              0.135,
+              1
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.6,
               1
             ],
             "depth": [
@@ -33289,7 +33889,7 @@
             ],
             "temperature": [
               0.15,
-              0.75
+              0.65
             ],
             "humidity": [
               0.425,
@@ -33319,7 +33919,7 @@
             ],
             "temperature": [
               0.15,
-              0.65
+              0.75
             ],
             "humidity": [
               0.6,
@@ -33533,7 +34133,7 @@
             ],
             "humidity": [
               0.25,
-              1
+              0.425
             ],
             "depth": [
               -1,
@@ -33542,6 +34142,36 @@
             "offset": 0
           },
           "biome": "fable:chaparral_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.55,
+              0.935
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              0.135,
+              1
+            ],
+            "temperature": [
+              0.65,
+              0.75
+            ],
+            "humidity": [
+              0.425,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:rainforest"
         },
         {
           "parameters": {
@@ -33593,6 +34223,36 @@
             ],
             "humidity": [
               0.25,
+              0.6
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:savanna_woodland"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.55,
+              0.935
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              0.135,
+              1
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.6,
               1
             ],
             "depth": [
@@ -35269,7 +35929,7 @@
             ],
             "temperature": [
               0.15,
-              0.75
+              0.65
             ],
             "humidity": [
               0.425,
@@ -35299,7 +35959,7 @@
             ],
             "temperature": [
               0.15,
-              0.65
+              0.75
             ],
             "humidity": [
               0.6,
@@ -35513,7 +36173,7 @@
             ],
             "humidity": [
               0.25,
-              1
+              0.425
             ],
             "depth": [
               -1,
@@ -35522,6 +36182,36 @@
             "offset": 0
           },
           "biome": "fable:chaparral_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.55,
+              0.935
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              0.325,
+              1
+            ],
+            "temperature": [
+              0.65,
+              0.75
+            ],
+            "humidity": [
+              0.425,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:rainforest"
         },
         {
           "parameters": {
@@ -35573,6 +36263,36 @@
             ],
             "humidity": [
               0.25,
+              0.6
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:savanna_woodland"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.55,
+              0.935
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              0.325,
+              1
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.6,
               1
             ],
             "depth": [
@@ -36949,7 +37669,7 @@
             ],
             "temperature": [
               0.15,
-              0.75
+              0.65
             ],
             "humidity": [
               0.425,
@@ -36979,7 +37699,7 @@
             ],
             "temperature": [
               0.15,
-              0.65
+              0.75
             ],
             "humidity": [
               0.6,
@@ -37193,7 +37913,7 @@
             ],
             "humidity": [
               0.25,
-              1
+              0.425
             ],
             "depth": [
               -1,
@@ -37202,6 +37922,36 @@
             "offset": 0
           },
           "biome": "fable:chaparral_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.77,
+              0.935
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.05,
+              1
+            ],
+            "temperature": [
+              0.65,
+              0.75
+            ],
+            "humidity": [
+              0.425,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:rainforest"
         },
         {
           "parameters": {
@@ -37253,6 +38003,36 @@
             ],
             "humidity": [
               0.25,
+              0.6
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:savanna_woodland"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.77,
+              0.935
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "erosion": [
+              -0.05,
+              1
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.6,
               1
             ],
             "depth": [
@@ -38779,7 +39559,7 @@
             ],
             "temperature": [
               0.15,
-              0.75
+              0.65
             ],
             "humidity": [
               0.425,
@@ -38809,7 +39589,7 @@
             ],
             "temperature": [
               0.15,
-              0.65
+              0.75
             ],
             "humidity": [
               0.6,
@@ -39023,7 +39803,7 @@
             ],
             "humidity": [
               0.25,
-              1
+              0.425
             ],
             "depth": [
               -1,
@@ -39032,6 +39812,36 @@
             "offset": 0
           },
           "biome": "fable:chaparral_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.77,
+              0.935
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              0.135,
+              1
+            ],
+            "temperature": [
+              0.65,
+              0.75
+            ],
+            "humidity": [
+              0.425,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:rainforest"
         },
         {
           "parameters": {
@@ -39083,6 +39893,36 @@
             ],
             "humidity": [
               0.25,
+              0.6
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:savanna_woodland"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.77,
+              0.935
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              0.135,
+              1
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.6,
               1
             ],
             "depth": [
@@ -42529,7 +43369,7 @@
             ],
             "temperature": [
               0.15,
-              0.75
+              0.65
             ],
             "humidity": [
               0.425,
@@ -42559,7 +43399,7 @@
             ],
             "temperature": [
               0.15,
-              0.65
+              0.75
             ],
             "humidity": [
               0.6,
@@ -42773,7 +43613,7 @@
             ],
             "humidity": [
               0.25,
-              1
+              0.425
             ],
             "depth": [
               -1,
@@ -42782,6 +43622,36 @@
             "offset": 0
           },
           "biome": "fable:chaparral_forest"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.935,
+              1
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.05,
+              0.75
+            ],
+            "temperature": [
+              0.65,
+              0.75
+            ],
+            "humidity": [
+              0.425,
+              1
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:rainforest"
         },
         {
           "parameters": {
@@ -42833,6 +43703,36 @@
             ],
             "humidity": [
               0.25,
+              0.6
+            ],
+            "depth": [
+              -1,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "fable:savanna_woodland"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.935,
+              1
+            ],
+            "continentalness": [
+              0.1,
+              1
+            ],
+            "erosion": [
+              -0.05,
+              0.75
+            ],
+            "temperature": [
+              0.75,
+              1
+            ],
+            "humidity": [
+              0.6,
               1
             ],
             "depth": [

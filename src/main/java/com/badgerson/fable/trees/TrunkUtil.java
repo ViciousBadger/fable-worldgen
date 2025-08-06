@@ -67,7 +67,7 @@ public final class TrunkUtil {
 
     // If already close enough, rotate fully to target
     if (currentAngle <= maxAngle || currentAngle < 1e-6f) {
-      return output.mul(input.length());
+      return normalizedUp.mul(input.length());
     }
 
     // Find rotation axis (cross product)
@@ -92,7 +92,7 @@ public final class TrunkUtil {
     // Apply rotation and restore original magnitude
     Vector3f result = new Vector3f(output);
     rotation.transform(result);
-    return output.mul(input.length());
+    return result.mul(input.length());
   }
 
   public static BlockPos vecToBlock(Vector3f vec) {

@@ -30,27 +30,27 @@
       "config": {
         "bending": {
           "sideways": {
-            "min": 5,
-            "max": 15
+            "min": 45,
+            "max": 65
           },
           "upwards": {
-            "min": 65,
-            "max": 90
+            "min": 15,
+            "max": 25
           }
         },
         "trunk": {
           "thickness": 4,
           "length": {
-            "min": 24.0,
-            "max": 32.0
+            "min": 32.0,
+            "max": 42.0
           },
           "side": {
             "branches": {
               "count_choices": [
-                24,
-                28,
-                32,
-                38
+                14,
+                18,
+                22,
+                28
               ],
               "length": {
                 "min": 2.0,
@@ -68,8 +68,39 @@
             }
           },
           "tip": {
-            "foliage": {
-              "radius": 1
+            "branches": {
+              "thickness": 3,
+              "length": {
+                "min": 14.0,
+                "max": 24.0
+              },
+              "side": {
+                "branches": {
+                  "count_choices": [
+                    8,
+                    12,
+                    14
+                  ],
+                  "length": {
+                    "min": 2.0,
+                    "max": 8.0
+                  },
+                  "angle": {
+                    "min": 15,
+                    "max": 45
+                  },
+                  "tip": {
+                    "foliage": {
+                      "radius": 0
+                    }
+                  }
+                }
+              },
+              "tip": {
+                "foliage": {
+                  "radius": 1
+                }
+              }
             }
           }
         }

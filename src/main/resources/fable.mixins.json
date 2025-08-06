@@ -3,8 +3,7 @@
   "package": "com.badgerson.fable.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "SteepSlopePredicateMixin",
-    "ChunkGenerationStepsBuilderMixin"
+    "SteepSlopePredicateMixin"
   ],
   "injectors": {
     "defaultRequire": 1

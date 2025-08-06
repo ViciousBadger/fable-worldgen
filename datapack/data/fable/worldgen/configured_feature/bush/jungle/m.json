@@ -22,7 +22,7 @@
         "Properties": {
           "axis": "y"
         },
-        "Name": "minecraft:oak_log"
+        "Name": "minecraft:jungle_log"
       }
     },
     "trunk_placer": {
@@ -39,13 +39,13 @@
           "persistent": "false",
           "distance": "7"
         },
-        "Name": "minecraft:oak_leaves"
+        "Name": "minecraft:jungle_leaves"
       }
     },
     "foliage_placer": {
-      "type": "minecraft:bush_foliage_placer",
+      "type": "minecraft:fancy_foliage_placer",
       "radius": 2,
-      "height": 2,
+      "height": 4,
       "offset": 1
     }
   }

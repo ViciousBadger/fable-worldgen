@@ -91,7 +91,7 @@
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:acacia_log",
+        "Name": "minecraft:stripped_spruce_log",
         "Properties": {
           "axis": "y"
         }

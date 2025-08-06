@@ -1,14 +1,14 @@
 {
   "has_precipitation": true,
-  "temperature": -0.5,
+  "temperature": 0.5,
   "downfall": 0.5,
   "effects": {
     "fog_color": 10076657,
     "sky_color": 6269917,
-    "water_color": 1916527,
+    "water_color": 2607596,
     "water_fog_color": 331305,
-    "grass_color": 16383998,
-    "foliage_color": 16383998,
+    "grass_color": 11520329,
+    "foliage_color": 7850277,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -136,7 +136,7 @@
   },
   "features": [
     [
-      "fable:cliffs/tuff"
+      "fable:cliffs/terracotta"
     ],
     [
       "minecraft:lake_lava_underground"
@@ -187,9 +187,7 @@
     ],
     [
       "minecraft:glow_lichen",
-      "fable:grass/short_sparse",
-      "fable:bushes/spruce_sparse",
-      "fable:trees/white_forest"
+      "minecraft:trees_savanna"
     ],
     [
       "minecraft:freeze_top_layer"

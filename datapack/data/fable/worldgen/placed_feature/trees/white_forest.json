@@ -4,22 +4,15 @@
     "config": {
       "features": [
         {
-          "chance": 0.5,
+          "chance": 0.30,
           "feature": {
-            "feature": "fable:bush/jungle/m",
-            "placement": []
-          }
-        },
-        {
-          "chance": 0.2,
-          "feature": {
-            "feature": "fable:bush/jungle/l",
+            "feature": "fable:tree/oak/s",
             "placement": []
           }
         }
       ],
       "default": {
-        "feature": "fable:bush/jungle/s",
+        "feature": "fable:tree/pale_spruce/m",
         "placement": []
       }
     }
@@ -31,23 +24,25 @@
         "type": "minecraft:weighted_list",
         "distribution": [
           {
-            "data": 10,
-            "weight": 10
-          },
-          {
-            "data": 8,
-            "weight": 4
-          },
-          {
-            "data": 4,
-            "weight": 2
+            "data": 3,
+            "weight": 9
           },
           {
             "data": 2,
+            "weight": 4
+          },
+          {
+            "data": 1,
             "weight": 2
           }
         ]
       }
+    },
+    {
+      "type": "minecraft:noise_threshold_count",
+      "above_noise": 4,
+      "below_noise": 1,
+      "noise_level": 0.4
     },
     {
       "type": "minecraft:in_square"
@@ -58,14 +53,17 @@
     },
     {
       "type": "minecraft:heightmap",
-      "heightmap": "MOTION_BLOCKING_NO_LEAVES"
+      "heightmap": "OCEAN_FLOOR"
     },
     {
       "type": "minecraft:block_predicate_filter",
       "predicate": {
         "type": "minecraft:would_survive",
         "state": {
-          "Name": "minecraft:fern"
+          "Name": "minecraft:oak_sapling",
+          "Properties": {
+            "stage": "0"
+          }
         }
       }
     },

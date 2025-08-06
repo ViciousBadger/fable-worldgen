@@ -189,7 +189,8 @@
     [
       "minecraft:glow_lichen",
       "fable:grass/short_dense",
-      "fable:bushes/oak_sparse",
+      "fable:grass/tall_sparse",
+      "fable:bushes/jungle_sparse",
       "fable:trees/rainforest",
       "minecraft:vines"
     ],

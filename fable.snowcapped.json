@@ -814,16 +814,16 @@
           "biome_mcjiprdc/biome_mcjlr4zk",
           "biome_mcjiprdc/biome_mcjlr4zk",
           "biome_mcjj6noe",
-          "biome_mcjj6noe",
-          "biome_mcjlt84p/biome_mcjj6noe"
+          "biome_mcjj6noe/biome_mcjjcqs3",
+          "biome_mcjlt84p/biome_mcjjcqs3"
         ],
         [
           "biome_mcjlrq1x",
           "biome_mcjlrq1x",
           "biome_mcjlr4zk",
           "biome_mcjlr4zk",
-          "biome_mcjlt84p",
-          "biome_mcjlt84p",
+          "biome_me0h60ec",
+          "biome_mcjlt84p/biome_me0h60ec",
           "biome_mcjlt84p"
         ]
       ]
@@ -1903,6 +1903,11 @@
       "key": "biome_mcjlr4zk",
       "name": "fable:savanna",
       "color": "#dccc50"
+    },
+    {
+      "key": "biome_me0h60ec",
+      "name": "fable:savanna_woodland",
+      "color": "#9fce36"
     },
     {
       "key": "biome_mcjlt84p",

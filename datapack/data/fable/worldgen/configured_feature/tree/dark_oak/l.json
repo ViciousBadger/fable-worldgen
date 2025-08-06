@@ -54,11 +54,11 @@
         "bending": {
           "sideways": {
             "min": 5,
-            "max": 15
+            "max": 25
           },
           "upwards": {
-            "min": 35,
-            "max": 65
+            "min": 5,
+            "max": 10
           }
         },
         "trunk": {
