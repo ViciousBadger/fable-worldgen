@@ -714,7 +714,7 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fable:equatorial_mountains"
+                        "fable:desert_mountains"
                       ]
                     },
                     "then_run": {
@@ -729,7 +729,7 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "fable:equatorial_peaks"
+                        "fable:tropical_mountains"
                       ]
                     },
                     "then_run": {

@@ -186,7 +186,8 @@
       "minecraft:spring_water"
     ],
     [
-      "minecraft:glow_lichen"
+      "minecraft:glow_lichen",
+      "fable:grass/short_dense"
     ],
     [
       "minecraft:freeze_top_layer"

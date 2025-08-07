@@ -809,7 +809,7 @@
           "biome_mcjjcqs3"
         ],
         [
-          "biome_mcjlrq1x",
+          "biome_mcjivi6e/biome_mcjlrq1x",
           "biome_mcjivi6e",
           "biome_mcjiprdc/biome_mcjlr4zk",
           "biome_mcjiprdc/biome_mcjlr4zk",
@@ -821,7 +821,7 @@
           "biome_mcjlrq1x",
           "biome_mcjlrq1x",
           "biome_mcjlr4zk",
-          "biome_mcjlr4zk",
+          "biome_me0h60ec/biome_mcjlr4zk",
           "biome_me0h60ec",
           "biome_mcjlt84p/biome_me0h60ec",
           "biome_mcjlt84p"
@@ -909,7 +909,7 @@
           "biome_mcjlz6je",
           "biome_mck9l8cz",
           "biome_mck9l8cz",
-          "biome_mck9l8cz",
+          "biome_mcka9jba/biome_mck9l8cz",
           "biome_mcka9jba",
           "biome_mcka9jba"
         ]
@@ -995,10 +995,10 @@
           "biome_mcjm8a0i",
           "biome_mcjm8a0i",
           "biome_mcjm8a0i",
-          "biome_mcjm8a0i",
-          "biome_mcjm8a0i",
-          "biome_mcjm8a0i",
-          "biome_mcjm8a0i"
+          "biome_mcjm8gmy/biome_mcjm8a0i",
+          "biome_mcjm8gmy",
+          "biome_mcjm8gmy",
+          "biome_mcjm8gmy"
         ]
       ]
     },
@@ -1079,10 +1079,10 @@
           "biome_mcjj3xo4"
         ],
         [
-          "biome_mcjm8gmy",
-          "biome_mcjm8gmy",
-          "biome_mcjm8gmy",
-          "biome_mcjm8gmy",
+          "biome_mcjm8a0i",
+          "biome_mcjm8a0i",
+          "biome_mcjm8a0i",
+          "biome_mcjm8gmy/biome_mcjm8a0i",
           "biome_mcjm8gmy",
           "biome_mcjm8gmy",
           "biome_mcjm8gmy"
@@ -1096,16 +1096,16 @@
       "name": "Valley",
       "array": [
         [
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
           "layout_mdd0k8qp",
           "layout_mdd0k8qp",
           "layout_mdd0k8qp",
-          "layout_mdd0k8qp",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv"
+          "layout_mdd0k8qp"
         ],
         [
           "layout_mdd0isxv",
@@ -1162,16 +1162,16 @@
       "name": "Low",
       "array": [
         [
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
           "layout_mdd0k8qp",
           "layout_mdd0k8qp",
           "layout_mdd0k8qp",
-          "layout_mdd0k8qp",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv"
+          "layout_mdd0k8qp"
         ],
         [
           "layout_mdd0isxv",
@@ -1228,16 +1228,16 @@
       "name": "Mid",
       "array": [
         [
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
           "layout_mdd0k8qp",
           "layout_mdd0k8qp",
           "layout_mdd0k8qp",
-          "layout_mdd0k8qp",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv"
+          "layout_mdd0k8qp"
         ],
         [
           "layout_mdd0isxv",
@@ -1294,16 +1294,16 @@
       "name": "High",
       "array": [
         [
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
           "layout_mdd0k8qp",
           "layout_mdd0k8qp",
           "layout_mdd0k8qp",
-          "layout_mdd0k8qp",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv"
+          "layout_mdd0k8qp"
         ],
         [
           "layout_mdd0isxv",
@@ -1360,16 +1360,16 @@
       "name": "Peak",
       "array": [
         [
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
+          "layout_mdd0isxv",
           "layout_mdd0k8qp",
           "layout_mdd0k8qp",
           "layout_mdd0k8qp",
-          "layout_mdd0k8qp",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv"
+          "layout_mdd0k8qp"
         ],
         [
           "layout_mdd0isxv",
@@ -1681,12 +1681,12 @@
     },
     {
       "key": "biome_mcjm8a0i",
-      "name": "fable:equatorial_mountains",
+      "name": "fable:desert_mountains",
       "color": "#936e38"
     },
     {
       "key": "biome_mcjm8gmy",
-      "name": "fable:equatorial_peaks",
+      "name": "fable:tropical_mountains",
       "color": "#3d3846"
     },
     {

@@ -7,8 +7,8 @@
     "sky_color": 6269917,
     "water_color": 2607596,
     "water_fog_color": 331305,
-    "grass_color": 8369227,
-    "foliage_color": 4884005,
+    "grass_color": 6404125,
+    "foliage_color": 4508449,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -187,8 +187,11 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:bamboo",
-      "minecraft:bamboo_vegetation",
+      "fable:grass/short_dense",
+      "fable:grass/tall_dense",
+      "fable:bamboo",
+      "fable:bushes/jungle_sparse",
+      "fable:trees/jungle_cliffs",
       "minecraft:vines"
     ],
     [
