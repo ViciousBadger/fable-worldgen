@@ -1,0 +1,44 @@
+{
+  "feature": {
+    "type": "minecraft:disk",
+    "config": {
+      "half_height": 1,
+      "radius": {
+        "type": "minecraft:uniform",
+        "max_inclusive": 4,
+        "min_inclusive": 2
+      },
+      "state_provider": {
+        "fallback": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:grass_block"
+          }
+        },
+        "rules": []
+      },
+      "target": {
+        "type": "minecraft:matching_block_tag",
+        "tag": "minecraft:sand"
+      }
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:noise_threshold_count",
+      "above_noise": 16,
+      "below_noise": 0,
+      "noise_level": 0.95
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
