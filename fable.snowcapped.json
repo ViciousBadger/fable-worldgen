@@ -61,7 +61,7 @@
   ],
   "depths": [
     -1,
-    0,
+    0.1,
     1,
     1.1
   ],
@@ -85,19 +85,19 @@
         "layout_mcj3zflb"
       ],
       [
-        "layout_mcj3zflb",
-        "layout_mdbs4swf",
-        "layout_mcj403vf",
-        "layout_mdbs4swf",
-        "layout_mcj3zflb",
-        "layout_mdanh69h",
-        "layout_mcj3zxj6",
-        "layout_mdanh69h",
-        "layout_mcj3zflb",
-        "layout_mdbs4swf",
-        "layout_mcj403vf",
-        "layout_mdbs4swf",
-        "layout_mcj3zflb"
+        "layout_mcm9gj62",
+        "layout_mcm9gj62",
+        "layout_mcm9gj62",
+        "layout_mcm9gj62",
+        "layout_mcm9gj62",
+        "layout_mcm9gj62",
+        "layout_mcm9gj62",
+        "layout_mcm9gj62",
+        "layout_mcm9gj62",
+        "layout_mcm9gj62",
+        "layout_mcm9gj62",
+        "layout_mcm9gj62",
+        "layout_mcm9gj62"
       ],
       [
         "layout_mcm9gn3r",
@@ -1088,6 +1088,93 @@
           "biome_mcjm8gmy"
         ]
       ]
+    },
+    {
+      "key": "layout_me2t9g8l",
+      "name": "Caves",
+      "array": [
+        [
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "biome_me2t845k"
+        ],
+        [
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "biome_me2t845k"
+        ],
+        [
+          "minecraft:dripstone_caves",
+          "minecraft:dripstone_caves",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "minecraft:lush_caves"
+        ],
+        [
+          "minecraft:dripstone_caves",
+          "minecraft:dripstone_caves",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "minecraft:lush_caves"
+        ],
+        [
+          "minecraft:dripstone_caves",
+          "minecraft:dripstone_caves",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "minecraft:lush_caves"
+        ],
+        [
+          "minecraft:dripstone_caves",
+          "minecraft:dripstone_caves",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "minecraft:lush_caves"
+        ],
+        [
+          "minecraft:dripstone_caves",
+          "minecraft:dripstone_caves",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "minecraft:lush_caves"
+        ],
+        [
+          "minecraft:dripstone_caves",
+          "minecraft:dripstone_caves",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "minecraft:lush_caves"
+        ],
+        [
+          "minecraft:dripstone_caves",
+          "minecraft:dripstone_caves",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "biome_me2t845k",
+          "minecraft:lush_caves"
+        ]
+      ]
     }
   ],
   "slices": [
@@ -1114,10 +1201,10 @@
           "layout_mdd0isxv",
           "layout_mdd0isxv",
           "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv"
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
+          "layout_mcj4nokt"
         ],
         [
           "layout_mcj4nokt",
@@ -1180,10 +1267,10 @@
           "layout_mdd0isxv",
           "layout_mdd0isxv",
           "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv"
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
+          "layout_mcj4nokt"
         ],
         [
           "layout_mcj4nokt",
@@ -1246,10 +1333,10 @@
           "layout_mdd0isxv",
           "layout_mdd0isxv",
           "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv"
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
+          "layout_mcj4nokt"
         ],
         [
           "layout_mcj4nokt",
@@ -1312,10 +1399,10 @@
           "layout_mdd0isxv",
           "layout_mdd0isxv",
           "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv"
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
+          "layout_mcj4nokt"
         ],
         [
           "layout_mcj4nokt",
@@ -1378,10 +1465,10 @@
           "layout_mdd0isxv",
           "layout_mdd0isxv",
           "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv",
-          "layout_mdd0isxv"
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
+          "layout_mcj4nokt",
+          "layout_mcj4nokt"
         ],
         [
           "layout_mcj4nokt",
@@ -1426,130 +1513,130 @@
       "name": "Caves",
       "array": [
         [
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned"
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l"
         ],
         [
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned"
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l"
         ],
         [
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned"
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l"
         ],
         [
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned"
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l"
         ],
         [
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned"
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l"
         ]
       ]
     },
     {
       "key": "layout_mcm9gn3r",
-      "name": "Deep Dark",
+      "name": "Deep Caves",
       "array": [
         [
           "minecraft:deep_dark",
           "minecraft:deep_dark",
           "minecraft:deep_dark",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned"
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l"
         ],
         [
           "minecraft:deep_dark",
           "minecraft:deep_dark",
           "minecraft:deep_dark",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned"
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l"
         ],
         [
           "minecraft:deep_dark",
           "minecraft:deep_dark",
           "minecraft:deep_dark",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned"
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l"
         ],
         [
           "minecraft:deep_dark",
           "minecraft:deep_dark",
           "minecraft:deep_dark",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned"
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l"
         ],
         [
           "minecraft:deep_dark",
           "minecraft:deep_dark",
           "minecraft:deep_dark",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned",
-          "unassigned"
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l",
+          "layout_me2t9g8l"
         ]
       ]
     }
@@ -1558,6 +1645,19 @@
     {
       "key": "minecraft:deep_dark",
       "name": "minecraft:deep_dark"
+    },
+    {
+      "key": "biome_me2t845k",
+      "name": "fable:stone_caves",
+      "color": "#3d3846"
+    },
+    {
+      "key": "minecraft:lush_caves",
+      "name": "minecraft:lush_caves"
+    },
+    {
+      "key": "minecraft:dripstone_caves",
+      "name": "minecraft:dripstone_caves"
     },
     {
       "key": "biome_mdd0ek6o",

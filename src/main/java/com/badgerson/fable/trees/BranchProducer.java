@@ -8,7 +8,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.MathHelper;
+import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.math.random.Random;
 import org.joml.Vector3f;
 
@@ -87,8 +89,9 @@ public class BranchProducer {
     BranchWalker walker = new BranchWalker(startPos, startDir, length, bending, random);
     while (walker.hasNext()) {
       BlockPos center = walker.next();
+      Direction.Axis axis = Direction.getFacing(new Vec3d(walker.getCurrentDir())).getAxis();
       for (BlockPos trunkPos : new TrunkSegment(center, thickness)) {
-        blocks.add(new BranchProduct.TrunkBlock(trunkPos));
+        blocks.add(new BranchProduct.TrunkBlock(trunkPos, axis));
       }
 
       layer

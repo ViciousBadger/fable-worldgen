@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.BiConsumer;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.PillarBlock;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.math.random.Random;
@@ -54,13 +55,10 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
       int height,
       BlockPos startPos,
       TreeFeatureConfig config) {
-    setToDirt(world, replacer, random, startPos.down(), config);
-
-    // How 2 do new generation, very much like incendiumboss:
-    // breath-first (one recursion level at a time)
-    // use list to collect content from each recursion level
-    // loop trough each branch, place in world, also foliage
-    // collect subbranches in that same list and clear list somehow i guess or swap lists
+    for (BlockPos trunkDirtPos :
+        new TrunkSegment(startPos.down(), this.config.trunk().thickness().orElse(1))) {
+      setToDirt(world, replacer, random, trunkDirtPos, config);
+    }
 
     Vector3f initialPosition = Vec3d.of(startPos.down()).add(0.5, 0.5, 0.5).toVector3f();
 
@@ -99,13 +97,24 @@ public class AdvancedTrunkPlacer extends TrunkPlacer {
       List<BranchProducer> nextLayer = new ArrayList<>();
 
       // Build this layer
+      producerLoop:
       for (BranchProducer producer : thisLayer) {
         BranchProduct product = producer.produce(random);
         for (BranchProduct.TrunkBlock block : product.trunkBlocks()) {
-          this.getAndSetState(world, replacer, random, block.pos(), config);
+          if (!this.canReplaceOrIsLog(world, block.pos())) {
+            // In case of unplaceable block, easiest solution is to simply stop
+            // and ignore any foliage or sub-branches of this branch.
+            continue producerLoop;
+          }
+          this.getAndSetState(
+              world,
+              replacer,
+              random,
+              block.pos(),
+              config,
+              state -> state.withIfExists(PillarBlock.AXIS, block.axis()));
         }
         for (BranchProduct.FoliageNode foliage : product.foliageNodes()) {
-          // TODO: how 2 detext giantTrunk (trunk thickness)?
           treeNodes.add(
               new FoliagePlacer.TreeNode(
                   foliage.pos(), foliage.radius(), foliage.isOnGiantTrunk()));

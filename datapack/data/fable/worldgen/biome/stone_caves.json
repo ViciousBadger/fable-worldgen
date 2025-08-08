@@ -1,14 +1,14 @@
 {
   "has_precipitation": true,
-  "temperature": 0.9,
-  "downfall": 1.0,
+  "temperature": 0.5,
+  "downfall": 0.5,
   "effects": {
     "fog_color": 10076657,
     "sky_color": 6269917,
-    "water_color": 9995185,
-    "water_fog_color": 329011,
-    "grass_color": 3959628,
-    "foliage_color": 3959628,
+    "water_color": 7902375,
+    "water_fog_color": 331305,
+    "grass_color": 8959586,
+    "foliage_color": 8959586,
     "mood_sound": {
       "block_search_extent": 8,
       "offset": 2.0,
@@ -34,16 +34,27 @@
       }
     ],
     "axolotls": [],
-    "creature": [
-      {
-        "type": "minecraft:mooshroom",
-        "maxCount": 8,
-        "minCount": 4,
-        "weight": 8
-      }
-    ],
+    "creature": [],
     "misc": [],
     "monster": [
+      {
+        "type": "minecraft:spider",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
+      {
+        "type": "minecraft:zombie",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 95
+      },
+      {
+        "type": "minecraft:skeleton",
+        "maxCount": 4,
+        "minCount": 4,
+        "weight": 100
+      },
       {
         "type": "minecraft:creeper",
         "maxCount": 4,
@@ -61,6 +72,12 @@
         "maxCount": 4,
         "minCount": 1,
         "weight": 10
+      },
+      {
+        "type": "minecraft:witch",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 5
       }
     ],
     "underground_water_creature": [
@@ -75,9 +92,7 @@
     "water_creature": []
   },
   "features": [
-    [
-      "fable:cliffs/basalt"
-    ],
+    [],
     [
       "minecraft:lake_lava_underground"
     ],
@@ -126,12 +141,7 @@
       "minecraft:spring_water"
     ],
     [
-      "minecraft:glow_lichen",
-      "minecraft:mushroom_island_vegetation",
-      "minecraft:brown_mushroom_taiga",
-      "minecraft:red_mushroom_taiga",
-      "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
+      "minecraft:glow_lichen"
     ],
     [
       "minecraft:freeze_top_layer"
