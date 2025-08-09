@@ -1,7 +1,15 @@
 {
   "type": "minecraft:tree",
   "config": {
-    "decorators": [],
+    "decorators": [
+      {
+        "type": "minecraft:leave_vine",
+        "probability": 0.25
+      },
+      {
+        "type": "minecraft:trunk_vine"
+      }
+    ],
     "force_dirt": false,
     "ignore_vines": true,
     "minimum_size": {
@@ -22,35 +30,36 @@
       "config": {
         "bending": {
           "sideways": {
-            "min": 5,
-            "max": 10
+            "min": 8,
+            "max": 24
           },
           "upwards": {
-            "min": 2,
-            "max": 8
+            "min": 0,
+            "max": 3
           }
         },
         "trunk": {
-          "thickness": 2,
+          "thickness": 3,
           "length": {
-            "min": 12.0,
-            "max": 16.0
+            "min": 3.0,
+            "max": 8.0
           },
           "side": {
             "branches": {
               "count_choices": [
-                6,
-                8,
-                12,
-                14
+                0,
+                1,
+                2,
+                3,
+                4
               ],
               "length": {
                 "min": 6.0,
-                "max": 8.0
+                "max": 12.0
               },
               "angle": {
-                "min": 25,
-                "max": 55
+                "min": 35,
+                "max": 75
               },
               "tip": {
                 "foliage": {
@@ -62,55 +71,33 @@
           "tip": {
             "branches": {
               "count_choices": [
+                4,
+                5,
                 6,
-                8,
-                10
+                7,
+                8
               ],
               "length": {
                 "min": 6.0,
-                "max": 8.0
+                "max": 12.0
               },
               "angle": {
-                "min": 45,
-                "max": 85
-              },
-              "side": {
-                "branches": {
-                  "count_choices": [
-                    0,
-                    1,
-                    2
-                  ],
-                  "length": {
-                    "min": 4.0,
-                    "max": 8.0
-                  },
-                  "angle": {
-                    "min": 25,
-                    "max": 45
-                  },
-                  "tip": {
-                    "foliage": {
-                      "radius": 0
-                    }
-                  }
-                }
+                "min": 5,
+                "max": 55
               },
               "tip": {
                 "branches": {
                   "count_choices": [
-                    3,
-                    4,
-                    5,
-                    6
+                    2,
+                    3
                   ],
                   "length": {
-                    "min": 4.0,
-                    "max": 6.0
+                    "min": 2.0,
+                    "max": 4.0
                   },
                   "angle": {
-                    "min": 65,
-                    "max": 105
+                    "min": 5,
+                    "max": 75
                   },
                   "tip": {
                     "foliage": {
@@ -127,22 +114,23 @@
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:stripped_dark_oak_log",
+        "Name": "minecraft:mangrove_log",
         "Properties": {
           "axis": "y"
         }
       }
     },
     "foliage_placer": {
-      "type": "minecraft:fancy_foliage_placer",
-      "height": 2,
-      "offset": 1,
+      "type": "minecraft:random_spread_foliage_placer",
+      "foliage_height": 2,
+      "leaf_placement_attempts": 70,
+      "offset": 0,
       "radius": 3
     },
     "foliage_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:spruce_leaves",
+        "Name": "minecraft:mangrove_leaves",
         "Properties": {
           "distance": "7",
           "persistent": "false",

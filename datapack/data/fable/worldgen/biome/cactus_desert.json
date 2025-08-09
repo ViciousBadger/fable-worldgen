@@ -188,7 +188,7 @@
     [
       "minecraft:glow_lichen",
       "minecraft:patch_dead_bush_2",
-      "minecraft:patch_cactus_desert"
+      "fable:plants/cactus"
     ],
     [
       "minecraft:freeze_top_layer"

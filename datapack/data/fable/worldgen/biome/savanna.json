@@ -142,7 +142,8 @@
       "minecraft:lake_lava_underground"
     ],
     [
-      "minecraft:amethyst_geode"
+      "minecraft:amethyst_geode",
+      "fable:rocks/terracotta_common"
     ],
     [
       "minecraft:monster_room",
@@ -187,7 +188,9 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:trees_savanna"
+      "fable:grass/short_sparse",
+      "fable:grass/tall_dense",
+      "fable:trees/savanna"
     ],
     [
       "minecraft:freeze_top_layer"

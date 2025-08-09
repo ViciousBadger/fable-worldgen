@@ -12,8 +12,8 @@
       },
       "placement": []
     },
-    "tries": 6,
-    "xz_spread": 16,
+    "tries": 3,
+    "xz_spread": 8,
     "y_spread": 7
   }
 }

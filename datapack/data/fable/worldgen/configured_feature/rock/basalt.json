@@ -6,7 +6,7 @@
         "type": "fable:rock",
         "config": {
           "state": {
-            "Name": "minecraft:granite"
+            "Name": "minecraft:smooth_basalt"
           }
         }
       },
