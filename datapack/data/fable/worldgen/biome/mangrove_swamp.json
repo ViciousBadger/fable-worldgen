@@ -135,7 +135,9 @@
     "water_creature": []
   },
   "features": [
-    [],
+    [
+      "fable:cliffs/packed_mud"
+    ],
     [
       "minecraft:lake_lava_underground"
     ],
