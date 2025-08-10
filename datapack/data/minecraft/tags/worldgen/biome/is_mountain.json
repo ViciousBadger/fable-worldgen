@@ -1,0 +1,14 @@
+{
+  "values": [
+    "fable:polar_mountains",
+    "fable:polar_peaks",
+    "fable:boreal_mountains",
+    "fable:boreal_peaks",
+    "fable:alpine_mountains",
+    "fable:alpine_peaks",
+    "fable:mediterranean_mountains",
+    "fable:mediterranean_peaks",
+    "fable:desert_mountains",
+    "fable:tropical_mountains"
+  ]
+}

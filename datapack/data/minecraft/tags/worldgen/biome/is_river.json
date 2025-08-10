@@ -1,0 +1,9 @@
+{
+  "values": [
+    "fable:boreal_freshwater",
+    "fable:frozen_freshwater",
+    "fable:subtropic_freshwater",
+    "fable:temperate_freshwater",
+    "fable:tropical_freshwater"
+  ]
+}

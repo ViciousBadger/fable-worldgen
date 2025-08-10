@@ -41,8 +41,8 @@
         "trunk": {
           "thickness": 4,
           "length": {
-            "min": 12.0,
-            "max": 15.0
+            "min": 8.0,
+            "max": 12.0
           },
           "side": {
             "branches": {

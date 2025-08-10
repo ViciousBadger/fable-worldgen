@@ -1,0 +1,10 @@
+{
+  "values": [
+    "fable:arctic_ocean",
+    "fable:deep_arctic_ocean",
+    "fable:boreal_ocean",
+    "fable:deep_boreal_ocean",
+    "fable:temperate_ocean",
+    "fable:deep_temperate_ocean"
+  ]
+}

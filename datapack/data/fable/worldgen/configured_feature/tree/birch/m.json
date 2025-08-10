@@ -33,7 +33,7 @@
         "trunk": {
           "length": {
             "min": 4.0,
-            "max": 12.0
+            "max": 8.0
           },
           "side": {
             "branches": {
@@ -47,8 +47,8 @@
                 "max": 8.0
               },
               "angle": {
-                "min": 5,
-                "max": 25
+                "min": 15,
+                "max": 35
               },
               "tip": {
                 "foliage": {
@@ -61,14 +61,15 @@
             "branches": {
               "count_choices": [
                 1,
-                2
+                2,
+                3
               ],
               "length": {
-                "min": 4.0,
-                "max": 8.0
+                "min": 3.0,
+                "max": 6.0
               },
               "angle": {
-                "min": 5,
+                "min": 15,
                 "max": 35
               },
               "tip": {

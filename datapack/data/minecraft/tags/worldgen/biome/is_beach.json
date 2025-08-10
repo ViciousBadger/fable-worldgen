@@ -1,0 +1,11 @@
+{
+  "values": [
+    "fable:palm_beach",
+    "fable:sand_beach",
+    "fable:gravel_beach",
+    "fable:stone_beach",
+    "fable:frozen_sand_beach",
+    "fable:frozen_gravel_beach",
+    "fable:frozen_stone_beach"
+  ]
+}

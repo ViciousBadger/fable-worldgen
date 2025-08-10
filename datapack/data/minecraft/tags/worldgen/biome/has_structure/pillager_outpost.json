@@ -1,0 +1,13 @@
+{
+  "values": [
+    "fable:dune_desert",
+    "fable:grass_plains",
+    "fable:grass_highlands",
+    "fable:boreal_plains",
+    "fable:moss_field",
+    "fable:chaparral_bushlands",
+    "fable:shrub_highlands",
+    "fable:savanna",
+    "fable:barrens"
+  ]
+}

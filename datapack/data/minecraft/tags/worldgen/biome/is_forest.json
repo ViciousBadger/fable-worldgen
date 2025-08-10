@@ -1,0 +1,9 @@
+{
+  "values": [
+    "fable:broadleaf_forest",
+    "fable:deep_broadleaf_forest",
+    "fable:montane_forest",
+    "fable:birch_forest",
+    "fable:chaparral_forest"
+  ]
+}

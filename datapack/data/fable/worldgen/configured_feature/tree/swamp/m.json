@@ -42,7 +42,7 @@
           "thickness": 3,
           "length": {
             "min": 3.0,
-            "max": 8.0
+            "max": 6.0
           },
           "side": {
             "branches": {
@@ -54,17 +54,12 @@
                 4
               ],
               "length": {
-                "min": 6.0,
-                "max": 12.0
+                "min": 3.0,
+                "max": 6.0
               },
               "angle": {
                 "min": 35,
                 "max": 75
-              },
-              "tip": {
-                "foliage": {
-                  "radius": 0
-                }
               }
             }
           },
@@ -78,8 +73,8 @@
                 8
               ],
               "length": {
-                "min": 6.0,
-                "max": 12.0
+                "min": 3.0,
+                "max": 6.0
               },
               "angle": {
                 "min": 5,
@@ -98,11 +93,6 @@
                   "angle": {
                     "min": 5,
                     "max": 75
-                  },
-                  "tip": {
-                    "foliage": {
-                      "radius": 1
-                    }
                   }
                 }
               }
