@@ -189,8 +189,10 @@
     [
       "minecraft:glow_lichen",
       "minecraft:flower_cherry",
-      "minecraft:trees_cherry",
-      "fable:bushes/oak_sparse"
+      "fable:grass/short_dense",
+      "fable:grass/tall_sparse",
+      "fable:bushes/jungle_sparse",
+      "fable:trees/sakura_forest"
     ],
     [
       "minecraft:freeze_top_layer"
